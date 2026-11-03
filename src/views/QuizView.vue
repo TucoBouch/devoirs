@@ -1,0 +1,174 @@
+<script setup>
+import { computed, nextTick, onMounted, ref, watch } from 'vue'
+import { state, submitAnswer, nextQuestion } from '../stores/state.js'
+import { tenseLabel } from '../lib/conjugation.js'
+import { isTyped, promptParts, genderTag, expectedFor, explain, praise } from '../lib/quiz.js'
+import Icon from '../components/Icon.vue'
+import ProgressStrip from '../components/ProgressStrip.vue'
+
+const ACCENT_KEYS = ['é', 'è', 'ê', 'ë', 'à', 'â', 'ç', 'î', 'ï', 'ô', 'û', 'ù', 'œ']
+
+const quiz = computed(() => state.quiz)
+const item = computed(() => quiz.value?.items[quiz.value.index])
+const result = computed(() => quiz.value?.results[quiz.value.index])
+const feedback = computed(() => quiz.value?.phase === 'feedback')
+const parts = computed(() => (item.value ? promptParts(item.value) : null))
+const typed = computed(() => (item.value ? isTyped(item.value.at) : false))
+const tag = computed(() => (item.value ? genderTag(item.value) : null))
+const expected = computed(() => (item.value ? expectedFor(item.value) : ''))
+const isLast = computed(() => quiz.value && quiz.value.index + 1 === quiz.value.items.length)
+const longLine = computed(() => {
+  if (!item.value || item.value.qt !== 'pronoun') return false
+  const given = feedback.value && typed.value ? (result.value?.given?.length ?? 0) : 0
+  const size = parts.value.lead.length + parts.value.stem.length + expected.value.length + given + item.value.v.length * 0.6
+  return size > 22
+})
+const dashed = (s) => (item.value && ['qcm_end', 'text_end'].includes(item.value.at) ? `-${s}` : s)
+
+// ---- Réponse écrite ------------------------------------------------------------------------
+const draft = ref(quiz.value?.draft ?? '')
+const input = ref(null)
+const nextBtn = ref(null)
+
+watch(draft, (v) => { if (state.quiz) state.quiz.draft = v })
+watch(() => quiz.value?.index, async () => {
+  draft.value = quiz.value?.draft ?? ''
+  await nextTick()
+  if (typed.value) input.value?.focus({ preventScroll: true })
+})
+watch(feedback, async (on) => {
+  if (!on) return
+  await nextTick()
+  if (!typed.value) nextBtn.value?.focus({ preventScroll: true })
+  nextBtn.value?.scrollIntoView({ block: 'end', behavior: 'smooth' })
+})
+onMounted(() => {
+  if (typed.value && !feedback.value) input.value?.focus({ preventScroll: true })
+})
+
+function submitTyped() {
+  if (feedback.value) return nextQuestion()
+  if (!draft.value.trim()) return
+  submitAnswer(draft.value)
+}
+function insertAccent(ch) {
+  const el = input.value
+  if (!el || feedback.value) return
+  const start = el.selectionStart ?? draft.value.length
+  const end = el.selectionEnd ?? start
+  draft.value = draft.value.slice(0, start) + ch + draft.value.slice(end)
+  nextTick(() => { el.setSelectionRange(start + 1, start + 1) })
+}
+
+function leave() {
+  history.back()
+}
+
+// ---- Propositions ---------------------------------------------------------------------------
+function choiceState(c) {
+  if (!feedback.value) return null
+  if (c === expected.value) return 'right'
+  if (c === result.value?.given) return 'wrong'
+  return 'other'
+}
+
+const heading = computed(() => {
+  if (!feedback.value) return null
+  const r = result.value
+  if (r.verdict === 'exact') return { icon: 'check', title: praise(quiz.value.index), kind: 'ok' }
+  if (r.verdict === 'accent') return { icon: 'check', title: 'Presque parfait !', kind: 'ok' }
+  if (r.verdict === 'whole') return { icon: 'check', title: 'C’est juste !', kind: 'ok' }
+  return { icon: 'x', title: 'Pas tout à fait', kind: 'ko' }
+})
+const detail = computed(() => {
+  if (!feedback.value) return null
+  const r = result.value
+  const it = item.value
+  if (r.verdict === 'accent') return `Il manque un accent : écris « ${expected.value} ».`
+  if (r.verdict === 'whole') return `On te demandait seulement la terminaison : -\u2060${it.end}.`
+  if (r.verdict === 'wrong') return `La bonne réponse : « ${it.qt === 'pronoun' ? `${parts.value.lead}${it.a}` : expected.value} ».`
+  return null
+})
+const why = computed(() => (feedback.value && item.value ? explain(item.value) : null))
+</script>
+
+<template>
+  <section v-if="quiz && item" class="page quiz" :aria-label="`Question ${quiz.index + 1} sur ${quiz.items.length}`">
+    <header class="quiz-head">
+      <button type="button" class="btn btn--quiet btn--sm" @click="leave">
+        <Icon name="back" :size="20" />Quitter
+      </button>
+      <ProgressStrip :total="quiz.items.length" :results="quiz.results" :index="quiz.index" />
+      <p class="quiz-count"><b>{{ quiz.index + 1 }}</b> / {{ quiz.items.length }}</p>
+    </header>
+
+    <div class="sheet" :class="feedback && (result.correct ? 'sheet--ok' : 'sheet--ko')">
+      <p class="sheet-title">
+        <span>{{ tenseLabel(item.t) }}</span><span v-if="tag" class="sheet-tag"> ({{ tag }})</span>
+      </p>
+      <div class="sheet-row">
+        <span class="sheet-mark" aria-hidden="true">
+          <Icon v-if="feedback" :name="result.correct ? 'check' : 'x'" :size="40" />
+        </span>
+        <p class="prompt-line" :class="{ 'prompt-line--sentence': item.qt === 'sentence', 'prompt-line--long': longLine }">
+          <span class="lead">{{ parts.lead }}</span><span v-if="parts.stem" class="stem">{{ parts.stem }}</span><span
+            class="slot" :class="{ 'is-filled': feedback, 'is-ok': feedback && result.correct, 'is-ko': feedback && !result.correct }"
+          >
+            <s v-if="feedback && !result.correct && result.given && typed" class="given">{{ result.given }}</s>
+            <span class="slot-text">{{ feedback ? expected : typed ? draft : '' }}</span>
+          </span><span class="inf">({{ item.v }})</span><span v-if="parts.tail" class="tail">{{ parts.tail }}</span>
+        </p>
+      </div>
+    </div>
+    <p class="prompt-help">
+      {{ item.at === 'qcm_form' ? 'Choisis le bon verbe.'
+        : item.at === 'qcm_end' ? 'Choisis la bonne terminaison.'
+        : item.at === 'text_end' ? 'Écris la terminaison.' : 'Écris le verbe conjugué.' }}
+    </p>
+
+    <div class="answer">
+      <div v-if="!typed" class="choices" role="group" aria-label="Réponses possibles">
+        <button
+          v-for="c in item.choices" :key="c" type="button" class="choice"
+          :class="choiceState(c) && `choice--${choiceState(c)}`" :disabled="feedback"
+          @click="submitAnswer(c)"
+        >
+          <span class="choice-text">{{ dashed(c) }}</span>
+          <Icon v-if="choiceState(c) === 'right'" name="check" :size="26" />
+          <Icon v-else-if="choiceState(c) === 'wrong'" name="x" :size="26" />
+        </button>
+      </div>
+
+      <form v-else class="typed" @submit.prevent="submitTyped">
+        <label class="sr-only" for="answer">Ta réponse</label>
+        <div class="typed-row">
+          <input
+            id="answer" ref="input" v-model="draft" class="field" type="text" :readonly="feedback"
+            autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done"
+            :placeholder="item.at === 'text_end' ? 'La terminaison' : 'Le verbe conjugué'"
+          />
+          <button v-if="!feedback" type="submit" class="btn btn--primary btn--lg" :disabled="!draft.trim()">Valider</button>
+        </div>
+        <div v-if="!feedback" class="accent-keys" role="group" aria-label="Lettres accentuées">
+          <button
+            v-for="k in ACCENT_KEYS" :key="k" type="button" class="key" tabindex="-1"
+            @pointerdown.prevent @click="insertAccent(k)"
+          >{{ k }}</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="feedback" :class="heading && `feedback--${heading.kind}`" aria-live="polite">
+      <template v-if="heading">
+        <div class="feedback-body">
+          <p class="feedback-title"><span class="mark-badge"><Icon :name="heading.icon" :size="22" /></span>{{ heading.title }}</p>
+          <p v-if="detail" class="feedback-detail">{{ detail }}</p>
+          <p v-if="why" class="feedback-why">{{ why }}</p>
+        </div>
+        <button ref="nextBtn" type="button" class="btn btn--primary btn--lg" @click="nextQuestion">
+          {{ isLast ? 'Voir mon score' : 'Question suivante' }}<Icon name="arrow" />
+        </button>
+      </template>
+    </div>
+  </section>
+</template>

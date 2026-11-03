@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-03T09:00:00Z",
+  "title": "Design System: Devoirs",
+  "extensions": {
+    "colorMeta": {
+      "paper": {"role": "neutral", "displayName": "Cahier Paper", "canonical": "#fffefb"},
+      "ink": {"role": "neutral", "displayName": "Violet-Indigo Ink", "canonical": "#2b2380"},
+      "pen-red": {"role": "secondary", "displayName": "Teacher's Red Pen", "canonical": "#c2273f"},
+      "pen-green": {"role": "secondary", "displayName": "Green Tick Pen", "canonical": "#1a7f4b"},
+      "margin-red": {"role": "secondary", "displayName": "Margin Red", "canonical": "#e2566f"},
+      "cover-indigo": {"role": "primary", "displayName": "Indigo Cover (default)", "canonical": "#2f3d9c", "dark": {"fill": "#9aa6ff", "on": "#12112b", "rail": "#1b2260"}, "on": "#ffffff"},
+      "cover-violet": {"role": "primary", "displayName": "Violet Cover", "canonical": "#7a3fb0", "dark": {"fill": "#c79bff", "on": "#1f1030", "rail": "#3a1f5c"}, "on": "#ffffff"},
+      "cover-rose": {"role": "primary", "displayName": "Rose Cover", "canonical": "#c4306f", "dark": {"fill": "#ff8fbd", "on": "#3a0f24", "rail": "#5c1e3c"}, "on": "#ffffff"},
+      "cover-orange": {"role": "primary", "displayName": "Orange Cover", "canonical": "#e6720f", "dark": {"fill": "#ffb066", "on": "#2a1403", "rail": "#5c3410"}, "on": "#1c1208"},
+      "cover-jaune": {"role": "primary", "displayName": "Jaune Cover", "canonical": "#f2c012", "dark": {"fill": "#ffe066", "on": "#2a2200", "rail": "#5a4a0a"}, "on": "#1d1700"},
+      "cover-vert": {"role": "primary", "displayName": "Vert Cover", "canonical": "#1b7f48", "dark": {"fill": "#7fdca3", "on": "#0c2517", "rail": "#17482e"}, "on": "#ffffff"},
+      "cover-turquoise": {"role": "primary", "displayName": "Turquoise Cover", "canonical": "#0b7a80", "dark": {"fill": "#6fe0e4", "on": "#07272a", "rail": "#0f4a4e"}, "on": "#ffffff"},
+      "cover-bleu": {"role": "primary", "displayName": "Bleu Cover", "canonical": "#1f68b8", "dark": {"fill": "#7cb8ff", "on": "#0a2140", "rail": "#173d70"}, "on": "#ffffff"}
+    },
+    "typographyMeta": {
+      "display": {"displayName": "Page title (cursive)", "purpose": "Page titles."},
+      "prompt": {"displayName": "Sheet prompt (cursive)", "purpose": "Pronoun and verb written on the ruled sheet."},
+      "body": {"displayName": "Printed body", "purpose": "Controls, hints, explanations."}
+    },
+    "shadows": [
+      {"name": "soft", "value": "0 1px 2px rgb(43 35 128 / 0.1), 0 10px 22px rgb(43 35 128 / 0.07)", "purpose": "Cards and the sheet (dark: 0 1px 2px rgb(0 0 0 / .45), 0 12px 26px rgb(0 0 0 / .35))."},
+      {"name": "spine", "value": "inset 0.7rem 0 0 rgb(0 0 0 / 0.14), 6px 0 18px rgb(0 0 0 / 0.16)", "purpose": "Cover rail spine and cast."},
+      {"name": "sticker", "value": "0 1px 0 rgb(0 0 0 / 0.12), 0 8px 16px rgb(0 0 0 / 0.2)", "purpose": "Brand label paper sticker."}
+    ],
+    "motion": [
+      {"name": "ease", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "All transitions and the pen animations."},
+      {"name": "write", "value": "0.6s to 0.7s clip-path reveal", "purpose": "Pen writing the answer or correction."},
+      {"name": "draw", "value": "0.9s stroke-dashoffset", "purpose": "Red ring around the score."}
+    ],
+    "breakpoints": [
+      {"name": "rail-narrow", "value": "1100px"},
+      {"name": "rail-bar", "value": "700px"},
+      {"name": "setup-one-column", "value": "56rem (container)"}
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button", "kind": "button", "refersTo": "button-primary",
+      "description": "Solid cover fill; the only solid-accent control besides the rail.",
+      "html": "<button class=\"ds-btn-primary\">Commencer</button>",
+      "css": ".ds-btn-primary{min-height:3.5rem;padding:0 1.5rem;font:700 1.1875rem Andika,system-ui,sans-serif;color:#fff;background:#2f3d9c;border:2px solid #2f3d9c;border-radius:0.7rem;transition:transform .15s} .ds-btn-primary:hover{filter:brightness(1.08)} .ds-btn-primary:active{transform:translateY(1px) scale(.985)} .ds-btn-primary:focus-visible{outline:3px solid #2b2380;outline-offset:3px}"
+    },
+    {
+      "name": "Chip (selected)", "kind": "chip", "refersTo": "chip",
+      "description": "Selection is tinted paper with an ink border and a tick.",
+      "html": "<button class=\"ds-chip\" aria-pressed=\"true\">&#10003; Présent</button>",
+      "css": ".ds-chip{min-height:3.5rem;padding:0 1.25rem;font:700 1.1875rem Andika,system-ui,sans-serif;color:#2b2380;background:color-mix(in oklab,#2f3d9c 24%,#fff);border:2px solid #2b2380;border-radius:0.7rem} .ds-chip:focus-visible{outline:3px solid #2b2380;outline-offset:3px}"
+    },
+    {
+      "name": "Answer Choice", "kind": "button", "refersTo": "choice",
+      "description": "Printed answer in the 2x2 grid.",
+      "html": "<button class=\"ds-choice\">écoutons</button>",
+      "css": ".ds-choice{min-height:5rem;padding:.5rem 1rem;font:700 2rem Andika,system-ui,sans-serif;color:#2b2380;background:#fff;border:2px solid #2b2380;border-radius:.7rem} .ds-choice:hover{background:color-mix(in oklab,#2f3d9c 14%,#fff)} .ds-choice:focus-visible{outline:3px solid #2b2380;outline-offset:3px}"
+    },
+    {
+      "name": "Cover Rail Item", "kind": "nav", "refersTo": "rail",
+      "description": "Rail item on the cover colour; the active item is a paper sticker.",
+      "html": "<div class=\"ds-rail\"><span class=\"ds-on\">Présent</span><span>Historique</span></div>",
+      "css": ".ds-rail{display:flex;flex-direction:column;gap:.375rem;width:17.5rem;padding:1.75rem 1.25rem;background:#2f3d9c;color:#fff;box-shadow:inset .7rem 0 0 rgb(0 0 0/.14);font:400 1.375rem Andika,sans-serif} .ds-rail span{min-height:3.5rem;display:flex;align-items:center;padding:.5rem 1rem;border-radius:.7rem} .ds-rail .ds-on{background:#fffefb;color:#2b2380;font-weight:700}"
+    },
+    {
+      "name": "Ruled Sheet with Correction", "kind": "custom", "refersTo": "card",
+      "description": "Seyès sheet, struck pupil answer and red rewrite.",
+      "html": "<div class=\"ds-sheet\"><span class=\"ds-given\">écoutes</span><span class=\"ds-fix\">écoutez</span></div>",
+      "css": ".ds-sheet{--ln:3rem;padding:1.5rem 2rem 1.5rem 5rem;background-color:#fffefb;background-image:repeating-linear-gradient(90deg,transparent 0 calc(var(--ln) - 1px),#cfc3f2 calc(var(--ln) - 1px) var(--ln)),repeating-linear-gradient(180deg,transparent 0 calc(var(--ln) - 1px),#cfc3f2 calc(var(--ln) - 1px) var(--ln));border:1px solid #cfc3f2;border-radius:.3rem;font:400 2.5rem 'Playwrite FR Moderne Variable',cursive;line-height:var(--ln);color:#2b2380} .ds-given{text-decoration:line-through;text-decoration-color:#c2273f;text-decoration-thickness:.09em;margin-right:.3em} .ds-fix{display:inline-block;color:#c2273f;transform:rotate(-2deg)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Le Cahier Seyès",
+    "overview": "Devoirs is a school notebook, not a quiz app. The exercise is written on a ruled Seyès sheet and corrected in a teacher's red pen. The shell wears the cover of the notebook the pupil chose; everything else is plain paper and printed type.",
+    "keyCharacteristics": [
+      "White paper, lilac ruling, violet-indigo ink, a red double margin.",
+      "Eight selectable cover colours with light and dark values.",
+      "Two correction pens: red for error, green for right.",
+      "Light and dark themes through html[data-theme], cover through html[data-accent].",
+      "Motion limited to the pen writing in and the score ring being drawn."
+    ],
+    "rules": [
+      {"name": "The Two Pens Rule", "body": "Red means wrong, green means right, and neither is used decoratively.", "section": "colors"},
+      {"name": "The Cover Rule", "body": "The cover colour fills only the rail and the primary button, and tints selection and progress. It is never a text colour on paper.", "section": "colors"},
+      {"name": "The Colour Is Not Alone Rule", "body": "Right and wrong always carry a glyph and a line style as well.", "section": "colors"},
+      {"name": "The Hand And Print Rule", "body": "Cursive only for written lines, titles, the brand label and the score note; controls and explanations are Andika.", "section": "typography"},
+      {"name": "The Spine Rule", "body": "The rail's depth comes from an inset darker spine, not a border.", "section": "elevation"}
+    ],
+    "dos": [
+      "Do write exercise text on the ruled sheet, one ruling square per line.",
+      "Do mark selection with tinted paper, an ink border and a tick.",
+      "Do pair every red or green with a glyph or line style, and keep tap targets at 3.5rem or more.",
+      "Do read every colour from the role tokens so all eight covers and both themes work; pair each cover with its on-colour.",
+      "Do keep motion to the pen writing and the ring."
+    ],
+    "donts": [
+      "Don't use cursive on controls, option labels or explanations.",
+      "Don't use pen red or green for decoration, or the cover colour as text on paper.",
+      "Don't fill a selected state solidly with the cover colour; only primary buttons and the rail do.",
+      "Don't add confetti, streak badges, or celebratory motion."
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+/* Devoirs — le cahier Seyès.
+   Papier blanc, encre violet-indigo, réglure lilas, marge rouge. Deux stylos corrigent : rouge pour l'erreur, vert pour le juste.
+   La couleur choisie est celle du couvre-cahier : elle habille le menu, les choix et le bouton principal. */
+
+:root {
+  --font-print: 'Andika', ui-rounded, 'Avenir Next', system-ui, sans-serif;
+  --font-hand: 'Playwrite FR Moderne Variable', 'Snell Roundhand', 'Segoe Script', cursive;
+
+  --t-sm: 1rem;
+  --t-base: 1.1875rem;
+  --t-md: 1.375rem;
+  --t-lg: 1.75rem;
+  --t-xl: 2.75rem;
+
+  --r-ctl: 0.7rem;
+  --r-card: 1rem;
+  --r-label: 0.4rem;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --rail-w: 17.5rem;
+  --gutter: 2.5rem;
+
+  /* les huit couvre-cahiers : teinte du menu et des choix, clair puis sombre */
+  --c-light: #2f3d9c; --c-on-light: #ffffff; --c-dark: #9aa6ff; --c-on-dark: #12112b; --c-rail-dark: #1b2260;
+
+  color-scheme: light;
+  --paper: #fffefb;
+  --surface: #ffffff;
+  --ink: #2b2380;
+  --ink-soft: #5b5494;
+  --rule: #cfc3f2;
+  --rule-faint: #ebe5fb;
+  --rule-strong: #8a7fc4;
+  --grid: #cfc3f2; /* réglure de la feuille */
+  --grid-faint: #ebe5fb;
+  --margin: #e2566f;
+  --pen-red: #c2273f;
+  --pen-green: #1a7f4b;
+  --accent: var(--c-light);
+  --on-accent: var(--c-on-light);
+  --rail: var(--c-light);
+  --on-rail: var(--c-on-light);
+  --label: #fffefb;
+  --on-label: #2b2380;
+  --shadow: 0 1px 2px rgb(43 35 128 / 0.1), 0 10px 22px rgb(43 35 128 / 0.07);
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --paper: #14112a;
+  --surface: #1d1a3a;
+  --ink: #ece9ff;
+  --ink-soft: #b5aee0;
+  --rule: rgb(160 145 240 / 0.22);
+  --rule-faint: rgb(160 145 240 / 0.12);
+  --rule-strong: #8d83d6;
+  --grid: rgb(160 145 240 / 0.13);
+  --grid-faint: rgb(160 145 240 / 0.055);
+  --margin: #ff7391;
+  --pen-red: #ff8da0;
+  --pen-green: #74d9a4;
+  --accent: var(--c-dark);
+  --on-accent: var(--c-on-dark);
+  --rail: var(--c-rail-dark);
+  --on-rail: #f1eeff;
+  --label: #f4f1ff;
+  --on-label: #2b2380;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.45), 0 12px 26px rgb(0 0 0 / 0.35);
+}
+
+:root[data-accent='indigo'] { --c-light: #2f3d9c; --c-on-light: #ffffff; --c-dark: #9aa6ff; --c-on-dark: #12112b; --c-rail-dark: #1b2260; }
+:root[data-accent='violet'] { --c-light: #7a3fb0; --c-on-light: #ffffff; --c-dark: #c79bff; --c-on-dark: #1f1030; --c-rail-dark: #3a1f5c; }
+:root[data-accent='rose'] { --c-light: #c4306f; --c-on-light: #ffffff; --c-dark: #ff8fbd; --c-on-dark: #3a0f24; --c-rail-dark: #5c1e3c; }
+:root[data-accent='orange'] { --c-light: #e6720f; --c-on-light: #1c1208; --c-dark: #ffb066; --c-on-dark: #2a1403; --c-rail-dark: #5c3410; }
+:root[data-accent='jaune'] { --c-light: #f2c012; --c-on-light: #1d1700; --c-dark: #ffe066; --c-on-dark: #2a2200; --c-rail-dark: #5a4a0a; }
+:root[data-accent='vert'] { --c-light: #1b7f48; --c-on-light: #ffffff; --c-dark: #7fdca3; --c-on-dark: #0c2517; --c-rail-dark: #17482e; }
+:root[data-accent='turquoise'] { --c-light: #0b7a80; --c-on-light: #ffffff; --c-dark: #6fe0e4; --c-on-dark: #07272a; --c-rail-dark: #0f4a4e; }
+:root[data-accent='bleu'] { --c-light: #1f68b8; --c-on-light: #ffffff; --c-dark: #7cb8ff; --c-on-dark: #0a2140; --c-rail-dark: #173d70; }
+
+:root[data-size='large'] {
+  font-size: 112.5%;
+}
+
+@media (max-width: 1100px) {
+  :root {
+    --rail-w: 15rem;
+    --gutter: 1.75rem;
+  }
+}

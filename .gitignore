@@ -1,0 +1,17 @@
+# Dépendances et build
+node_modules/
+dist/
+
+# Système et éditeurs
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Réglages locaux de Claude Code
+.claude/settings.local.json
+
+# Fichiers de travail du skill impeccable (captures, maquettes de choix, config locale)
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/config.local.json
