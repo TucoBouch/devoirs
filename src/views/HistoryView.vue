@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import { state, nav, startQuiz, reworkVerbs } from '../stores/state.js'
-import { configSummary } from '../lib/quiz.js'
+import { configSummary, inVerbSet } from '../lib/quiz.js'
 import Icon from '../components/Icon.vue'
 
 const troubled = computed(() => reworkVerbs())
@@ -17,9 +17,11 @@ const day = (iso) => {
   return `${d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' })}, ${time}`
 }
 
+// Ce quiz sert à retravailler tous les verbes listés ici, même si le jeu de verbes choisi les exclut
 function reworkQuiz() {
   state.config.rework = true
-  startQuiz()
+  const outside = troubled.value.some((v) => !inVerbSet(state.config.verbSet, v))
+  startQuiz(outside ? { verbSet: 'all' } : {})
 }
 </script>
 

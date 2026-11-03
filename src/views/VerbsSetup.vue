@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 import { state, startQuiz, abandonQuiz, nav, reworkVerbs } from '../stores/state.js'
 import { TENSES } from '../lib/conjugation.js'
-import { ANSWER_TYPES, QUESTION_TYPES, COUNTS } from '../lib/quiz.js'
+import { ANSWER_TYPES, QUESTION_TYPES, COUNTS, VERB_SETS, inVerbSet } from '../lib/quiz.js'
 import Icon from '../components/Icon.vue'
 import Segmented from '../components/Segmented.vue'
 
@@ -23,7 +23,9 @@ function toggle(key, id, order) {
 }
 const has = (key, id) => state.config[key].includes(id)
 
-const troubled = computed(() => reworkVerbs())
+// Seuls les verbes du jeu choisi peuvent être retravaillés
+const troubled = computed(() => reworkVerbs().filter((v) => inVerbSet(state.config.verbSet, v)))
+const hasTroubleOutside = computed(() => reworkVerbs().length > 0 && !troubled.value.length)
 const countOptions = COUNTS.map((n) => ({ value: n, label: String(n) }))
 
 const examples = {
@@ -37,7 +39,8 @@ const examples = {
 
 const summary = computed(() => {
   const n = state.config.tenses.length
-  return `${state.config.count} questions · ${n} temps`
+  const verbs = state.config.verbSet === 'irregular' ? ' · irréguliers' : ''
+  return `${state.config.count} questions · ${n} temps${verbs}`
 })
 </script>
 
@@ -64,6 +67,19 @@ const summary = computed(() => {
     <div class="setup-grid">
       <div class="setup-col">
         <fieldset class="group">
+          <legend class="group-title">Verbes</legend>
+          <div class="opts opts--2" role="radiogroup" aria-label="Verbes">
+            <button
+              v-for="s in VERB_SETS" :key="s.id" type="button" role="radio" class="opt"
+              :aria-checked="state.config.verbSet === s.id" @click="state.config.verbSet = s.id"
+            >
+              <span class="opt-title"><Icon v-if="state.config.verbSet === s.id" name="check" :size="20" />{{ s.label }}</span>
+              <span class="opt-example">{{ s.hint }}</span>
+            </button>
+          </div>
+        </fieldset>
+
+        <fieldset class="group">
           <legend class="group-title">Temps</legend>
           <p class="hint">Tu peux en choisir plusieurs.</p>
           <div class="chips">
@@ -89,10 +105,6 @@ const summary = computed(() => {
           </div>
         </fieldset>
 
-        <fieldset class="group">
-          <legend class="group-title">Nombre de questions</legend>
-          <Segmented v-model="state.config.count" :options="countOptions" label="Nombre de questions" />
-        </fieldset>
       </div>
 
       <div class="setup-col">
@@ -108,6 +120,12 @@ const summary = computed(() => {
             </button>
           </div>
         </fieldset>
+
+        <fieldset class="group">
+          <legend class="group-title">Nombre de questions</legend>
+          <Segmented v-model="state.config.count" :options="countOptions" label="Nombre de questions" />
+        </fieldset>
+
         <section class="group">
           <h2 class="group-title">Mes erreurs</h2>
           <button
@@ -118,6 +136,9 @@ const summary = computed(() => {
             <span class="opt-title">Retravailler les verbes erronés</span>
             <span v-if="troubled.length" class="opt-example">
               Ajoute les verbes ratés dans tes 3 derniers quiz.
+            </span>
+            <span v-else-if="hasTroubleOutside" class="opt-example">
+              Tes erreurs récentes ne concernent pas ces verbes.
             </span>
             <span v-else class="opt-example">Fais un premier quiz : tes erreurs apparaîtront ici.</span>
             <span class="switch" aria-hidden="true"><span class="switch-knob" /></span>
@@ -131,7 +152,7 @@ const summary = computed(() => {
 
     <footer class="launch">
       <p class="launch-sum">{{ summary }}</p>
-      <button type="button" class="btn btn--primary btn--xl" @click="startQuiz">
+      <button type="button" class="btn btn--primary btn--xl" @click="startQuiz()">
         Commencer le quiz<Icon name="arrow" />
       </button>
     </footer>

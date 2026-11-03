@@ -3,7 +3,7 @@ import { reactive, watch } from 'vue'
 import { load, save, clear } from '../lib/storage.js'
 import { createNav } from '../lib/nav.js'
 import {
-  buildQuiz, evaluate, defaultConfig, troubleVerbs, HISTORY_SIZE, COUNTS, ANSWER_TYPES, QUESTION_TYPES,
+  buildQuiz, evaluate, defaultConfig, troubleVerbs, HISTORY_SIZE, COUNTS, ANSWER_TYPES, QUESTION_TYPES, VERB_SETS,
 } from '../lib/quiz.js'
 import { TENSES } from '../lib/conjugation.js'
 
@@ -29,6 +29,7 @@ const sanitizeConfig = (c) => {
     tenses: keep(c?.tenses, TENSES.map((t) => t.id), base.tenses),
     answerTypes: keep(c?.answerTypes, ANSWER_TYPES.map((t) => t.id), base.answerTypes),
     questionTypes: keep(c?.questionTypes, QUESTION_TYPES.map((t) => t.id), base.questionTypes),
+    verbSet: VERB_SETS.some((s) => s.id === c?.verbSet) ? c.verbSet : base.verbSet,
     count: COUNTS.includes(c?.count) ? c.count : base.count,
     rework: !!c?.rework,
   }
@@ -95,16 +96,18 @@ dark.addEventListener?.('change', applyAppearance)
 // ---- Quiz -----------------------------------------------------------------------------------
 export const reworkVerbs = () => troubleVerbs(state.history)
 
-export function startQuiz() {
+// overrides : réglages valables pour ce quiz seulement (ex. tous les verbes pour retravailler des erreurs)
+export function startQuiz(overrides = {}) {
   if (!reworkVerbs().length) state.config.rework = false
-  const items = buildQuiz(state.config, state.history)
+  const config = { ...JSON.parse(JSON.stringify(state.config)), ...overrides }
+  const items = buildQuiz(config, state.history)
   state.quiz = {
     items,
     index: 0,
     results: [],
     phase: 'ask',
     draft: '',
-    config: JSON.parse(JSON.stringify(state.config)),
+    config,
     startedAt: Date.now(),
   }
   nav.go({ name: 'quiz' })
@@ -139,7 +142,12 @@ function finishQuiz() {
   let accents = 0
   q.items.forEach((item, i) => {
     const r = q.results[i]
-    if (!r.correct) mistakes.push({ id: item.id, v: item.v, t: item.t, qt: item.qt, at: item.at, given: r.given })
+    if (!r.correct) {
+      mistakes.push({
+        id: item.id, v: item.v, t: item.t, p: item.p, g: item.g, a: item.a, pre: item.pre, post: item.post,
+        qt: item.qt, at: item.at, given: r.given,
+      })
+    }
     else if (r.verdict === 'accent') accents += 1
   })
   const entry = {

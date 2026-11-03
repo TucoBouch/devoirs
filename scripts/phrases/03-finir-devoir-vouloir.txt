@@ -1,0 +1,172 @@
+// Phrases originales, dans l'esprit des romans et albums pour les 9-12 ans.
+
+# finir
+== pres
+1 Je {} mes devoirs avant de jouer dehors.
+2 Tu {} toujours ton assiette avant tout le monde.
+3 Le film {} à neuf heures, alors on pourra se coucher tôt.
+3 Léa {} son dessin avec un feutre doré.
+3 La classe {} à quatre heures et demie.
+4 Nous {} de ranger la salle avant la sonnerie.
+5 Vous {} la peinture du mur demain, d'accord ?
+6 Les vacances {} dans une semaine !
+6 Les musiciens {} leur concert par une chanson joyeuse.
+6 Les enfants {} toujours par trouver la solution.
+== pc
+1 Hier soir, j'{} mon livre d'aventures en une seule fois.
+2 Tu {} la partie en tête, bravo !
+3 Ce matin, papa {} de peindre la porte de la cabane.
+3 L'orage {} aussi vite qu'il avait commencé.
+3 Le détective {} son enquête dans la nuit.
+4 Après deux heures de marche, nous {} la montée.
+5 Vous {} votre puzzle avant le dîner : c'est magnifique !
+6 Les ouvriers {} le pont avant l'hiver.
+6 Hier, les élèves {} leur exposé sur les volcans.
+6 Les marins {} la traversée sans une égratignure.
+== imp
+1 Quand j'étais petit, je {} toujours mon assiette pour avoir du dessert.
+2 Autrefois, tu {} tes devoirs avant le dîner.
+3 En ce temps-là, l'école {} à quatre heures.
+3 Chaque soir, grand-mère {} son tricot près du feu.
+3 Le conte {} toujours par « ils vécurent heureux ».
+4 Le dimanche, nous {} toujours par un grand jeu dans le jardin.
+5 Autrefois, vous {} les récréations en courant dans la cour.
+6 Les vacances {} toujours trop vite à notre goût.
+6 Les chevaliers {} le tournoi par une grande fête.
+6 Les journées d'été {} très tard, vers dix heures du soir.
+== fut
+1 Demain, je {} mon exposé sur les dinosaures.
+2 Tu {} par trouver la sortie, j'en suis certain.
+3 Le spectacle {} à huit heures : ne soyons pas en retard.
+3 Dans une heure, Léa {} sa partie d'échecs.
+3 Un jour, ce bateau {} par traverser l'océan.
+4 Bientôt, nous {} la construction de la cabane.
+5 Vous {} vos devoirs plus vite avec un peu d'aide.
+6 Les travaux {} avant l'été.
+6 Mes cousins {} la course en même temps que moi.
+6 Un jour, les enfants {} leur grand voyage.
+== ps
+1 Ce jour-là, je {} ma lettre et je la glissai dans une bouteille.
+2 Alors, tu {} ton repas à toute vitesse.
+3 Le roi {} son discours sous les applaudissements.
+3 Soudain, la tempête {} comme elle avait commencé.
+3 Le lendemain, Noé {} de construire le radeau.
+4 Au coucher du soleil, nous {} la traversée du lac.
+5 Vous {} votre travail avant la nuit.
+6 Les chevaliers {} le combat sans une blessure.
+6 Les villageois {} la fête par un grand feu d'artifice.
+6 Les enfants {} leur histoire sous les étoiles.
+
+# devoir
+== pres
+1 Je {} rentrer avant la nuit, sinon maman va s'inquiéter.
+2 Tu {} apprendre ta leçon avant d'aller jouer.
+3 Le facteur {} faire sa tournée même sous la pluie.
+3 Léa {} aider son petit frère à mettre ses chaussures.
+3 On {} rester silencieux : le loup n'est pas loin.
+4 Nous {} traverser la forêt avant la tombée de la nuit.
+5 Vous {} être fatigués après un si long voyage.
+6 Mes parents {} partir tôt demain pour le travail.
+6 Les élèves {} lever la main avant de parler.
+6 Les chevaliers {} protéger le château jusqu'à l'aube.
+== pc
+1 Hier, j'{} courir pour attraper le dernier bus.
+2 Tu {} avoir très peur dans cette grotte obscure.
+3 Samedi dernier, Tom {} réparer son vélo avant la course.
+3 La sorcière {} se cacher pour échapper aux gardes.
+3 Ce matin-là, le facteur {} faire un long détour à cause de la neige.
+4 Ce soir-là, nous {} dormir dans la voiture.
+5 Vous {} trouver le temps long dans cette gare, les enfants.
+6 Les pompiers {} grimper jusqu'au toit pour sauver le chat.
+6 Hier, mes cousins {} ranger tout le garage.
+6 Les explorateurs {} faire demi-tour à cause du brouillard.
+== imp
+1 Quand j'étais petit, je {} me coucher à huit heures.
+2 Autrefois, tu {} aider ton père à la ferme.
+3 Chaque matin, le meunier {} se lever avant le soleil.
+3 En ce temps-là, la jeune bergère {} garder les moutons toute la journée.
+3 À l'époque, on {} écrire à la plume.
+4 Pendant les vacances, nous {} aider grand-père au potager.
+5 Autrefois, vous {} marcher deux heures pour aller à l'école.
+6 Les moines {} se réveiller avant l'aube.
+6 Les soldats {} garder la porte jour et nuit.
+6 Chaque soir, les enfants {} ranger leurs jouets avant le dîner.
+== fut
+1 Demain, je {} me lever à cinq heures pour la randonnée.
+2 Tu {} être courageux pour traverser le pont suspendu.
+3 Le lendemain de la fête, Lina {} tout nettoyer.
+3 Pour gagner, l'équipe {} marquer un but avant la fin du match.
+3 Après la tempête, on {} réparer le toit.
+4 Dans le désert, nous {} boire de l'eau avec modération.
+5 Vous {} être prudents sur la glace.
+6 Mes parents {} acheter un nouveau frigo.
+6 Pour atteindre le sommet, les alpinistes {} marcher toute la nuit.
+6 Demain, les élèves {} rendre leur cahier à la maîtresse.
+== ps
+1 Ce jour-là, je {} apprendre à nager pour sauver mon chien.
+2 Alors, tu {} choisir entre la porte rouge et la porte bleue.
+3 Le roi {} partir en guerre contre le royaume voisin.
+3 Soudain, le chevalier {} s'arrêter : le pont s'était effondré.
+3 Le lendemain, Noé {} rebrousser chemin.
+4 Cette nuit-là, nous {} nous cacher dans la grange.
+5 Vous {} fuir sous la pluie, avec le géant à vos trousses.
+6 Les marins {} réparer le mât avant la nuit.
+6 Les paysans {} quitter leur village à cause de l'inondation.
+6 Les voyageurs {} s'abriter dans une grotte.
+
+# vouloir
+== pres
+1 Je {} devenir astronaute pour voir la Terre depuis l'espace.
+2 Tu {} jouer aux cartes ou aux dominos ?
+3 Le petit dragon {} apprendre à voler comme sa maman.
+3 Lina {} un chien pour son anniversaire.
+3 On {} savoir comment cette histoire se termine !
+4 Nous {} traverser la forêt avant la nuit.
+5 Vous {} un autre morceau de gâteau, les enfants ?
+6 Les explorateurs {} atteindre le sommet avant midi.
+6 Mes parents {} que je rentre avant la nuit.
+6 Les élèves {} organiser une chasse au trésor pour la fête de l'école.
+== pc
+1 Hier, j'{} aider mon petit frère à finir son puzzle.
+2 Tu {} faire une surprise à maman, mais elle t'a vu !
+3 Samedi dernier, Tom {} apprendre à faire de la voile.
+3 La sorcière {} ouvrir le grimoire, mais il était fermé par un sort.
+3 Ce soir-là, le chat {} sortir malgré la pluie.
+4 Cet été, nous {} voir les baleines, mais la mer était trop agitée.
+5 Vous {} tous aider, et c'est ce qui a fait la différence.
+6 Les pirates {} récupérer leur trésor.
+6 Hier, les enfants {} construire un igloo, mais la neige a fondu.
+6 Mes cousins {} faire une surprise à grand-mère.
+== imp
+1 Quand j'étais petit, je {} devenir pompier ou magicien.
+2 Autrefois, tu {} toujours dormir avec la porte ouverte.
+3 Le jeune loup ne {} pas quitter sa mère.
+3 Ce soir-là, Léa {} finir son livre avant de dormir.
+3 Chaque matin, le chat {} sa pâtée avant tout le monde.
+4 À cette époque, nous {} tous devenir explorateurs.
+5 Autrefois, vous {} toujours jouer jusqu'à la nuit.
+6 Les enfants {} voir le feu d'artifice jusqu'au bout.
+6 Les chevaliers {} délivrer la princesse prisonnière.
+6 Les gardes ne {} laisser entrer personne.
+== fut
+1 Demain, je {} un grand bol de chocolat chaud.
+2 Tu {} sûrement visiter la grotte aux cristaux.
+3 Le dragon {} peut-être un peu de compagnie.
+3 Cet été, Lina {} apprendre à faire du surf.
+3 Un jour, on {} sûrement retourner sur cette île mystérieuse.
+4 Ce soir, nous {} regarder les étoiles filantes.
+5 Vous {} sûrement vous reposer après cette longue course.
+6 Mes cousins {} faire une partie de cache-cache.
+6 Les explorateurs {} sans doute explorer la forêt avant de repartir.
+6 Dans une heure, les élèves {} déjà rentrer à la maison.
+== ps
+1 Ce soir-là, je {} savoir ce que cachait le vieux grenier.
+2 Alors, tu {} ouvrir la porte, mais elle résista.
+3 Le roi {} voir le magicien sur-le-champ.
+3 Soudain, le dragon {} s'envoler, mais ses ailes étaient prises dans les filets.
+3 Le lendemain, Noé {} partir à l'aube.
+4 À la nuit tombée, nous {} entrer dans la maison abandonnée.
+5 Vous {} échapper aux gardes, et vous y réussîtes.
+6 Les villageois {} chasser le loup.
+6 Les chevaliers {} traverser la rivière à la nage.
+6 Les enfants {} garder le secret de la cabane.

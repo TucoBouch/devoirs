@@ -20,7 +20,7 @@ Primary: a French CM2 pupil (about 10 to 11 years old) revising school lessons a
 
 ## Positioning
 
-A quiz that remembers what the child got wrong: verbs missed in the last three quizzes can be added back explicitly to the next one, and every verb form comes from a bank of 1600 written sentences covering every pronoun of every verb.
+A quiz that remembers what the child got wrong: verbs missed in the last three quizzes can be added back explicitly to the next one, and every verb form comes from a bank of 1600 hand-written sentences, in the spirit of children's fiction for 9 to 12 year olds, covering every pronoun.
 
 ## Operating Context
 
@@ -40,10 +40,11 @@ A quiz that remembers what the child got wrong: verbs missed in the last three q
   - Question types: a pronoun plus a verb to conjugate; a sentence to complete (with masculine, feminine, singular and plural agreement).
   - Number of questions: 10, 20, 30, 40, 50 or 100.
 - Verb list: avoir, être, aller, faire, dire, parler, prendre, pouvoir, voir, finir, devoir, vouloir, plus 30 common verbs across the 1st, 2nd and 3rd groups.
+- Verb set: all 42 verbs, or only the "irregular" ones the parent listed: avoir, être, aller, faire, dire, prendre, pouvoir, voir, finir, devoir, vouloir (finir is 2nd group but kept at the parent's request). The set also limits which missed verbs can be reworked.
 - Accent tolerant: a missing or wrong accent is still accepted as correct, with a short remark.
 - Final screen shows the score. The last 10 quizzes are stored in localStorage.
 - Verbs answered wrongly are tracked. When launching a quiz, an option "retravailler les verbes erronés" injects the verbs missed in the last 3 quizzes.
-- A bank of 1600 generated questions (600 original plus 1000 added later) with sentences, covering all pronouns of the verbs. Quizzes draw randomly from it.
+- A bank of 1600 hand-written sentences (original, inspired by children's fiction for 9 to 12 year olds), covering all pronouns of the verbs. The 11 irregular verbs have 50 sentences each. Quizzes draw randomly from it. Each recorded mistake keeps its full sentence, so the bank can be rewritten without breaking the history.
 - Immediate correction after each answer: right or wrong, the correct form shown, a remark when an accent is missing.
 
 ## Brand Commitments

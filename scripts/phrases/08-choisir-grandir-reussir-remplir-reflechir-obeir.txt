@@ -1,0 +1,243 @@
+// Phrases originales, dans l'esprit des romans et albums pour les 9-12 ans.
+
+# choisir
+== pres
+1 Je {} toujours la glace au chocolat.
+2 Tu {} un livre pour le voyage ?
+3 Le roi {} un chevalier pour cette mission.
+3 Léa {} ses couleurs avec soin avant de dessiner.
+4 Nous {} le chemin le plus court pour rentrer.
+5 Vous {} votre équipe, les enfants.
+6 Les élèves {} un thème pour leur exposé.
+== pc
+1 Hier, j'{} un livre d'aventures à la bibliothèque.
+2 Tu {} la bonne porte : bravo !
+3 Ce matin, Tom {} un déguisement de pirate.
+3 Le capitaine {} le cap du nord.
+4 Pour la fête, nous {} une chanson joyeuse.
+5 Vous {} le plus beau gâteau de la vitrine.
+6 Les enfants {} leurs places dans le car.
+== imp
+1 Quand j'étais petit, je {} toujours le même jouet.
+2 Autrefois, tu {} les chansons les plus drôles.
+3 Chaque année, grand-mère {} le plus beau sapin.
+3 À cette époque, le roi {} lui-même ses chevaliers.
+4 Chaque été, nous {} un nouveau coin de plage.
+5 Autrefois, vous {} toujours le chemin des écoliers.
+6 Les marchands {} leurs meilleures étoffes.
+== fut
+1 Demain, je {} mon costume pour la fête.
+2 Tu {} bientôt un métier.
+3 Ce soir, papa {} le film.
+3 Si elle gagne, Lina {} le cadeau de son choix.
+4 Demain, nous {} le menu du pique-nique.
+5 Vous {} la couleur de la cabane.
+6 Les élèves {} leur délégué dès lundi.
+== ps
+1 Ce jour-là, je {} la porte de gauche.
+3 Le prince {} la porte étroite.
+3 Soudain, la fée {} une étoile parmi des milliers.
+4 À la croisée des chemins, nous {} le sentier du nord.
+6 Les voyageurs {} un abri pour la nuit.
+6 Les chevaliers {} leur chef avant le combat.
+
+# grandir
+== pres
+1 Je {} vite : mes pantalons sont déjà trop courts !
+2 Tu {} à vue d'œil depuis l'été dernier.
+3 Le petit chêne {} près du ruisseau.
+3 Léa {} et rêve de devenir astronaute.
+4 Nous {} ensemble dans le même village.
+5 Vous {} si vite que je ne vous reconnais plus !
+6 Les poussins {} vite dans la ferme.
+== pc
+1 Cet été, j'{} de trois centimètres.
+2 Tu {} beaucoup depuis la dernière photo de classe.
+3 Pendant les vacances, le chiot {} à vue d'œil.
+3 Le dragon {} dans le secret de la montagne.
+4 Nous {} dans le même quartier, sans nous connaître.
+5 Vous {} bien trop vite, les enfants !
+6 Les plantes {} très vite grâce à la pluie.
+== imp
+1 Quand j'étais petit, je {} à la campagne.
+2 Autrefois, tu {} près de la mer.
+3 À cette époque, la ville {} très vite.
+3 Chaque été, le jeune poulain {} un peu plus.
+4 En ce temps-là, nous {} comme des mauvaises herbes.
+5 Quand vous étiez petits, vous {} dans la même maison.
+6 Les arbres de la forêt {} lentement depuis cent ans.
+== fut
+1 Dans dix ans, je {} encore plus que mon frère.
+2 Demain, tu {} d'un centimètre : tu verras !
+3 Au printemps, le blé {} dans les champs.
+3 Un jour, le petit dragon {} et deviendra roi.
+4 Nous {} ensemble, comme deux frères.
+5 Vous {} vite : vous verrez.
+6 Les enfants {} un jour et deviendront des adultes.
+== ps
+1 Ce jour-là, je {} d'un seul coup, tel un géant.
+3 Le prince {} loin de son royaume.
+3 Soudain, la plante {} jusqu'au plafond.
+4 En quelques mois, nous {} comme par magie.
+6 Les jumeaux {} dans la forêt.
+6 Les rois {} dans la gloire.
+
+# réussir
+== pres
+1 Je {} toujours mes gâteaux au chocolat.
+2 Tu {} cette figure de gymnastique du premier coup.
+3 Ce plan {} à merveille.
+3 Léa {} enfin à ouvrir le coffre.
+4 Nous {} à traverser la rivière à pied.
+5 Vous {} brillamment cette épreuve : bravo !
+6 Les enfants {} à grimper tout en haut de l'arbre.
+== pc
+1 Hier, j'{} mon contrôle de conjugaison.
+2 Tu {} à faire le tour du lac à vélo.
+3 Ce matin, Tom {} à résoudre l'énigme.
+3 Le magicien {} son tour de cartes.
+4 Cet été, nous {} à construire une cabane.
+5 Vous {} votre examen de natation.
+6 Les alpinistes {} à atteindre le sommet.
+== imp
+1 Quand j'étais petit, je {} toujours à me cacher.
+2 Autrefois, tu {} tous tes tours de magie.
+3 Chaque fois, le renard {} à échapper aux chasseurs.
+3 À l'époque, la petite Zoé {} tout ce qu'elle entreprenait.
+4 Chaque année, nous {} à gagner un prix.
+5 Autrefois, vous {} sans effort.
+6 Les enfants {} à trouver les cachettes les plus folles.
+== fut
+1 Demain, je {} peut-être mon contrôle.
+2 Tu {} si tu t'entraînes chaque jour.
+3 Un jour, Lina {} à construire un vrai robot.
+3 Si la météo est bonne, le plan {} à merveille.
+4 Nous {} à bâtir cette cabane : tu verras.
+5 Vous {} brillamment cet examen.
+6 Mes amis {} sans doute à trouver le trésor.
+== ps
+1 Ce jour-là, je {} à ouvrir la porte.
+3 Le chevalier {} à échapper aux gardes.
+4 Après mille efforts, nous {} à franchir la rivière.
+6 Les explorateurs {} à traverser le désert.
+6 Les enfants {} à allumer un feu malgré la pluie.
+
+# remplir
+== pres
+1 Je {} mon verre d'eau fraîche.
+2 Tu {} ton sac de provisions pour la randonnée.
+3 Le jardinier {} son arrosoir à la fontaine.
+3 La lune {} la chambre d'une lumière argentée.
+4 Nous {} la grande marmite de soupe.
+5 Vous {} la feuille de réponses, les enfants ?
+6 Les pêcheurs {} leurs filets de poissons brillants.
+== pc
+1 Hier, j'{} la bouteille à la source.
+2 Tu {} tout le cahier de dessins !
+3 Ce matin, grand-mère {} le panier de pommes.
+3 L'orage {} le fossé en quelques minutes.
+4 Pour la fête, nous {} les ballons d'air.
+5 Vous {} votre mission avec courage.
+6 Les élèves {} la grille de mots croisés.
+== imp
+1 Quand j'étais petit, je {} mon seau de sable.
+2 Chaque matin, tu {} la gamelle du chien.
+3 Chaque soir, le gardien {} les lampes d'huile.
+3 En automne, la récolte {} les greniers.
+4 Chaque été, nous {} nos paniers de mûres.
+5 Autrefois, vous {} les tonneaux de cidre.
+6 Les marins {} les cales du bateau.
+== fut
+1 Demain, je {} mon sac à dos de provisions.
+2 Tu {} la baignoire pour le bain.
+3 Papa {} la piscine avant l'arrivée des invités.
+3 La pluie {} la mare en une nuit.
+4 Cet après-midi, nous {} les paniers de cerises.
+5 Vous {} le dossier avec soin.
+6 Les enfants {} le seau d'eau.
+== ps
+1 Ce soir-là, je {} mon verre d'un trait.
+3 Le roi {} sa coupe de vin.
+4 À la source, nous {} nos gourdes.
+6 Les marins {} les tonneaux d'eau douce.
+6 Les villageois {} les seaux à la fontaine.
+
+# réfléchir
+== pres
+1 Je {} avant de répondre à l'énigme.
+2 Tu {} trop longtemps : il est temps de choisir !
+3 Le détective {} en regardant la carte.
+3 Léa {} un instant avant de tourner la page.
+4 Nous {} à un moyen de sortir du labyrinthe.
+5 Vous {} avant d'agir : c'est très sage.
+6 Les élèves {} à la question du maître.
+== pc
+1 Hier, j'{} longuement avant de choisir mon sujet.
+2 Tu {} une minute, puis tu as trouvé la réponse.
+3 Ce matin, Tom {} longtemps à son problème.
+3 Le capitaine {} une nuit entière à son plan.
+4 Nous {} ensemble à une bonne idée.
+5 Vous {} assez : vous avez trouvé l'astuce.
+6 Les élèves {} à la solution du problème.
+== imp
+1 Quand j'étais petit, je {} longtemps avant de choisir un jouet.
+2 Autrefois, tu {} avant chaque décision importante.
+3 Chaque soir, grand-père {} devant l'échiquier.
+3 Le vieux roi {} longuement avant de signer.
+4 À l'époque, nous {} toujours avant de répondre.
+5 Autrefois, vous {} à voix haute.
+6 Les sages {} longuement avant de parler.
+== fut
+1 Demain, je {} à un plan pour sortir de là.
+2 Tu {} avant de répondre, n'est-ce pas ?
+3 Ce soir, Léa {} à son prochain tableau.
+3 Dans le silence, le détective {} à l'énigme.
+4 Nous {} ensemble à une solution.
+5 Vous {} avant d'ouvrir la porte.
+6 Les élèves {} avant chaque réponse.
+== ps
+1 Ce soir-là, je {} longuement à ce que je venais de voir.
+3 Le roi {} un long moment avant de répondre.
+4 Devant la porte close, nous {} à un moyen d'entrer.
+6 Les chevaliers {} longuement avant de partir.
+6 Les enfants {} à un plan d'évasion.
+
+# obéir
+== pres
+1 J'{} toujours quand maman m'appelle pour dîner.
+2 Tu {} aux règles du jeu : bravo.
+3 Le chien {} à son maître au premier mot.
+3 Léa {} à la consigne de la maîtresse.
+4 Nous {} aux ordres du capitaine.
+5 Vous {} très bien, les enfants.
+6 Les soldats {} à leur général.
+== pc
+1 Hier, j'{} à ma mère sans discuter.
+2 Tu {} aux ordres du chef de classe.
+3 Ce matin, Tom {} au signal du maître.
+3 Le chien {} d'un seul mot.
+4 Pendant la sortie, nous {} à toutes les consignes.
+5 Vous {} aux règles de la bibliothèque.
+6 Les élèves {} à la maîtresse.
+== imp
+1 Quand j'étais petit, j'{} toujours à mes parents.
+2 Autrefois, tu {} à ton grand frère.
+3 Le chien {} au moindre sifflement.
+3 Le vieux roi n'{} qu'à lui-même.
+4 À l'époque, nous {} aux règles de l'école.
+5 Autrefois, vous {} sans hésiter.
+6 Les marins {} à leur capitaine.
+== fut
+1 Demain, j'{} aux consignes de la guide.
+2 Tu {} aux règles, n'est-ce pas ?
+3 Dès demain, le jeune chiot {} à son maître.
+3 Un jour, la reine {} à la loi comme tout le monde.
+4 Nous {} au signal du chef.
+5 Vous {} aux ordres de votre capitaine.
+6 Les nouveaux élèves {} vite aux règles de la classe.
+== ps
+1 Ce jour-là, j'{} aux ordres du capitaine.
+3 Le chevalier {} à son roi.
+4 À l'appel, nous {} aussitôt.
+6 Les soldats {} sans discuter.
+6 Les gardes {} à l'ordre de la reine.

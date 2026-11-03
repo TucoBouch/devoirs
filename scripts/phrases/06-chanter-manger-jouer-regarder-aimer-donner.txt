@@ -1,0 +1,247 @@
+// Phrases originales, dans l'esprit des romans et albums pour les 9-12 ans.
+
+# chanter
+== pres
+1 Je {} à tue-tête sous la douche.
+2 Tu {} faux, mais tu as l'air si heureux !
+3 Le rossignol {} dès le lever du soleil.
+3 Léa {} dans la chorale de l'école.
+4 Nous {} une chanson de marins pour garder le rythme.
+5 Vous {} très bien, les enfants !
+6 Les oiseaux {} dans les arbres du jardin.
+== pc
+1 Hier soir, j'{} une berceuse à ma petite sœur.
+2 Tu {} devant toute l'école : quel courage !
+3 Ce matin, le coq {} avant le lever du jour.
+3 Tom {} la chanson du pirate au feu de camp.
+4 Pendant la sortie, nous {} dans le car.
+5 Vous {} un air joyeux pour fêter la victoire.
+6 Les élèves {} l'hymne du pays à la cérémonie.
+== imp
+1 Quand j'étais petit, je {} dans mon bain.
+2 Autrefois, tu {} toujours en faisant la vaisselle.
+3 Chaque soir, grand-mère {} une vieille chanson.
+3 Dans le village, le forgeron {} en frappant le fer.
+4 Pendant la marche, nous {} pour oublier la fatigue.
+5 À cette époque, vous {} dans la chorale de l'église.
+6 Les marins {} des chants de la mer.
+== fut
+1 Demain, je {} devant toute l'école.
+2 Tu {} la chanson de la fin d'année.
+3 Samedi, la chorale {} au concert du village.
+3 Au lever du jour, le coq {} comme chaque matin.
+4 Ce soir, nous {} autour du feu de camp.
+5 Vous {} un duo avec la maîtresse de musique.
+6 Les oiseaux {} dès le retour du printemps.
+== ps
+1 Ce soir-là, je {} une chanson de mon pays.
+3 La fée {} d'une voix douce et l'enfant s'endormit.
+3 Le barde {} la légende devant le roi.
+4 Au retour, nous {} à pleine voix.
+6 Les villageois {} autour du grand feu.
+6 Les chevaliers {} un hymne de victoire.
+
+# manger
+== pres
+1 Je {} une pomme à la récréation.
+2 Tu {} trop vite : mâche bien !
+3 Le dragon {} trois moutons par jour.
+3 Léa {} son goûter assise sur le banc.
+4 Nous {} des crêpes tous les dimanches.
+5 Vous {} avec vos doigts, comme des pirates !
+6 Les écureuils {} les noisettes de l'automne.
+== pc
+1 Hier, j'{} un énorme morceau de gâteau.
+2 Tu {} tout le pain avant que nous arrivions !
+3 Ce midi, Tom {} deux assiettes de pâtes.
+3 Le loup {} le gâteau et but la tisane.
+4 Hier soir, nous {} sur la terrasse.
+5 Vous {} déjà tous les bonbons ?
+6 Les invités {} avec appétit.
+== imp
+1 Quand j'étais petit, je {} des carottes pour avoir de bons yeux.
+2 Autrefois, tu {} toujours ton gâteau en dernier.
+3 Le dimanche, grand-père {} une tarte aux pommes.
+3 Chaque matin, le chat {} sa pâtée près de la fenêtre.
+4 À la colonie, nous {} tous ensemble au réfectoire.
+5 Autrefois, vous {} des crêpes au bord de la mer.
+6 Les chevaliers {} de gros morceaux de viande.
+== fut
+1 Demain, je {} un énorme sandwich.
+2 Tu {} de la glace quand nous serons à la plage.
+3 Papa {} les crêpes que nous aurons faites.
+3 Ce soir, l'ogre {} un grand banquet.
+4 Ce soir, nous {} sous les étoiles.
+5 Vous {} bientôt les cerises du jardin.
+6 Les enfants {} les bonbons de la fête.
+== ps
+1 Ce soir-là, je {} un morceau de pain dur.
+3 Le géant {} le troupeau en une seule bouchée.
+3 Après le combat, le chevalier {} un peu de pain.
+4 Après la marche, nous {} sous un grand arbre.
+6 Les voyageurs {} la soupe brûlante.
+6 Les pirates {} les provisions du capitaine.
+
+# jouer
+== pres
+1 Je {} aux billes avec mon cousin dans la cour.
+2 Tu {} du violon depuis ton anniversaire.
+3 Le chaton {} avec une pelote de laine.
+3 Léa {} le rôle de la reine dans la pièce de l'école.
+4 Nous {} à cache-cache dans le grand jardin.
+5 Vous {} aux cartes sous le préau ?
+6 Les enfants {} au foot sur le terrain du village.
+== pc
+1 Hier, j'{} au ballon avec mes cousins.
+2 Tu {} du piano devant tout le monde.
+3 Ce matin, le chiot {} dans les feuilles mortes.
+3 Tom {} le rôle du pirate pendant le spectacle.
+4 Samedi, nous {} aux échecs jusqu'à la nuit.
+5 Vous {} un très bon match, les garçons !
+6 Les élèves {} une pièce de théâtre devant leurs parents.
+== imp
+1 Quand j'étais petit, je {} avec un vieux camion en bois.
+2 Autrefois, tu {} de la flûte à la fête du village.
+3 Le mercredi, Inès {} au tennis avec sa cousine.
+3 Les soirs d'été, le chat {} avec les lucioles.
+4 À la récré, nous {} à la marelle.
+5 Autrefois, vous {} aux billes sous le grand chêne.
+6 Les enfants {} sur la plage jusqu'à la nuit.
+== fut
+1 Demain, je {} au foot avec mes copains.
+2 Tu {} le rôle du roi dans la pièce.
+3 Samedi, l'orchestre {} dans la salle des fêtes.
+3 Dès que la pluie s'arrêtera, Max {} dehors.
+4 Ce soir, nous {} à un jeu de société.
+5 Vous {} dans la même équipe, les amis.
+6 Les enfants {} dans la neige tout l'après-midi.
+== ps
+1 Ce jour-là, je {} ma plus belle mélodie.
+3 Le musicien {} un air triste et le roi pleura.
+3 Le petit dragon {} avec les flammes de la cheminée.
+4 Dans la clairière, nous {} à cache-cache.
+6 Les enfants {} sous la pluie.
+6 Les musiciens {} jusqu'à l'aube.
+
+# regarder
+== pres
+1 Je {} les étoiles depuis la fenêtre de ma chambre.
+2 Tu {} par la fenêtre : qu'est-ce que tu vois ?
+3 Le chat {} les poissons du bocal avec envie.
+3 Lina {} un documentaire sur les volcans.
+4 Nous {} le ciel pour repérer des étoiles filantes.
+5 Vous {} la carte depuis dix minutes !
+6 Les enfants {} le magicien avec de grands yeux.
+== pc
+1 Hier soir, j'{} un film d'aventures avec papa.
+2 Tu {} derrière la porte : avoue !
+3 Ce matin, Tom {} le facteur passer devant la maison.
+3 La sorcière {} la boule de cristal avec attention.
+4 Samedi, nous {} le feu d'artifice depuis le toit.
+5 Vous {} la carte du trésor pendant des heures.
+6 Les élèves {} le spectacle de marionnettes.
+== imp
+1 Quand j'étais petit, je {} les dessins animés le dimanche matin.
+2 Autrefois, tu {} les trains passer depuis le pont.
+3 Chaque soir, grand-père {} le ciel avec ses jumelles.
+3 Le guetteur {} la mer du haut de la tour.
+4 À l'époque, nous {} les bateaux entrer dans le port.
+5 Autrefois, vous {} les nuages en rêvant.
+6 Les chats {} les oiseaux par la fenêtre.
+== fut
+1 Demain, je {} le match avec mes cousins.
+2 Tu {} ce film avec nous, d'accord ?
+3 Ce soir, papa {} les infos à la télévision.
+3 Dès l'aube, le capitaine {} l'horizon avec sa longue-vue.
+4 Cette nuit, nous {} les étoiles filantes.
+5 Vous {} le feu d'artifice depuis le balcon.
+6 Les spectateurs {} le spectacle avec émerveillement.
+== ps
+1 Ce soir-là, je {} longuement la lune.
+3 Le roi {} la carte et fronça les sourcils.
+3 Soudain, Noé {} derrière lui.
+4 Du haut de la colline, nous {} le village endormi.
+6 Les voyageurs {} le ciel avec inquiétude.
+6 Les enfants {} le dragon sans oser bouger.
+
+# aimer
+== pres
+1 J'{} les histoires de pirates et de trésors cachés.
+2 Tu {} les crêpes au sucre, n'est-ce pas ?
+3 Mon chat {} dormir sur le rebord de la fenêtre.
+3 Lina {} les chevaux depuis toute petite.
+4 Nous {} nous baigner dans la rivière en été.
+5 Vous {} les gâteaux au chocolat, je crois ?
+6 Les enfants {} les histoires qui font peur.
+== pc
+1 Hier, j'{} beaucoup ce film sur les dauphins.
+2 Tu {} le gâteau de grand-mère : tu en as repris deux fois !
+3 Ce soir-là, Tom {} la soupe de potiron.
+3 La maîtresse {} beaucoup votre exposé.
+4 Pendant les vacances, nous {} les balades en barque.
+5 Vous {} le spectacle, les enfants ?
+6 Les spectateurs {} le numéro du clown.
+== imp
+1 Quand j'étais petit, j'{} jouer dans les flaques.
+2 Autrefois, tu {} les histoires de fantômes.
+3 Grand-père {} se promener le long du canal.
+3 Le vieux roi {} la musique plus que tout.
+4 À cette époque, nous {} les longues balades en forêt.
+5 Autrefois, vous {} chanter à tue-tête.
+6 Les chats {} se chauffer près du poêle.
+== fut
+1 Demain, j'{} sûrement ce nouveau jeu.
+2 Tu {} ce livre, j'en suis sûr !
+3 Pour son anniversaire, Léa {} sûrement ce cadeau.
+3 Tout le village {} le nouveau maître d'école.
+4 Dans quelques années, nous {} toujours nos souvenirs d'enfance.
+5 Vous {} cette musique, croyez-moi.
+6 Les enfants {} ces desserts.
+== ps
+1 Ce jour-là, j'{} la mer pour la première fois.
+3 Le prince {} la bergère dès qu'il la vit.
+3 Alors, la sorcière {} cette idée et éclata de rire.
+4 Dès le premier jour, nous {} ce village.
+6 Les villageois {} leur nouveau roi.
+6 Les enfants {} ce vieux conteur.
+
+# donner
+== pres
+1 Je {} des carottes aux lapins chaque matin.
+2 Tu {} toujours de bons conseils.
+3 Le roi {} un ordre aux soldats.
+3 Papa {} un coup de main au voisin pour déplacer l'armoire.
+4 Nous {} à manger aux oiseaux en hiver.
+5 Vous {} un cadeau à la maîtresse pour la fin de l'année ?
+6 Les élèves {} des fleurs à la directrice.
+== pc
+1 Hier, j'{} mon vieux vélo à mon petit cousin.
+2 Tu {} le meilleur exemple : merci !
+3 Ce matin, grand-mère {} une pomme à chaque enfant.
+3 Le magicien {} un coup de baguette.
+4 Pour son anniversaire, nous {} un livre à Léo.
+5 Vous {} un coup de main à tout le village.
+6 Les voisins {} à manger au chat perdu.
+== imp
+1 Quand j'étais petit, je {} la moitié de mon goûter à mon chien.
+2 Autrefois, tu {} toujours un bonbon à ta petite sœur.
+3 Chaque matin, la fermière {} du grain aux poules.
+3 Le roi {} une fête chaque été.
+4 À Noël, nous {} des cadeaux à tous nos voisins.
+5 Autrefois, vous {} des leçons de piano aux enfants du village.
+6 Les villageois {} du pain aux voyageurs.
+== fut
+1 Demain, je {} un cadeau à mon meilleur ami.
+2 Tu {} la clé à Zoé quand elle arrivera.
+3 Samedi, papa {} un coup de main à la fête de l'école.
+3 Quand elle gagnera, Lina {} la coupe à son équipe.
+4 Ce soir, nous {} un spectacle de magie.
+5 Vous {} votre avis à la fin du film.
+6 Mes cousins {} des fleurs à grand-mère.
+== ps
+1 Ce soir-là, je {} mon manteau à un vieux mendiant.
+3 Le roi {} un banquet en l'honneur des chevaliers.
+3 Soudain, la fée {} un coup de baguette.
+4 Au village, nous {} du pain aux voyageurs.
+6 Les marchands {} une pièce d'or au capitaine.
+6 Les enfants {} à manger aux oiseaux.

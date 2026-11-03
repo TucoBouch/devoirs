@@ -1,0 +1,172 @@
+// Phrases originales, dans l'esprit des romans et albums pour les 9-12 ans.
+
+# prendre
+== pres
+1 Chaque matin, je {} le bus devant la boulangerie.
+2 Tu {} toujours le plus gros morceau de gâteau !
+3 Papa {} sa vieille valise et part pour la gare.
+3 Le renard {} la fuite dès qu'il entend un bruit.
+3 Léa {} son courage à deux mains et frappe à la porte.
+4 Nous {} le chemin des écoliers pour rentrer à la maison.
+5 Vous {} une photo de la cabane, les enfants ?
+6 Les enfants {} leur goûter sous le grand marronnier.
+6 Les hirondelles {} leur envol au-dessus des toits.
+6 Mes parents {} le train de huit heures pour aller travailler.
+== pc
+1 Hier, j'{} la mauvaise route et je me suis perdu dans la forêt.
+2 Tu {} trop de pain : il n'en reste plus pour moi !
+3 Ce matin, Tom {} une photo de la comète avec son vieil appareil.
+3 Le voleur {} la fuite par la fenêtre de la cuisine.
+3 La maîtresse {} une grande décision : la sortie aura lieu demain.
+4 Samedi dernier, nous {} le train pour aller voir la mer.
+5 Vous {} un grand risque en traversant la rivière, les enfants !
+6 Les pirates {} le large dès que le vent s'est levé.
+6 Hier, les élèves {} des notes pendant la visite du musée.
+6 Les explorateurs {} un peu de repos avant de repartir.
+== imp
+1 Quand j'étais petit, je {} mon bain avec un canard en plastique.
+2 Autrefois, tu {} toujours ton vélo pour aller à l'école.
+3 Chaque soir, grand-père {} son vieux livre et nous lisait une histoire.
+3 En ce temps-là, le facteur {} sa bicyclette pour distribuer le courrier.
+3 Ce matin-là, Inès {} son petit déjeuner sur la terrasse.
+4 Pendant les vacances, nous {} le goûter au bord du lac.
+5 À cette époque, vous {} le car pour aller à la piscine.
+6 Chaque matin, les moutons {} le chemin de la colline.
+6 Les marins {} des risques à chaque tempête.
+6 Autrefois, les enfants {} le train pour aller à la mer.
+== fut
+1 Demain, je {} mon vélo pour aller chez mon cousin.
+2 Tu {} le premier chemin à gauche, puis tu verras la maison.
+3 Dans quelques minutes, le train {} la direction du sud.
+3 Samedi, Max {} des photos du carnaval.
+3 Un jour, on {} la fusée pour aller sur Mars !
+4 Ce soir, nous {} le dîner en terrasse.
+5 Vous {} un chocolat chaud pendant que la neige tombera.
+6 Mes frères {} le bateau pour visiter l'île.
+6 Les voyageurs {} le temps de s'arrêter près de la source.
+6 Dans une semaine, les vacances {} fin et l'école reprendra.
+== ps
+1 Ce soir-là, je {} la plume et j'écrivis ma première lettre.
+2 Alors, tu {} ton courage à deux mains et tu avanças vers la porte.
+3 Le roi {} la couronne et la posa sur la tête de son fils.
+3 Soudain, la sorcière {} sa baguette et lança un sort.
+3 Le lendemain, Noé {} la route de la montagne.
+4 À l'aube, nous {} la direction du nord.
+5 Vous {} la fuite quand le géant se réveilla.
+6 Les soldats {} position derrière les remparts.
+6 Les voyageurs {} place autour du grand feu.
+6 Les enfants {} leurs lanternes et entrèrent dans la grotte.
+
+# pouvoir
+== pres
+1 Je {} courir très vite quand un chien me poursuit !
+2 Tu {} venir jouer chez moi si tu as fini tes devoirs.
+3 Le magicien {} faire apparaître un lapin dans son chapeau.
+3 Un hibou {} tourner la tête presque entièrement derrière lui.
+3 On {} voir la mer depuis le haut de la falaise.
+4 Nous {} traverser la rivière : le pont est solide.
+5 Vous {} entrer, mais n'allumez pas la lumière.
+6 Les dauphins {} sauter très haut au-dessus de l'eau.
+6 Mes cousins {} dormir ici si leurs parents sont d'accord.
+6 Les élèves {} emprunter deux livres à la fois à la bibliothèque.
+== pc
+1 Hier, j'{} enfin ouvrir le vieux coffre grâce à une clé trouvée dans le jardin.
+2 Heureusement, tu {} t'abriter sous un arbre avant la pluie.
+3 Après de longs efforts, Léa {} soulever la lourde pierre.
+3 Grâce à sa carte, le capitaine {} retrouver l'île au trésor.
+3 Ce matin, le chat {} entrer par la fenêtre restée ouverte.
+4 Grâce à la lampe, nous {} lire la lettre dans le noir.
+5 Vous {} monter dans le bateau avant la tempête : quelle chance !
+6 Les secours {} sauver les randonneurs perdus dans la neige.
+6 Hier, mes frères {} enfin construire la cabane dans le jardin.
+6 Les explorateurs {} traverser le désert grâce à leurs chameaux.
+== imp
+1 Quand j'étais petit, je ne {} pas dormir sans ma veilleuse.
+2 Autrefois, tu {} grimper aux arbres plus vite que moi.
+3 À marée basse, on {} marcher jusqu'à l'îlot.
+3 Le vieux roi ne {} plus marcher sans sa canne.
+3 Ce soir-là, Zoé {} voir toutes les étoiles depuis le toit.
+4 Quand nous étions petits, nous ne {} pas encore lire seuls.
+5 Autrefois, vous {} chanter toute la journée sans vous fatiguer.
+6 Dans cette vallée, les bergers {} entendre le loup hurler.
+6 Les sorciers ne {} plus entrer dans le château.
+6 Les enfants {} enfin jouer dehors, car la pluie avait cessé.
+== fut
+1 Demain, je {} peut-être venir avec vous.
+2 Quand tu seras grand, tu {} conduire ce tracteur.
+3 Dès que la neige aura fondu, on {} traverser le col.
+3 Un jour, Lina {} voler comme un oiseau.
+3 Demain, grand-mère {} nous rendre visite.
+4 Avec ces bottes, nous {} marcher dans la boue sans nous salir.
+5 Si vous finissez tôt, vous {} jouer dans le jardin.
+6 Un jour, ces robots {} parler comme des humains.
+6 Après la pluie, les enfants {} sortir sans leur parapluie.
+6 Avec cette carte, mes amis {} retrouver le chemin.
+== ps
+1 Ce jour-là, je {} enfin ouvrir la porte du donjon.
+2 Après mille efforts, tu {} soulever la lourde grille.
+3 Le chevalier {} enfin voir le visage du dragon.
+3 Alors, la fée {} exaucer le vœu de l'enfant.
+3 Le lendemain, Hugo {} rentrer chez lui sans encombre.
+4 Cette nuit-là, nous {} dormir dans une cabane de berger.
+5 Grâce à votre courage, vous {} sauver le village.
+6 Les gardes ne {} pas arrêter les voleurs.
+6 Quand le jour se leva, les voyageurs {} repartir.
+6 Au bout d'une heure, les enfants {} enfin sortir de la grotte.
+
+# voir
+== pres
+1 Je {} une lumière étrange au loin, entre les arbres.
+2 Tu {} cette étoile ? Elle brille plus fort que les autres.
+3 Le hibou {} très bien dans l'obscurité.
+3 Léa {} son meilleur ami tous les jours à la récréation.
+3 On {} les montagnes depuis la fenêtre de ma chambre.
+4 Nous {} un arc-en-ciel au-dessus de la ferme.
+5 Vous {} le phare, là-bas, au bout de la jetée ?
+6 Les marins {} la terre à l'horizon.
+6 Mes parents {} souvent des films avec nous le samedi soir.
+6 Les enfants {} des formes drôles dans les nuages.
+== pc
+1 Hier soir, j'{} une étoile filante au-dessus de la forêt.
+2 Tu {} le fantôme, toi aussi, dans le couloir ?
+3 Ce matin, Tom {} un renard près du poulailler.
+3 La sorcière {} le prince dans sa boule de cristal.
+3 Le détective {} immédiatement le piège.
+4 Pendant la balade, nous {} un cerf dans la clairière.
+5 Vous {} le spectacle de magie hier soir ? Il était extraordinaire !
+6 Les villageois {} une lueur étrange sur la colline.
+6 Hier, les élèves {} un film sur les volcans.
+6 Les marins {} des baleines en pleine mer.
+== imp
+1 Quand j'étais petit, je ne {} pas très bien sans mes lunettes.
+2 Du haut de la colline, tu {} tout le village.
+3 Chaque matin, le berger {} le soleil se lever sur la vallée.
+3 Chaque été, Inès {} ses cousins au bord de la mer.
+3 De sa fenêtre, grand-mère {} passer les bateaux.
+4 Du haut de la tour, nous {} les montagnes enneigées.
+5 Autrefois, vous {} souvent des cerfs dans ce bois.
+6 La nuit, les chats {} dans le noir.
+6 À travers la brume, les pêcheurs {} à peine leur bateau.
+6 Les enfants {} les étoiles briller par la lucarne.
+== fut
+1 Demain, je {} la mer pour la première fois !
+2 Quand tu seras là-haut, tu {} toute la ville.
+3 Dans quelques jours, Lina {} enfin ses cousins d'Amérique.
+3 Au sommet de la tour, le guetteur {} arriver les bateaux ennemis.
+3 Demain, on {} bien qui a gagné le concours.
+4 En haut de la dune, nous {} enfin la mer.
+5 Vous {} comme la ville est belle depuis la colline.
+6 Mes amis {} peut-être des baleines pendant la traversée.
+6 Dans le noir, les enfants {} briller les yeux du chat.
+6 Les visiteurs {} de magnifiques fresques dans la grotte.
+== ps
+1 Ce soir-là, je {} une ombre se glisser derrière la porte.
+2 Alors, tu {} le trésor briller au fond du coffre.
+3 Le roi {} arriver les messagers au galop.
+3 Soudain, Noé {} un éclair déchirer le ciel.
+3 Le lendemain, la princesse {} la mer pour la première fois.
+4 Du haut de la falaise, nous {} le navire disparaître.
+5 Ce jour-là, vous {} un dragon vert survoler la vallée.
+6 Les gardes {} l'étranger entrer dans la cour.
+6 Au détour du chemin, les voyageurs {} un vieux moulin.
+6 Les enfants {} avec stupeur la porte s'ouvrir toute seule.

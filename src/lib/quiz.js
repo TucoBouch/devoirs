@@ -2,7 +2,7 @@
 import bank from '../data/questions.json'
 import {
   getVerb, conjugate, splitForm, pronoun, needsAgreement, tenseLabel,
-  formChoices, endingChoices, compare, shuffle,
+  formChoices, endingChoices, compare, shuffle, IRREGULAR_VERBS,
 } from './conjugation.js'
 
 export const ANSWER_TYPES = [
@@ -19,10 +19,18 @@ export const COUNTS = [10, 20, 30, 40, 50, 100]
 export const REWORK_QUIZZES = 3
 export const HISTORY_SIZE = 10
 
+export { IRREGULAR_VERBS }
+export const VERB_SETS = [
+  { id: 'all', label: 'Tous les verbes', hint: 'Les 42 verbes de l’application' },
+  { id: 'irregular', label: 'Verbes irréguliers', hint: IRREGULAR_VERBS.join(', ') },
+]
+export const inVerbSet = (verbSet, verb) => verbSet !== 'irregular' || IRREGULAR_VERBS.includes(verb)
+
 export const defaultConfig = () => ({
   tenses: ['present'],
   answerTypes: ['qcm_form'],
   questionTypes: ['pronoun', 'sentence'],
+  verbSet: 'all',
   count: 10,
   rework: false,
 })
@@ -63,10 +71,10 @@ export function buildQuiz(config, history = []) {
   const tenses = new Set(config.tenses)
   const typed = config.answerTypes
   const usable = bank
-    .filter((q) => tenses.has(q.t))
+    .filter((q) => tenses.has(q.t) && inVerbSet(config.verbSet, q.v))
     .filter((q) => typed.some((a) => !isEnding(a)) || splitForm(getVerb(q.v), q.t, q.p, q.g))
 
-  const wrong = config.rework ? troubleSpots(history) : []
+  const wrong = config.rework ? troubleSpots(history).filter((s) => inVerbSet(config.verbSet, s.v)) : []
   const wrongVerbs = new Set(wrong.map((s) => s.v))
   const exact = new Set(wrong.map((s) => `${s.v}|${s.t}`))
 
@@ -146,12 +154,12 @@ export function scoreMessage(score, total) {
   return 'Courage, on s’entraîne et ça viendra !'
 }
 
-// Réponse corrigée de l'enfant, mise en forme pour la revue des erreurs
+// Réponse corrigée de l'enfant, mise en forme pour la revue des erreurs.
+// Chaque erreur garde sa phrase : la banque peut être renouvelée sans casser l'historique.
+// Les erreurs d'avant (sans phrase enregistrée) renvoient null.
 export function mistakeView(m) {
-  const q = bank.find((x) => x.id === m.id)
-  if (!q) return null
-  const item = prepare(q, m.qt, m.at)
-  return { ...item, given: m.given }
+  if (typeof m.pre !== 'string') return null
+  return { ...prepare(m, m.qt, m.at), given: m.given }
 }
 
 // Découpe l'énoncé en morceaux : ce qui précède le trou, le début du verbe déjà donné, ce qui suit
@@ -170,6 +178,6 @@ export function genderTag(item) {
 }
 
 export const configSummary = (config) =>
-  `${config.tenses.map(tenseLabel).join(', ')} · ${config.count} questions`
+  `${config.tenses.map(tenseLabel).join(', ')} · ${config.count} questions${config.verbSet === 'irregular' ? ' · verbes irréguliers' : ''}`
 
 export { conjugate }

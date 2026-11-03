@@ -59,6 +59,9 @@ const IRREGULAR = {
 // Les 12 verbes du programme, listés en premier ; les 30 autres sont des verbes usuels des trois groupes
 export const ESSENTIAL = ['avoir', 'être', 'aller', 'faire', 'dire', 'parler', 'prendre', 'pouvoir', 'voir', 'finir', 'devoir', 'vouloir']
 
+// Les verbes à connaître par cœur : le programme sans « parler » (finir est du 2e groupe, mais il fait partie de la liste)
+export const IRREGULAR_VERBS = ESSENTIAL.filter((v) => v !== 'parler')
+
 const addEnding = (stem, ending, spec) => {
   const soft = /^[aoâ]/.test(ending)
   if (spec.g && soft) return stem + 'e' + ending

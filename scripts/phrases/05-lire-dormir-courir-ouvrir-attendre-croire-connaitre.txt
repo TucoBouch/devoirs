@@ -1,0 +1,288 @@
+// Phrases originales, dans l'esprit des romans et albums pour les 9-12 ans.
+
+# lire
+== pres
+1 Chaque soir, je {} un chapitre de mon roman d'aventures.
+2 Tu {} à voix haute, et tout le monde t'écoute.
+3 Grand-père {} le journal sur la terrasse.
+3 Léa {} si vite qu'elle finit un livre par semaine.
+4 Nous {} une carte pour trouver le chemin de la source.
+5 Vous {} cette histoire à vos petits frères, n'est-ce pas ?
+6 Les élèves {} un poème devant toute la classe.
+== pc
+1 Hier, j'{} la lettre du roi à haute voix.
+2 Tu {} ce livre d'un seul trait : quelle vitesse !
+3 Ce matin, Tom {} un conte aux petits de la maternelle.
+3 La maîtresse {} un passage du roman à toute la classe.
+4 Pendant le voyage en train, nous {} trois albums de bandes dessinées.
+5 Vous {} l'inscription gravée sur la pierre, n'est-ce pas ?
+6 Les enfants {} la carte au trésor à la lueur de la lampe.
+== imp
+1 Quand j'étais petit, je {} sous ma couverture avec une lampe de poche.
+2 Chaque soir, tu {} une histoire à ta petite sœur.
+3 Le soir, grand-mère {} des contes au coin du feu.
+3 Chaque dimanche, Inès {} le journal à son grand-père.
+4 À la bibliothèque, nous {} des bandes dessinées pendant des heures.
+5 Autrefois, vous {} toujours les mêmes histoires de pirates.
+6 Le mercredi, les enfants {} des albums à la médiathèque.
+== fut
+1 Ce soir, je {} le dernier chapitre de mon roman.
+2 Demain, tu {} ton poème devant toute la classe.
+3 Papa {} une histoire de dragon avant que nous dormions.
+3 Quand elle aura fini sa leçon, Lina {} pour le plaisir.
+4 Pendant les vacances, nous {} dix livres au moins.
+5 Vous {} cette lettre quand vous serez prêts.
+6 Les élèves {} un conte devant leurs parents.
+== ps
+1 Ce soir-là, je {} le message à la lueur d'une bougie.
+3 Le roi {} la lettre et pâlit.
+3 Soudain, Noé {} un nom étrange gravé sur la pierre.
+4 Dans la bibliothèque secrète, nous {} le vieux grimoire.
+6 Les chevaliers {} l'inscription au-dessus de la porte.
+6 Les voyageurs {} la carte avec attention.
+
+# dormir
+== pres
+1 Je {} avec une veilleuse depuis que j'ai vu ce film de fantômes.
+2 Tu {} encore ? Le soleil est déjà haut !
+3 Le chat {} toute la journée sur le radiateur.
+3 Papy {} toujours un peu après le déjeuner.
+4 Nous {} sous la tente, au bord du lac.
+5 Vous {} dans la chambre du fond, les enfants.
+6 Les chauves-souris {} la tête en bas.
+== pc
+1 Cette nuit, j'{} comme un loir.
+2 Tu {} dans la voiture pendant tout le voyage.
+3 Hier, le bébé {} sans se réveiller.
+3 Le chevalier {} dans une grange abandonnée.
+4 Pendant le camp, nous {} à la belle étoile.
+5 Vous {} très tard ce matin, les enfants !
+6 Les randonneurs {} dans un refuge de montagne.
+== imp
+1 Quand j'étais petit, je {} avec mon doudou.
+2 Autrefois, tu {} toujours la fenêtre ouverte.
+3 Le dragon {} tout l'hiver au fond de sa grotte.
+3 Chaque après-midi, le chien {} sous le grand chêne.
+4 Cet été-là, nous {} dans une cabane en bois.
+5 Quand vous étiez bébés, vous {} dans le même berceau.
+6 Les marins {} dans des hamacs.
+== fut
+1 Ce soir, je {} très bien après cette grande randonnée.
+2 Tu {} dans le lit du haut, d'accord ?
+3 Le bébé {} jusqu'à demain matin.
+3 Après le long voyage, Max {} toute la journée.
+4 Cette nuit, nous {} dans une vraie cabane.
+5 Vous {} chez Mamie pendant les vacances.
+6 Les ours {} tout l'hiver dans leur tanière.
+== ps
+1 Cette nuit-là, je {} d'un sommeil profond.
+3 Le roi {} longtemps, sous le regard des gardes.
+3 Épuisé, le petit dragon {} sur un lit de feuilles.
+4 Après la marche, nous {} dans la paille.
+6 Les voyageurs {} près du feu.
+6 Les enfants {} comme des loirs dans la grande tente.
+
+# courir
+== pres
+1 Je {} chaque matin autour du stade.
+2 Tu {} plus vite que le vent !
+3 Le lièvre {} dans le champ de blé.
+3 Léa {} vers la porte dès que la cloche sonne.
+4 Nous {} dans la cour pendant la récréation.
+5 Vous {} trop vite : attendez-moi !
+6 Les chevaux {} librement dans la prairie.
+== pc
+1 Hier, j'{} jusqu'à la gare pour attraper le train.
+2 Tu {} si vite que je n'ai pas pu te suivre.
+3 Ce matin, Tom {} jusqu'à la boulangerie avant la fermeture.
+3 Le cerf {} jusqu'au bout de la forêt.
+4 Pour échapper à l'orage, nous {} jusqu'à l'abri.
+5 Vous {} un grand danger en traversant la route, mes amis.
+6 Les enfants {} partout dans le jardin.
+== imp
+1 Quand j'étais petit, je {} pieds nus dans l'herbe.
+2 Autrefois, tu {} toujours le plus vite de la classe.
+3 Chaque matin, le chien {} derrière le facteur.
+3 En ce temps-là, la petite Zoé {} sur la plage toute la journée.
+4 Pendant les vacances, nous {} dans les dunes.
+5 Autrefois, vous {} les rues du village en riant.
+6 Les chevaux {} dans la prairie au lever du soleil.
+== fut
+1 Demain, je {} le cross de l'école.
+2 Tu {} très vite si tu t'entraînes chaque jour.
+3 Dans quelques minutes, Lina {} sur la piste.
+3 Dès que la cloche sonnera, le chien {} vers la porte.
+4 Dimanche, nous {} pour une bonne cause.
+5 Vous {} avec les enfants de l'autre classe.
+6 Les élèves {} un relais de quatre fois cent mètres.
+== ps
+1 Ce soir-là, je {} jusqu'au bout du chemin sans m'arrêter.
+3 Le chevalier {} vers le pont-levis.
+3 Soudain, la petite fille {} vers la maison.
+4 Au signal, nous {} vers la sortie.
+6 Les gardes {} derrière les voleurs.
+6 Les villageois {} vers le puits en entendant l'alarme.
+
+# ouvrir
+== pres
+1 J'{} la fenêtre pour laisser entrer l'air frais.
+2 Tu {} doucement la porte du grenier.
+3 La boulangerie {} ses portes à sept heures.
+3 Papa {} le coffre avec une grosse clé rouillée.
+4 Nous {} nos cadeaux au pied du sapin.
+5 Vous {} le livre à la première page.
+6 Les fleurs {} leurs pétales au lever du soleil.
+== pc
+1 Hier, j'{} une boîte pleine de vieilles photos.
+2 Tu {} la porte sans faire de bruit.
+3 Ce matin, le maître {} la fenêtre de la classe.
+3 Le magicien {} son grand chapeau noir.
+4 Pour la fête, nous {} un paquet de bonbons.
+5 Vous {} un restaurant au bord de la mer.
+6 Les voleurs {} la fenêtre avec un bâton.
+== imp
+1 Quand j'étais petit, j'{} mes cadeaux avant tout le monde.
+2 Chaque matin, tu {} les volets de la cuisine.
+3 Chaque matin, le boulanger {} sa boutique à six heures.
+3 Autrefois, la bibliothécaire {} la salle de lecture tous les mercredis.
+4 Le dimanche, nous {} la maison pour aérer.
+5 Autrefois, vous {} la porte à tous les voyageurs.
+6 Les marchands {} leurs étals dès l'aube.
+== fut
+1 Demain, j'{} mon cadeau en cachette.
+2 Tu {} ce coffre avec la clé d'argent.
+3 Le musée {} ses portes dimanche prochain.
+3 Dans une heure, le magicien {} la boîte magique.
+4 Ce soir, nous {} la bouteille de jus de pomme.
+5 Vous {} les portes du château pour accueillir les invités.
+6 Les fleurs {} leurs pétales au printemps.
+== ps
+1 Ce soir-là, j'{} doucement la porte de la cave.
+3 La reine {} la boîte et poussa un cri.
+3 Soudain, Noé {} les yeux dans le noir.
+4 À l'aube, nous {} le portail du jardin.
+6 Les gardes {} les grandes portes du château.
+6 Les enfants {} le coffre avec impatience.
+
+# attendre
+== pres
+1 J'{} le bus devant l'école avec mon cartable.
+2 Tu {} ton tour pour monter sur le grand manège.
+3 Le chat {} patiemment devant la porte du garde-manger.
+3 Léa {} une lettre de sa correspondante.
+4 Nous {} le feu d'artifice avec impatience.
+5 Vous {} le facteur depuis ce matin, n'est-ce pas ?
+6 Les enfants {} le père Noël avec impatience.
+== pc
+1 Hier, j'{} mon ami pendant une heure devant le cinéma.
+2 Tu {} longtemps sous la pluie : tu es tout trempé !
+3 Ce matin, grand-mère {} le facteur sur le pas de la porte.
+3 Le détective {} toute la nuit dans sa voiture.
+4 Nous {} le train sur le quai pendant vingt minutes.
+5 Vous {} patiemment votre tour : bravo !
+6 Les passagers {} le départ du bateau pendant deux heures.
+== imp
+1 Quand j'étais petit, j'{} le facteur à la fenêtre.
+2 Autrefois, tu {} le bus au coin de la rue.
+3 Chaque soir, le chien {} son maître devant la grille.
+3 La reine {} des nouvelles du royaume.
+4 Chaque été, nous {} l'arrivée du cirque avec impatience.
+5 À cette époque, vous {} le train sur le petit quai.
+6 Les pêcheurs {} le retour de la marée.
+== fut
+1 Demain, j'{} mes amis devant le cinéma.
+2 Tu {} ton tour sans te plaindre.
+3 Papa {} le train de dix heures.
+3 Le chat {} son maître devant la porte.
+4 À la sortie, nous {} le bus ensemble.
+5 Vous {} les résultats du concours avec impatience.
+6 Les spectateurs {} le début du spectacle.
+== ps
+1 Ce soir-là, j'{} longtemps près de la porte.
+3 Le roi {} le retour du messager.
+3 Cette nuit-là, la princesse {} longtemps le retour du chevalier.
+4 Au bord de l'eau, nous {} le bateau.
+6 Les villageois {} la fin de l'orage dans la cave.
+6 Les chevaliers {} l'aube pour attaquer.
+
+# croire
+== pres
+1 Je {} que quelqu'un se cache derrière ce rideau.
+2 Tu {} vraiment aux fantômes ?
+3 Le petit garçon {} que la lune le suit.
+3 Léa {} toujours qu'elle va gagner.
+4 Nous {} qu'il va pleuvoir, alors prenons nos parapluies.
+5 Vous {} que cette histoire est vraie ?
+6 Les enfants {} au père Noël.
+== pc
+1 D'abord, j'{} que c'était un cambrioleur, puis j'ai vu le chat.
+2 Tu {} mes paroles, et tu avais raison.
+3 Ce soir-là, Tom {} voir un fantôme derrière la fenêtre.
+3 Le roi {} le menteur, et c'était une erreur.
+4 Hier, nous {} que le match était perdu.
+5 Vous {} un instant que le gâteau était fini.
+6 Les passants {} que le feu était éteint.
+== imp
+1 Quand j'étais petit, je {} que les nuages étaient de la barbe à papa.
+2 Autrefois, tu {} que les étoiles étaient des lucioles.
+3 Le petit chat {} que son reflet était un ami.
+3 Grand-père {} aux légendes de la montagne.
+4 À l'époque, nous {} qu'il y avait un monstre dans le lac.
+5 Autrefois, vous {} que la Terre était plate.
+6 Les marins {} aux sirènes.
+== fut
+1 Demain, je {} peut-être enfin à ton histoire.
+2 Un jour, tu {} en toi et tu réussiras.
+3 Personne ne {} cette histoire de dragon.
+3 Dès qu'elle verra la preuve, Léa {} que tu dis vrai.
+4 Quand nous verrons la lettre, nous {} que le trésor existe.
+5 Vous {} que c'est possible quand vous verrez le résultat.
+6 Mes amis {} que j'exagère, mais je dis la vérité.
+== ps
+1 Ce soir-là, je {} entendre un murmure derrière la porte.
+3 Le roi {} le messager et partit en guerre.
+3 Soudain, Noé {} voir une lumière dans la brume.
+4 Dans le brouillard, nous {} apercevoir un navire.
+6 Les villageois {} que le dragon avait disparu.
+6 Les enfants {} un instant que la grotte était vide.
+
+# connaître
+== pres
+1 Je {} un raccourci pour aller à la plage.
+2 Tu {} cette chanson ? Elle passe à la radio.
+3 Le vieux marin {} toutes les routes de la mer.
+3 Léa {} chaque recoin de la forêt.
+4 Nous {} un chemin secret qui mène à la rivière.
+5 Vous {} la fin de l'histoire, mais vous ne dites rien !
+6 Les enfants du village {} tous les sentiers.
+== pc
+1 L'été dernier, j'{} un garçon qui parlait trois langues.
+2 Tu {} le vrai bonheur ce jour-là, n'est-ce pas ?
+3 Pendant son voyage, Tom {} un vieux sage de la montagne.
+3 Le détective {} beaucoup de succès grâce à son enquête.
+4 À la colonie, nous {} des amis pour la vie.
+5 Vous {} une aventure incroyable, les enfants !
+6 Les explorateurs {} des peuples fascinants.
+== imp
+1 Quand j'étais petit, je {} tous les chats du quartier.
+2 Autrefois, tu {} chaque pierre du chemin.
+3 Le vieux berger {} chaque mouton par son nom.
+3 La sorcière {} les secrets de la forêt.
+4 Nous {} déjà ce sentier avant de venir ici.
+5 À cette époque, vous {} tous les voisins.
+6 Les anciens {} les étoiles par leur nom.
+== fut
+1 Demain, je {} enfin la fin du mystère.
+2 Un jour, tu {} la célébrité.
+3 Dans quelques jours, Léa {} sa nouvelle école.
+3 Après ce voyage, le jeune mousse {} la mer comme sa poche.
+4 Après quelques jours, nous {} chaque rue du village.
+5 Vous {} bientôt tous les secrets du château.
+6 Les enfants {} vite leur nouvelle maîtresse.
+== ps
+1 Ce jour-là, je {} la peur pour la première fois.
+3 Le jeune roi {} bientôt la solitude.
+3 Soudain, Noé {} la vérité sur son père.
+4 Cette année-là, nous {} la gloire.
+6 Les chevaliers {} de grands malheurs.
+6 Les deux enfants {} un moment de pur bonheur.

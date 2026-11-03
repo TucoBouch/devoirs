@@ -22,8 +22,12 @@ const date = computed(() =>
 )
 const percent = computed(() => Math.round((entry.value.score / entry.value.total) * 100))
 
+// Les erreurs d'avant le renouvellement des phrases n'ont pas gardé leur énoncé
+const lost = computed(() => (entry.value?.mistakes.length ?? 0) - views.value.length)
+
 function replay(rework = false) {
-  Object.assign(state.config, JSON.parse(JSON.stringify(entry.value.config)), { rework })
+  // un ancien quiz n'a pas de choix de verbes : tous les verbes
+  Object.assign(state.config, { verbSet: 'all' }, JSON.parse(JSON.stringify(entry.value.config)), { rework })
   startQuiz()
 }
 const parts = (v) => promptParts(v)
@@ -70,6 +74,10 @@ const fix = (v) => {
           <p class="mistake-meta"><span class="pill">{{ v.v }}</span><span class="pill">{{ tenseLabel(v.t) }}</span></p>
         </li>
       </ul>
+      <p v-if="lost" class="muted">
+        {{ lost === 1 ? 'Une erreur' : `${lost} erreurs` }} de ce quiz ne {{ lost === 1 ? 'peut' : 'peuvent' }} plus être
+        {{ lost === 1 ? 'affichée' : 'affichées' }} : les phrases ont été renouvelées depuis.
+      </p>
     </section>
     <section v-else class="card calm">
       <p>Aucune erreur dans ce quiz. Rien à revoir !</p>
