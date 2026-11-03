@@ -1,6 +1,8 @@
-// Génère la banque de 600 questions (src/data/questions.json).
+// Génère la banque de questions (src/data/questions.json) en deux temps :
+//   1. la banque d'origine, 600 questions (ids 1 à 600), à ne jamais modifier : l'historique des élèves y fait référence ;
+//   2. 1000 questions en plus (ids 601 à 1600), avec davantage de compléments et d'adverbes.
 // Chaque question : un verbe, un temps, une personne, une phrase à trous et la réponse attendue.
-// Répartition équilibrée : 100 questions par pronom, 120 par temps, au moins 14 par verbe.
+// Répartition équilibrée sur l'ensemble : environ 267 questions par pronom, 320 par temps, 37 à 39 par verbe.
 import { writeFileSync } from 'node:fs'
 import { VERBS, TENSES, conjugate, needsAgreement } from '../src/lib/conjugation.js'
 
@@ -112,16 +114,70 @@ function subjectFor(p, agree) {
   }
 }
 
+// ---- Pools de la seconde vague (1000 questions en plus) ----------------------------------
+// Ajoutés après coup pour ne pas changer le tirage de la banque d'origine.
+const EXTRA_ADVERBS = {
+  present: ['Le samedi,', 'Le soir,', 'Parfois,', 'Cette semaine,'],
+  passe_compose: ['Lundi dernier,', 'Hier après-midi,', 'Cette nuit,', 'Le mois dernier,'],
+  imparfait: ['Chaque matin,', 'Il y a longtemps,', 'Tous les jours,', 'En ce temps-là,'],
+  futur: ["L'année prochaine,", 'Demain matin,', 'Dans un mois,', 'Un de ces jours,'],
+  passe_simple: ['Un soir,', 'Aussitôt,', 'Quelques jours plus tard,', 'À ce moment-là,'],
+}
+const EXTRA_COMPLEMENTS = {
+  avoir: ['soif', 'peur du noir', 'mal à la tête', 'un nouveau cartable', 'de bonnes notes', 'sommeil'],
+  être: ["à l'école", 'chez des amis', 'sur la plage', 'à la bibliothèque', 'dans la cour', 'au cinéma'],
+  aller: ['à la bibliothèque', 'chez le médecin', 'au musée', 'à la campagne', 'au parc', 'chez les voisins'],
+  faire: ['du sport', 'du bruit', 'un puzzle', 'de la peinture', 'un voyage', 'une bonne action'],
+  dire: ['un mot gentil', 'la réponse', 'une histoire drôle', 'quelques mots', 'non', 'la leçon'],
+  parler: ['français', 'au téléphone', 'de la fête', 'avec un ami', 'trop fort', 'à la maîtresse'],
+  prendre: ['un crayon', 'une douche', 'le métro', 'un bon petit-déjeuner', 'des notes', 'un parapluie'],
+  pouvoir: ['regarder un film', 'aider les autres', 'monter sur le vélo', 'dormir tard', 'porter le sac', 'répondre à la question'],
+  voir: ['la mer', 'un renard', 'le facteur', 'une étoile filante', 'des nuages gris', 'le spectacle'],
+  finir: ['le livre', 'le dessin', 'la poésie', 'le gâteau', 'la partie', 'le match'],
+  devoir: ['finir les devoirs', 'attendre le bus', 'aller chez le dentiste', 'écrire une lettre', 'lire le chapitre', 'ouvrir la fenêtre'],
+  vouloir: ['un chien', 'partir en voyage', "de l'eau", 'chanter une chanson', 'manger une pomme', 'une grande part'],
+  chanter: ['à tue-tête', 'sous la douche', 'une comptine', 'en chœur', 'un refrain', 'juste'],
+  manger: ['une orange', 'du riz', 'à la cantine', 'des fruits', 'une crêpe', 'du fromage'],
+  jouer: ['au football', 'de la guitare', 'aux billes', 'à cache-cache', 'dans le jardin', 'avec le chien'],
+  regarder: ['les étoiles', 'une photo', 'le match', 'les oiseaux', 'la carte', 'le spectacle'],
+  aimer: ['les fruits', 'dessiner', 'la neige', 'danser', 'les vacances', 'nager'],
+  donner: ['une pomme', 'la réponse', 'un bonbon', "de l'eau aux plantes", 'un baiser', 'un cadeau'],
+  travailler: ["à l'hôpital", 'dans une boulangerie', 'sans bruit', 'avec courage', 'dans la classe', 'toute la journée'],
+  commencer: ['le travail', 'un puzzle', 'à écrire', 'la course', 'un nouveau cahier', 'la poésie'],
+  trouver: ['une pièce de monnaie', 'un nid', 'la solution', 'un crayon', 'un coquillage', 'une bonne place'],
+  écouter: ['un conte', 'la pluie', 'une chanson', 'attentivement', 'la maîtresse', 'le vent'],
+  arriver: ['en avance', 'à la maison', 'à midi', 'au parc', 'en voiture', 'avant les autres'],
+  tomber: ['de la chaise', "dans l'escalier", 'dans le sable', 'sur le dos', 'dans la boue', 'du lit'],
+  choisir: ['un film', 'une couleur', 'le chemin', 'un gâteau', 'une place', 'un nouveau cahier'],
+  grandir: ['en ville', 'dans une petite maison', 'loin de la mer', 'avec des animaux', 'en montagne', 'doucement'],
+  réussir: ['la dictée', 'à lire', 'le saut', 'le puzzle', 'la partie', 'à convaincre'],
+  remplir: ['la valise', 'le sac', 'le cahier', 'le tableau', 'la caisse', 'la piscine'],
+  réfléchir: ['à une solution', 'en silence', "avant d'agir", 'au problème', 'sérieusement', 'à cette idée'],
+  obéir: ['à la maîtresse', 'aux parents', 'tout de suite', 'au signal', 'à la loi', 'au capitaine'],
+  venir: ['à la fête', 'en voiture', 'avec le chien', 'à la maison', 'chercher le pain', 'en courant'],
+  partir: ['à la mer', 'en train', 'sans rien dire', "pour l'école", 'à pied', 'en courant'],
+  savoir: ['lire', 'la leçon', "compter jusqu'à cent", 'faire du vélo', 'le secret', 'danser'],
+  mettre: ['un chapeau', 'le couvert', 'des bottes', 'du sucre dans le thé', 'la lumière', 'la radio'],
+  écrire: ['un mot', 'une dictée', "à l'encre", 'une chanson', 'le titre', 'à un ami'],
+  lire: ['un conte', 'un magazine', 'la leçon', 'une poésie', 'dans le jardin', 'à voix basse'],
+  dormir: ['dans le train', 'à la belle étoile', 'chez des amis', 'sur le canapé', 'huit heures', 'paisiblement'],
+  courir: ['autour du stade', 'dans la cour', 'vers la sortie', 'sous la pluie', "dans l'herbe", 'avec le chien'],
+  ouvrir: ['le robinet', 'un parapluie', 'la lettre', 'le portail', 'le coffre', 'le sac'],
+  attendre: ['le train', 'la pluie', "sous l'abri", 'le signal', 'devant la porte', 'le résultat'],
+  croire: ['ce garçon', 'à ce conte', 'la maîtresse', 'cette blague', 'aux miracles', 'à la chance'],
+  connaître: ['cette histoire', 'cette fille', 'un raccourci', 'le directeur', 'ce jeu', 'la poésie'],
+}
+
 // ---- Répartition équilibrée des (verbe, temps, personne) ---------------------------
 const tenseIds = TENSES.map((t) => t.id)
 const gTense = Object.fromEntries(tenseIds.map((t) => [t, 0]))
 const gPers = [0, 0, 0, 0, 0, 0]
-const combos = []
-VERBS.forEach((verb, vi) => {
-  const n = 14 + (vi < 12 ? 1 : 0)
-  const vt = Object.fromEntries(tenseIds.map((t) => [t, 0]))
-  const vp = [0, 0, 0, 0, 0, 0]
-  const vtp = new Set()
+const perVerb = new Map(VERBS.map((v) => [v.inf, { vt: Object.fromEntries(tenseIds.map((t) => [t, 0])), vp: [0, 0, 0, 0, 0, 0], vtp: new Set() }]))
+
+// Choisit n triplets (verbe, temps, personne) en comblant d'abord les manques globaux, puis ceux du verbe
+function plan(verb, n) {
+  const { vt, vp, vtp } = perVerb.get(verb.inf)
+  const picked = []
   for (let k = 0; k < n; k++) {
     let best = null
     for (const t of tenseIds) {
@@ -131,9 +187,10 @@ VERBS.forEach((verb, vi) => {
       }
     }
     gTense[best.t]++; gPers[best.p]++; vt[best.t]++; vp[best.p]++; vtp.add(`${best.t}${best.p}`)
-    combos.push({ verb, t: best.t, p: best.p })
+    picked.push({ verb, t: best.t, p: best.p })
   }
-})
+  return picked
+}
 
 // ---- Construction des phrases ---------------------------------------------------------
 const used = new Set()
@@ -141,33 +198,38 @@ const advUse = {}
 const compUse = {}
 const questions = []
 
-for (const { verb, t, p } of combos) {
+function makeQuestion({ verb, t, p }, advs, comps) {
   const agree = needsAgreement(verb, t)
-  let q = null
-  for (let attempt = 0; attempt < 40 && !q; attempt++) {
+  for (let attempt = 0; attempt < 40; attempt++) {
     const { text, g } = subjectFor(p, agree)
     const form = conjugate(verb, t, p, g)
-    const adv = ADVERBS[t].reduce((x, y) => ((advUse[`${t}${x}`] ?? 0) <= (advUse[`${t}${y}`] ?? 0) ? x : y))
-    const comp = COMPLEMENTS[verb.inf].reduce((x, y) => ((compUse[`${verb.inf}${x}`] ?? 0) <= (compUse[`${verb.inf}${y}`] ?? 0) ? x : y))
+    const adv = advs.reduce((x, y) => ((advUse[`${t}${x}`] ?? 0) <= (advUse[`${t}${y}`] ?? 0) ? x : y))
+    const comp = comps.reduce((x, y) => ((compUse[`${verb.inf}${x}`] ?? 0) <= (compUse[`${verb.inf}${y}`] ?? 0) ? x : y))
     // "je" devient "j'" devant une voyelle ; la réponse se place juste après
     const elide = p === 0 && /^[aeiouyéèêâîôû]/i.test(form)
     const subject = elide ? text.replace(/je$/, "j'") : text
     const pre = `${adv} ${subject}${subject.endsWith("'") ? '' : ' '}`
     const post = ` ${comp}.`
     const key = pre + '_' + post
-    if (used.has(key)) {
-      // on change de complément pour éviter un doublon
-      compUse[`${verb.inf}${comp}`] = (compUse[`${verb.inf}${comp}`] ?? 0) + 1
-      continue
-    }
+    compUse[`${verb.inf}${comp}`] = (compUse[`${verb.inf}${comp}`] ?? 0) + 1
+    if (used.has(key)) continue // doublon : le complément suivant sera préféré
     used.add(key)
     advUse[`${t}${adv}`] = (advUse[`${t}${adv}`] ?? 0) + 1
-    compUse[`${verb.inf}${comp}`] = (compUse[`${verb.inf}${comp}`] ?? 0) + 1
-    q = { v: verb.inf, t, p, g, a: form, pre, post }
+    return { v: verb.inf, t, p, g, a: form, pre, post }
   }
-  if (!q) throw new Error(`Impossible de générer ${verb.inf} ${t} ${p}`)
-  questions.push(q)
+  throw new Error(`Impossible de générer ${verb.inf} ${t} ${p}`)
 }
+
+// Première vague : la banque d'origine (ids 1 à 600)
+const wave1 = VERBS.flatMap((verb, vi) => plan(verb, 14 + (vi < 12 ? 1 : 0)))
+for (const c of wave1) questions.push(makeQuestion(c, ADVERBS[c.t], COMPLEMENTS[c.verb.inf]))
+const BASE = questions.length
+
+// Seconde vague : 1000 questions de plus, avec les pools élargis (ids 601 à 1600)
+const ADVERBS_ALL = Object.fromEntries(tenseIds.map((t) => [t, [...ADVERBS[t], ...EXTRA_ADVERBS[t]]]))
+const COMPLEMENTS_ALL = Object.fromEntries(Object.entries(COMPLEMENTS).map(([k, v]) => [k, [...v, ...EXTRA_COMPLEMENTS[k]]]))
+const wave2 = VERBS.flatMap((verb, vi) => plan(verb, vi < 34 ? 24 : 23))
+for (const c of wave2) questions.push(makeQuestion(c, ADVERBS_ALL[c.t], COMPLEMENTS_ALL[c.verb.inf]))
 
 // Apostrophes typographiques dans les textes affichés
 const fix = (s) => s.replace(/'/g, '’')
@@ -177,9 +239,9 @@ writeFileSync(new URL('../src/data/questions.json', import.meta.url), '[\n' + ou
 
 // ---- Contrôles --------------------------------------------------------------------------
 const count = (fn) => out.reduce((m, q) => ((m[fn(q)] = (m[fn(q)] ?? 0) + 1), m), {})
-console.log('total', out.length)
+console.log('total', out.length, '(dont banque d\'origine :', BASE + ')')
 console.log('par pronom', count((q) => q.p))
 console.log('par temps', count((q) => q.t))
-const perVerb = count((q) => q.v)
-console.log('min/max par verbe', Math.min(...Object.values(perVerb)), Math.max(...Object.values(perVerb)))
+const verbCounts = count((q) => q.v)
+console.log('min/max par verbe', Math.min(...Object.values(verbCounts)), Math.max(...Object.values(verbCounts)))
 console.log('phrases uniques', new Set(out.map((q) => q.pre + '_' + q.post)).size)

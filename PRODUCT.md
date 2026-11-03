@@ -20,7 +20,7 @@ Primary: a French CM2 pupil (about 10 to 11 years old) revising school lessons a
 
 ## Positioning
 
-A quiz that remembers what the child got wrong: verbs missed in the last three quizzes can be added back explicitly to the next one, and every verb form comes from a bank of 600 written sentences covering every pronoun of every verb.
+A quiz that remembers what the child got wrong: verbs missed in the last three quizzes can be added back explicitly to the next one, and every verb form comes from a bank of 1600 written sentences covering every pronoun of every verb.
 
 ## Operating Context
 
@@ -43,7 +43,7 @@ A quiz that remembers what the child got wrong: verbs missed in the last three q
 - Accent tolerant: a missing or wrong accent is still accepted as correct, with a short remark.
 - Final screen shows the score. The last 10 quizzes are stored in localStorage.
 - Verbs answered wrongly are tracked. When launching a quiz, an option "retravailler les verbes erronés" injects the verbs missed in the last 3 quizzes.
-- A bank of 600 generated questions with sentences, covering all pronouns of the verbs. Quizzes draw randomly from it.
+- A bank of 1600 generated questions (600 original plus 1000 added later) with sentences, covering all pronouns of the verbs. Quizzes draw randomly from it.
 - Immediate correction after each answer: right or wrong, the correct form shown, a remark when an accent is missing.
 
 ## Brand Commitments
@@ -52,7 +52,7 @@ Name "Devoirs". Voice: sober and encouraging, short positive messages, no points
 
 ## Evidence on Hand
 
-No existing assets, copy or data. The 600-question bank and the verb conjugations are authored for this project and must be checked for French grammar.
+No existing assets, copy or data. The 1600-question bank and the verb conjugations are authored for this project and must be checked for French grammar.
 
 ## Product Principles
 
