@@ -24,7 +24,7 @@ A quiz that remembers what the child got wrong: verbs missed in the last three q
 
 ## Operating Context
 
-- iPad 11 inch first (landscape and portrait), touch input, on-screen keyboard for free-text answers.
+- iPad 11 inch first (landscape and portrait), touch input. Free-text answers use the app's own on-screen keyboard (letters, accents, space, delete, validate), because the iPad keyboard covers half of the landscape screen and scrolls the sentence out of view. The answer is written straight into the gap of the sentence. With a mouse, the usual field and the computer keyboard are used.
 - Sessions are short and repeated. The app can be closed at any moment and must reopen on exactly the same screen, including mid-quiz.
 - The system back gesture or button must step back through app screens and never exit the app.
 - Offline, opened as a single local file or hosted statically.

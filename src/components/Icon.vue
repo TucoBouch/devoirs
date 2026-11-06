@@ -13,6 +13,7 @@ const paths = {
   auto: 'M12 21a9 9 0 100-18 9 9 0 000 18z M12 3v18 M12 3a9 9 0 010 18',
   arrow: 'M5 12h14M13 6l6 6-6 6',
   back: 'M19 12H5M11 6l-6 6 6 6',
+  backspace: 'M21 5H9l-6 7 6 7h12a1 1 0 001-1V6a1 1 0 00-1-1z M13 9.5l5 5 M18 9.5l-5 5',
   play: 'M7 5l12 7-12 7z',
   redo: 'M20 11a8 8 0 10-2.3 6.3 M20 4v7h-7',
   trash: 'M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3',

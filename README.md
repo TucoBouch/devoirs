@@ -21,6 +21,7 @@ npm run build    # produit dist/index.html, un fichier unique et autonome
 - `src/lib/quiz.js` : construction d'un quiz, propositions de réponse, correction. Le choix « Verbes irréguliers » limite le quiz à avoir, être, aller, faire, dire, prendre, pouvoir, voir, finir, devoir et vouloir (liste `IRREGULAR_VERBS` dans `conjugation.js`).
 - `src/stores/state.js` : état global sauvegardé (écran courant, quiz en cours, historique, réglages).
 - `src/lib/nav.js` : navigation par l'historique du navigateur (le retour revient à l'écran précédent, sans quitter l'app).
+- `src/components/AppKeyboard.vue` : le clavier de l'app, utilisé pour les réponses écrites sur un écran tactile (`src/lib/touch.js` détecte le pointeur tactile). Celui de l'iPad n'apparaît plus : il couvrait la moitié de l'écran en paysage et faisait défiler la phrase hors de vue. La réponse s'écrit dans le trou de la phrase ; un clavier matériel branché sur l'iPad fonctionne aussi. Avec une souris, le champ de saisie habituel reste.
 - `src/views/` : écrans. `src/styles/` : thème (clair, sombre, huit couleurs de cahier).
 
 ## Données sauvegardées

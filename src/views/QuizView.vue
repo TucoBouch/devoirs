@@ -1,10 +1,12 @@
 <script setup>
-import { computed, nextTick, onMounted, ref, watch } from 'vue'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { state, submitAnswer, nextQuestion } from '../stores/state.js'
 import { tenseLabel } from '../lib/conjugation.js'
 import { isTyped, promptParts, genderTag, expectedFor, explain, praise } from '../lib/quiz.js'
+import { useCoarsePointer } from '../lib/touch.js'
 import Icon from '../components/Icon.vue'
 import ProgressStrip from '../components/ProgressStrip.vue'
+import AppKeyboard from '../components/AppKeyboard.vue'
 
 const ACCENT_KEYS = ['é', 'è', 'ê', 'ë', 'à', 'â', 'ç', 'î', 'ï', 'ô', 'û', 'ù', 'œ']
 
@@ -26,6 +28,11 @@ const longLine = computed(() => {
 const dashed = (s) => (item.value && ['qcm_end', 'text_end'].includes(item.value.at) ? `-${s}` : s)
 
 // ---- Réponse écrite ------------------------------------------------------------------------
+// Au doigt, la réponse s'écrit directement dans le trou de la phrase, avec le clavier de l'app :
+// celui de l'iPad cacherait la phrase. Avec une souris, on garde le champ et le clavier de l'ordinateur.
+const coarse = useCoarsePointer()
+const appKeys = computed(() => coarse.value && typed.value && !feedback.value)
+const MAX_DRAFT = 30
 const draft = ref(quiz.value?.draft ?? '')
 const input = ref(null)
 const nextBtn = ref(null)
@@ -44,12 +51,43 @@ watch(feedback, async (on) => {
 })
 onMounted(() => {
   if (typed.value && !feedback.value) input.value?.focus({ preventScroll: true })
+  window.addEventListener('keydown', onKeydown)
 })
+onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
 
 function submitTyped() {
   if (feedback.value) return nextQuestion()
   if (!draft.value.trim()) return
   submitAnswer(draft.value)
+}
+
+// Clavier de l'app
+function typeChar(ch) {
+  if (feedback.value || draft.value.length >= MAX_DRAFT) return
+  if (ch === ' ' && (!draft.value || draft.value.endsWith(' '))) return
+  draft.value += ch
+}
+function backspace() {
+  if (!feedback.value) draft.value = draft.value.slice(0, -1)
+}
+// Un clavier matériel branché sur l'iPad écrit aussi dans le trou (il n'y a pas de champ à remplir)
+const WRITABLE = /^[a-zàâäçéèêëîïôöùûüÿœ' -]$/i
+function onKeydown(e) {
+  if (!coarse.value || !typed.value || e.ctrlKey || e.metaKey || e.altKey) return
+  if (e.key === 'Enter') {
+    // un bouton qui a le focus gère déjà la touche Entrée par son clic
+    if (e.repeat || e.target instanceof HTMLButtonElement) return
+    e.preventDefault()
+    submitTyped()
+  } else if (feedback.value) {
+    return
+  } else if (e.key === 'Backspace') {
+    e.preventDefault()
+    backspace()
+  } else if (WRITABLE.test(e.key)) {
+    e.preventDefault()
+    typeChar(e.key)
+  }
 }
 function insertAccent(ch) {
   const el = input.value
@@ -115,7 +153,7 @@ const why = computed(() => (feedback.value && item.value ? explain(item.value) :
             class="slot" :class="{ 'is-filled': feedback, 'is-ok': feedback && result.correct, 'is-ko': feedback && !result.correct }"
           >
             <s v-if="feedback && !result.correct && result.given && typed" class="given">{{ result.given }}</s>
-            <span class="slot-text">{{ feedback ? expected : typed ? draft : '' }}</span>
+            <span class="slot-text">{{ feedback ? expected : typed ? draft : '' }}</span><span v-if="appKeys" class="caret" aria-hidden="true" />
           </span><span class="inf">({{ item.v }})</span><span v-if="parts.tail" class="tail">{{ parts.tail }}</span>
         </p>
       </div>
@@ -125,8 +163,9 @@ const why = computed(() => (feedback.value && item.value ? explain(item.value) :
         : item.at === 'qcm_end' ? 'Choisis la bonne terminaison.'
         : item.at === 'text_end' ? 'Écris la terminaison.' : 'Écris le verbe conjugué.' }}
     </p>
+    <p v-if="appKeys" class="sr-only" aria-live="polite">Ta réponse : {{ draft || 'vide' }}</p>
 
-    <div class="answer">
+    <div v-if="!(coarse && typed)" class="answer">
       <div v-if="!typed" class="choices" role="group" aria-label="Réponses possibles">
         <button
           v-for="c in item.choices" :key="c" type="button" class="choice"
@@ -158,7 +197,7 @@ const why = computed(() => (feedback.value && item.value ? explain(item.value) :
       </form>
     </div>
 
-    <div class="feedback" :class="heading && `feedback--${heading.kind}`" aria-live="polite">
+    <div v-if="!appKeys" class="feedback" :class="heading && `feedback--${heading.kind}`" aria-live="polite">
       <template v-if="heading">
         <div class="feedback-body">
           <p class="feedback-title"><span class="mark-badge"><Icon :name="heading.icon" :size="22" /></span>{{ heading.title }}</p>
@@ -170,5 +209,6 @@ const why = computed(() => (feedback.value && item.value ? explain(item.value) :
         </button>
       </template>
     </div>
+    <AppKeyboard v-else :can-submit="!!draft.trim()" @key="typeChar" @back="backspace" @submit="submitTyped" />
   </section>
 </template>
