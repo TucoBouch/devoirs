@@ -10,6 +10,7 @@ const themes = [
   { value: 'auto', label: 'Auto', icon: 'auto' },
 ]
 const sizes = [
+  { value: 'small', label: 'Petit' },
   { value: 'normal', label: 'Normal' },
   { value: 'large', label: 'Grand' },
 ]

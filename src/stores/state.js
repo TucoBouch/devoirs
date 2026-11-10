@@ -75,7 +75,7 @@ export const state = reactive({
   settings: {
     theme: ['light', 'dark', 'auto'].includes(savedSettings.theme) ? savedSettings.theme : 'auto',
     accent: ACCENTS.some((a) => a.id === savedSettings.accent) ? savedSettings.accent : 'indigo',
-    textSize: savedSettings.textSize === 'large' ? 'large' : 'normal',
+    textSize: ['small', 'large'].includes(savedSettings.textSize) ? savedSettings.textSize : 'normal',
   },
   history: load('history', []),
   config: sanitizeConfig(load('config', null)),

@@ -14,6 +14,7 @@ const paths = {
   auto: 'M12 21a9 9 0 100-18 9 9 0 000 18z M12 3v18 M12 3a9 9 0 010 18',
   arrow: 'M5 12h14M13 6l6 6-6 6',
   back: 'M19 12H5M11 6l-6 6 6 6',
+  shift: 'M12 4l8 9h-5v7H9v-7H4z',
   backspace: 'M21 5H9l-6 7 6 7h12a1 1 0 001-1V6a1 1 0 00-1-1z M13 9.5l5 5 M18 9.5l-5 5',
   play: 'M7 5l12 7-12 7z',
   stop: 'M7 7h10v10H7z',

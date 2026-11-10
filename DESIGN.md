@@ -176,7 +176,7 @@ Violet-indigo ink on near-white paper, with one chosen cover colour and two pen 
 
 ## Layout
 
-A two-column shell: the cover rail (17.5rem, 15rem at 1100px and below) and a scrolling main column whose page is at most 70rem with a 2.5rem gutter (1.75rem, then 1.1rem on phones). Sections breathe with 2rem vertical gaps; controls sit in 0.75rem gaps. The setup screen is two columns that collapse to one when the main container is under 56rem, with a sticky launch bar. At 700px and below the rail becomes a top bar. Safe-area insets are honoured throughout.
+A two-column shell: the cover rail (17.5rem, 15rem at 1100px and below) and a scrolling main column whose page is at most 70rem with a 2.5rem gutter (1.75rem, then 1.1rem on phones). Sections breathe with 2rem vertical gaps; controls sit in 0.75rem gaps. The setup screen is two columns that collapse to one when the main container is under 56rem, with a sticky launch bar. At 700px and below the rail becomes a top bar (and disappears during a quiz or a dictation so the sheet and the keyboard fit together), the type scale drops one notch (`--t-sm` 0.875rem to `--t-xl` 2rem), buttons lose about 0.5rem of height and the launch bar stacks its summary above a full-width button. The text size setting (Petit 87.5%, Normal, Grand 112.5%) scales the root on top of that. Safe-area insets are honoured throughout.
 
 The sheet is the grid: one ruling square equals one writing line. It is 3rem in the quiz and 2.5rem on the corrected copy, with a 5rem margin (3rem on phones), and a faint interline every quarter square. Text sits on the ruling (`line-height` is a multiple of the ruling).
 
