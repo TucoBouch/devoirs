@@ -1,0 +1,105 @@
+// Dictées au futur, lot c : aventures, légendes, sport, spectacles, prophéties et projets de héros.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== fut
+
+// 1 phrase
+Tu monteras sur ce rocher et tu verras toute la vallée à tes pieds.
+Vous franchirez le pont de lianes et vous découvrirez la cité cachée.
+Le dragon se réveillera au premier chant du coq et déploiera ses ailes.
+Je partirai à l'aube avec ma boussole, ma lampe et mon courage.
+Nous traverserons la forêt sans bruit et nous surprendrons les elfes.
+Le capitaine donnera l'ordre de lever l'ancre dès que le vent se lèvera.
+La sorcière préparera sa potion avec trois racines et une plume de corbeau.
+Le tournoi débutera à midi et les chevaliers entreront un à un dans l'arène.
+L'équipe de football jouera la finale contre le meilleur club de la région.
+Les coureurs s'élanceront au coup de pistolet et franchiront la ligne dans une heure.
+Ma sœur chantera devant la foule et ne tremblera presque plus.
+La reine ouvrira le bal en dansant avec le plus jeune des pages.
+Les voleurs attendront la nuit et grimperont par la fenêtre du deuxième étage.
+Nous accrocherons la lanterne au mât et elle brillera sur toute la baie.
+Le détective retrouvera le coupable avant le coucher du soleil.
+Le cuisinier préparera un festin avec des fruits, du miel et du gibier.
+L'orchestre jouera la symphonie en entier sans oublier une seule note.
+Les elfes se rassembleront sous la lune et tisseront un tapis d'étoiles.
+Tu ouvriras le coffre, mais tu n'y trouveras que du sable et un mot doux.
+Nous gagnerons la course si nous gardons notre souffle jusqu'au dernier virage.
+Le magicien fera apparaître trois colombes et les laissera s'envoler par la fenêtre.
+Un chevalier sauvera la princesse, mais elle refusera de l'épouser.
+Les étoiles guideront les voyageurs vers un port inconnu.
+J'ouvrirai ma boutique de glaces dès que la saison chaude commencera.
+La fée touchera le château de sa baguette et tous les habitants se réveilleront.
+Les pirates enterreront leur butin au pied du palmier le plus tordu.
+Mon équipe défendra son titre devant des milliers de supporters.
+Les vagues emporteront le château de sable, mais nous en bâtirons un autre.
+
+// 2 phrases
+Demain à l'aube, l'équipage hissera les voiles. Le navire quittera le port dans un grondement de chaînes.
+Le magicien lancera un sort. Les chaises se mettront à danser et les assiettes chanteront.
+Quand la lune sera pleine, les loups hurleront. Les villageois fermeront leurs volets et prieront.
+Je te donnerai cette clé. Tu ouvriras la porte de la tour et tu trouveras la vérité.
+Ce soir, nous dormirons dans une cabane. Les chouettes nous chanteront des berceuses et la rivière murmurera.
+Le roi organisera un tournoi. Les meilleurs archers viendront de tout le royaume.
+Tu rejoindras les chevaliers à la forteresse. Ils t'apprendront à tenir l'épée et à monter à cheval.
+Le dragon crachera du feu sur la montagne. La neige fondra en un instant et le torrent grondera.
+L'héroïne grimpera sur le toit. Elle sautera au-dessus de la rue et atterrira dans la charrette de foin.
+Les nains creuseront un tunnel sous la rivière. Ils trouveront un trésor et le partageront avec leurs amis.
+Nous franchirons le col avant la nuit. Au sommet, nous verrons les lumières du village.
+Le cuisinier du roi inventera un dessert. Il le servira avec des fraises et de la crème fouettée.
+La sorcière perdra sa baguette dans la forêt. Un écureuil la ramassera et fera pousser des champignons.
+Dès demain, le détective surveillera l'hôtel. Il interrogera tous les clients et notera leurs réponses.
+Mon équipe affrontera la meilleure équipe du championnat. Nous jouerons avec cœur et nous resterons soudés.
+Les tambours résonneront dans la vallée. Les guerriers descendront de la montagne et défileront sur la place.
+Tu entendras un bruit dans la cave. Tu prendras une lampe et tu descendras sur la pointe des pieds.
+L'été prochain, nous construirons un bateau à voile. Nous le baptiserons La Mouette et le lancerons à l'eau.
+La princesse écrira une lettre au chevalier. Elle la confiera à un pigeon voyageur qui la portera en deux jours.
+La fusée traversera les nuages. Elle larguera ses réservoirs et filera vers l'espace.
+Mon père nous emmènera à la pêche. Nous attraperons peut-être un brochet et rentrerons fiers comme des rois.
+Le fantôme du manoir apparaîtra à minuit. Il traversera les murs et soufflera sur les bougies.
+Dès l'aube, le berger mènera son troupeau au pâturage. Son chien courra autour des moutons et les gardera groupés.
+Les enquêteurs fouilleront le jardin. Ils trouveront une pelle, une clé et un morceau de tissu rouge.
+Quand l'orage cessera, les arcs-en-ciel apparaîtront. Nous sortirons dans la cour et chercherons le trésor au pied de l'un d'eux.
+L'apprenti magicien fera tomber la baguette. Un nuage de fumée violette envahira la pièce et il éternuera.
+Tu monteras à bord d'un navire pirate. Le capitaine te proposera un poste de cuisinier et tu accepteras.
+Notre classe tournera un film d'aventures. Nous écrirons le scénario, jouerons tous les rôles et fabriquerons les décors.
+Les skieurs descendront la piste noire. Ils prendront des virages serrés et salueront la foule à l'arrivée.
+Le chevalier errant entrera dans la forêt noire. Il y affrontera un géant et sortira sain et sauf.
+L'espion enverra un message codé. Son contact le déchiffrera en dix minutes et préviendra la police.
+Nous prendrons la route à midi. Papa conduira jusqu'au soir et maman nous chantera des chansons.
+Le cirque arrivera demain avec ses roulottes. Les clowns monteront le chapiteau et les chevaux défileront.
+Le sorcier répétera sa formule. La porte du caveau s'ouvrira lentement dans un grincement sinistre.
+Les marins affronteront une tempête. Les vagues couvriront le pont et le capitaine ne quittera pas la barre.
+Je préparerai un gâteau géant pour la fête. Mes cousins m'aideront à battre les œufs et à décorer le dessus.
+Le héros comprendra la prophétie à la dernière minute. Il courra jusqu'au temple et sauvera les habitants.
+Dès qu'il fera nuit, les lucioles s'allumeront. Elles dessineront des constellations au-dessus du champ.
+
+// 3 phrases
+Demain, la caravane quittera l'oasis avant l'aube. Les chameaux avanceront d'un pas régulier sous les étoiles. À midi, les voyageurs se reposeront à l'ombre d'un rocher.
+Le tournoi de chevalerie commencera demain à midi. Les concurrents entreront en armure et salueront le roi. Le gagnant recevra une couronne de lauriers et un tonneau de miel.
+Quand la nuit tombera, la sorcière quittera sa cabane. Elle ramassera des herbes à la lumière de la lune. À l'aube, ses potions auront un parfum différent.
+Lundi, notre équipe affrontera le champion de la ville. Nous nous entraînerons toute la semaine sans relâche. Si nous gagnons, nous porterons la coupe en procession dans les rues.
+Le détective suivra l'homme au manteau gris. Il le verra entrer dans la gare et acheter un billet. Quelques minutes plus tard, il sautera dans le même train.
+Cette nuit, un aigle géant survolera la ville. Les habitants lèveront les yeux et compteront ses ailes. Certains croiront à un nuage, d'autres à un avion.
+Dès demain, nous construirons un radeau sur la rivière. Nous le chargerons de provisions, d'une carte et d'une lampe. Nous voguerons ensuite jusqu'à la mer en chantant.
+Tu prendras la route de l'est jusqu'au grand chêne. Là, tu tourneras à gauche et tu suivras le ruisseau. Tu arriveras alors devant la maison du vieux sage.
+La fusée décollera à dix heures pile. Les ingénieurs retiendront leur souffle devant les écrans. Dix minutes plus tard, tout le monde applaudira.
+Nous planterons le camp près du lac. Papa montera la tente pendant que nous ramasserons du bois. Le soir, nous mangerons des saucisses grillées autour du feu.
+La princesse montera sur le trône à seize ans. Elle réformera les lois et libérera les prisonniers injustes. Son peuple l'aimera et chantera son nom dans les rues.
+Dès l'aube, les cuisiniers du palais commenceront les préparatifs. Ils pétriront des tonnes de pâte et plumeront des centaines d'oies. Le festin durera trois jours et trois nuits.
+Mon cousin partira dans la forêt avec une carte. Il suivra les signes gravés dans les arbres et trouvera une cabane. Dedans, un coffre l'attendra depuis des années.
+Le soleil se lèvera sur la montagne. Les alpinistes ajusteront leurs cordes et avanceront d'un pas régulier. Au sommet, ils planteront un petit drapeau et prendront une photo.
+Le chef des pirates ouvrira la carte au crépuscule. Il montrera la croix rouge à son équipage et lèvera son verre. Les marins crieront de joie et lèveront l'ancre.
+Les jeunes du village monteront sur la colline au premier jour de mai. Ils danseront autour d'un arbre immense et chanteront le retour du printemps. Les anciens leur offriront des gâteaux au miel.
+La course commencera à l'aube. Les cavaliers franchiront les haies, traverseront la rivière et galoperont sur la plage. Le vainqueur recevra une coupe et une couronne de fleurs.
+Le magicien fera disparaître le château. Les spectateurs retiendront leur souffle et chercheront des yeux le moindre indice. Le château reviendra dans un nuage de fumée et de confettis.
+Demain, l'orchestre répétera la nouvelle symphonie. Le chef corrigera les violons et demandera plus de douceur aux flûtes. À la fin, tout le monde applaudira l'œuvre achevée.
+Je construirai une maison dans un arbre. Elle aura une échelle de corde, un toit de planches et une fenêtre ronde. J'y inviterai mes amis les soirs d'été.
+Les jumeaux partiront à la recherche du trésor de leur grand-père. Ils suivront les indices cachés dans un vieux livre. Au bout du chemin, ils trouveront une lettre et un coffre vide.
+Notre équipe de relais s'entraînera chaque soir. Nous apprendrons à nous passer le témoin sans le laisser tomber. Le jour de la course, nous partirons confiants et soudés.
+Dès que la brume se lèvera, le navire quittera la baie. Les marins hisseront les voiles et salueront les falaises. Les mouettes les accompagneront sur plusieurs milles.
+Le professeur nous apprendra à faire du feu sans allumettes. Nous frotterons deux bâtons de bois sec et soufflerons sur les braises. La première flamme nous arrachera un cri de joie.
+Les astronomes pointeront le télescope vers la nébuleuse. Ils photographieront chaque étoile et compareront avec leurs cartes. Ils découvriront peut-être un astre inconnu.
+Un jour, une princesse deviendra chevalier. Elle prendra une épée, un cheval et un nom d'emprunt. Le royaume apprendra son secret et l'acclamera.
+Le chaudron bouillira toute la nuit. La sorcière ajoutera des ingrédients dans un ordre secret. À l'aube, la potion sera prête et toute la forêt sentira la menthe.
+Dans quelques instants, les rideaux s'ouvriront. Les acteurs entreront en scène et la salle retiendra son souffle. La pièce commencera par un coup de tonnerre.
+Samedi, la flottille appareillera pour la régate. Les bateaux se rangeront sur la ligne de départ et attendront le coup de canon. Les voiles gonflées de vent feront un magnifique tableau.

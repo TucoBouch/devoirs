@@ -1,0 +1,30 @@
+// Dictées au passé composé : événements passés, avec accords du participe passé.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== pc
+
+// 1 phrase
+Hier soir, nous avons regardé les étoiles depuis le toit de la grange.
+Ce matin, Zoé a oublié son cartable dans le bus.
+Les enfants sont rentrés tard, trempés par la pluie.
+Samedi dernier, mon cousin a gagné la course de vélos du village.
+Pendant la nuit, la tempête a arraché plusieurs tuiles du vieux toit.
+Elles sont parties à l'aube avec une carte et une lampe.
+
+// 2 phrases
+Tom a cassé la fenêtre avec son ballon. Il a aussitôt couru avertir la voisine.
+Hier, nous avons visité un château en ruine. Les guides nous ont raconté l'histoire d'un chevalier disparu.
+Léa est tombée de son vélo dans la descente. Heureusement, elle n'a pas eu de blessure grave.
+Ce week-end, mes parents ont repeint ma chambre en bleu. J'ai choisi les couleurs moi-même.
+Les pompiers sont arrivés en quelques minutes. Ils ont éteint l'incendie, et la grange est restée intacte.
+Samir a trouvé une clé rouillée sous une pierre. Il l'a rapportée à la maison pour la montrer à son grand-père.
+Nous avons pris le bateau pour aller sur l'île. Les vagues ont éclaboussé les passagers pendant toute la traversée.
+La maîtresse a distribué les cahiers. Les élèves ont aussitôt commencé leur dictée.
+
+// 3 phrases
+Hier, la classe est partie en sortie. Nous avons marché dans la forêt pendant deux heures. Nous avons même aperçu un chevreuil près du ruisseau.
+Ce matin, Inès a ouvert la fenêtre de sa chambre. Un oiseau est entré et s'est posé sur le bureau. Elle l'a regardé longtemps sans bouger.
+Samedi soir, les voisins ont organisé une fête dans la rue. On a installé des tables et des guirlandes. Tout le monde a mangé, chanté et dansé jusqu'à minuit.
+Les explorateurs ont installé leur camp au pied de la montagne. Pendant la nuit, un vent glacial a déchiré les tentes. Au matin, ils ont tout rangé et ils sont repartis.
+Léa a trouvé un vieux carnet dans le grenier. Elle l'a feuilleté avec curiosité. Elle a découvert des dessins de bateaux et de trésors sur chaque page.
+Hier, Tom et Maya ont construit une cabane dans le jardin. Ils ont cloué des planches et tendu une bâche au-dessus du toit. Le soir, ils y sont restés pour regarder la pluie.

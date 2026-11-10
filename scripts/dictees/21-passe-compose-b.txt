@@ -1,0 +1,105 @@
+// Dictées au passé composé, lot b : aventures, découvertes, animaux, sport, expériences.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== pc
+
+// 1 phrase
+Tom a escaladé la clôture et atterri dans un massif de rosiers.
+L'équipe de Lina a remporté le tournoi après une finale haletante.
+Un cerf a traversé la clairière sans nous voir, puis il a bondi derrière les bouleaux.
+J'ai glissé la lettre dans une bouteille et je l'ai lancée dans les vagues.
+Les alpinistes ont atteint le refuge juste avant la tombée de la nuit.
+Cet après-midi, nous avons croisé trois chevreuils au bord de la route.
+Mon oncle a gagné une montgolfière à la tombola de la kermesse.
+La chimiste a versé quelques gouttes dans l'éprouvette et le liquide est devenu bleu.
+Sofia et moi, nous avons passé la nuit à lire sous la couverture avec une lampe de poche.
+Les archéologues ont déterré une pièce d'or couverte de terre et de rouille.
+Un vol d'oies sauvages a survolé la maison en poussant des cris.
+J'ai cueilli des framboises au fond du jardin et je les ai mangées sans me laver les mains.
+Le détective a retrouvé le collier caché dans la doublure d'un manteau.
+Ma cousine a fabriqué un cerf-volant avec une vieille nappe et deux baguettes de bois.
+Les explorateurs ont planté leur drapeau sur la plus haute dune du désert.
+Hier soir, la comète est passée au-dessus de notre toit et nous avons couru dehors.
+Mon voisin a repeint sa barrière en vert et en jaune pour la fête du village.
+Les deux amis se sont retrouvés devant la gare et ont acheté deux billets pour la côte.
+Une souris s'est glissée dans le placard et a grignoté la moitié du fromage.
+Samedi, nous avons assisté à un spectacle de marionnettes dans le jardin public.
+Elle a dessiné une carte au trésor et l'a cachée sous une latte du plancher.
+Les marins ont jeté l'ancre dans une baie déserte entourée de falaises blanches.
+J'ai entendu un bruit étrange dans le grenier et j'ai appelé mon père.
+Le facteur est tombé de son vélo et a répandu tout son courrier dans la rue.
+Le skieur a dévalé la pente à toute vitesse et a freiné juste avant la barrière.
+Les lutins ont volé les clés du magicien et les ont cachées dans un nid.
+Nous avons suivi un sentier de pierres blanches jusqu'à une source cachée.
+La petite chienne a gratté la terre pendant une heure et déterré un os énorme.
+
+// 2 phrases
+J'ai trouvé un vieux coffre dans la cave. J'y ai découvert des lettres jaunies et une clé en laiton.
+Hier soir, un hérisson est apparu dans le jardin. Nous lui avons offert une soucoupe de lait et il s'est enfui.
+Les mécaniciens ont réparé le moteur de la voiture. Elle a démarré du premier coup et ronronné comme un chat.
+Mon grand-père a pris son appareil photo et gravi la colline. Il a attendu deux heures avant de saisir le moment parfait.
+Un ballon rouge s'est échappé des mains d'une petite fille. Il a monté dans le ciel jusqu'à devenir un point minuscule.
+Le dompteur a salué le public sous les projecteurs. Le lion a bâillé et tout le monde a éclaté de rire.
+Léa a trouvé un trèfle à quatre feuilles au bord du chemin. Elle l'a glissé dans son livre et ne l'a plus quitté.
+Les scouts ont monté leurs tentes près de la rivière. Ils ont allumé un feu et chanté jusqu'à la nuit.
+Le vent a renversé les poubelles du quartier. Un chien errant a profité de l'occasion et fouillé chaque sac.
+Nous avons descendu la rivière en canoë. Nous avons croisé des hérons et des canards sans faire de bruit.
+Un orage violent a éclaté pendant le match. Les joueurs ont couru vers les vestiaires, trempés jusqu'aux os.
+Mon frère a construit un robot en pièces détachées. Il lui a donné un nom et l'a promené dans le couloir.
+Les deux détectives ont étudié la photo à la loupe. Ils ont reconnu le tableau volé dans le coin de l'image.
+J'ai planté un pépin de pomme dans un pot. Une petite tige est sortie au bout de trois semaines.
+La fusée a quitté la Terre à l'aube. Les astronautes ont salué la foule par le hublot et disparu dans les nuages.
+Un inconnu a frappé à la porte de notre cabane. Il s'est perdu et nous a demandé un verre d'eau.
+Nous avons traversé la rivière sur des pierres glissantes. Maya a perdu l'équilibre et elle est tombée dans l'eau froide.
+L'artiste a peint un énorme dragon sur le mur de l'école. Les passants se sont arrêtés pour le photographier.
+Hier, j'ai fêté mes douze ans avec mes cousins. Nous avons soufflé les bougies et mangé trois parts de gâteau.
+La tortue a traversé la route à pas lents. Les automobilistes ont attendu avec patience et l'ont applaudie.
+Le magicien a sorti un foulard de sa manche. Puis il a fait disparaître un ballon sous les yeux émerveillés du public.
+Samir a perdu son sac au marché. Un vendeur l'a ramassé, l'a gardé toute la journée et l'a rendu le soir.
+Les loups ont hurlé toute la nuit sur la colline. Au réveil, nous avons retrouvé leurs traces dans la neige fraîche.
+J'ai ouvert le placard et j'ai découvert un nid de souris. Elles ont filé sous la plinthe sans demander leur reste.
+La pluie a cessé vers midi. Nous sommes sortis sauter dans les flaques et ramasser des escargots.
+Elles ont préparé un spectacle de théâtre dans le salon. Les parents ont applaudi et réclamé une seconde représentation.
+Un pêcheur a attrapé un énorme poisson. Il l'a pesé, l'a photographié et l'a remis à l'eau.
+Hier, mon père a rapporté un chiot de la ferme voisine. Il a tremblé de peur, puis il s'est endormi sur mes genoux.
+Le chevalier a levé son épée et salué la foule. Le tournoi a commencé dans un tonnerre d'applaudissements.
+La brume est descendue sur la montagne en quelques minutes. Les randonneurs ont allumé leurs lampes et suivi les traces.
+Les peintres ont terminé la façade de la mairie. Ils ont lavé leurs pinceaux et rangé les échelles avant la nuit.
+Nous avons observé la lune avec un télescope. Elle nous a paru si proche que nous avons voulu la toucher.
+Ma grand-mère a cousu un déguisement de fée pour ma sœur. Elle y a ajouté des ailes en tulle et des étoiles dorées.
+Un hélicoptère a atterri sur le terrain de football. Les curieux sont accourus de toutes parts pour le voir de près.
+Le jardinier a coupé la haie sans voir le nid. Il l'a découvert trop tard et l'a protégé avec des branches.
+Zoé a escaladé le mur de l'école pour récupérer son ballon. Le gardien l'a surprise et elle s'est excusée en rougissant.
+Nous avons passé la nuit dans une cabane au fond d'une vallée. Le poêle a ronflé jusqu'au lever du jour et la neige a recouvert tout le camp.
+L'écrivain a signé ses livres à la librairie. Une longue file de lecteurs a patienté sous la pluie.
+
+// 3 phrases
+Hier soir, un ballon a atterri dans notre jardin. Mon frère l'a ramassé et y a trouvé un message écrit au crayon. Nous avons répondu le jour même et attendu une réponse pendant des semaines.
+L'équipe de recherche a installé son camp au pied du glacier. Les scientifiques ont mesuré la glace, noté les températures et placé des balises. Au bout d'une semaine, ils ont rapporté de précieux échantillons.
+Un soir d'été, nous avons gravi la colline avec nos sacs de couchage. Nous avons allumé un petit feu et raconté des histoires de fantômes. À minuit, un hibou a poussé un cri et nous avons tous sursauté.
+Le chien de la ferme a disparu pendant l'orage. Nous l'avons appelé dans le noir, avec des lampes et des sifflets. Il est revenu à l'aube, couvert de boue et très fier de lui.
+Samedi, nous avons visité l'atelier d'un luthier. Il nous a montré les violons, les guitares et les flûtes en cours de fabrication. Il a même joué un air triste sur un instrument encore sans vernis.
+Ma sœur a décidé de faire un gâteau pour l'anniversaire de papa. Elle a mélangé les œufs, le sucre et la farine avec beaucoup de sérieux. Le gâteau est sorti du four noir comme du charbon, et nous l'avons mangé quand même.
+Les gendarmes ont arrêté une voiture suspecte à la sortie du village. Ils ont fouillé le coffre et découvert des tableaux volés. Le voleur a supplié, mais il a quand même passé la nuit en cellule.
+Pendant les vacances, nous sommes partis à la montagne. Nous avons marché six heures par jour et dormi dans des refuges de pierre. Au retour, mes jambes ont tremblé pendant une semaine.
+Les chercheurs ont plongé au fond de l'océan avec un robot. Une caméra a filmé des poissons transparents et des crevettes lumineuses. Les images ont émerveillé le monde entier.
+La nuit dernière, j'ai fait un rêve étrange. J'ai volé au-dessus de la ville avec une cape faite de draps. Au réveil, j'ai regardé mon lit, un peu déçu de ne plus être dans les airs.
+Ma grand-mère a ouvert un vieux coffre au grenier. Elle en a sorti des robes de dentelle, des lettres et une poupée de porcelaine. Nous avons passé l'après-midi à écouter une histoire pour chaque objet.
+Samedi dernier, notre équipe a joué la finale du tournoi. Nous avons mené deux à zéro, puis l'adversaire est revenu à égalité. Un tir de dernière minute nous a offert la victoire.
+L'infirmière a soigné le genou de Léa. Elle a nettoyé la plaie, posé un pansement et donné un bonbon à la fraise. Léa a séché ses larmes et remercié l'infirmière avec un grand sourire.
+Le détective a suivi un homme jusqu'à la gare. Il l'a vu monter dans le train de nuit sans bagage. Il a hésité une seconde, puis il a sauté dans le dernier wagon.
+Hier, un vieux monsieur a réparé le toit de l'école. Il a grimpé sur l'échelle avec des tuiles dans les bras. Il a sifflé tout le temps du travail, et les élèves l'ont acclamé.
+Le scientifique a pesé la roche et mesuré sa dureté. Il a noté chaque résultat et comparé ses données avec celles des autres équipes. Il a conclu que la pierre est venue de très loin dans l'espace.
+Nous avons visité une grotte au bord de la mer. L'eau a envahi le passage à marée haute et nous a obligés à courir. Nous sommes sortis trempés, essoufflés et fous de joie.
+Mon voisin a ouvert un petit café au coin de la rue. Il a peint les murs en jaune et accroché des photos de vieux avions. Dès le premier jour, les clients ont fait la queue jusque sur le trottoir.
+La chanteuse est montée sur la scène sous les projecteurs. Elle a salué le public, respiré profondément et commencé sa chanson. Les spectateurs ont chanté avec elle jusqu'à la dernière note.
+Un touriste a perdu son appareil photo dans la rivière. Un plongeur est descendu le chercher avec un masque. Il l'a remonté intact, et le touriste l'a embrassé.
+J'ai monté un petit théâtre d'ombres avec ma cousine. Nous avons découpé des silhouettes dans du carton noir et tendu un drap blanc. Les parents ont ri aux éclats pendant tout le spectacle.
+Dans la nuit, un renard a visité le poulailler. Il a creusé sous le grillage et attrapé une poule. Au réveil, le fermier a bouché le trou avec des briques.
+Tom a emprunté la guitare de son frère sans permission. Il a cassé une corde en jouant un air très rapide. Il a tout avoué et promis de rembourser avec son argent de poche.
+Les ouvriers ont posé les rails jusqu'au pied de la montagne. Ils ont percé le tunnel avec de lourdes machines. Le premier train a traversé le tunnel un jour de printemps.
+Mon petit frère a lancé son avion en papier par la fenêtre. Il a plané longtemps avant de se poser sur le toit du voisin. Nous avons attendu la nuit pour le récupérer avec un râteau.
+Une famille de hérissons a traversé la route à pas pressés. Les automobilistes ont ralenti, puis arrêté leurs voitures. Les petits ont rejoint leur mère de l'autre côté dans un silence admiratif.
+Le professeur a organisé une expérience avec des ballons. Il les a gonflés, puis il a approché une flamme de loin. Un grand bruit a retenti, et toute la classe a poussé un cri.
+Samir a participé à une course d'orientation en forêt. Il a trouvé sept balises sur dix et perdu son chemin deux fois. Il est arrivé le dernier, sale, essoufflé et content.
+Un navire ancien est arrivé dans le port au crépuscule. Les habitants se sont pressés sur la jetée pour le voir. Le capitaine a descendu la passerelle, a salué la foule et déposé une caisse de fruits exotiques.

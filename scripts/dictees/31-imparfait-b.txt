@@ -1,0 +1,105 @@
+// Dictées à l'imparfait, lot b : l'école d'autrefois, les jeux, le sport, les vacances, la famille.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== imp
+
+// 1 phrase
+Les joueurs s'échauffaient sur le terrain pendant que la foule remplissait les tribunes.
+Au bord du chemin, des coquelicots s'ouvraient comme de petites flammes rouges.
+Je m'endormais toujours avec un livre ouvert sur la poitrine.
+Mon père sifflait en réparant le vélo et ne voyait pas passer les heures.
+Dans la cour, les filles sautaient à la corde en chantant des comptines.
+Le train traversait la plaine à toute vitesse et faisait trembler les vitres.
+Chaque vendredi, nous regardions un film en famille, serrés sur le canapé.
+La maîtresse corrigeait nos dictées avec un stylo rouge qui sentait la fraise.
+Les vagues léchaient le sable et ramenaient des coquillages blancs.
+Ma mère chantait en cuisinant et dansait avec la cuillère en bois.
+Nous passions les vacances dans une cabane perchée au-dessus de la rivière.
+Le gardien de but plongeait à droite, puis à gauche, puis au centre.
+Le soir, les grillons chantaient si fort que nous n'entendions plus la radio.
+Au coin de la rue, un vieil accordéoniste jouait toujours la même valse.
+Mes cousines inventaient des spectacles et faisaient payer les spectateurs en bonbons.
+Nous remplissions des seaux d'eau et arrosions les framboisiers à tour de rôle.
+Le chat ronronnait sur mes genoux pendant que je lisais le dernier chapitre.
+Ma sœur m'apprenait à nager en me tenant par le bras et en riant.
+Dans le bus, les collégiens bavardaient, riaient et se passaient des écouteurs.
+Le boulanger faisait cuire des gâteaux en forme d'animaux pour les anniversaires.
+Pendant les orages, la lumière clignotait et les chiens se cachaient sous les lits.
+Nous montions au grenier avec une lampe de poche et ouvrions tous les coffres.
+Le mercredi, notre voisine nous apprenait à tricoter des écharpes interminables.
+L'équipe s'entraînait trois fois par semaine sous les ordres d'un entraîneur sévère.
+Le soleil couchant dorait les toits et teintait la rivière d'un rouge discret.
+Mon frère aîné répétait ses morceaux de guitare jusqu'à ce que les voisins applaudissent.
+Les bateaux se balançaient dans le port et leurs mâts tintaient comme des clochettes.
+À la maison, personne ne parlait fort quand grand-père faisait la sieste.
+
+// 2 phrases
+Mon école avait une cour minuscule. Nous jouions à saute-mouton dans les moindres recoins.
+Le jardinier de l'école taillait les haies chaque lundi. Il sifflait toujours le même air de fanfare.
+Le tramway traversait la ville en grinçant. Les passagers lisaient le journal ou regardaient les vitrines.
+Papa regardait le match à la télévision. Il sursautait à chaque but et faisait trembler la table basse.
+À la bibliothèque, un vieux monsieur lisait le journal. Il tournait les pages avec lenteur et ne parlait à personne.
+Nous emportions des sandwichs et des fruits dans un panier. Le pique-nique durait toujours plus longtemps que prévu.
+Mon cousin collectionnait les insectes. Il les rangeait dans des boîtes à chaussures avec une étiquette soignée.
+En ce temps-là, les gamins lisaient des bandes dessinées sous les draps. Ils cachaient leur lampe quand leurs parents passaient dans le couloir.
+Le clown du cirque faisait tomber son chapeau à chaque entrée. Le public riait toujours aux mêmes gags.
+Les musiciens de la fanfare défilaient en uniforme rouge. Leurs cuivres brillaient et le tambour battait le pas.
+À la cantine, le menu changeait chaque jour. Le jeudi, nous attendions les frites avec impatience.
+Le vieux piano du salon était toujours désaccordé. Pourtant, ma grand-mère y jouait de beaux airs avec tendresse.
+Chaque soir, nous comptions les étoiles par la fenêtre. Nous leur donnions des noms et inventions des constellations.
+Une fontaine coulait au milieu de la place. Les pigeons s'y baignaient et les passants y buvaient dans leurs mains.
+Notre professeur de gym portait un sifflet autour du cou. Il l'utilisait même pour appeler son chien.
+Les vacances à la montagne duraient quinze jours. Nous marchions le matin et jouions aux cartes l'après-midi.
+Dans le jardin, des lucioles dansaient au crépuscule. Ma sœur les suivait en essayant de les attraper dans ses mains.
+Papa conduisait une vieille voiture bleue. Elle toussait dans les côtes mais arrivait toujours à destination.
+Quand il faisait beau, nous mangions dehors. Les guêpes tournaient autour des confitures et nous les chassions du chapeau.
+À la mer, nous construisions des châteaux avec des douves. La marée montait et nous défendions les remparts à coups de seau.
+Le lundi, la classe visitait le potager de l'école. Chacun arrosait sa rangée et notait les progrès dans un cahier.
+Dans le quartier, tout le monde se connaissait. Les portes restaient ouvertes et les voisins se rendaient visite sans prévenir.
+Ma grand-mère vendait des fleurs sur le marché. Elle composait des bouquets avec un goût parfait.
+Nous rentrions de l'école en passant par le parc. Nous poussions les cailloux du pied et comptions les canards.
+À Noël, toute la famille se réunissait dans le salon. Les cadeaux s'empilaient sous le sapin et le feu craquait dans la cheminée.
+Mon frère nageait comme un poisson. Il plongeait en apnée et remontait avec des galets plein les poches.
+Au collège, le CDI sentait le papier et la colle. Les élèves s'y réfugiaient les jours de pluie.
+Le gardien du phare avait un chat blanc. Il l'appelait Capitaine et lui parlait comme à un matelot.
+Les écoliers aimaient l'odeur de la craie. Ils tapaient les chiffons dans la cour pour faire de la poussière.
+Notre voisin possédait une grange pleine de vieilles machines. Il les réparait un jour sur deux et les revendait au marché.
+La rivière coulait lentement sous le vieux pont de pierre. Des pêcheurs y patientaient pendant des heures sans prendre un seul poisson.
+Quand je jouais du piano, ma sœur dansait. Nous inventions des chorégraphies à chaque morceau.
+Maman faisait des gâteaux de toutes les couleurs. Elle utilisait du colorant et des fruits pour obtenir des nuances surprenantes.
+Le dimanche, les cloches sonnaient dix fois. Les gens sortaient de la messe en échangeant les nouvelles.
+Un vieux chien dormait devant la porte du café. Les clients l'enjambaient avec respect.
+La vieille dame du troisième arrosait ses géraniums à l'aube. L'eau gouttait sur les passants sans qu'elle s'en aperçoive.
+Nous attendions le car en jouant au pendu sur le trottoir. Le chauffeur klaxonnait gaiement en arrivant.
+En juillet, le soleil brillait dès six heures. Nous dormions fenêtres ouvertes et réveillions les voisins en chantant.
+
+// 3 phrases
+Le jour de mon anniversaire, ma mère préparait toujours un gâteau géant. Elle le décorait de fruits, de crème et de bougies colorées. Toute la famille chantait en tapant des mains.
+À l'école, une cloche annonçait la récréation. Les élèves se précipitaient dans la cour en bousculant les chaises. Les surveillants criaient de ralentir, sans jamais être entendus.
+Chaque hiver, mon oncle installait une patinoire dans son jardin. Il arrosait le sol pendant la nuit et attendait le gel. Le week-end, tout le quartier venait glisser en riant.
+Le facteur de la montagne passait en skis. Il portait les lettres dans un sac de cuir et s'arrêtait dans chaque ferme. Les paysans lui offraient du café et des tartines.
+Dans ma ville natale, un tramway traversait la place centrale. Il sonnait pour faire reculer les piétons distraits. Les gamins couraient derrière lui pour accrocher des papiers sur son arrière.
+Mon cousin faisait du judo depuis trois ans. Il portait un kimono blanc et une ceinture orange. Il prenait son sport au sérieux et saluait même le tapis.
+Papa travaillait dans une imprimerie. Il rentrait le soir avec les doigts noircis d'encre. Maman riait et lui lavait les mains avec du savon noir.
+La plage était déserte en hiver. Le vent soufflait sur le sable et faisait chanter les cordages des bateaux. Quelques promeneurs s'aventuraient jusqu'au bout de la jetée.
+Le cinéma du coin passait des films pour enfants le mercredi. Les places coûtaient presque rien et les sièges grinçaient. La salle résonnait de cris et de rires pendant toute la séance.
+Autrefois, ma famille vivait dans une ferme isolée. Nous n'avions ni télévision ni téléphone. Le soir, nous jouions aux cartes à la lumière d'une lampe à pétrole.
+Ma sœur jouait dans l'orchestre de l'école. Elle soufflait dans un hautbois plus grand qu'elle. Quand elle ratait une note, elle riait et recommençait.
+À Noël, une étoile immense brillait sur le clocher. Les habitants l'allumaient en chantant et en agitant des lampions. Les gamins rêvaient de neige et de cadeaux.
+Dans notre quartier, un homme vendait des marrons grillés. Il installait son brasero au coin de la rue et criait le prix. L'odeur chaude réchauffait les mains et le cœur.
+Maman faisait de la poterie dans le garage. Elle montait des pots, des tasses et des assiettes bancales. Nous les utilisions avec fierté, même si le thé coulait un peu.
+Chaque été, un orage éclatait vers la mi-août. Les chiens aboyaient, les volets claquaient et l'électricité sautait. Nous nous réunissions dans la cuisine et mangions des biscuits à la lueur des bougies.
+Mon oncle était marin et revenait une fois par an. Il rapportait des coquillages, des cartes et des histoires incroyables. Nous l'écoutions en silence jusqu'à minuit.
+Le directeur de l'école avait une moustache énorme. Elle remuait quand il parlait et fascinait tous les élèves. Il le savait et en jouait.
+Mamie vivait dans une maison pleine de recoins. Nous nous y cachions pendant des heures sans être trouvés. Elle faisait semblant de ne pas nous voir et nous préparait des tartines.
+Dans les années cinquante, les gamins jouaient dans la rue. Les voitures étaient rares et les voisins surveillaient tout le monde. Au premier coup de cloche, chacun rentrait dîner.
+La ferme de mon oncle abritait des chevaux de trait. Leurs sabots faisaient trembler la cour à chaque pas. Ils obéissaient au moindre mot et portaient les petits sur leur dos.
+Chaque année, un cirque s'installait derrière la gare. Les caravanes formaient un cercle et les artistes répétaient en plein air. Nous nous glissions entre les roulottes pour les voir de près.
+Notre professeur de sciences adorait les expériences. Il fabriquait des volcans avec du vinaigre et des fusées avec des allumettes. Nous sortions de son cours les yeux brillants.
+Pendant l'été, le lac se transformait en terrain de jeux. Les nageurs plongeaient du ponton et les canoës glissaient entre les nénuphars. Le soir, une odeur de barbecue flottait sur la berge.
+Mon père possédait un vieux phonographe. Il le remontait avec une manivelle et posait délicatement le disque. La musique grésillait un peu, mais elle nous faisait danser.
+Dans notre rue, une vieille dame nourrissait tous les chats errants. Elle leur parlait, leur donnait des noms et les soignait. Les voisins la trouvaient étrange, mais ils l'aimaient bien.
+Au collège, le prof de maths dessinait des figures magnifiques au tableau. Ses cercles étaient parfaits et ses droites impeccables. Nous le regardions faire sans toucher à nos stylos.
+Papa lisait le journal en buvant son café. Il le commentait à voix haute et ne laissait personne finir sa phrase. Maman souriait et lui resservait une tasse.
+Les soirs de match, la rue entière retenait son souffle. Les télévisions grésillaient derrière les rideaux. Au premier but, les fenêtres s'ouvraient et la ville hurlait.
+Le dimanche après-midi, mon grand-père nous emmenait au bord du canal. Nous regardions les péniches passer et saluions les marins. Il disait toujours que c'était sa plus belle distraction.

@@ -37,6 +37,20 @@
         "127.0.0.1"
       ],
       "port": 4174
+    },
+    {
+      "name": "test-ipad",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8090",
+        "--bind",
+        "0.0.0.0",
+        "--directory",
+        "tools"
+      ],
+      "port": 8090
     }
   ]
 }

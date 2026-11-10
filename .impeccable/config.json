@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "menlo",
+        "createdAt": "2026-11-10T08:56:29.971Z",
+        "reason": "Claude: tools/test-ipad.html est un outil de diagnostic interne, pas l'interface de l'app ; une police à chasse fixe y est nécessaire pour lire les espaces et les codes de caractères du clavier. Décision de l'assistant, pas confirmée par l'utilisateur."
+      }
+    ]
+  }
+}

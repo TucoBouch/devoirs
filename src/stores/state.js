@@ -8,6 +8,7 @@ import {
 import {
   buildAccords, defaultAccords, troubleRules, SKILLS, NATURES, ACCORD_ANSWERS,
 } from '../lib/accords.js'
+import { defaultDictees, pickDictee, correctDictee, ACCENT_MODES, READ_MODES, SPEEDS, MAX_SEEN } from '../lib/dictee.js'
 import { capHistory } from '../lib/history.js'
 import { TENSES } from '../lib/conjugation.js'
 
@@ -54,6 +55,21 @@ const sanitizeAccords = (c) => {
   }
 }
 
+const sanitizeDictees = (c) => {
+  const base = defaultDictees()
+  const tenses = Array.isArray(c?.tenses) ? c.tenses.filter((t) => TENSES.some((x) => x.id === t)) : []
+  return {
+    tenses: tenses.length ? tenses : base.tenses,
+    maxSentences: [1, 2, 3].includes(c?.maxSentences) ? c.maxSentences : base.maxSentences,
+    accents: ACCENT_MODES.some((m) => m.id === c?.accents) ? c.accents : base.accents,
+    mode: READ_MODES.some((m) => m.id === c?.mode) ? c.mode : base.mode,
+    speed: SPEEDS.some((x) => x.value === c?.speed) ? c.speed : base.speed,
+    voice: typeof c?.voice === 'string' ? c.voice : '',
+    punct: !!c?.punct,
+    seen: Array.isArray(c?.seen) ? c.seen.filter((x) => typeof x === 'string').slice(-MAX_SEEN) : [],
+  }
+}
+
 const savedSettings = load('settings', {})
 export const state = reactive({
   settings: {
@@ -64,6 +80,7 @@ export const state = reactive({
   history: load('history', []),
   config: sanitizeConfig(load('config', null)),
   accords: sanitizeAccords(load('accords', null)),
+  dictees: sanitizeDictees(load('dictees', null)),
   route: load('route', { name: 'verbes' }),
   quiz: load('quiz', null),
 })
@@ -76,7 +93,7 @@ function validate(route) {
     const found = state.history.some((h) => h.id === r.id)
     return found ? { name: r.name, id: r.id } : { name: r.name === 'revue' ? 'historique' : 'verbes' }
   }
-  return ['verbes', 'accords', 'historique', 'reglages'].includes(r.name) ? { name: r.name } : { name: 'verbes' }
+  return ['verbes', 'accords', 'dictees', 'historique', 'reglages'].includes(r.name) ? { name: r.name } : { name: 'verbes' }
 }
 
 export const nav = createNav(state, validate)
@@ -88,11 +105,12 @@ const persistAll = () => {
   save('history', state.history)
   save('config', state.config)
   save('accords', state.accords)
+  save('dictees', state.dictees)
   save('route', state.route)
   if (state.quiz) save('quiz', state.quiz)
   else clear('quiz')
 }
-watch(() => [state.settings, state.history, state.config, state.accords, state.route, state.quiz], () => {
+watch(() => [state.settings, state.history, state.config, state.accords, state.dictees, state.route, state.quiz], () => {
   clearTimeout(timer)
   timer = setTimeout(persistAll, 120)
 }, { deep: true })
@@ -151,6 +169,44 @@ export function startAccords(overrides = {}) {
     startedAt: Date.now(),
   }
   nav.go({ name: 'quiz' })
+}
+
+// Dictée : un seul texte par quiz, que l'élève écoute puis écrit
+export function startDictee() {
+  const item = pickDictee(state.dictees)
+  if (!item) return
+  state.dictees.seen = [...state.dictees.seen.filter((id) => id !== item.id), item.id].slice(-MAX_SEEN)
+  const { seen, ...config } = JSON.parse(JSON.stringify(state.dictees))
+  state.quiz = {
+    ex: 'dictees',
+    item: { id: item.id, t: item.t, n: item.n, text: item.text },
+    config,
+    draft: '',
+    startedAt: Date.now(),
+  }
+  nav.go({ name: 'quiz' })
+}
+
+export function submitDictee(given) {
+  const q = state.quiz
+  if (!q || exerciseOf(q) !== 'dictees') return
+  const res = correctDictee(q.item.text, given, { strict: q.config.accents !== 'tolerant' })
+  const entry = {
+    id: Date.now(),
+    ex: 'dictees',
+    date: new Date().toISOString(),
+    config: q.config,
+    total: res.total,
+    score: res.right,
+    accents: res.accents,
+    marks: '',
+    mistakes: [],
+    dictee: q.item, // le texte est gardé en entier : la banque peut être renouvelée sans casser l'historique
+    given,
+  }
+  state.history = capHistory([entry, ...state.history])
+  state.quiz = null
+  nav.go({ name: 'resultat', id: entry.id }, { replace: true })
 }
 
 export const currentItem = () => (state.quiz ? state.quiz.items[state.quiz.index] : null)
@@ -221,7 +277,7 @@ export function clearHistory() {
 }
 
 export function resetEverything() {
-  ;['settings', 'history', 'config', 'accords', 'route', 'quiz'].forEach(clear)
+  ;['settings', 'history', 'config', 'accords', 'dictees', 'route', 'quiz'].forEach(clear)
   location.hash = ''
   location.reload()
 }

@@ -16,7 +16,7 @@ Primary: a French CM2 pupil (about 10 to 11 years old) revising school lessons a
 
 ## Product Purpose
 
-"Devoirs" is a revision companion for primary-school lessons. Two exercises so far: conjugation (a configurable quiz on French verbs) and vocabulary spelling (the feminine and the plural of nouns and adjectives). The list of exercises sits in a side menu so other subjects can be added later. Success is a child who can start a useful revision session alone, understands each correction on the spot, and sees his score and weak verbs improve.
+"Devoirs" is a revision companion for primary-school lessons. Three exercises so far: conjugation (a configurable quiz on French verbs), vocabulary spelling (the feminine and the plural of nouns and adjectives) and dictation (listen, then write). The list of exercises sits in a side menu so other subjects can be added later. Success is a child who can start a useful revision session alone, understands each correction on the spot, and sees his score and weak verbs improve.
 
 ## Positioning
 
@@ -33,7 +33,7 @@ A quiz that remembers what the child got wrong: verbs missed in the last three q
 
 - App name: "Devoirs"; the page title mentions it. UI language is French.
 - Light and dark themes. Settings screen. Accent colour chosen from 8 predefined swatches.
-- Left side menu listing exercises: "Révision des verbes" (conjugation quiz) and "Féminin et pluriel" (vocabulary quiz).
+- Left side menu listing exercises: "Révision des verbes" (conjugation quiz), "Féminin et pluriel" (vocabulary quiz) and "Dictée".
 - Quiz parameters, several can be active at once:
   - Tenses: présent, passé composé, imparfait, futur, passé simple.
   - Answer types: multiple choice of the full verb form; pick the ending among choices; type the ending; type the full verb form.
@@ -55,13 +55,21 @@ A quiz that remembers what the child got wrong: verbs missed in the last three q
 - "Retravailler mes erreurs" adds words that follow the rules missed in the last 3 quizzes of this exercise. The history shows the rules to rework, next to the verbs to rework.
 - History: the last 10 quizzes of each exercise, each labelled with its exercise.
 
+### Exercise: Dictée
+
+- The app picks a dictation (1 to 3 sentences) and reads it aloud with the device's French voice; the pupil types it in a ruled text area. The text is never shown before the correction.
+- Parameters: tenses (several can be active), maximum length (1, 2 or 3 sentences), accents required or tolerated, reading mode (whole text, then group by group, then whole text again, like in class; or whole text only), voice speed (normal, slow, very slow), voice choice, spoken punctuation on or off. A dictation is not repeated before all the matching ones have been done.
+- Reading by groups waits for the pupil: "Groupe suivant" starts the next group, "Répéter" repeats the last one, "Tout relire" reads the whole text. The pupil types with the iPad's own keyboard (autocorrect, suggestions and capitals are switched off on the text area): the text to write is not on screen, so the keyboard hides nothing. The screen is built to fit in the 270 px that stay visible above the landscape keyboard.
+- Correction compares word by word. Capitals, punctuation and a forgotten hyphen are never faults; accents count unless tolerated (then a missing accent is counted right and noted). The corrected text is shown in red pen on a ruled sheet with the pupil's wrong words struck out, and the text can be read aloud again. Score: right words out of expected words.
+- A bank of 2000 hand-written dictations (400 per tense, original, in the spirit of children's fiction): about 30 % of one sentence, 40 % of two and 30 % of three, from 8 to 42 words and 20 on average. Each stays in its tense, and its spelling is checked against the Hunspell French dictionary when the bank is built. Photo of a handwritten dictation with OCR is planned as an assisted mode (Scan Text on the iPad, then correct the recognised text, with a way to dismiss a fault caused by a misread word).
+
 ## Brand Commitments
 
 Name "Devoirs". Voice: sober and encouraging, short positive messages, no points, no gamified tricks, no mascot.
 
 ## Evidence on Hand
 
-No existing assets, copy or data. The 1600-question verb bank, the verb conjugations and the 700-sentence feminine and plural bank are authored for this project and must be checked for French grammar.
+No existing assets, copy or data. The 1600-question verb bank, the verb conjugations, the 700-sentence feminine and plural bank and the dictations are authored for this project and must be checked for French grammar. Spelling is checked against the Hunspell French dictionary when the banks are built.
 
 ## Product Principles
 

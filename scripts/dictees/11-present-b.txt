@@ -1,0 +1,105 @@
+// Dictées au présent, lot b : la maison, l'école, les jeux, le sport, la cuisine, les animaux.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== pres
+
+// 1 phrase
+Mon petit frère construit une tour de cubes qui touche presque le plafond.
+Les footballeurs entrent sur le terrain sous les applaudissements de la foule.
+Chaque soir, ma mère lit une histoire à ma petite sœur avant de l'embrasser.
+La maîtresse corrige nos cahiers avec un stylo vert pour ne pas nous décourager.
+Les garçons du quartier jouent aux billes derrière le garage de monsieur Martin.
+Dans la cuisine, la soupe bout doucement et parfume toute la maison.
+Une coccinelle grimpe le long d'une tige et s'envole vers les fleurs jaunes.
+Les gymnastes saluent le jury avant de commencer leur enchaînement difficile.
+Le chien de mon voisin rapporte la balle et attend qu'on la lance encore.
+Au printemps, les cerisiers du verger se couvrent de fleurs blanches et roses.
+Mon grand frère prépare ses affaires de sport la veille de chaque entraînement.
+Les escargots sortent après la pluie et laissent des traces brillantes sur les dalles.
+Notre professeur de musique accorde son piano avant l'arrivée des élèves.
+Les pâtissiers décorent le gâteau d'anniversaire avec des fraises et de la crème.
+Sur le toit de l'immeuble, un jardinier amateur cultive des tomates et de la menthe.
+Les enfants s'amusent à sauter dans les flaques d'eau malgré les remontrances de leurs parents.
+Le lundi matin, la cour du collège résonne de rires et de cris joyeux.
+Ma tante dessine des plans de maisons et rêve de construire un jour un phare.
+Les oies sauvages traversent le ciel en formant un grand V.
+Dans la salle de bains, mon frère chante sous la douche à tue-tête.
+La nageuse plonge dans le bassin et ne fait presque aucune éclaboussure.
+Les élèves rangent leurs affaires dans leur casier avant de rejoindre la cantine.
+Un petit garçon tend la main vers la vitrine où brillent les trains électriques.
+Mes grands-parents habitent une maison de pierre au bout d'un chemin de terre.
+Les couturières cousent des costumes pour le grand spectacle de fin d'année.
+La pluie tambourine sur les vitres et fait danser les lumières de la rue.
+Le chef de gare siffle trois fois et le train s'ébranle lentement.
+Chaque année, notre classe plante un arbre dans la cour de l'école.
+
+// 2 phrases
+Mon frère range sa chambre le dimanche soir. Il plie ses vêtements et aligne ses livres par taille.
+Le goûter est prêt sur la table de la cuisine. Les enfants arrivent en courant et se lavent les mains.
+Au collège, les cours commencent à huit heures. Les élèves se mettent en rang dans la cour et attendent le signal.
+Le gardien ouvre la grille du parc chaque matin. Les premiers joggeurs entrent déjà en étirant leurs jambes.
+Notre chienne attend le facteur près du portail. Elle aboie de joie dès qu'elle reconnaît le bruit de sa moto.
+La cuisinière de la cantine prépare un gratin de pâtes. Les élèves font la queue en se bousculant un peu.
+Zoé apprend à faire du vélo sans les petites roues. Son père court derrière elle et lui tient la selle.
+Les feuilles rousses couvrent le chemin. On marche dessus en écoutant le craquement sous nos bottes.
+Un pigeon se pose sur le rebord de la fenêtre. Il penche la tête et regarde la mie de pain avec attention.
+Le professeur de sport siffle la fin de l'exercice. Les élèves reprennent leur souffle et boivent de grandes gorgées d'eau.
+Mes cousins arrivent le vendredi soir avec leurs sacs de couchage. Nous passons la nuit à raconter des histoires dans le salon.
+Dans le salon, la télévision reste éteinte. Papa lit son journal et maman tricote près de la lampe.
+La coiffeuse passe les ciseaux dans mes cheveux. Je ferme les yeux et j'écoute le bruit régulier des lames.
+La tortue avance à son rythme dans le jardin. Elle s'arrête devant une feuille de salade et la mange lentement.
+Les joueurs de tennis frappent la balle avec force. Le public suit chaque échange en tournant la tête de gauche à droite.
+Le facteur sonne à la porte de la maison bleue. Une vieille dame lui sourit et lui offre une tasse de thé.
+Les cloches de l'église sonnent midi. Les enfants quittent l'école et courent vers leurs maisons.
+Mon voisin répare sa moto dans la cour. L'odeur de l'huile et de l'essence flotte jusqu'à ma fenêtre.
+La maîtresse annonce une sortie au zoo pour jeudi. Toute la classe pousse des cris de joie.
+Un cerf-volant rouge danse au-dessus de la plage. Un garçon tient fermement la ficelle et regarde le ciel.
+Papa épluche les pommes de terre sur la table de la cuisine. Les épluchures forment une longue spirale qui tombe dans l'évier.
+Le magasin de jouets ouvre ses portes à neuf heures. Les enfants collent leur nez contre la vitrine et rêvent à voix haute.
+Lola passe son mercredi à la piscine. Elle nage vingt longueurs sans s'arrêter et ressort fière d'elle.
+Dans la forêt voisine, les écureuils cachent des noisettes. Ils les enterrent au pied des arbres et les cherchent plus tard.
+Le boucher découpe un énorme rôti. Une petite fille attend devant le comptoir et regarde ses mains habiles.
+Notre équipe de basket gagne presque tous ses matchs. L'entraîneur répète que le plus important reste de jouer ensemble.
+La couturière enfile le fil dans l'aiguille. Elle ajuste la robe sur le mannequin et fait un dernier point.
+Les marins hissent les voiles dans le vent du matin. Le bateau s'incline et prend lentement de la vitesse.
+La petite fille souffle sur le pissenlit. Mille graines blanches s'envolent et dessinent des étoiles dans l'air.
+Le soir, mon père rentre fatigué du travail. Il s'assoit dans son fauteuil et ferme un instant les yeux.
+Une grande horloge sonne dans le couloir de l'école. Les portes s'ouvrent et les élèves se précipitent dehors.
+Le jardinier plante des tulipes dans les bacs du parc. Au printemps, des couleurs vives réjouissent les passants.
+Mon père prépare des crêpes le dimanche matin. Le sucre fond sur la pile dorée et tout le monde se régale.
+Les enfants regardent un film dans la salle de cinéma. Dans l'obscurité, ils partagent un grand sac de maïs soufflé.
+Au zoo, le singe saute de branche en branche. Les visiteurs rient devant ses grimaces et lui lancent des cacahuètes.
+Hugo enfile ses bottes et son ciré jaune. Il sort sous la pluie et saute dans la première flaque.
+La vieille horloge du salon sonne sept coups. Grand-père pose son livre et annonce que le dîner est prêt.
+Le skieur dévale la piste en faisant des virages serrés. La neige poudreuse vole autour de lui comme une nuée blanche.
+
+// 3 phrases
+Le jour de la rentrée, la cour du collège bourdonne comme une ruche. Les nouveaux cherchent leur classe sur les listes affichées au mur. Les anciens se retrouvent et se racontent leurs vacances.
+Mon père cuisine le dimanche avec une joie communicative. Il écoute de la musique, goûte les sauces et invente des recettes. À table, tout le monde félicite le chef et redemande du dessert.
+Au fond du jardin, un vieux noyer étend ses branches. L'été, il offre une ombre épaisse où les enfants lisent et rêvent. À l'automne, il laisse tomber ses noix sur l'herbe humide.
+Le chien dort sur le tapis du salon. Chaque fois qu'on ouvre la porte, il dresse une oreille et vérifie qui entre. Puis il se rendort, rassuré, la truffe sur les pattes.
+L'entraîneur rassemble ses joueurs au centre du terrain. Il leur rappelle les consignes et leur demande de rester calmes. Le coup de sifflet retentit et le match commence.
+Dans la classe de madame Lambert, la lecture du matin est un rituel. Chaque élève choisit un livre et s'installe dans le coin des coussins. Pendant vingt minutes, personne ne prononce un mot.
+La pluie tombe sans interruption depuis trois jours. Les rues se transforment en rivières et les enfants rêvent de soleil. Mamie propose alors de faire des gâteaux et d'inventer des jeux de société.
+Notre village organise une fête chaque premier week-end de juillet. Les rues se couvrent de guirlandes et de drapeaux colorés. Les habitants dansent jusqu'à minuit sur la place éclairée de lampions.
+Le vétérinaire examine le petit chien avec douceur. Il écoute son cœur, regarde ses dents et vérifie ses pattes. Puis il rassure le garçon qui attend, les mains moites.
+Au premier étage de la maison, une chambre reste toujours fermée. Personne n'y entre sauf grand-mère, qui y garde ses souvenirs. Parfois, une mélodie de boîte à musique traverse la porte.
+Les vacances approchent et la classe s'agite. Les élèves rangent leurs cahiers, nettoient les tableaux et décorent les murs. La maîtresse sourit en regardant cette joyeuse pagaille.
+Mon voisin plante des arbres fruitiers dans son verger. Il creuse les trous avec patience et arrose chaque jeune pousse. Chaque automne, il récolte des pommes, des poires et des cerises.
+La forêt s'éveille doucement au lever du jour. Les oiseaux commencent à chanter et la rosée brille sur les toiles d'araignée. Un chevreuil traverse la clairière sans faire de bruit.
+Les élèves entrent dans la salle de sciences. Ils enfilent leurs blouses blanches et sortent les microscopes. Le professeur distribue des lamelles et lance le premier défi.
+Chaque été, nous partons camper au bord d'un lac. Papa monte la tente pendant que maman prépare le déjeuner. Mon frère et moi courons déjà vers l'eau fraîche.
+La petite boulangerie du coin ouvre avant tout le monde. Une file de clients patiente déjà devant la porte. La boulangère distribue des sourires et des baguettes encore chaudes.
+Le jardin zoologique accueille de nombreux visiteurs le week-end. Les enfants courent d'une cage à l'autre et posent mille questions. Les gardiens répondent patiemment et distribuent des prospectus colorés.
+Mon grand frère répare des ordinateurs dans sa chambre. Il démonte les machines, nettoie les pièces et les remonte avec soin. Les voisins viennent le voir dès qu'une panne les inquiète.
+Les musiciens accordent leurs instruments avant le concert. Le chef lève sa baguette et la salle devient silencieuse. Les premières notes s'élèvent, claires et légères comme un vol d'oiseaux.
+Dans la cour, une balle roule jusqu'aux pieds du directeur. Il la ramasse, sourit et la lance de toutes ses forces. Les enfants applaudissent et reprennent leur partie.
+Les pompiers visitent l'école et présentent leur camion. Les élèves montent à tour de rôle sur la grande échelle. Chacun repart avec un casque en carton et des étoiles plein les yeux.
+La rivière gèle en hiver et se couvre d'une glace épaisse. Les enfants glissent sur les bords en poussant des cris de joie. Les parents surveillent de loin et sirotent un chocolat chaud.
+Une brise légère agite les rideaux de la chambre. Le soleil du matin dessine des taches dorées sur le parquet. Dans son lit, Inès s'étire et sourit à la lumière.
+Le marchand de glaces installe son stand au bord du lac. Il pose les bacs colorés et sort ses grands cornets. Les promeneurs hésitent longtemps entre la fraise, le citron et le chocolat.
+Dans la bibliothèque du quartier, un club de lecture se réunit chaque jeudi. Les enfants choisissent un roman et le commentent à voix haute. Le bibliothécaire note leurs idées sur un grand tableau.
+Mon père possède un vieux garage rempli d'outils anciens. Il y bricole des meubles et répare les jouets cassés. Les voisins viennent souvent lui emprunter une scie ou un marteau.
+Les mineurs descendent dans la galerie avec leurs lampes. L'air devient plus frais et le bruit des machines s'éloigne. Au bout du tunnel, une veine de charbon brille sous la lumière.
+La petite chèvre bondit sur les rochers avec agilité. Elle s'arrête au bord du ravin et observe la vallée. Puis elle repart d'un bond, suivie par tout le troupeau.
+Nos voisins installent des guirlandes lumineuses sur leur maison. Chaque soir, les enfants du quartier passent devant en poussant des cris d'admiration. Les passants s'arrêtent pour prendre des photos.

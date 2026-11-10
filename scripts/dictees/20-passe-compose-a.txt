@@ -1,0 +1,105 @@
+// Dictées au passé composé, lot a : la maison, les sorties, l'école, les vacances.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== pc
+
+// 1 phrase
+Hier soir, j'ai regardé un film avec mon frère jusqu'à minuit.
+Samedi dernier, nous sommes allés à la piscine malgré la pluie.
+Ma voisine a trouvé un portefeuille sur le trottoir et l'a rapporté au commissariat.
+Pendant les vacances, ma cousine a appris à plonger sans se boucher le nez.
+Les musiciens sont arrivés en retard, mais le public les a applaudis quand même.
+Ce matin, le facteur a laissé un paquet devant la porte du garage.
+Elles se sont perdues dans la forêt et ont suivi la rivière pour retrouver la route.
+L'été dernier, mon père a construit une cabane dans le grand pommier.
+Cette nuit, un orage a réveillé tout le quartier et coupé l'électricité.
+Nos amis sont revenus de voyage avec des valises pleines de souvenirs.
+Le boulanger a oublié les croissants dans le four et la fumée a envahi la boutique.
+Hier, ma sœur a déchiré sa robe en grimpant sur la clôture du jardin.
+Nous avons mangé des crêpes au goûter et nous nous sommes endormis sur le canapé.
+Les pompiers ont éteint le feu de cheminée en moins de dix minutes.
+Ce soir-là, la lune est apparue entre deux nuages et a éclairé tout le paysage.
+Mon grand-père a réparé la vieille radio et l'a posée sur l'étagère du salon.
+Pendant le match, un joueur est tombé et l'arbitre a sifflé une faute.
+Léa et moi, nous sommes montées au dernier étage de la tour pour regarder la ville.
+Hier après-midi, le vent a emporté mon chapeau jusqu'au bout de la jetée.
+La maîtresse a rendu les copies et a félicité tous les élèves.
+Les enfants ont dessiné des fusées et des planètes sur les murs de la cabane.
+Dimanche dernier, nous avons déjeuné sur l'herbe au bord de la rivière.
+Le vétérinaire a soigné la patte du chat et lui a donné un petit biscuit.
+Mon petit frère a perdu une dent en croquant une pomme.
+Les voisins ont organisé une fête dans la cour et ont invité tout l'immeuble.
+Tu as rangé ta chambre, tu as sorti les poubelles et tu as mérité ton dessert.
+Hier, un avion a traversé le ciel en laissant une longue traînée blanche.
+Elle a ouvert la fenêtre, respiré l'air frais et souri au soleil du matin.
+
+// 2 phrases
+Samedi dernier, nous avons visité un vieux moulin. Le meunier nous a laissés toucher les grandes roues de bois.
+Hier soir, ma mère a préparé un gâteau au chocolat. Mon frère l'a dévoré en dix minutes.
+Léa a perdu son écharpe dans le bus. Un passager l'a retrouvée et l'a déposée au bureau des objets trouvés.
+Ce matin, le réveil n'a pas sonné. Nous avons couru jusqu'à l'école et sommes arrivés juste à l'heure.
+Les voisins ont planté un cerisier dans leur jardin. Il a donné ses premières fleurs au bout de deux ans.
+Pendant la tempête, le toit de la grange s'est envolé. Le fermier a passé la nuit à bâcher le foin.
+Mon cousin a participé à un concours de dessin. Il a gagné le deuxième prix et a reçu une boîte de feutres.
+Hier, nous avons croisé un renard près de la ferme. Il nous a regardés une seconde, puis il a disparu dans le fossé.
+Le professeur a distribué des feuilles blanches. Les élèves ont écrit leur nom en haut et ont attendu la consigne.
+Ma sœur est tombée du vélo dans la descente. Elle s'est écorché le genou mais n'a pas pleuré.
+Les touristes ont pris des photos de la cathédrale. Un guide leur a raconté son histoire pendant une heure.
+Samir a lu son livre jusqu'à la dernière page. Il l'a refermé avec un soupir et regardé par la fenêtre.
+Hier matin, la neige est tombée sur toute la région. Les écoles sont restées fermées et les enfants ont fait des batailles de boules.
+Un chat est entré dans la cuisine par la fenêtre ouverte. Il a renversé un verre de lait et s'est enfui.
+Mes parents ont acheté une vieille maison à la campagne. Ils l'ont repeinte en blanc et ont installé des volets bleus.
+Elles ont préparé une surprise pour l'anniversaire de leur grand-mère. Tout le monde a chanté en chœur quand elle est entrée.
+Hugo a oublié son maillot de bain. Son voisin lui en a prêté un et tout s'est bien terminé.
+La classe a visité une ferme pédagogique. Les élèves ont caressé des lapins et goûté du fromage frais.
+Le vent a soufflé toute la nuit sur la plage. Au matin, nous avons ramassé des algues, des coquillages et un vieux soulier.
+Nous avons planté des carottes et des radis dans le potager. Quelques semaines plus tard, nous avons récolté nos premiers légumes.
+Ma tante est venue nous voir pendant les vacances. Elle a apporté des cadeaux et raconté des histoires de voyage.
+Le facteur a sonné deux fois, puis il est reparti. Nous avons trouvé le colis sous le paillasson.
+Le chien a enterré un os dans le jardin. Il l'a cherché pendant une heure sans le retrouver.
+Mon grand frère a passé son permis de conduire. Il a réussi du premier coup et a promené toute la famille.
+Une grosse vague a renversé mon château de sable. J'ai tout reconstruit, plus grand et plus solide.
+Ce matin, j'ai ramassé des châtaignes au pied de l'arbre. J'en ai rempli mes poches et j'ai rapporté le reste dans un sac.
+Les élèves ont préparé un exposé sur les volcans. Ils ont construit une maquette et simulé une éruption avec du vinaigre.
+Mon frère a cassé la télécommande en jouant dans le salon. Il l'a recollée avec du ruban adhésif et n'a rien dit.
+Les nuages sont arrivés très vite. Quelques minutes plus tard, de gros orages ont éclaté sur la vallée.
+Elle a emprunté un livre à la bibliothèque. Elle l'a lu en une nuit et l'a rendu le lendemain.
+Hier, le directeur a annoncé une grande nouvelle. La sortie scolaire a été avancée de deux semaines.
+Nos amis sont arrivés avec un gâteau à la main. Nous avons mis la table et nous avons dîné dans le jardin.
+Un camion a bloqué la rue pendant une heure. Les voisins sont sortis pour regarder la manœuvre.
+J'ai ouvert l'enveloppe avec précaution. Une photo de ma grand-mère est tombée sur la table.
+Les cigognes sont revenues sur le clocher. Les habitants ont salué leur retour comme une bonne nouvelle.
+Mon père a coupé du bois pour la cheminée. Je l'ai aidé à empiler les bûches contre le mur.
+Le soleil est apparu après la pluie. Un arc-en-ciel a traversé le ciel et tout le monde est sorti pour le regarder.
+Lina a chanté devant toute l'école. Sa voix a tremblé au début, puis elle a repris confiance.
+
+// 3 phrases
+Hier, nous avons passé la journée à la plage. Mon père a construit un immense château avec des douves et des tours. La marée est montée et a tout emporté avant le goûter.
+Samedi dernier, ma sœur a participé à une compétition de natation. Elle a nagé deux longueurs sans s'arrêter. Elle est sortie de l'eau essoufflée, mais souriante, avec une médaille de bronze.
+Cet hiver, il a beaucoup neigé dans les montagnes. Les routes sont restées fermées pendant trois jours et les villages ont manqué de pain. Les habitants ont partagé leurs provisions et attendu le dégel.
+Ce matin, j'ai trouvé une enveloppe sous ma porte. J'y ai découvert une invitation écrite à la main et un petit ruban rouge. J'ai tout de suite appelé Léa pour lui montrer.
+Les jardiniers ont taillé tous les arbres du parc. Les branches coupées ont formé des tas immenses sur les allées. Les enfants se sont amusés à sauter dedans jusqu'au soir.
+Nous avons traversé la ville en tramway. Une dame âgée nous a offert des bonbons à la menthe. Nous sommes descendus devant le zoo, ravis de la rencontre.
+Mon grand-père a retrouvé sa vieille montre au fond d'un tiroir. Il l'a remontée avec soin et l'a portée toute la journée. Elle a sonné midi et nous avons tous éclaté de rire.
+L'été dernier, nous sommes partis à vélo vers la mer. Nous avons roulé trois jours sur des routes ombragées. À l'arrivée, nous avons plongé tout habillés dans les vagues.
+Hier, un pigeon est entré dans la classe. Il a volé autour du lustre pendant dix minutes et laissé quelques plumes. La maîtresse a ouvert la fenêtre et il s'est enfui.
+Pendant la nuit, la neige a recouvert le jardin. Au matin, mon frère a dessiné un bonhomme avec une carotte et deux boutons. Il a offert son écharpe au bonhomme et frissonné toute la journée.
+Le vendredi soir, nous avons regardé un film d'aventures. Tout le monde a crié au moment du naufrage. Ma petite sœur s'est cachée derrière un coussin jusqu'à la fin.
+Les archéologues ont découvert un squelette près de la rivière. Ils l'ont nettoyé avec des pinceaux et l'ont photographié sous tous les angles. Le musée l'a exposé le mois suivant.
+Mes cousins sont arrivés avec leur chien énorme. L'animal a sauté sur le canapé et mangé le gâteau. Tout le monde a ri, sauf ma mère qui a soupiré.
+J'ai visité le château de Chambord avec ma classe. Un guide nous a menés dans les escaliers à double révolution. Nous avons descendu les marches en riant et en nous perdant exprès.
+Les astronomes ont observé une comète pendant trois nuits. Ils ont noté chaque position et envoyé leurs mesures à l'observatoire. Le matin, ils sont allés dormir, épuisés mais heureux.
+Ma mère a préparé des pâtes pour douze personnes. Les invités sont arrivés à l'heure et ont dévoré le plat. Il n'est resté qu'une assiette, et mon frère l'a rapidement mangée.
+La tempête a arraché les volets de notre maison. Mon père est monté sur une échelle et les a remis en place. Nous avons ensuite bu un chocolat chaud pour nous réchauffer.
+Hier, le cirque est arrivé en ville. Les camions se sont garés sur la place et les artistes ont monté le chapiteau. Toute la nuit, nous avons entendu des marteaux et des rires.
+J'ai écrit une lettre à ma grand-mère. J'ai dessiné une fleur dans le coin de la feuille et collé un timbre rouge. Le facteur est passé la chercher le lendemain matin.
+Les cyclistes sont partis à l'aube de la petite ville. Ils ont gravi trois cols et traversé deux vallées. À la nuit tombée, ils sont arrivés épuisés au sommet.
+Le chat a disparu pendant trois jours. Nous l'avons cherché dans le quartier, dans les jardins et sous les voitures. Il est revenu le quatrième jour, affamé et l'oreille déchirée.
+Léa a gagné le concours de dessin de l'école. Son dessin a représenté un phare au milieu de la tempête. La directrice l'a affiché dans le hall et a félicité la jeune artiste.
+Nous avons marché deux heures dans les dunes. Le sable chaud nous a brûlé les pieds et le vent nous a fouetté le visage. Nous avons fini notre balade dans une crêperie du port.
+Hier soir, les voisins ont fêté leurs vingt ans de mariage. Ils ont allumé des lampions dans le jardin et dressé une longue table. Tout le quartier a dansé jusque tard dans la nuit.
+Mon frère a monté une tente dans le salon. Il a installé des coussins, une lampe et un grand sac de bonbons. Il a ensuite interdit à toute la famille d'entrer.
+Samir a fabriqué une fusée avec une bouteille d'eau. Il l'a remplie d'air, l'a posée sur un tuyau et a compté jusqu'à trois. Elle est montée très haut, puis elle est retombée dans la haie.
+La maîtresse a organisé une chasse au trésor dans l'école. Les équipes ont couru dans les couloirs avec des cartes. L'équipe de Maya a trouvé le coffre derrière la bibliothèque.
+Ma sœur a perdu son premier tournoi d'échecs. Elle a pleuré dans la voiture, puis elle a décidé de recommencer. Elle a rangé son échiquier avec soin et elle a souri.
+Les chevaux ont galopé dans la prairie. Le fermier a ouvert la barrière et ils sont rentrés à l'écurie. Les enfants ont distribué des carottes et caressé leurs naseaux.

@@ -1,0 +1,105 @@
+// Dictées à l'imparfait, lot d : paysages, météo, saisons, animaux, nuits et petits matins.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== imp
+
+// 1 phrase
+La brume flottait sur les marais et brouillait les contours des arbres.
+Les cigognes nichaient sur le clocher et claquaient du bec toute la journée.
+Dans le jardin, les pommes mûrissaient lentement sous le soleil d'août.
+Le torrent grondait entre les rochers et projetait des gouttes d'argent.
+Chaque soir, les chauves-souris sortaient de la grange et zigzaguaient dans le ciel.
+L'orage menaçait depuis midi et l'air sentait le métal chaud.
+Les champs de lavande ondulaient sous le vent comme une mer violette.
+Un vieux tracteur vrombissait dans le champ et soulevait un nuage de poussière.
+Les renards traversaient la plaine à la tombée de la nuit sans faire de bruit.
+Nous marchions sur un sentier bordé de bruyères et de genêts jaunes.
+L'hiver, la rivière charriait des morceaux de glace qui s'entrechoquaient.
+Une odeur d'herbe coupée flottait dans l'air tiède de juin.
+Les mouettes se disputaient les restes que jetaient les pêcheurs.
+À l'automne, les feuilles tombaient en tourbillonnant et couvraient les allées.
+Les vaches broutaient paisiblement pendant que le berger taillait un bâton.
+Des nuages de moucherons dansaient au-dessus de la mare à la fin de l'après-midi.
+Le soleil perçait la brume et dorait les toiles d'araignée.
+Le lac gelé craquait sous la glace et chantait comme une harpe.
+Les dunes changeaient de forme chaque nuit sous la poussée du vent.
+Les sapins ployaient sous la neige et laissaient tomber de lourdes poignées blanches.
+Une couleuvre se chauffait sur une pierre plate et ne bougeait pas d'un pouce.
+Le canal sentait la vase et les péniches y glissaient sans bruit.
+Autour de la ferme, les poules picoraient et les canards barbotaient dans la mare.
+À l'horizon, les éoliennes tournaient lentement dans un ciel de plomb.
+Un brouillard épais couvrait la baie et étouffait le bruit des vagues.
+Les marmottes sifflaient pour avertir leurs petits et filaient dans leurs terriers.
+Le gel dessinait des fougères sur les vitres de la cuisine.
+Les crapauds chantaient dans les fossés et couvraient le murmure du ruisseau.
+
+// 2 phrases
+La rivière coulait calmement entre deux rangées de peupliers. Quelques pêcheurs y trempaient leurs lignes dans un silence religieux.
+Le soleil baissait derrière la colline. Les ombres s'allongeaient et les oiseaux se taisaient un à un.
+Les montagnes se détachaient sur le ciel pâle. Leurs sommets blancs brillaient comme des dents de géant.
+Il pleuvait depuis trois jours sans interruption. Les caniveaux débordaient et les trottoirs ressemblaient à des rivières.
+Les étoiles piquaient le ciel sans lune. Un vent frais agitait les herbes de la prairie.
+Le marché de la ville vibrait de cris et de couleurs. Les étals débordaient de fruits, de poissons et de fromages.
+Les mésanges se pressaient autour de la mangeoire. Elles picoraient les graines en se chamaillant pour la meilleure place.
+La mer était d'huile. Les voiliers restaient immobiles et leurs voiles pendaient comme du linge mouillé.
+Le vent s'engouffrait dans la vallée et sifflait entre les rochers. Les randonneurs se serraient les uns contre les autres pour avancer.
+Un parfum de jasmin flottait dans la rue. Les passants ralentissaient pour le respirer plus longtemps.
+Les premières neiges recouvraient le plateau. Les chamois descendaient à flanc de montagne et cherchaient des herbes.
+Un nuage de fumée montait de la cheminée. L'odeur de bois brûlé accompagnait les promeneurs sur tout le chemin.
+Le désert s'étendait sans fin devant les voyageurs. Seuls quelques cailloux et un chardon rompaient la monotonie.
+La nuit sentait la mer et l'herbe mouillée. Une lampe éclairait le quai et attirait des phalènes.
+Les gens du port se levaient avant le soleil. Ils chargeaient les caisses, nouaient les cordages et hissaient les voiles.
+Une tempête de sable approchait du camp. Les chameliers couvraient les bêtes et nouaient des foulards sur leurs visages.
+Les abeilles bourdonnaient dans le tilleul. Leur chant doux endormait tout le jardin.
+La ville s'éveillait lentement. Les volets s'ouvraient, les cafés sortaient leurs chaises et les camions de livraison klaxonnaient.
+Les vagues rongeaient la falaise depuis des siècles. Chaque tempête emportait un peu plus de roche dans l'océan.
+Le chemin traversait un bois de chênes. La lumière filtrait entre les feuilles et peignait le sol de taches dorées.
+Les cerfs bramaient dans la forêt. Leur appel résonnait à des kilomètres et faisait frissonner les campeurs.
+L'été, les cigales chantaient du lever au coucher du soleil. Le vieux chien, lui, dormait sous le figuier.
+Les marins surveillaient le ciel avec inquiétude. Les nuages s'assombrissaient et la houle devenait plus forte.
+Une brise tiède caressait les champs. Le blé ondulait comme une mer dorée.
+Dans les rues étroites, le linge séchait entre les fenêtres. Les chats dormaient sur les marches chauffées par le soleil.
+Le port sentait le goudron et le poisson. Les grues se balançaient lentement au-dessus des cargos.
+Un orage grondait au loin sur la montagne. Les premières gouttes tombaient lourdement sur la poussière.
+La neige crissait sous nos pas. Nos souffles montaient en petits nuages et se dissolvaient dans l'air glacé.
+Les bateaux de pêche dansaient sur la houle. Les mouettes les suivaient en criant, espérant quelques poissons.
+Le soleil d'hiver éclairait la plaine gelée. Le givre scintillait sur chaque brin d'herbe.
+L'étang était couvert de nénuphars. Des grenouilles sautaient d'une feuille à l'autre en guettant les libellules.
+Les phares des voitures traversaient le brouillard. Leur lumière jaune dessinait des cônes dans la nuit.
+Les montagnes semblaient flotter au-dessus des nuages. Le soleil les couvrait d'or avant de se coucher.
+Un vent glacial balayait la plaine. Les arbres nus se courbaient comme de vieux mendiants.
+Le ruisseau murmurait sous le pont de pierre. Les libellules y patrouillaient sans bruit.
+Les prés étaient couverts de rosée. Le soleil les transformait en milliers de petits diamants.
+La neige fondait sur les toits. Des gouttes tombaient en cadence dans les gouttières, clic, clac, clic.
+L'océan s'étendait à perte de vue. Un cargo y traçait un long sillon d'écume blanche.
+
+// 3 phrases
+L'été, la plage s'éveillait avant le soleil. Les pêcheurs rentraient avec leurs filets pleins et les chiens aboyaient après les mouettes. Les premiers baigneurs plongeaient dans une eau encore glacée.
+À la lisière de la forêt, une petite maison de bois se cachait sous les noisetiers. Un panache de fumée montait de sa cheminée. Des écureuils couraient sur le toit sans jamais déranger l'habitant.
+Dans la vallée, une rivière serpentait entre les prairies. Des vaches paissaient sur ses rives et des hérons guettaient les poissons. Au loin, les cloches d'un village sonnaient l'heure du dîner.
+L'orage s'éloignait lentement. Les nuages s'ouvraient sur un ciel pur et les gouttes brillaient dans l'herbe. Une odeur de terre mouillée envahissait la campagne.
+Le désert s'endormait à la tombée de la nuit. Le sable refroidissait et les premières étoiles apparaissaient. Un chacal hurlait dans les dunes et le campement se taisait.
+Le vent se levait sur la lande. Les bruyères ondulaient et les moutons se serraient les uns contre les autres. Un vieux berger les comptait en sifflotant pour son chien.
+L'hiver, la montagne devenait un royaume de silence. La neige étouffait tous les bruits et le ciel prenait des teintes mauves. Seuls quelques oiseaux osaient chanter.
+Les marais s'étendaient jusqu'à l'horizon. Des roseaux frémissaient dans le vent et des canards s'envolaient à la moindre alerte. Le soir, tout devenait rose et doré.
+Chaque automne, les oies sauvages traversaient le pays. Elles volaient en formation et criaient pour s'encourager. Les habitants levaient la tête et leur souhaitaient bon voyage.
+La vieille ville dormait sous un ciel d'orage. Les pavés brillaient, les enseignes grinçaient et les chats se glissaient dans l'ombre. Un orgue de Barbarie jouait quelque part, très loin.
+Les vagues roulaient sur la plage en laissant des dentelles d'écume. Les crabes s'enfouissaient dans le sable et les mouettes plongeaient. Les baigneurs poussaient des cris de joie à chaque nouvelle vague.
+Dans la serre, il faisait chaud et humide. Des orchidées pendaient du plafond et des fougères géantes frôlaient les vitres. Le jardinier y passait des heures à parler à ses plantes.
+Au printemps, les prés se couvraient de pâquerettes. Les abeilles sortaient de leurs ruches et les hirondelles revenaient. La vie reprenait partout avec un bruit de fête.
+Le col était bloqué par la neige depuis une semaine. Les camions attendaient en file au pied de la montagne. Les chauffeurs jouaient aux cartes et partageaient leurs sandwichs.
+La nuit tombait sur la savane. Les girafes s'éloignaient vers les acacias et les lions s'étiraient dans l'herbe. Au point d'eau, un éléphant buvait lentement, seul sous la lune.
+Autrefois, la forêt couvrait toute la région. Les loups y rôdaient et les chênes atteignaient la taille de tours. Les voyageurs la traversaient en groupe et chantaient pour se donner du courage.
+L'été, notre rue s'emplissait de parfums. Le tilleul embaumait, les voisins grillaient des sardines et le jasmin montait aux fenêtres. Le soir, les odeurs se mélangeaient en un bouquet unique.
+La cour de la ferme grouillait de vie. Les poules s'agitaient autour du seau de grain, les canards barbotaient et le coq montait la garde. Le chien, lui, dormait au soleil sans rien surveiller.
+Le soleil se couchait dans la mer. Les nuages devenaient rouges, puis orange, puis gris, et les mouettes rentraient. Un couple de vieux marchait sur la plage, bras dessus bras dessous.
+Dans la rizière, l'eau reflétait le ciel. Les paysans repiquaient les plants en file, courbés sous leurs chapeaux de paille. Des hérons blancs les suivaient en picorant les grenouilles.
+Les montagnes semblaient dormir sous la lune. Le glacier brillait comme un miroir et le torrent chantait tout bas. Un renard traversait la neige sans laisser de bruit.
+Dans le verger, les poires pendaient aux branches. Les guêpes tournoyaient autour des fruits trop mûrs. Le jardinier les chassait avec un chapeau de paille.
+Il faisait une chaleur étouffante sur la plaine. Les cigales se taisaient et les chiens haletaient à l'ombre. Un orage lointain faisait trembler l'horizon.
+L'aube se levait sur la lagune. Les flamants roses déployaient leurs ailes et s'envolaient en cercle. Leur reflet s'étirait dans l'eau comme une écharpe de soie.
+Au fond du canyon, une rivière verte coulait entre des parois rouges. Des aigles planaient dans le ciel et des échos répondaient aux cris. Les randonneurs avançaient en file indienne et chuchotaient.
+La lande était déserte et battue par le vent. Quelques moutons y paissaient et un muret de pierre dessinait un trait sur la colline. Un chemin de terre filait vers la mer.
+En automne, la forêt brûlait de toutes les couleurs. Les feuilles rouges, jaunes et brunes recouvraient les sentiers. Les promeneurs marchaient sans bruit sur ce tapis moelleux.
+Les icebergs dérivaient lentement sur l'eau noire. Leurs arêtes brillaient comme du verre et leurs flancs prenaient des teintes de turquoise. Des phoques les observaient depuis la banquise.
+L'île était entourée de récifs. Les bateaux n'y accostaient qu'avec un pilote et un peu de chance. Sur la plage, des tortues couraient vers la mer à chaque crépuscule.

@@ -1,0 +1,105 @@
+// Dictées au présent, lot a : le port, la ferme, la ville, l'école, le jardin, les saisons.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== pres
+
+// 1 phrase
+Sur le port, les pêcheurs déchargent leurs caisses de poissons encore frétillants.
+Le vent d'automne arrache les dernières feuilles et les emporte vers la rivière.
+Ma grand-mère garde dans une boîte en fer toutes les lettres de mon grand-père.
+Au sommet de la colline, un vieux moulin tourne lentement dans la brise du soir.
+Les élèves de la classe préparent une exposition sur les animaux de la forêt.
+Chaque samedi, mon père répare le vélo de ma petite sœur dans le garage.
+Une odeur de pain chaud s'échappe de la boulangerie et réveille tout le quartier.
+Le chat de la voisine guette les oiseaux depuis le rebord de la fenêtre.
+Dans le jardin, les abeilles butinent les fleurs et rapportent le nectar à la ruche.
+Le facteur traverse la place à vélo en sifflotant un air joyeux.
+Au loin, les montagnes dessinent une ligne bleue sous le ciel pâle.
+Les voyageurs patientent sur le quai en regardant l'horloge de la gare.
+Mon cousin collectionne les timbres et les range par pays dans de gros albums.
+La mer monte doucement et efface les châteaux de sable construits par les enfants.
+Léa écoute de la musique avec son casque tout en dessinant des dragons sur son cahier.
+Les hirondelles se rassemblent sur les fils électriques avant leur long voyage vers le sud.
+Notre voisin arrose ses tomates chaque soir, quand la chaleur de la journée tombe.
+Le vieux libraire connaît tous ses clients et sait quel livre leur plaît.
+Dans la cour de l'école, les plus petits jouent à cache-cache derrière les marronniers.
+Un renard roux traverse la route en courant et disparaît dans les buissons.
+Les étoiles brillent si fort que le berger les regarde pendant des heures.
+Ce petit robot nettoie le sol de la cuisine et revient seul vers sa prise.
+Chaque matin, Noé nourrit les poules et ramasse les œufs encore tièdes.
+Les nuages gris s'accumulent au-dessus de la plaine et annoncent un orage.
+Mes parents achètent des légumes au marché et discutent longtemps avec les marchands.
+L'infirmière de l'école soigne les genoux écorchés et rassure les élèves inquiets.
+Au fond du couloir, une porte entrouverte laisse passer un filet de lumière.
+Les deux frères construisent un radeau avec des planches et de vieux bidons.
+
+// 2 phrases
+Le train de nuit file à travers les montagnes. Les passagers dorment, bercés par le bruit régulier des roues.
+Dans la forêt, un sentier étroit monte vers la cabane. Les promeneurs s'y arrêtent pour écouter chanter les oiseaux.
+Mon grand-père cultive un grand potager derrière sa maison. Il m'offre toujours un panier de légumes quand je lui rends visite.
+La maîtresse distribue les feuilles de la dictée. Les élèves prennent leur stylo et attendent en silence.
+Au marché, les marchands crient le prix de leurs fruits. Les clients goûtent, comparent et choisissent les plus mûrs.
+Le soleil se couche derrière les falaises. La mer devient orange, puis rose, puis violette.
+Samir lit un roman d'aventures dans le jardin. Il oublie complètement l'heure du goûter.
+Les pompiers sortent de la caserne en courant. Leur camion rouge file à toute vitesse vers la colline.
+Une famille de canards traverse la route. Les voitures s'arrêtent pour les laisser passer.
+Le magicien salue la foule et sort un lapin de son chapeau. Les enfants applaudissent et réclament un autre tour.
+Zoé range sa chambre avant l'arrivée de ses cousines. Elle cache ses jouets sous le lit et ouvre grand la fenêtre.
+Le boulanger se lève à trois heures du matin. Il pétrit la pâte et allume le four avant que le village se réveille.
+La neige tombe en gros flocons sur le village. Les enfants sortent en riant avec leurs luges.
+Un vieux bateau rouille dans le port. Personne ne se souvient de son dernier voyage.
+Mon petit frère collectionne les cailloux. Il les lave, les trie et les range dans des boîtes à œufs.
+La bibliothécaire range les livres sur les étagères. Elle connaît la place de chaque volume, même dans le noir.
+Hugo court sur la plage avec son cerf-volant. Le vent le soulève et le tire vers les nuages.
+Les chevaux de la ferme broutent dans le pré. Le fermier les appelle chaque soir pour les rentrer à l'écurie.
+Dans le laboratoire, la scientifique observe une goutte d'eau au microscope. Elle découvre des centaines de minuscules créatures qui se déplacent.
+Un orage éclate au-dessus de la ville. Les éclairs illuminent les toits et la pluie ruisselle dans les rues.
+Le jardinier taille les rosiers avec soin. Il garde les plus belles fleurs pour le concours du village.
+Mon oncle joue de l'accordéon dans la cuisine. Toute la famille chante en tapant des mains.
+Le petit train traverse la vallée en sifflant. Les enfants agitent la main devant les fenêtres du wagon.
+Les astronautes flottent dans la station spatiale. Ils mangent des repas déshydratés et regardent la Terre tourner.
+Lina prépare des crêpes pour le goûter. Elle mélange la farine, les œufs et le lait, puis elle laisse reposer la pâte.
+Dans la grange, les chatons dorment sur le foin. Leur mère les surveille d'un œil et ronronne doucement.
+Le vent souffle fort sur la digue. Les vagues se brisent et jettent des gerbes d'écume sur la promenade.
+Le détective examine la serrure avec sa loupe. Il remarque de fines rayures et sourit.
+Mamie tricote une écharpe pour mon anniversaire. Elle choisit la laine la plus douce et la couleur que j'aime.
+La classe visite le musée d'histoire naturelle. Les élèves regardent un énorme squelette de dinosaure et prennent des notes.
+Le soir, le village s'endort peu à peu. On entend seulement le murmure de la fontaine et l'aboiement d'un chien.
+Le skateur monte sur la rampe et prend son élan. Il saute, tourne dans les airs et retombe sans se tromper.
+Dans le champ, les épis dorés ondulent sous le vent. Les moissonneurs attendent le signal pour commencer la récolte.
+L'ours sort de sa tanière au printemps. Il a faim et cherche des baies dans la forêt encore humide.
+Le facteur frappe trois coups à la porte. Il apporte un colis venu de l'autre bout du monde.
+Ma sœur répète son rôle devant le miroir. Elle oublie sans cesse la dernière phrase et recommence avec patience.
+Les mouettes se disputent un morceau de pain. Un chien aboie et les fait fuir vers la jetée.
+Les enfants dessinent des fusées sur le trottoir à la craie. Un passant s'arrête et admire leurs étoiles multicolores.
+
+// 3 phrases
+Le vieux marchand ouvre sa boutique à huit heures. Il installe ses étagères et dispose les objets les plus précieux près de la vitrine. Les curieux entrent toujours par petits groupes et fouillent chaque recoin.
+La rivière traverse le village en chantant. Elle fait tourner la roue du moulin et rafraîchit les prairies. Chaque été, les enfants s'y baignent jusqu'à la tombée de la nuit.
+Dans la salle de classe, la lumière du matin entre par les grandes fenêtres. Les élèves ouvrent leurs cahiers et écrivent la date en haut de la page. Le silence règne, seulement troublé par le grincement des stylos.
+Le capitaine barre son navire avec confiance. Les vagues grandissent mais l'équipage ne montre aucune peur. Au loin, une lueur annonce enfin le port tant désiré.
+Mon frère passe ses journées dans l'atelier de notre grand-père. Il scie, il visse et il colle avec une concentration admirable. Le soir, il présente fièrement ses inventions à toute la famille.
+Au sommet de la montagne, l'air devient plus froid et plus léger. Les randonneurs sortent leurs vestes et prennent quelques photos. Devant eux, un tapis de nuages blancs cache complètement la vallée.
+Léa pousse la porte de la vieille maison. Une odeur de bois ciré et de poussière l'accueille. Elle avance lentement et touche du doigt les meubles couverts de draps.
+Le cirque s'installe chaque année sur la grande place. Les artistes montent le chapiteau avant le lever du soleil. Les habitants viennent en famille pour admirer les acrobates et les clowns.
+La nuit, la forêt change complètement de visage. Les hiboux s'éveillent et les renards sortent de leurs terriers. Le moindre craquement fait battre le cœur des promeneurs imprudents.
+Le fermier se lève avant le jour pour traire ses vaches. Il remplit les seaux et nourrit les veaux qui meuglent de faim. Puis il prépare un grand bol de café et regarde le soleil monter.
+Notre voisine élève des abeilles dans son verger. Elle porte un chapeau à voile et manie la fumée avec douceur. Chaque automne, elle nous offre un pot de miel parfumé.
+Les enfants se rassemblent autour du feu de camp. Le moniteur raconte l'histoire d'un fantôme qui hante le vieux château. Tout le monde frissonne et se serre un peu plus près des flammes.
+Dans l'atelier du luthier, les violons attendent leurs cordes. L'artisan règle chaque détail avec une patience infinie. Quand il joue enfin la première note, la pièce entière semble vibrer.
+La fusée décolle dans un grondement assourdissant. Les spectateurs retiennent leur souffle et lèvent les yeux vers le ciel. Quelques secondes plus tard, elle n'est plus qu'un point lumineux.
+Maya cueille des mûres au bord du chemin. Ses doigts deviennent violets et ses lèvres aussi. Elle rentre à la maison avec un panier plein et un grand sourire.
+Chaque dimanche, toute la famille déjeune chez mes grands-parents. Mamie sert un poulet rôti entouré de pommes de terre dorées. Papi raconte les mêmes histoires, et personne ne se lasse de les entendre.
+Les dauphins sautent hors de l'eau à côté du bateau. Les passagers se précipitent sur le pont avec leurs appareils photo. Un enfant crie de joie et tend les bras vers les vagues.
+Au fond du jardin, une vieille cabane penche sur le côté. Les planches grincent et le toit laisse passer la pluie. Pourtant, c'est là que les enfants se retrouvent chaque après-midi.
+Le directeur du musée ouvre les grandes portes. Les visiteurs entrent en silence et lèvent la tête vers le squelette géant. Un guide leur raconte l'histoire de ces animaux disparus depuis des millions d'années.
+Le matin, la brume recouvre le lac. Un pêcheur glisse sa barque entre les roseaux sans faire de bruit. Quelques minutes plus tard, un poisson d'argent frétille au bout de sa ligne.
+Inès joue du violoncelle depuis deux ans. Elle répète chaque soir dans sa chambre, la porte soigneusement fermée. Sa mère l'écoute en souriant derrière le mur.
+Le dragon dort au fond de sa caverne. Ses écailles brillent faiblement dans la pénombre et sa respiration fait vibrer le sol. Un petit oiseau se pose sur son museau sans le réveiller.
+Une tempête de sable se lève dans le désert. Les chameaux baissent la tête et le guide couvre son visage avec un tissu. Pendant une heure, personne ne voit plus rien.
+Le village de montagne se prépare pour l'hiver. Les habitants rentrent le bois et réparent les toits avant les premières neiges. Les enfants, eux, guettent déjà les flocons derrière les vitres.
+Le jeune cuisinier goûte la sauce avec précaution. Il ajoute une pincée de sel et un peu de poivre. Satisfait, il appelle ses clients pour leur annoncer que le repas est prêt.
+Dans le métro, des centaines de personnes se croisent chaque minute. Certaines lisent, d'autres écoutent de la musique ou regardent leur téléphone. Personne ne se parle, mais tout le monde se comprend.
+Les élèves préparent un spectacle pour la fin de l'année. Chacun apprend son texte et répète ses gestes devant les camarades. Le jour venu, la salle se remplit de parents impatients.
+La lune éclaire le toit de la maison endormie. Un chat gris marche sur les tuiles avec une élégance tranquille. Soudain, il bondit et disparaît dans la nuit.
+Mon grand frère prend sa guitare dès qu'il rentre du collège. Il joue les mêmes accords jusqu'à ce qu'ils sonnent juste. Mes parents n'osent plus lui demander de baisser le volume.

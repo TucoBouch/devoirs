@@ -1,0 +1,30 @@
+// Dictées au futur : projets, prévisions, lendemains.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== fut
+
+// 1 phrase
+Demain, nous partirons à l'aube pour la montagne.
+L'été prochain, Léa apprendra à nager dans la rivière.
+Bientôt, les hirondelles reviendront nicher sous le toit de la grange.
+Dans dix ans, mon frère sera sans doute pilote de ligne.
+Samedi, nous construirons une cabane dans le grand chêne.
+Quand la neige fondra, le ruisseau débordera dans le pré.
+
+// 2 phrases
+Demain, la classe visitera le musée de la ville. Nous prendrons le car à huit heures.
+Cet hiver, il fera très froid. Les enfants porteront de grosses écharpes et des bonnets de laine.
+Le week-end prochain, Tom invitera ses amis. Ils joueront dans le jardin et mangeront des crêpes.
+Un jour, j'écrirai un roman d'aventures. Mes héros traverseront des déserts et des océans.
+Dès que le soleil se lèvera, les pêcheurs partiront en mer. Ils reviendront au port avec des filets pleins.
+Dans quelques années, les voitures voleront peut-être. Les villes seront alors beaucoup plus silencieuses.
+Ce soir, nous ferons un feu de camp. Papa racontera une histoire qui vous fera peur.
+L'été prochain, Maya partira chez sa tante. Elle prendra son vélo et explorera les chemins de campagne.
+
+// 3 phrases
+Demain matin, le réveil sonnera très tôt. Nous mettrons nos bottes et nous marcherons jusqu'au lac. Nous observerons les oiseaux sans faire de bruit.
+L'année prochaine, Samir entrera au collège. Il rencontrera de nouveaux camarades et apprendra de nouvelles matières. Il se fera très vite des amis.
+Quand l'orage éclatera, nous rentrerons à la maison. Maman allumera des bougies. Nous raconterons des histoires en attendant le retour de la lumière.
+Ce soir, les étoiles brilleront de mille feux. Léa montera sur le toit avec son télescope. Elle découvrira peut-être une nouvelle comète.
+Dans une semaine, les vacances commenceront. Nous ferons nos valises et nous dirons au revoir à nos copains. Le train nous emmènera loin de la ville.
+Un jour, les explorateurs atteindront le sommet. Ils planteront un drapeau dans la neige. Le monde entier connaîtra leur exploit.

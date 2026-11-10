@@ -1362,3 +1362,117 @@ h1 {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ---- Dictée : une feuille à remplir, avec le clavier de l'iPad en dessous ---------------------------------- */
+
+.dictee {
+  gap: 0.75rem;
+  padding-top: calc(env(safe-area-inset-top) + 1rem);
+  padding-bottom: calc(env(safe-area-inset-bottom) + 1rem);
+}
+.dictee-head {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.dictee-head .btn--quiet {
+  margin-left: -0.75rem;
+}
+.dictee-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-right: auto;
+}
+.dictee-player {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+}
+.dictee-status {
+  flex: 1 1 14rem;
+  min-width: 0;
+  font-size: var(--t-sm);
+  line-height: 1.3;
+  color: var(--ink-soft);
+}
+.dictee-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* la feuille : la marge rouge est dessinée sur la page, les carreaux sur la zone de texte pour qu'ils défilent avec elle */
+.pad {
+  --ln: 2.5rem; /* un grand carreau = une ligne d'écriture */
+  --mw: 5rem;
+  --rows: 5;
+  position: relative;
+  padding-left: var(--mw);
+  background-color: var(--paper);
+  background-image: linear-gradient(90deg, transparent calc(var(--mw) - 0.4rem), var(--margin) calc(var(--mw) - 0.4rem) calc(var(--mw) - 0.4rem + 1px), transparent calc(var(--mw) - 0.4rem + 1px) calc(var(--mw) - 0.2rem), var(--margin) calc(var(--mw) - 0.2rem) calc(var(--mw) - 0.2rem + 1px), transparent calc(var(--mw) - 0.2rem + 1px));
+  border: 1px solid var(--rule);
+  border-radius: 0.3rem;
+  box-shadow: var(--shadow);
+}
+.pad:focus-within {
+  outline: 3px solid var(--ink);
+  outline-offset: 3px;
+}
+.pad-text {
+  display: block;
+  width: 100%;
+  height: calc(var(--ln) * var(--rows) + 0.3rem);
+  margin: 0;
+  padding: 0.3rem 1rem 0 0; /* l'écriture repose sur la ligne */
+  font-family: var(--font-hand);
+  font-size: 1.5rem;
+  line-height: var(--ln);
+  color: var(--ink);
+  background-color: transparent;
+  background-image:
+    repeating-linear-gradient(90deg, transparent 0 calc(var(--ln) - 1px), var(--grid) calc(var(--ln) - 1px) var(--ln)),
+    repeating-linear-gradient(180deg, transparent 0 calc(var(--ln) - 1px), var(--grid) calc(var(--ln) - 1px) var(--ln)),
+    repeating-linear-gradient(180deg, transparent 0 calc(var(--ln) / 4 - 1px), var(--grid-faint) calc(var(--ln) / 4 - 1px) calc(var(--ln) / 4));
+  background-attachment: local;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  resize: none;
+  overflow-y: auto;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.pad-text::placeholder {
+  color: var(--ink-soft);
+  opacity: 0.8;
+}
+/* iPad en paysage dans Safari : le clavier laisse environ 270 px, la feuille n'a que trois lignes */
+@media (max-height: 800px) and (min-width: 701px) {
+  .pad {
+    --ln: 2.25rem;
+    --rows: 3;
+  }
+  .pad-text {
+    font-size: 1.4rem;
+  }
+}
+@media (min-height: 1000px) and (min-width: 701px) {
+  .pad {
+    --rows: 8;
+  }
+}
+@media (max-width: 700px) {
+  .pad {
+    --mw: 3rem;
+    --rows: 4;
+  }
+}
+
+/* la dictée corrigée : un mot juste aux accents près reste juste, souligné de points */
+.accent-ok {
+  text-decoration: underline dotted var(--ink-soft);
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.2em;
+}

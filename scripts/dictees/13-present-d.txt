@@ -1,0 +1,105 @@
+// Dictées au présent, lot d : voyages, paysages, métiers, fêtes, mer et montagne, artisans.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== pres
+
+// 1 phrase
+Le volcan fume au loin et les habitants de l'île surveillent chaque grondement.
+Notre bateau longe la côte rocheuse sous les cris des goélands.
+Le potier façonne un bol sur son tour et lisse la terre avec ses doigts mouillés.
+Vous traversez la vallée en suivant un torrent qui bondit entre les rochers.
+À la tombée du jour, les lucioles s'allument une à une dans le champ de blé.
+Je regarde défiler les paysages par la vitre du train sans dire un mot.
+Une caravane de chameaux avance lentement sous le soleil brûlant du désert.
+Les baleines remontent à la surface et soufflent de grandes gerbes d'eau.
+Le menuisier ponce une planche de chêne jusqu'à ce qu'elle soit parfaitement lisse.
+Au pied du glacier, un guide explique aux randonneurs comment éviter les crevasses.
+Tu enfiles tes gants et tes lunettes avant de manipuler les produits du laboratoire.
+La brume du matin se lève sur les rizières et laisse apparaître de petits bateaux.
+Les pêcheurs de perles plongent sans bouteille et remontent avec une huître fermée.
+Mon oncle voyage sans cesse et envoie des cartes postales de tous les continents.
+Nous marchons pieds nus dans le sable tiède en ramassant des coquillages.
+Le chanteur du groupe saute sur la scène et la foule hurle de joie.
+Au bord de la route, un panneau rouillé indique un village qui n'existe plus.
+La cuisinière hache du persil et le verse sur la salade de tomates.
+Un phare solitaire veille sur les rochers depuis plus de cent ans.
+Les cigognes reviennent chaque printemps et reconstruisent leur nid sur le clocher.
+Je pédale sur la route de campagne et sens le vent chaud sur mon visage.
+Le vitrier découpe une vitre et la glisse dans le cadre avec précaution.
+Les alpinistes s'attachent les uns aux autres avant d'attaquer la paroi.
+L'océan s'étend à perte de vue et se confond avec le ciel gris.
+Vous préparez un grand pique-nique avec des sandwichs, des fruits et de la limonade.
+Dans la savane, une famille d'éléphants avance en file indienne vers le point d'eau.
+Le forgeron frappe le métal rougi et fait jaillir des étincelles.
+Le cinéma du quartier projette un vieux film en noir et blanc.
+
+// 2 phrases
+Notre avion survole les Alpes. Par le hublot, nous distinguons des sommets blancs et des lacs minuscules.
+Le pêcheur lance son filet depuis la barque. Il le remonte plein de sardines qui brillent comme de l'argent.
+Une tempête de neige s'abat sur le col. Les randonneurs se réfugient dans un petit refuge de pierre.
+Je prépare mon sac pour le grand voyage. J'y glisse une carte, une boussole et un carnet de notes.
+Le potier ouvre la porte du four. Les vases brillent déjà de belles couleurs, comme des coquillages.
+Au loin, un volcan crache une épaisse fumée. Les habitants de l'île observent le ciel et préparent leurs bagages.
+Le train traverse un tunnel interminable. Les voyageurs somnolent, bercés par le roulement des roues.
+La chorale répète dans l'église du village. Les voix montent vers la voûte et se mélangent à la lumière des vitraux.
+Tu observes les fourmis dans le jardin. Elles transportent des miettes plus grosses qu'elles et ne s'arrêtent jamais.
+Nous campons au bord d'un lac de montagne. L'eau est si claire qu'on voit chaque caillou du fond.
+Le guide mène le groupe dans la grotte. Les lampes éclairent des stalactites qui pendent comme des dents de pierre.
+La mer se retire loin du rivage. Des centaines de crabes sortent des rochers et courent sur le sable mouillé.
+Mon cousin fabrique des instruments de musique avec des matériaux de récupération. Il joue dessus des mélodies surprenantes.
+Un vent chaud balaie la plaine. Les herbes sèches ondulent et le ciel prend une couleur de cuivre.
+Le capitaine du bateau salue les passagers. Il leur annonce une traversée calme et un beau coucher de soleil.
+L'archéologue brosse délicatement un morceau de poterie. Elle découvre un dessin vieux de trois mille ans.
+Le soir, la ville s'illumine de mille lumières. Les toits brillent sous la pluie et les rues sentent le café.
+Les pingouins se serrent les uns contre les autres. Au centre du groupe, les petits restent bien au chaud.
+Je descends du bus au bout de la route. Un chemin de terre monte vers la maison de mes grands-parents.
+Le forgeron plonge le fer dans l'eau. Un nuage de vapeur monte et l'atelier s'emplit d'un sifflement.
+Le cinéma ouvre ses portes à quatorze heures. Une longue file de spectateurs attend déjà sous le porche.
+Le sculpteur tourne autour de son bloc de marbre. Il sait déjà quelle forme dort à l'intérieur.
+Les moines ouvrent le monastère aux visiteurs une fois par an. On y mange du pain tiède et on y respire le silence.
+Une rivière de lave descend lentement le flanc de la montagne. Elle éclaire la nuit d'une lueur orange.
+Vous achetez des fruits exotiques au marché du port. Leur parfum sucré se mêle à l'odeur du sel et du poisson.
+Le jardinier observe le ciel d'un air inquiet. Il rentre ses plantes fragiles avant l'arrivée du gel.
+La maquilleuse peint un grand sourire sur le visage du clown. Il enfile son nez rouge et s'élance sous le chapiteau.
+Le soleil se lève sur les dunes. Le sable passe du gris au rose, puis à l'or.
+Nous décorons la salle pour la fête de fin d'année. Des guirlandes de papier pendent du plafond et des ballons couvrent le sol.
+Un petit train à vapeur grimpe vers le sommet. Les passagers se penchent aux fenêtres pour saluer les vaches.
+La pianiste ferme les yeux et pose les doigts sur le clavier. La première note résonne et le public retient son souffle.
+Un alpiniste plante son piolet dans la glace. Il se hisse d'un bras puis de l'autre et regarde le sommet.
+Les ouvriers assemblent les poutres de la charpente. Le toit prend forme jour après jour, planche après planche.
+Les cerfs-volants multicolores montent dans le ciel du festival. Une foule joyeuse les suit du regard en riant.
+Le paysan lève la tête et observe les nuages. Il sent la pluie arriver avant tout le monde.
+La vendeuse de fleurs arrange un bouquet de pivoines. Elle y glisse une branche de lilas et le tend à une cliente.
+Un phoque se prélasse sur un rocher. Il ouvre un œil, nous regarde et se rendort aussitôt.
+Le jury observe les costumes du carnaval. Chaque groupe défile en dansant et en agitant des banderoles.
+
+// 3 phrases
+Le soleil se couche sur le désert. Les dunes prennent des teintes de feu et le froid tombe d'un coup. Les voyageurs enfilent leurs manteaux et allument un feu de brindilles.
+Le potier travaille la terre avec patience. Ses mains montent, creusent, lissent et dessinent une forme parfaite. Au bout d'une heure, un vase élégant repose sur l'établi.
+Le navire entre dans le port à la tombée du soir. Les dockers l'attendent sur le quai avec des cordes et des chariots. Dans les cafés voisins, les marins se préparent déjà à raconter leurs traversées.
+La montagne s'éveille avec le printemps. La neige fond, les ruisseaux gonflent et les marmottes sortent de leurs terriers. Les bergers remontent leurs troupeaux vers les alpages.
+Un violoniste joue sur le quai de la gare. Les voyageurs pressés ralentissent, puis s'arrêtent pour l'écouter. Quelqu'un dépose une pièce dans l'étui et l'artiste sourit sans cesser de jouer.
+Le volcan gronde depuis trois jours. Les habitants de l'île préparent leurs bateaux et chargent les valises. Un nuage de cendres cache déjà le sommet.
+Je marche seul sur la plage déserte. Le vent soulève des gouttes d'eau salée qui piquent mon visage. Au bout du chemin, j'aperçois un petit bateau retourné sur le sable.
+Le chef cuisinier goûte le bouillon qui frémit depuis midi. Il ajoute une feuille de laurier et une pointe de poivre. Toute la cuisine retient son souffle jusqu'à son sourire.
+Au musée, la guide s'arrête devant un grand tableau. Elle raconte l'histoire du peintre, qui consacre dix ans à cette scène. Les visiteurs s'approchent et découvrent mille détails cachés.
+Les cigognes tournent au-dessus du clocher. Elles planent sans battre des ailes et cherchent un courant chaud qui les soulève. Puis elles s'éloignent vers le sud, en bande désordonnée.
+La neige couvre les toits et les jardins. Le silence est si profond qu'on entend tomber les flocons. Derrière les fenêtres, des lampes s'allument une à une.
+Le menuisier ouvre son atelier. L'odeur de la sciure et du bois neuf flotte dans l'air. Il choisit une planche, trace une ligne au crayon et commence à scier.
+Dans la savane, le lion se lève lentement. Il s'étire, bâille et jette un regard vers le troupeau de zèbres. Les herbes frémissent et tous les animaux s'immobilisent.
+Nous voyageons depuis dix heures dans le même wagon. Le paysage change peu à peu : des collines, des vignes, puis des champs de lavande. Mon frère dort, la tête appuyée sur mon épaule.
+Le phare s'allume à la tombée de la nuit. Son faisceau balaie les vagues et guide les bateaux vers le port. Au sommet, le gardien boit un thé brûlant en surveillant l'horizon.
+La cuisinière sort une tarte du four. La pâte est dorée, les pommes brillent et le sucre grésille encore. Toute la famille se rassemble autour de la table.
+Une famille de renards s'installe près de la ferme. Les petits jouent à se poursuivre dans l'herbe haute. Leur mère surveille les poules d'un œil vigilant.
+L'orchestre accorde ses instruments avant le grand concert. Le premier violon donne le la et tous les musiciens l'imitent. Le chef entre, salue le public et lève sa baguette.
+Le marchand d'épices pèse ses poudres colorées. Il les verse dans des sachets de papier et les ferme d'un nœud. L'air du marché sent le curry, la cannelle et le piment.
+Le marathon traverse la ville avec des milliers de coureurs. Les spectateurs applaudissent le long des rues et agitent des pancartes. Au loin, la ligne d'arrivée apparaît entre deux grands drapeaux.
+La tortue marine sort de l'eau au clair de lune. Elle creuse un trou dans le sable et y dépose ses œufs. Puis elle retourne lentement vers la mer sans se retourner.
+Un vol d'étourneaux dessine des formes dans le ciel. Il se resserre, s'étire et tourne comme une fumée vivante. Les passants s'arrêtent, le nez en l'air, émerveillés.
+L'atelier du verrier sent le feu et le sable chaud. L'artisan souffle dans une longue canne et une bulle rougeoyante grossit. Quelques gestes précis plus tard, un vase transparent naît entre ses mains.
+La vigneronne marche entre les rangées de vignes. Elle goûte un raisin, hoche la tête et note quelque chose dans son carnet. La vendange commence dans deux jours.
+Le jeune skieur chausse ses skis en haut de la pente. Il serre ses bâtons, prend une grande inspiration et s'élance. La neige crisse et le vent siffle dans ses oreilles.
+Les montgolfières décollent au lever du jour. Leurs couleurs flamboient dans le ciel pâle et leurs ombres glissent sur les champs. Les spectateurs, les yeux levés, les suivent en silence.
+L'apicultrice ouvre une ruche avec précaution. Les abeilles bourdonnent doucement et circulent entre les cadres. Elle sort un rayon doré et le tend à la lumière.
+Le vieux cinéma se remplit peu à peu. Les lumières baissent, le rideau rouge s'écarte et le projecteur s'allume. Un grand silence s'installe avant la première image.
+Mon père conduit la voiture sur une route de montagne. Les virages s'enchaînent et ma sœur ferme les yeux. Heureusement, le paysage est magnifique et la descente touche à sa fin.

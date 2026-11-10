@@ -1,0 +1,105 @@
+// Dictées au futur, lot d : saisons, nature, fêtes, métiers, voyages, vie du quartier.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== fut
+
+// 1 phrase
+Au printemps, les cerisiers couvriront nos vergers de fleurs blanches.
+Le jardinier sèmera des carottes et des radis dès que la terre se réchauffera.
+La rivière gonflera avec la fonte des neiges et emportera les branches mortes.
+Notre vieux chêne perdra ses feuilles à la fin d'octobre.
+Les cigognes survoleront la vallée et se poseront sur le clocher.
+La mer montera cette nuit et effacera les traces de pas sur le sable.
+Les moutons descendront de l'alpage avant les premières gelées.
+Un arc-en-ciel apparaîtra dès que la pluie s'arrêtera.
+Demain, le boulanger cuira cinquante baguettes pour la fête du quartier.
+Les gamins s'amuseront dans la neige jusqu'à la tombée de la nuit.
+Nous emporterons une couverture et un panier pour le pique-nique de dimanche.
+Le menuisier fabriquera une table avec le bois du vieux chêne.
+Les abeilles butineront les tilleuls dès que les fleurs s'ouvriront.
+Dans un mois, les tomates rougiront et le potager sentira bon.
+L'apiculteur récoltera le miel avant la fin de l'été.
+Le vent d'ouest apportera des nuages gris sur toute la région.
+Les amandiers fleuriront avant les autres arbres et annonceront le printemps.
+Mon grand-père tricotera une écharpe pour chaque petit-fils.
+La brume se lèvera à dix heures et laissera voir les montagnes.
+Un chat traversera la rue sur la pointe des pattes et disparaîtra derrière la haie.
+Les marronniers de la place perdront leurs feuilles et la rue deviendra toute brune.
+Le pêcheur réparera ses filets avant de repartir en mer.
+Les écureuils cacheront des noisettes dans le creux des arbres.
+La fanfare jouera sur la place et les passants s'arrêteront pour l'écouter.
+Le vigneron cueillera ses raisins quand ils seront bien mûrs.
+Une étoile filante traversera le ciel et nous ferons un vœu.
+Nous cuirons des châtaignes sur le feu et nous les mangerons brûlantes.
+L'été prochain, les vacanciers rempliront la plage dès dix heures.
+
+// 2 phrases
+Le soleil se couchera derrière la colline. Les ombres s'allongeront et le ciel deviendra rose.
+Demain, le marché ouvrira à sept heures. Les marchands installeront leurs étals et crieront le prix des fruits.
+Le printemps arrivera dans deux semaines. Les premières fleurs perceront la neige et les oiseaux reviendront.
+La rivière débordera au printemps. Les prés seront inondés et les grenouilles chanteront toute la nuit.
+Cette semaine, la ville fleurira ses balcons. Les voisins échangeront des boutures et des conseils.
+Le facteur passera à vélo sous la pluie. Il portera un ciré jaune et les gouttières chanteront à son passage.
+Le fermier labourera le champ à la fin de l'hiver. Les corbeaux le suivront et picoreront les vers.
+Un gros orage éclatera au-dessus de la plaine. Les paysans rentreront les bêtes avant la première averse.
+La neige fondra en avril. Les ruisseaux grossiront et les marmottes sortiront de leurs terriers.
+Nous partirons à la mer samedi. Le train quittera la gare à sept heures et nous arriverons pour le déjeuner.
+Les feuilles rougiront à l'automne. Les promeneurs ramasseront des marrons et des glands.
+Mon oncle plantera un figuier dans son jardin. Dans trois ans, l'arbre donnera ses premiers fruits.
+Le vent soufflera du nord toute la nuit. Les volets claqueront et les chiens aboieront sans raison.
+L'hiver prochain, le lac gèlera complètement. Les patineurs viendront de toute la région et glisseront jusqu'au soir.
+Le boulanger ouvrira son four à l'aube. L'odeur du pain chaud montera dans la rue et réveillera les dormeurs.
+Les vendangeurs arriveront en septembre. Ils rempliront des paniers de raisin noir et chanteront dans les vignes.
+La brume enveloppera le port. Les bateaux resteront à quai et les mouettes se tairont.
+Demain, la ville célébrera la fête du pain. Des boulangers de toute la région viendront présenter leurs meilleures recettes.
+Cet été, nous irons à la campagne. Nous cueillerons des cerises et dormirons dans le foin.
+Dans quelques semaines, les hirondelles repartiront. Elles se rassembleront sur les fils et s'envoleront vers l'Afrique.
+Les maçons termineront le mur avant midi. Ils nettoieront les truelles et rentreront déjeuner.
+Nous irons à la pêche au lever du soleil. Nous emporterons des vers, des cannes et un thermos de thé.
+Le potier cuira ses vases dans un four à bois. Les couleurs sortiront vives et brillantes de la fournaise.
+À Noël, le village allumera mille lumières. Les sapins brilleront devant les maisons et les jeunes chanteront dans les rues.
+Le soleil d'avril réchauffera la terre. Les graines germeront et les jardins reverdiront.
+Un cargo traversera l'océan en trois semaines. Il apportera du café, du cacao et des bananes.
+Dimanche, l'équipe de rugby jouera à domicile. Les supporters rempliront les gradins et chanteront les hymnes.
+Le gardien du phare allumera la lampe au crépuscule. Les bateaux reconnaîtront son éclat et rentreront sans crainte.
+Les paysans fêteront la fin des moissons. Ils danseront sur l'aire, dans la poussière dorée de l'été.
+Les cloches sonneront à midi. Les passants lèveront les yeux et regarderont les pigeons s'envoler.
+Ma mère accrochera des rideaux neufs à la fenêtre. Le salon sera plus lumineux et sentira la lavande.
+Le train de nuit partira à vingt-trois heures. Nous dormirons dans des couchettes et nous arriverons à Marseille au petit jour.
+L'orage éclatera dans l'après-midi. Nous rentrerons en courant et nous boirons un chocolat chaud.
+Les arbres perdront leurs feuilles. Les branches nues dessineront des dentelles sur le ciel gris.
+La classe sortira dans la forêt. Chacun ramassera trois feuilles différentes et les collera dans son cahier.
+Le vent soufflera sur la lande. Les genêts onduleront et les mouettes viendront se réfugier dans les terres.
+Les premiers touristes arriveront en mai. Les cafés sortiront leurs terrasses et les boutiques rouvriront.
+Nous récolterons les pommes en octobre. Papa fabriquera du jus et maman fera des compotes.
+
+// 3 phrases
+Le printemps reviendra, comme chaque année. Les arbres se couvriront de bourgeons et les prairies de fleurs. Les oiseaux reviendront du sud et rempliront les haies de chansons.
+Dans quelques jours, l'hiver s'installera pour de bon. La neige couvrira les routes et les jardins. Les familles se réuniront autour des poêles avec des soupes chaudes.
+L'été prochain, nous partirons dans le sud en train. Nous traverserons des plaines de lavande et des villages perchés. À l'arrivée, nous nous baignerons dans une eau turquoise.
+Demain, le soleil se lèvera sur une journée sans nuage. Les pêcheurs lanceront leurs filets et les mouettes les suivront. Le port retrouvera peu à peu son animation habituelle.
+À la fin de l'automne, les arbres perdront leurs dernières feuilles. Les jardiniers rentreront les outils et nettoieront les allées. Le jardin s'endormira jusqu'au printemps.
+Le nouveau pont ouvrira en septembre. Les camions passeront au-dessus du fleuve et les piétons suivront la rambarde. Les habitants fêteront l'événement avec un grand banquet.
+Cette nuit, le gel recouvrira les prés. Chaque brin d'herbe deviendra une aiguille de cristal. Nous marcherons dessus en écoutant le craquement léger de nos pas.
+Nous construirons un four à pain dans le jardin. Nous monterons des briques, du mortier et une voûte en argile. Le premier pain sera sûrement raté, mais le deuxième sera divin.
+Dans trois semaines, la forêt sera pleine de champignons. Nous partirons à l'aube avec des paniers en osier. Nous reviendrons avec des cèpes, des girolles et des histoires.
+Mon grand-père plantera des chênes pour ses petits-enfants. Il plantera aussi des châtaigniers. Les arbres grandiront lentement, mais dans soixante ans, ils abriteront des hiboux et des écureuils.
+À midi, le marché de Noël ouvrira ses portes. Les chalets sentiront la cannelle et le vin chaud. Les petits regarderont les jouets en bois dans les vitrines.
+Demain, les ouvriers installeront un nouveau carrelage dans la cuisine. Ils poseront d'abord une couche de colle, puis ils aligneront les carreaux. Nous ferons un repas froid dans le jardin.
+En juillet, le festival de théâtre commencera. Les acteurs joueront dans les rues, sur les places et dans les cours. Les spectateurs suivront les troupes de lieu en lieu.
+Les abeilles quitteront leur ruche au premier soleil. Elles butineront les fleurs de tilleul et rapporteront le nectar. L'apiculteur récoltera le miel à la fin de l'été.
+Un jour, ce petit port deviendra une grande ville. Les rues s'allongeront, les immeubles pousseront et les trains arriveront. Les anciens regretteront le calme des premières années.
+Dimanche, nous irons ramasser des châtaignes dans le bois voisin. Nous remplirons des seaux et des sacs. Le soir, nous les ferons griller dans la cheminée.
+Dans quelques jours, la neige bloquera le col. Les routiers resteront dans leurs camions et partageront du café. Les chasse-neige travailleront toute la nuit.
+Les vacances commenceront samedi prochain. Nous ferons nos valises et nous prendrons la route à l'aube. Mes parents promettront que nous ne nous arrêterons pas avant midi.
+Demain, mon oncle viendra réparer le toit. Il montera sur son échelle avec une boîte de tuiles. Nous lui apporterons du café et des biscuits.
+Quand les hirondelles seront parties, l'automne arrivera. Les jours raccourciront et les soirées s'allongeront. Nous rallumerons le feu dans la cheminée.
+La rivière montera avec les pluies de printemps. Les bateaux se tiendront à l'écart des rapides. Les pêcheurs s'installeront sur les rives pour attendre les saumons.
+Cet été, une exposition de sculptures ouvrira dans le parc. Les artistes installeront leurs œuvres entre les arbres. Les visiteurs se promèneront de statue en statue.
+Samedi, nous organiserons un grand vide-grenier. Nous mettrons nos jouets, nos livres et nos vêtements sur des tables. Nous achèterons des glaces avec l'argent gagné.
+Le facteur apportera une lettre de ma cousine. Elle écrira qu'elle viendra nous voir pour les vacances. Nous préparerons la chambre d'amis avec des fleurs.
+La ville organisera une course à pied en octobre. Des milliers de coureurs envahiront les rues. Les habitants les applaudiront depuis leurs balcons.
+Demain, la fête foraine ouvrira ses portes. Les manèges tourneront dans un grand bruit de musique. Les barbes à papa rendront les petits collants et heureux.
+Dans une semaine, le tilleul de la place fleurira. Son parfum envahira la rue et attirera les abeilles. Les passants s'arrêteront pour respirer à pleins poumons.
+L'hiver prochain, nous irons au ski. Nous louerons des chaussures et des bâtons dans une petite boutique. Le soir, nous mangerons de la fondue en riant.
+Mon père plantera un olivier dans le jardin. Il l'arrosera chaque semaine et le protégera du gel. Dans dix ans, nous goûterons notre propre huile.

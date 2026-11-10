@@ -1,0 +1,30 @@
+// Dictées à l'imparfait : descriptions, habitudes, souvenirs.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== imp
+
+// 1 phrase
+Autrefois, les villageois allumaient de grands feux sur la colline.
+Quand j'étais petit, je dormais toujours avec une lampe allumée.
+Chaque été, nous passions nos vacances dans une vieille maison au bord de la mer.
+Le vent soufflait si fort que les volets claquaient toute la nuit.
+Mon grand-père racontait des histoires de pirates en épluchant des pommes.
+Les enfants jouaient dans la cour pendant que la pluie tombait doucement.
+
+// 2 phrases
+Il faisait nuit et le brouillard couvrait la route. Les phares de la voiture éclairaient à peine quelques mètres.
+Chaque dimanche, Mamie préparait une grande tarte. Toute la famille se retrouvait autour de la table.
+Le château semblait abandonné. Ses fenêtres brisées laissaient entrer le vent et la pluie.
+Zoé avait peur de l'orage. Elle se cachait sous sa couverture et fermait les yeux très fort.
+Les chevaliers montaient la garde devant la porte. Leurs armures brillaient dans la lumière de la lune.
+Dans la cour de l'école, nous jouions aux billes. Les plus grands regardaient et donnaient des conseils.
+La petite ville dormait encore. Seul le boulanger allumait déjà son four.
+Le chien attendait devant la porte. Il remuait la queue chaque fois qu'il entendait un bruit de pas.
+
+// 3 phrases
+Il y a longtemps, un vieux phare se dressait au bout de l'île. Chaque soir, un gardien montait l'escalier en colimaçon. Il allumait la lanterne et surveillait la mer jusqu'à l'aube.
+Quand nous étions petits, nous construisions des cabanes dans le jardin. Nous apportions des couvertures et des gâteaux. Nous restions là des heures, sans jamais nous ennuyer.
+Le jour de la rentrée, Samir était très nerveux. Ses mains tremblaient un peu et son cœur battait vite. Pourtant, il souriait en entrant dans la classe.
+Dans la forêt, il régnait un grand silence. Les arbres, hauts et sombres, cachaient le ciel. On entendait seulement le craquement des branches sous nos pas.
+Autrefois, les marins partaient pour des mois entiers. Leurs familles attendaient sur le quai et agitaient des mouchoirs. Chaque retour était une grande fête.
+Léa adorait les vacances chez sa tante. Le matin, elle donnait à manger aux poules. L'après-midi, elle courait dans les champs avec son chien.

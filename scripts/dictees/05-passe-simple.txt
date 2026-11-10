@@ -1,0 +1,30 @@
+// Dictées au passé simple : récits d'aventures et contes.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== ps
+
+// 1 phrase
+Soudain, la porte s'ouvrit et un grand silence tomba sur la salle.
+Le chevalier tira son épée et s'avança vers le dragon.
+Ce soir-là, un orage terrible éclata au-dessus du village.
+Les enfants entendirent un bruit étrange et se cachèrent derrière le mur.
+La sorcière prit sa baguette et prononça quelques mots magiques.
+Au bout d'une heure, les explorateurs aperçurent enfin la lumière du phare.
+
+// 2 phrases
+Le capitaine regarda la mer. Il comprit aussitôt le danger.
+Léa ouvrit lentement le coffre. Elle découvrit un vieux parchemin couvert de signes.
+Les villageois coururent vers la rivière. Ils virent le pont s'effondrer dans l'eau.
+Tom poussa la lourde porte de la cave. Une odeur de poussière lui piqua le nez.
+Le roi convoqua tous les chevaliers. Chacun jura de défendre le royaume.
+La nuit tomba sur le camp. Les enfants allumèrent un feu et se serrèrent autour des flammes.
+Le vent se leva et les voiles claquèrent. Le bateau partit vers l'horizon.
+Zoé tendit la main vers la lanterne. Elle sentit soudain une présence derrière elle.
+
+// 3 phrases
+Le jour se leva sur la forêt. Les voyageurs reprirent leur marche et traversèrent la rivière à gué. Au loin, ils virent enfin les toits du village.
+Un soir d'hiver, un étranger frappa à la porte de la ferme. Le fermier ouvrit et le fit entrer près du feu. L'inconnu les remercia et leur raconta une étrange histoire.
+Le dragon poussa un cri terrible. Les chevaliers reculèrent d'un pas, mais la jeune princesse s'avança. Elle leva la main et la bête se calma aussitôt.
+Maya descendit l'escalier de la cave. Elle alluma sa lampe et découvrit une porte cachée derrière les étagères. Son cœur battit très fort, puis elle poussa la poignée.
+La tempête dura toute la nuit. Le mât se brisa, mais le navire resta à flot. Au matin, les marins sortirent sur le pont et regardèrent les dégâts.
+Les deux amis marchèrent jusqu'au sommet. Ils posèrent leurs sacs et contemplèrent la vallée. Alors, un aigle déploya ses ailes et s'envola vers le soleil.

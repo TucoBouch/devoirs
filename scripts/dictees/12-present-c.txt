@@ -1,0 +1,105 @@
+// Dictées au présent, lot c : aventures, enquêtes, légendes, espace, avec je, tu, nous et vous.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== pres
+
+// 1 phrase
+Nous escaladons la falaise en nous accrochant aux racines et aux rochers.
+Le magicien murmure une formule et la porte de pierre s'ouvre lentement.
+Je range mes crayons dans la trousse rouge de ma grand-mère.
+Les pirates enterrent leur trésor sous un palmier au bord de la plage.
+Tu tiens la lampe pendant que j'avance dans le tunnel obscur.
+Une licorne apparaît au bord du lac et boit l'eau claire.
+Vous marchez longtemps avant d'apercevoir la fumée d'un campement.
+Le robot de Samir prépare le petit-déjeuner et chante des chansons ridicules.
+Les chevaliers montent la garde devant la porte du château jusqu'au lever du soleil.
+Le détective suit un homme au chapeau noir à travers les ruelles étroites.
+Nous apercevons au loin une île couverte de brouillard et de mystère.
+La sorcière remue sa potion avec une cuillère en bois et prononce des mots étranges.
+Un astronaute plante un drapeau sur le sol poussiéreux de la planète rouge.
+Les loups hurlent à la lune et la forêt entière retient son souffle.
+Je tourne la clé dans la serrure et la vieille porte grince longuement.
+Le vaisseau spatial quitte l'orbite et fonce vers une étoile inconnue.
+La princesse refuse la couronne et préfère partir explorer le monde.
+Mes amis et moi cherchons un trésor dans le grenier de la maison abandonnée.
+Le dragon crache un filet de fumée et regarde les villageois avec curiosité.
+Une carte déchirée montre le chemin vers une grotte pleine de cristaux.
+Tu devines la réponse de l'énigme avant même la fin de la question.
+Les elfes tissent des paniers de lumière dans les branches des grands arbres.
+Le capitaine scrute l'horizon avec sa longue-vue et crie qu'une voile approche.
+Nous passons la nuit dans une grotte et écoutons le bruit lointain des vagues.
+Le fantôme du manoir traverse les murs et fait claquer les volets.
+Vous découvrez un passage secret derrière la grande bibliothèque.
+Le jeune apprenti rassemble son courage et ouvre le livre interdit.
+L'inspectrice relève des empreintes de pas boueuses près de la fenêtre.
+
+// 2 phrases
+Je descends l'escalier de la cave sur la pointe des pieds. Ma lampe éclaire des toiles d'araignée et des bouteilles couvertes de poussière.
+Les explorateurs avancent dans la jungle. Ils écartent les lianes et surveillent les moindres bruits.
+La sorcière plonge sa main dans le chaudron. Elle en retire une pierre brillante qui change de couleur.
+Nous traversons le pont suspendu avec précaution. Le vent le fait osciller et les planches craquent sous nos pas.
+Le détective interroge la cuisinière du château. Elle tremble et répète qu'elle ne sait rien.
+Un chevalier solitaire chevauche à travers la plaine. Son armure reflète les derniers rayons du soleil.
+Tu ouvres le coffre avec un cœur qui bat très fort. À l'intérieur, une lettre jaunie t'attend sous un tas de pièces d'or.
+Le vaisseau flotte au-dessus d'une planète bleue. Les astronautes distinguent des océans, des nuages et des îles.
+Le magicien tend sa baguette vers le ciel. Un éclair jaillit et les nuages s'écartent comme un rideau.
+Les pirates dressent leur camp sur la plage. Ils allument un feu et partagent leurs dernières provisions.
+Vous grimpez au sommet de la tour. De là-haut, vous voyez la mer, la forêt et la ville minuscule.
+Le dragon survole la vallée en poussant un cri sauvage. Les moutons s'enfuient dans toutes les directions.
+Mon héros préféré porte une cape rouge et une épée d'argent. Il sauve les villages et ne demande jamais de récompense.
+La licorne galope dans la clairière. Ses sabots effleurent à peine l'herbe et laissent des traces lumineuses.
+Le professeur de chimie mélange deux liquides dans un tube. Une fumée verte s'élève et les élèves reculent d'un pas.
+Les robots défilent sur la scène de la fête des sciences. Les visiteurs les applaudissent et leur posent des questions.
+Nous suivons les traces d'un animal dans la boue. Elles mènent à une cabane abandonnée au bord du marais.
+L'enquêteur examine la lettre à la lumière d'une bougie. Il distingue une signature effacée et fronce les sourcils.
+La reine des fées bat des ailes au-dessus de l'étang. Des étincelles dorées tombent sur l'eau et s'éteignent en sifflant.
+Je ferme mon livre et j'écoute le silence. Dehors, la pluie recommence à tomber doucement.
+Le capitaine donne l'ordre de jeter l'ancre. Les marins s'activent et le bateau s'immobilise dans la baie.
+L'apprenti sorcier agite sa baguette. Les balais se mettent à danser et renversent tout le laboratoire.
+Un hibou chante sur la branche d'un chêne. Les promeneurs s'arrêtent et cherchent des yeux l'oiseau invisible.
+Les chevaliers entrent dans la salle du trône. Le roi se lève et leur confie une mission secrète.
+Un robot nettoie les vitres du vaisseau. Il siffle un air joyeux en suivant le contour des hublots.
+Tu cours dans le couloir du vieux château. Une ombre te suit et s'arrête dès que tu te retournes.
+Ma sœur lit un roman policier avec une lampe de poche. Elle sursaute chaque fois qu'un bruit résonne dans la maison.
+Les explorateurs découvrent un temple oublié sous la végétation. Des dessins étranges ornent les murs de pierre.
+Le vent se lève et les voiles se gonflent. Le navire prend de la vitesse et fend les vagues.
+Le gardien du phare monte les marches une à une. Chaque soir, il vérifie la lampe et surveille la mer.
+Le sorcier récite une formule en latin. Un nuage violet enveloppe la pièce et tout le monde éternue.
+Nous attendons le signal du chef dans l'obscurité. Un sifflement aigu retentit et la course commence.
+L'astronome règle son télescope sur Jupiter. Il distingue quatre petits points lumineux alignés autour de la planète.
+La princesse écrit une lettre secrète à la lumière d'une bougie. Elle la glisse dans une bouteille et la jette par la fenêtre.
+Un vieux pirate raconte ses voyages à qui veut l'entendre. Ses auditeurs l'écoutent bouche bée et ne savent plus s'il invente.
+Je cache mon journal sous une latte du plancher. Personne ne connaît cette cachette, pas même mon frère.
+Le petit dragon apprend à cracher du feu. Il tousse, éternue et met le feu à la queue d'un voisin.
+Les agents secrets se retrouvent sous un pont. Ils échangent un mot de passe et disparaissent dans le brouillard.
+
+// 3 phrases
+Le professeur pousse la porte du laboratoire secret. Des écrans clignotent, des tubes bouillonnent et une machine ronronne dans un coin. Il sourit : son invention fonctionne enfin.
+Les chevaliers traversent la forêt sombre au petit matin. Leurs armures tintent et leurs chevaux hésitent devant les racines. Au loin, une tour noire se dresse dans la brume.
+Je glisse la clé dans la serrure du vieux coffre. Un déclic retentit et le couvercle se soulève avec un soupir. À l'intérieur brille un collier de perles bleues.
+La station spatiale tourne autour de la Terre en quatre-vingt-dix minutes. Les astronautes voient seize levers de soleil par jour. Ils dorment dans des sacs accrochés au mur pour ne pas flotter.
+Le détective s'arrête devant la maison abandonnée. Il remarque une fenêtre entrouverte et une trace de boue fraîche. Il tire sa lampe de sa poche et entre sans bruit.
+Les pirates ouvrent la carte au clair de lune. Une croix rouge marque l'endroit du trésor, au pied d'un rocher. Ils éclatent de rire et trinquent avec des gobelets de bois.
+La sorcière observe la boule de cristal. Une brume claire tourbillonne et dessine des formes étranges. Elle ricane et prépare déjà sa plus belle potion.
+Dans le désert, une caravane avance lentement. Les chameaux portent des sacs d'épices et des tapis roulés. Le soleil brûle et le sable crisse sous chaque pas.
+Le dragon vit au sommet d'une montagne enneigée. Il garde un trésor que personne ne peut approcher. Les villageois racontent sa légende à voix basse, le soir, près du feu.
+L'ingénieure construit un robot avec des pièces de récupération. Elle visse, soude et teste chaque mouvement. Le robot lève enfin le bras et salue sa créatrice.
+Dans le grenier, Tom soulève un drap poussiéreux. Il découvre un vieux globe terrestre et un télescope en cuivre. Son cœur bat plus vite : une expédition commence.
+La princesse s'échappe par la fenêtre de sa chambre. Elle descend le long d'une corde faite de draps noués. En bas, un cheval blanc l'attend dans l'ombre.
+Les marins affrontent une tempête sans pareille. Les vagues déferlent sur le pont et la coque gémit. Le capitaine tient la barre et ne lâche pas.
+Un messager arrive au château au galop. Il tend un parchemin scellé au roi qui pâlit en le lisant. Aussitôt, tous les chevaliers sont convoqués dans la grande salle.
+Nous marchons toute la nuit sous un ciel plein d'étoiles. Le chemin monte, descend et se perd dans les herbes hautes. À l'aube, nous apercevons enfin le toit de la cabane.
+Le petit robot tombe en panne au milieu du jardin. Une fillette l'observe, le soulève et le ramène chez elle. Elle remplace une pile et le robot rouvre ses yeux lumineux.
+L'enquêteuse relit ses notes dans le train de nuit. Les indices se mélangent dans sa tête sans former de piste. Soudain, un détail l'éclaire et elle bondit de son siège.
+La fée du lac apparaît chaque soir à la même heure. Elle chante une mélodie douce qui calme les vagues. Les pêcheurs rentrent au port avec un sourire.
+Les aventuriers découvrent une porte au fond de la grotte. Elle est couverte de signes que personne ne sait lire. Le plus jeune pose la main dessus et la pierre se met à briller.
+Le vaisseau pirate approche à pleines voiles. Ses canons sont pointés vers le petit bateau de pêche. Heureusement, le brouillard s'épaissit et cache les fuyards.
+Maya enfile son déguisement de chevalier. Elle prend son épée en bois et son bouclier en carton. Le jardin devient aussitôt un royaume à défendre.
+Dans la forêt enchantée, les arbres chuchotent entre eux. Les champignons brillent la nuit comme de petites lanternes. Un voyageur égaré suit leur lueur jusqu'à la clairière.
+La capsule spatiale entre dans l'atmosphère. Elle devient rouge, tremble et siffle comme une bouilloire. Les astronautes serrent les dents jusqu'à l'ouverture du parachute.
+L'orphelin cache un livre sous son oreiller. Chaque nuit, il le lit à la lueur d'une bougie volée. Il rêve de devenir un jour un grand explorateur.
+Les jumeaux fouillent la cave du manoir. Derrière une étagère, ils trouvent un escalier qui descend vers l'inconnu. Ils échangent un regard et osent le premier pas.
+Le géant s'assoit au bord de la rivière. Il trempe ses pieds dans l'eau et soupire de soulagement. Les poissons s'écartent prudemment de ses orteils.
+Le chef des voleurs attend dans la ruelle. Il surveille la fenêtre du banquier et compte les minutes. Une ombre passe, et il donne le signal à ses complices.
+La navigatrice trace une route sur sa carte. Elle évite les récifs, contourne l'orage et repère un petit port. Son équipage lui fait confiance les yeux fermés.
+Le château dort sous la lune. Dans les couloirs, seuls les pas du gardien troublent le silence. Derrière une tapisserie, un passage secret attend son heure.

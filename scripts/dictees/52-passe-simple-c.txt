@@ -1,0 +1,105 @@
+// Dictées au passé simple, lot c : enquêtes, mystères, manoirs, cambrioleurs, fantômes, villes la nuit.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== ps
+
+// 1 phrase
+Le détective alluma sa lampe et éclaira les marches de l'escalier.
+La porte claqua derrière nous et le couloir devint noir.
+Le voleur glissa la clé dans la serrure et la tourna sans bruit.
+Une ombre longue traversa le mur et disparut dans la cheminée.
+L'inspecteur releva une empreinte de pas dans la poussière.
+Je tendis l'oreille et perçus un murmure derrière la cloison.
+Le gardien fit trois fois le tour du musée et ne vit rien d'anormal.
+Une main gantée saisit le sac et le fit disparaître sous la table.
+La police arriva à minuit et encercla la maison abandonnée.
+Le tableau tomba du mur et se brisa en mille morceaux.
+Les enquêteurs interrogèrent le jardinier et notèrent chacune de ses réponses.
+Le témoin hésita, baissa les yeux et avoua tout.
+Un bruit de pas résonna dans le grenier et tous les chats se turent.
+Le détective suivit l'inconnu jusqu'à la gare et monta dans le même wagon.
+Léa trouva une lettre sous le paillasson et la lut debout dans l'entrée.
+Les lumières s'éteignirent d'un coup et les cris retentirent dans la salle.
+L'inspectrice fouilla le bureau et découvrit un double fond dans le tiroir.
+Nous poussâmes la grille rouillée et avançâmes dans le jardin envahi d'herbes.
+Une clé tourna dans la serrure et la porte s'ouvrit lentement.
+Le chien aboya, tira sur sa laisse et fonça vers la cave.
+Le directeur appela la police et décrivit le voleur en quelques mots.
+Les petits se cachèrent derrière le canapé et retinrent leur souffle.
+Le coupable chercha des yeux une issue et se rua vers la fenêtre.
+Un éclat de verre brilla sur le tapis et l'enquêteur le ramassa avec une pince.
+Le fantôme du manoir soupira et fit claquer les volets du premier étage.
+Le détective ouvrit la valise et en sortit une photo jaunie.
+Ils suivirent une piste de boue jusqu'à la porte du garage.
+Le téléphone sonna trois fois puis se tut brusquement.
+
+// 2 phrases
+Le détective entra dans le salon. Il remarqua aussitôt la fenêtre brisée et la trace de pas sur le tapis.
+Je poussai la porte de la cave. Une odeur de moisi me prit à la gorge et je reculai.
+Un cri déchira la nuit. Les voisins allumèrent leurs lampes et sortirent sur le seuil.
+L'inspecteur prit la loupe. Il examina la serrure et découvrit de fines rayures.
+Le voleur grimpa sur le toit. Il rampa jusqu'à la lucarne et se glissa à l'intérieur.
+La lumière vacilla puis s'éteignit. Un bruit de chaînes résonna dans le couloir.
+Les policiers encerclèrent l'immeuble. Un haut-parleur ordonna aux occupants de sortir les mains en l'air.
+La jeune détective ouvrit son carnet. Elle nota l'heure, le lieu et les noms des témoins.
+Une silhouette apparut au bout de la rue. Elle s'approcha lentement et s'arrêta sous un lampadaire.
+Nous descendîmes l'escalier de pierre. Au bas des marches, une porte de fer nous barra le passage.
+Le gardien aperçut une lueur dans la salle des tableaux. Il tira son sifflet et courut dans le couloir.
+Le cambrioleur brisa la vitre. Il tendit la main, ouvrit la fenêtre et sauta dans le salon.
+Le commissaire fit signe à ses hommes. Ils entrèrent par la porte de derrière sans un bruit.
+Une fenêtre claqua au premier étage. Un rideau se gonfla comme un fantôme et retomba.
+Le détective ramassa la lettre. Il la lut deux fois, la plia et la glissa dans sa poche.
+L'enquêteur confronta les suspects. Ils nièrent, s'énervèrent et finirent par se contredire.
+Le chat noir sauta du mur. Il traversa la rue et disparut dans la ruelle voisine.
+Les phares d'une voiture balayèrent la façade. Un homme en descendit, regarda autour de lui et entra.
+Le facteur remit une enveloppe étrange au détective. Il l'ouvrit et en sortit une photo déchirée.
+L'horloge sonna minuit. Une porte grinça et un souffle froid parcourut la bibliothèque.
+La détective fit un pas en arrière. Elle heurta un vase, qui se brisa sur le sol.
+Le voleur cacha le collier dans une boîte à biscuits. Il referma le couvercle et la posa sur l'étagère.
+Une lettre anonyme arriva au poste de police. Le commissaire la lut à haute voix et fronça les sourcils.
+Les enquêteurs trouvèrent une valise dans la cave. Ils l'ouvrirent : des billets, des cartes et un faux revolver apparurent.
+Le gardien ferma la grille à clé. Il vérifia les couloirs et rentra chez lui.
+Le portrait au mur cligna des yeux. Le détective bondit en arrière et heurta une chaise.
+Un cri d'oiseau retentit dans le parc. Les promeneurs se retournèrent, puis reprirent leur chemin.
+Le chien renifla l'herbe. Il aboya deux fois et s'élança vers le bois.
+Le détective s'assit dans le fauteuil. Il croisa les jambes, ferma les yeux et réfléchit longuement.
+La porte secrète pivota sans bruit. Un escalier de pierre descendit dans l'obscurité.
+Nous entendîmes un craquement. Des pas résonnèrent dans le grenier, juste au-dessus de nos têtes.
+Le coupable avoua tout au commissaire. Il baissa la tête et tendit ses poignets.
+La détective compara les écritures. Elle reconnut le crochet du g et le point trop épais.
+Le brouillard envahit la ville. Les lampadaires disparurent un à un et les passants se turent.
+Les policiers saisirent le colis. Ils l'ouvrirent avec précaution et trouvèrent une horloge en panne.
+Le détective monta dans le train de nuit. Il s'installa près de la fenêtre et surveilla le couloir.
+Un vent glacé souffla dans la maison. Les bougies s'éteignirent et un silence épais tomba sur les pièces.
+Le jeune apprenti plongea la main dans la poche du manteau. Il en tira une clé et un papier plié.
+
+// 3 phrases
+Le détective inspecta la pièce lentement. Il passa le doigt sur la table, souleva un coussin et ouvrit le tiroir. Au fond, il trouva une clé et un mot griffonné à la hâte.
+La porte du manoir s'ouvrit toute seule. Un courant d'air glacé parcourut le hall et fit vaciller les chandelles. Les visiteurs échangèrent un regard et entrèrent un à un.
+Le voleur attendit la nuit. Il escalada le mur, traversa le jardin et força la fenêtre de la cuisine. Il disparut dans la maison sans faire grincer le parquet.
+L'inspecteur reçut un appel anonyme. Une voix déformée lui donna une adresse et raccrocha aussitôt. Il prit son manteau et fonça vers la vieille usine.
+Le détective sortit du café à la tombée de la nuit. Il leva le col de son manteau et traversa la place. Une silhouette le suivit à distance dans l'ombre.
+Une lettre arriva au château sans timbre ni signature. Le comte la lut et pâlit. Il convoqua aussitôt tous les membres de sa famille.
+Les petits poussèrent la porte de la cabane abandonnée. Ils virent une table, trois chaises et un coffre fermé. Ils s'approchèrent sur la pointe des pieds et soulevèrent le couvercle.
+Le cambrioleur fit sauter la serrure. Il entra dans le bureau, ouvrit le coffre et vida son contenu dans un sac. Une alarme retentit, et il s'enfuit par la fenêtre.
+Le détective interrogea chaque invité. Il nota les noms, les heures et les alibis. À minuit, il démasqua le menteur.
+Une fumée noire s'éleva du grenier. Les pompiers accoururent, déroulèrent leurs lances et grimpèrent à l'échelle. Ils éteignirent le feu avant l'arrivée des flammes chez le voisin.
+Le fantôme sortit du tableau à minuit. Il glissa dans le couloir, traversa les murs et hanta la cuisine. Au chant du coq, il retourna dans son cadre.
+Le professeur ouvrit la porte de la salle secrète. Une odeur de papier ancien l'accueillit. Il avança entre les étagères et toucha du doigt les reliures de cuir.
+L'agent surveilla l'entrée de l'hôtel. Un homme en imperméable sortit, regarda à droite et à gauche, puis monta dans un taxi. L'agent le suivit en voiture.
+Les voleurs forcèrent la porte arrière de la bijouterie. Ils emportèrent les colliers, les bagues et les montres. À l'ouverture, le patron découvrit des vitrines vides.
+Le détective releva une trace de pneus dans la boue. Il la mesura, la photographia et la compara avec ses notes. Les trois bandes jaunes de la roue gauche trahirent le coupable.
+La nuit devint noire comme une cave. Un hurlement retentit sur la colline et les chiens aboyèrent. Les villageois verrouillèrent leurs portes et éteignirent leurs lampes.
+L'inspectrice rassembla tous les suspects dans le salon. Elle leur montra la clé, la lettre et la montre arrêtée. Un des invités blêmit et s'effondra dans un fauteuil.
+Nous traversâmes le cimetière à minuit. Les grilles grincèrent, une chouette cria et un souffle froid passa dans nos cheveux. Nous courûmes jusqu'à la sortie sans nous retourner.
+Un colis arriva à la gare sans adresse. Le chef de gare l'ouvrit et trouva une lettre cachetée. Il la lut, la replia et appela la police.
+Le détective s'approcha de la fenêtre. Il écarta le rideau et vit l'homme au chapeau noir. Il tourna la poignée et se rua dans la rue.
+Le chien policier huma la veste du voleur. Il tira sur sa laisse et entraîna son maître jusqu'au port. Le fugitif tenta de plonger, mais les agents le rattrapèrent.
+Les cloches de l'église sonnèrent trois fois. Un vieil homme sortit de l'ombre et marcha vers la fontaine. Il déposa une enveloppe et disparut dans la ruelle.
+Léa déchiffra le message codé. Elle écrivit chaque lettre sur une feuille et trouva le mot caché. Elle courut prévenir l'inspecteur, qui sourit et la félicita.
+Un brouillard épais couvrit la lande. Le détective ralentit le pas et sortit sa lampe. Il avança lentement vers la maison isolée.
+La serrure céda dans un claquement sec. Les cambrioleurs entrèrent et fouillèrent chaque tiroir. Ils repartirent les mains vides.
+Le journaliste attendit sous la pluie. Une porte s'ouvrit et le ministre apparut, entouré de gardes. Il prit des photos et se glissa derrière un camion.
+Le détective revint sur ses pas. Il retrouva la trace du pied gauche, plus profonde que l'autre. Le secret du voleur lui apparut aussitôt.
+Le commissaire rassembla ses hommes dans la cour. Il distribua les consignes et désigna les équipes. Les voitures démarrèrent dans un hurlement de sirènes.
+Le voleur monta sur le toit de la gare. Il courut sur les tuiles, sauta sur une cheminée et glissa. Le détective le rattrapa par le col et le ramena en bas.

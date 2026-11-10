@@ -1,0 +1,105 @@
+// Dictées au passé simple, lot d : récits de la vie, de l'école, des voyages, des inventions et des métiers.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== ps
+
+// 1 phrase
+Le jour de la rentrée, la cloche sonna et les élèves entrèrent en rang.
+La jeune chimiste regarda au microscope et poussa un cri de joie.
+Les explorateurs atteignirent le sommet à l'aube et plantèrent leur drapeau.
+Un inventeur fit tourner son premier moteur et cria de joie.
+Le conducteur du train siffla trois fois et le convoi s'ébranla.
+Léa ouvrit son cahier, prit son stylo et commença sa rédaction.
+Mon grand-père sortit son vieil harmonica et joua un air de son enfance.
+L'athlète prit son élan, sauta et franchit la barre d'un seul bond.
+Le fermier se leva à l'aube et traversa la cour pour nourrir les bêtes.
+Le maître écrivit la date au tableau et distribua les feuilles.
+Les spectateurs retinrent leur souffle quand le trapéziste lâcha la barre.
+Le boulanger sortit les pains du four et les posa sur le comptoir.
+Nous descendîmes du train et respirâmes l'air frais de la montagne.
+L'astronaute posa le pied sur le sol lunaire et regarda la Terre.
+Mon père rentra tard, posa son sac et nous embrassa tous un par un.
+La chanteuse entra sur la scène et la salle fut aussitôt silencieuse.
+Le jardinier planta le dernier rosier et rangea ses outils.
+Une cloche sonna au loin et les moines quittèrent le réfectoire.
+Mon cousin apprit à nager cet été-là et plongea du haut du ponton.
+La maîtresse sourit, ferma son livre et annonça la fin de la dictée.
+Le peintre trempa son pinceau dans le bleu et traça un immense ciel.
+Les petits coururent vers la plage et plongèrent dans les vagues.
+Le chauffeur du car ouvrit les portes et les élèves descendirent un à un.
+Je pris mon cartable, embrassai ma mère et partis sans me retourner.
+L'orchestre attaqua la première note et le public se leva.
+La pianiste posa les mains sur le clavier et ferma les yeux.
+L'équipe de secours atteignit la cabane au crépuscule et trouva les randonneurs.
+Le facteur frappa à la porte, tendit la lettre et repartit sous la pluie.
+
+// 2 phrases
+Mon grand-père monta dans le train. Il s'assit près de la fenêtre et regarda défiler les champs.
+La cloche de l'école sonna huit heures. Les élèves se mirent en rang et entrèrent dans la classe.
+Le jeune inventeur brancha son appareil. Il y eut un grésillement, puis une lumière blanche jaillit.
+Le maire coupa le ruban rouge. La foule applaudit et la fanfare entama un air joyeux.
+Le coureur franchit la ligne d'arrivée. Il leva les bras et tomba à genoux, épuisé.
+Ma mère ouvrit le courrier. Elle poussa un cri de joie et nous lut la lettre à haute voix.
+Le cuisinier goûta la sauce. Il fit la grimace, ajouta du sel et goûta encore.
+Nous arrivâmes à la ferme à midi. Le fermier nous accueillit avec une tarte aux pommes.
+Le professeur donna un coup de règle sur le bureau. Le silence tomba d'un coup sur la classe.
+Le jeune peintre prit sa palette. Il mélangea du rouge et du jaune et obtint un orange magnifique.
+Le pilote tira le manche. L'avion quitta la piste et s'éleva dans le ciel gris.
+L'archéologue sortit une pièce de sa poche. Elle la montra à ses collègues, qui poussèrent des cris.
+Le bateau accosta à l'aube. Les voyageurs descendirent la passerelle et se mirent à courir sur le quai.
+Mon frère enfila son maillot. Il courut vers l'eau, sauta et éclaboussa tout le monde.
+L'orchestre accorda ses violons. Le chef leva les bras et la musique emplit la salle.
+La nuit tomba sur le camp. Les scouts allumèrent un feu et chantèrent leurs chansons préférées.
+Un cycliste dévala la pente. Il freina trop tard et atterrit dans un buisson de ronces.
+Le potier façonna un vase immense. Il le laissa sécher trois jours puis le cuisit dans son four.
+Je levai les yeux vers le ciel. Une comète traversa la nuit et je fis un vœu.
+Les marchands plièrent leurs étals. Le marché se vida peu à peu et la place retrouva son calme.
+L'avion atterrit sous une pluie battante. Les passagers descendirent par l'escalier en courant.
+Le coiffeur coupa les mèches rebelles. Il tendit un miroir à son client, qui sourit.
+Nous entrâmes dans le musée. Les murs blancs et les tableaux immenses nous firent parler tout bas.
+La coureuse prit le départ en tête. Elle garda l'avantage pendant tout le tour et gagna d'une longueur.
+Le maçon posa la dernière brique. Il recula d'un pas et regarda son œuvre avec fierté.
+Un orage soudain éclata sur le stade. Les joueurs coururent vers les vestiaires, trempés jusqu'aux os.
+Le facteur déposa le colis. Il sonna deux fois et partit sans attendre de réponse.
+Le menuisier rabota la planche. Il souffla sur la sciure et passa la main sur le bois lisse.
+Le garçon s'assit au piano. Il joua une mélodie hésitante, puis une autre plus sûre.
+La bergère siffla son chien. Elle ramena le troupeau vers l'étable avant la nuit.
+Les alpinistes atteignirent le refuge. Ils enlevèrent leurs bottes et burent un thé brûlant.
+Mon oncle me tendit un cadeau. Je l'ouvris et découvris une boussole de cuivre.
+Le tramway s'arrêta devant la gare. Les voyageurs descendirent et se dispersèrent dans la rue.
+Le dompteur salua le public. Il fit claquer son fouet et le lion bondit sur son tabouret.
+Le vieux marchand ouvrit sa boutique. Il alluma la lampe et fit tinter la clochette de la porte.
+Le jury annonça le résultat. Les concurrents retinrent leur souffle et la salle se figea.
+L'infirmière nettoya la blessure. Elle posa un pansement et sourit au petit garçon courageux.
+Le cheval de trait tira la charrette. Le fermier le guida d'une voix douce jusqu'à la grange.
+
+// 3 phrases
+Le jour de la rentrée, la cloche sonna dans la cour. Les élèves se mirent en rang et le directeur prononça un discours. Puis chacun suivit son professeur vers sa nouvelle classe.
+La jeune chimiste ajouta une goutte dans l'éprouvette. Le liquide changea de couleur et une vapeur monta. Elle nota tout dans son cahier avec des mains tremblantes.
+Les alpinistes quittèrent le refuge avant l'aube. Ils avancèrent en file, encordés, sur la neige gelée. Au sommet, ils s'embrassèrent et admirèrent le soleil naissant.
+Le maître prit la craie et traça une longue ligne au tableau. Il écrivit un mot, puis un deuxième, puis une phrase entière. Les élèves recopièrent dans un silence appliqué.
+Mon grand-père sortit une vieille boîte de l'armoire. Il l'ouvrit avec précaution et en retira des lettres jaunies. Il me les lut une à une d'une voix émue.
+Le trapéziste monta à l'échelle de corde. Il se balança, lâcha la barre et fit une double pirouette. La salle entière poussa un cri puis applaudit à tout rompre.
+Le facteur gravit la colline à vélo. Il déposa le courrier dans la boîte du vieil ermite et s'assit pour reprendre son souffle. Le vieil homme sortit et lui offrit un verre d'eau fraîche.
+Les ouvriers creusèrent les fondations de la maison. Ils coulèrent le béton, montèrent les murs et posèrent la charpente. En six mois, la maison fut prête et la famille emménagea.
+Mon père attela le cheval à la charrette. Il y chargea des sacs de blé et grimpa sur le banc. Nous partîmes pour le moulin en chantant.
+L'archéologue brossa délicatement la terre. Peu à peu, une tête de statue apparut. Elle poussa un cri et appela ses collègues.
+Le skieur prit son élan en haut de la piste. Il glissa, bondit, tourna dans les airs et atterrit sans bavure. Les juges levèrent leurs pancartes et la foule rugit de joie.
+L'inventeur serra la dernière vis. Il appuya sur un bouton et la machine se mit à ronronner. Les voisins accoururent et applaudirent le prodige.
+Mon cousin ouvrit son livre au chapitre trois. Il lut une page, puis deux, puis dix. Le soir venu, il oublia le dîner et les devoirs.
+Le directeur d'école monta sur l'estrade. Il fit un discours sur le courage et la persévérance. Puis il remit les prix et serra la main des lauréats.
+Le cuisinier prépara le plat de résistance. Il fit revenir l'oignon, ajouta les épices et couvrit la casserole. Une heure plus tard, tout le restaurant sentit l'odeur du ragoût.
+Les musiciens montèrent sur l'estrade. Le chef frappa trois fois son pupitre de sa baguette. La symphonie emplit la salle comme une vague.
+Le pilote vérifia les instruments du tableau de bord. Il démarra le moteur et roula jusqu'au bout de la piste. L'avion s'éleva dans un rugissement et traversa les nuages.
+Notre équipe de relais prit le départ sous la pluie. Chacun courut sa partie sans lâcher le témoin et sans tomber. À l'arrivée, nous nous jetâmes dans les bras les uns des autres.
+La boulangère ouvrit le four et en tira des brioches dorées. Elle les posa sur une grille et les couvrit d'un linge. Les premiers clients entrèrent en se frottant les mains.
+Le peintre posa son chevalet devant la mer. Il observa la lumière, mélangea ses couleurs et traça les premières lignes. À la nuit, la toile représenta un ciel en feu.
+Mon frère sauta du train en marche. Il roula sur le talus, se releva et épousseta ses vêtements. Il courut vers la gare et rattrapa son sac abandonné.
+Le professeur de gymnastique siffla le début de l'épreuve. Les élèves coururent sur la piste, sautèrent la haie et plongèrent dans le sable. Léa franchit la ligne la première et leva les bras.
+La vieille dame arrosa ses fleurs sur le balcon. Elle tailla les roses fanées et ramassa les pétales tombés. Un pigeon se posa sur la rambarde et la regarda faire.
+Le navire gagna la haute mer. Le soleil se coucha derrière l'horizon et les étoiles apparurent une à une. Le capitaine confia la barre au timonier et descendit dormir.
+L'écrivain ouvrit un cahier neuf. Il trempa sa plume dans l'encre et écrivit une première phrase. Il la relut, sourit et continua jusqu'à l'aube.
+L'orage éclata au moment du départ. Les coureurs se serrèrent sous les arbres et attendirent l'accalmie. Quand le soleil revint, ils reprirent leur route et chantèrent.
+Le cirque quitta la ville à l'aube. Les camions se mirent en file et les caravanes disparurent au détour de la route. Il ne resta sur la place que quelques plumes et un ballon rouge.
+Le jeune chef d'orchestre leva les bras. Il hésita une seconde, puis il donna le signal aux cuivres. Les premières notes éclatèrent et son cœur cessa de trembler.
+La cloche de l'église sonna à toute volée. Les villageois sortirent de leurs maisons et se rassemblèrent sur la place. Ils applaudirent le retour des marins.

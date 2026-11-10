@@ -1,0 +1,105 @@
+// Dictées au futur, lot a : projets, week-ends, vacances, rentrée, famille.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== fut
+
+// 1 phrase
+Demain, nous irons à la piscine dès l'ouverture et nous nagerons jusqu'au goûter.
+Samedi prochain, mon oncle viendra nous chercher en camionnette pour déménager l'armoire.
+L'été prochain, tu apprendras à plonger depuis le haut du ponton.
+Dans une semaine, ma sœur passera son permis de conduire et fêtera sa réussite.
+Ce soir, papa préparera des crêpes et nous les mangerons devant un film.
+Bientôt, les premières neiges recouvriront les sommets et les marmottes s'endormiront.
+Dès que le soleil se lèvera, les pêcheurs mettront le cap sur le large.
+Vous construirez un immense château de sable avant l'arrivée de la marée.
+À la rentrée, j'aurai un nouveau cartable, de nouveaux stylos et une nouvelle classe.
+Mes cousins arriveront en train vendredi soir avec leurs sacs de couchage.
+Quand tu seras plus âgé, tu comprendras pourquoi les adultes parlent de patience.
+La semaine prochaine, la classe visitera une usine de chocolat et goûtera tous les produits.
+Nous ramasserons des champignons dans la forêt et les ferons cuire au beurre.
+Samedi, le facteur apportera une lettre venue de l'autre bout du monde.
+Demain, il fera beau et nous déjeunerons sur l'herbe, au bord de la rivière.
+Dans deux jours, je cueillerai les premières tomates du potager.
+Les voisins organiseront une fête de quartier avec des lampions et un bal.
+L'année prochaine, j'irai au collège en vélo avec mes amis du quartier.
+Papa repeindra la cuisine en jaune pâle et changera les rideaux.
+Un jour, tu liras ce livre à tes propres enfants.
+Dimanche, nous irons voir mamie et nous mangerons son fameux gâteau aux noix.
+Pendant les vacances, ma sœur travaillera dans une boulangerie et rapportera des brioches.
+Ce week-end, le vent soufflera fort et les voiliers rentreront au port.
+Elle verra la mer pour la première fois et restera muette d'émotion.
+Nous achèterons un sapin à la fin du mois et le décorerons avec des guirlandes.
+Le jardinier plantera un cerisier près du mur et l'arrosera chaque semaine.
+Demain, je me lèverai très tôt et ferai une surprise à toute la famille.
+Les hirondelles reviendront au printemps et reconstruiront leur nid sous le toit.
+
+// 2 phrases
+Demain, nous partirons en randonnée. Nous emporterons des sandwichs, de l'eau et une carte de la région.
+Papa construira une cabane dans le jardin. Les voisins viendront l'aider et apporteront des planches.
+Lundi, notre classe visitera un musée. Nous verrons des fossiles, des squelettes et des cartes très anciennes.
+Cet été, nous irons camper dans les Alpes. Nous dormirons sous une tente et cuisinerons sur un petit réchaud.
+L'année prochaine, ma cousine entrera au lycée. Elle rencontrera de nouveaux professeurs et se fera de nouveaux amis.
+La semaine prochaine, la mairie installera des bancs dans le parc. Les promeneurs pourront enfin s'asseoir à l'ombre.
+Dès demain, je rangerai ma chambre. Je jetterai les vieux cahiers et classerai mes livres par couleur.
+Samedi soir, nous regarderons un film d'aventures. Maman préparera du maïs soufflé et papa choisira la meilleure place.
+Les ouvriers termineront la route avant l'hiver. Les voitures rouleront alors sans cahots jusqu'au village voisin.
+Dans trois jours, mes grands-parents arriveront de loin. Nous irons les chercher à la gare avec des fleurs.
+Quand j'aurai dix-huit ans, je passerai le permis. Mon père me prêtera sa voiture le dimanche.
+Nous cuisinerons un énorme gâteau pour l'anniversaire de mamie. Tout le quartier viendra le goûter avec nous.
+L'orage éclatera avant la nuit. Les nuages noirs s'amasseront et les premières gouttes tomberont lourdement.
+Demain soir, la lune sera pleine. Nous monterons sur la colline pour la regarder se lever.
+Mon frère jouera dans le tournoi de football. L'équipe affrontera les meilleurs clubs de la région.
+La semaine prochaine, une nouvelle voisine s'installera dans l'immeuble. Nous lui apporterons un gâteau de bienvenue.
+Le facteur passera à midi. Il déposera le colis et nous aurons enfin notre jeu de société.
+Ce soir, je ferai mes devoirs plus vite que d'habitude. Je pourrai ensuite jouer avec mon petit frère.
+Pour l'anniversaire de papa, nous lui offrirons un livre. Nous écrirons une dédicace sur la première page.
+Demain, l'école organisera une journée sportive. Chaque classe formera une équipe et inventera un cri de guerre.
+L'été prochain, nous traverserons la France à vélo. Nous dormirons dans des auberges et mangerons dans des fermes.
+Dès que la pluie cessera, nous sortirons dans le jardin. Nous sauterons dans les flaques et courrons après les escargots.
+La semaine prochaine, la bibliothèque ouvrira une salle de jeux. Les enfants pourront y venir après l'école.
+Cet hiver, mon oncle apprendra à skier. Il tombera dix fois, mais il se relèvera avec le sourire.
+Dans quelques années, ma petite sœur sera plus grande que moi. Elle me regardera de haut et me donnera des conseils.
+Nous serons à la plage avant dix heures. Papa installera le parasol et maman étalera les serviettes.
+Le boulanger ouvrira exceptionnellement le dimanche. Il vendra des gâteaux pour la fête du village.
+Dimanche prochain, nous irons au marché aux puces. Je chercherai un vieux livre de cuisine pour ma mère.
+Ce soir, mes parents sortiront dîner. Ma tante gardera mon petit frère et moi, nous regarderons un dessin animé.
+L'année prochaine, nous aurons un nouveau maître. Il nous fera lire des romans et jouer au théâtre.
+Demain, le jardinier coupera la haie. Je ramasserai les branches et les mettrai en tas.
+Dans deux semaines, mon cousin se mariera. Toute la famille portera des costumes neufs et dansera jusqu'à l'aube.
+Cet après-midi, il pleuvra sur toute la région. Nous resterons à la maison et jouerons aux cartes.
+Pour la fête, nous accrocherons des guirlandes. Les invités arriveront à huit heures et danseront sur la terrasse.
+Je dessinerai une carte de mon quartier. J'y noterai les maisons, les arbres et les cachettes secrètes.
+Dans un mois, les cerises seront mûres. Nous les cueillerons et en ferons des tartes.
+Mon frère réparera mon vélo ce week-end. Il changera la chambre à air et huilera la chaîne.
+Demain, ce sera mon anniversaire. J'aurai un gâteau, des bougies et peut-être une surprise.
+
+// 3 phrases
+Samedi prochain, nous organiserons un nettoyage du quartier. Chacun apportera des gants, des sacs et de la bonne humeur. À midi, nous partagerons un déjeuner sur la place.
+L'été prochain, nous partirons en Bretagne. Nous louerons une maison près de la mer et nous mangerons des crêpes tous les jours. Mon frère pêchera des crabes et ma mère lira sur la plage.
+Demain, la classe fera une sortie à la ferme. Nous traverserons les champs en tracteur et nous donnerons à manger aux animaux. Le fermier nous apprendra à traire une vache.
+À la rentrée, nous aurons un nouveau professeur de sport. Il nous fera courir chaque lundi et nous apprendra le basket. Nous finirons épuisés mais fiers.
+Dans une semaine, nous déménagerons dans une maison plus spacieuse. Je choisirai ma chambre, celle avec la fenêtre sur le jardin. Papa promettra de monter un lit superposé pour mon frère.
+Ce soir, nous préparerons un repas de fête. Maman fera un rôti et papa cuira des pommes de terre. Mamie apportera le dessert et nous mettrons la table ensemble.
+Le week-end prochain, un cirque s'installera sur la place. Les artistes monteront le chapiteau dès l'aube. Le soir, les premiers spectateurs feront la queue en riant.
+Bientôt, la neige tombera sur la vallée. Les enfants sortiront les luges et dévaleront les pentes en poussant des cris. Les parents prépareront du chocolat chaud et allumeront la cheminée.
+Demain, nous partirons en voiture vers le sud. Nous roulerons toute la journée et nous dormirons dans un petit hôtel. Le lendemain, nous verrons la mer pour la première fois cet été.
+La semaine prochaine, l'école organisera une kermesse. Il y aura des jeux, des gâteaux et un spectacle de marionnettes. Les parents viendront nombreux et achèteront des tickets de tombola.
+Cet automne, mes grands-parents ramasseront des noix. Ils les feront sécher dans le grenier. Nous les casserons pendant les veillées d'hiver.
+L'année prochaine, je jouerai du violon dans l'orchestre. Je répéterai chaque soir et mon voisin se plaindra sûrement. Pourtant, je jouerai de mon mieux et je finirai par progresser.
+Samedi, mon frère passera son examen de natation. Il plongera, nagera cinquante mètres et sortira de l'eau fier. Nous l'applaudirons très fort depuis les gradins.
+Dans quelques jours, le printemps arrivera. Les arbres bourgeonneront et les oiseaux chanteront dès l'aube. Nous ouvrirons les fenêtres pour entendre leur concert.
+Demain, nous visiterons un château fort. Nous monterons sur les remparts et nous verrons la plaine à des kilomètres. Un guide nous racontera des histoires de chevaliers et de dragons.
+Ce week-end, nous planterons des fleurs sur le balcon. Nous choisirons des géraniums rouges et des pensées jaunes. Elles pousseront vite et feront rire tous les voisins.
+L'hiver prochain, mon oncle construira un igloo dans le jardin. Il le décorera de lanternes et le transformera en salon. Nous y boirons du thé chaud sous les étoiles.
+Dans une semaine, ma classe partira en voyage scolaire. Nous prendrons le train, nous dormirons dans une auberge et nous visiterons une grotte. Je ferai des photos de tout et je les montrerai à mes parents.
+À Noël, toute la famille se retrouvera chez grand-mère. Nous décorerons le sapin, nous cuisinerons ensemble et nous ouvrirons les cadeaux à minuit. Les cousins dormiront par terre et chuchoteront jusqu'à l'aube.
+Demain, les ouvriers poseront un nouveau toit sur la mairie. Ils monteront sur des échafaudages et déposeront les vieilles tuiles. Les passants lèveront la tête pour les regarder.
+Cet été, nous irons à la montagne. Nous marcherons dans les alpages et nous goûterons le fromage des bergers. Le soir, nous regarderons les étoiles depuis le refuge.
+Je fabriquerai un cerf-volant pour la fête de la plage. Je collerai du papier de soie sur une armature de bambou. Il montera très haut et dansera dans le vent.
+Mon cousin apprendra la guitare cette année. Il achètera un cahier de musique et s'entraînera chaque jour. Dans six mois, il nous jouera sa première chanson.
+Demain, nous organiserons un spectacle dans le jardin. Les voisins viendront avec des chaises pliantes et des bonbons. Nous jouerons une pièce inventée par ma sœur.
+L'été prochain, nous construirons un radeau avec mes cousins. Nous collerons des bidons, des planches et des cordes. Il flottera sûrement mieux que le dernier.
+Dès qu'il fera beau, nous irons au marché. Nous achèterons des fruits, du fromage et du pain. Au retour, nous mangerons dans le jardin.
+Samedi prochain, la ville fêtera son anniversaire. Il y aura un défilé, de la musique et un feu d'artifice. Tout le monde chantera sur la place jusqu'à minuit.
+Mon frère aîné partira à l'université en septembre. Il fera ses valises, emportera ses livres et nous écrira chaque semaine. Maman pleurera un peu, puis elle sourira.
+Demain, le facteur apportera un gros colis. Nous l'ouvrirons ensemble dans le salon. Une surprise de ma tante s'y cachera sûrement.

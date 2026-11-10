@@ -1,0 +1,105 @@
+// Dictées au passé simple, lot a : contes, chevaliers, dragons, sorciers, royaumes.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== ps
+
+// 1 phrase
+Le chevalier mit pied à terre et s'inclina devant la reine.
+Un vieux sage surgit de la forêt et leur barra la route.
+La princesse ouvrit la porte de la tour et découvrit un jardin secret.
+Le dragon poussa un rugissement qui fit trembler les montagnes.
+Les villageois se rassemblèrent sur la place et attendirent le retour du roi.
+Le magicien frappa le sol de sa canne et une porte de lumière apparut.
+Le roi convoqua ses conseillers et leur annonça une terrible nouvelle.
+Elle saisit l'épée, la brandit et fendit la brume d'un seul geste.
+Les nains descendirent dans la mine et trouvèrent une salle remplie de diamants.
+Le petit prince grimpa sur le dos du cerf et partit au galop.
+L'apprenti sorcier avala la potion et se mit à flotter au plafond.
+Le forgeron plongea l'épée dans l'eau et un nuage de vapeur monta jusqu'au toit.
+Les chevaliers tirèrent leurs épées et s'avancèrent vers la forteresse.
+La fée toucha le coffre du bout de sa baguette et il s'ouvrit en chantant.
+Les jumeaux se glissèrent par la lucarne et atterrirent dans un tas de foin.
+Le roi congédia les gardes et resta seul avec son secret.
+Une ombre passa sur la lune et tous les loups se turent.
+Le géant éclata de rire et le château entier trembla.
+Les elfes tendirent leurs arcs et visèrent la silhouette surgie de l'ombre.
+La reine descendit l'escalier de marbre et salua la foule.
+Le jeune berger siffla et son chien rassembla le troupeau en un instant.
+L'ogre bâilla, s'étira et renversa la table d'un coup de coude.
+Le sorcier lut une formule et les murs de la cave devinrent transparents.
+Les archers bandèrent leurs arcs et attendirent le signal du capitaine.
+Le prince brisa le sceau et déroula le parchemin avec précaution.
+Un éclair déchira le ciel et la tour s'embrasa.
+Le voyageur frappa trois fois à la porte et attendit dans la nuit glacée.
+Les trolls rugirent, frappèrent leurs massues et firent éclater le pont.
+
+// 2 phrases
+Le roi réunit ses chevaliers autour de la table ronde. Il leur confia une mission secrète et les envoya vers le nord.
+Le dragon déploya ses ailes et s'éleva au-dessus de la vallée. Les villageois se cachèrent dans leurs caves.
+La sorcière jeta une poignée de poudre dans le feu. Une fumée verte monta et l'odeur de soufre envahit la salle.
+Un messager entra au galop dans la cour. Il tendit un parchemin au roi, qui pâlit en le lisant.
+La princesse déroula une corde de draps noués. Elle descendit le long de la tour et courut vers les écuries.
+Le chevalier serra la main du vieillard. Il promit de rapporter le trésor avant la fin de l'hiver.
+Les nains forgèrent une épée de lumière. Ils la remirent au prince, qui jura de ne jamais la salir.
+Le magicien traça un cercle sur le sol. Il y entra et disparut dans un éclair.
+Un chant s'éleva de la forêt. Les voyageurs s'arrêtèrent et tendirent l'oreille.
+Le jeune apprenti ouvrit le grimoire. Les pages se mirent à tourner toutes seules et une voix murmura son nom.
+La reine demanda le silence. Elle prit la parole avec calme et la foule retint son souffle.
+Le géant se pencha sur la maison. Il en souleva le toit et regarda à l'intérieur avec curiosité.
+La fée tendit la main à l'enfant. Elle l'emmena au-dessus des nuages et lui montra son royaume.
+L'ogre referma la porte de la cave. Il tourna la clé trois fois et s'endormit sur sa chaise.
+Les chevaliers traversèrent le pont-levis. Les gardes les saluèrent et les conduisirent à la grande salle.
+Le sorcier récita sa formule. La statue s'anima, bougea un bras puis un autre et sourit.
+Le roi des elfes leva la main. Les arbres s'écartèrent et révélèrent un sentier d'argent.
+L'archer visa la pomme posée sur la tête de son fils. Il tira et la flèche fendit le fruit en deux.
+La licorne s'approcha du ruisseau. Elle but à longues gorgées et disparut dans les fougères.
+Un vent glacial s'engouffra dans la salle. Les torches vacillèrent et une voix lointaine appela le prince.
+Le prince tendit son épée au vieux roi. Celui-ci la prit, la baisa et la lui rendit en silence.
+La princesse trouva une clé sous son oreiller. Elle la glissa dans la serrure du coffre et sourit.
+Les gardes ouvrirent les grilles. Le cortège royal entra dans la cour sous les acclamations.
+Le sage prit son bâton et se mit en route. Il marcha trois jours sans manger et sans dormir.
+Le dragon cracha une langue de feu. L'armure du chevalier rougit mais le héros ne recula pas.
+Le forgeron leva son marteau et frappa. Une pluie d'étincelles jaillit et les apprentis reculèrent d'un pas.
+La sorcière saisit son balai et enfourcha le manche. Elle s'éleva par la cheminée dans un nuage de suie.
+Le roi lut la lettre à voix haute. Un long silence suivit et la reine pleura.
+Le jeune chevalier reçut son épée des mains du roi. Il s'agenouilla et prononça le serment de fidélité.
+L'enchanteur frappa dans ses mains. Le château disparut et il ne resta qu'une prairie fleurie.
+Les cloches de la ville se mirent à sonner. Les habitants sortirent dans les rues et dansèrent jusqu'au soir.
+Le voleur saisit la bourse et s'enfuit à toutes jambes. Les gardes le poursuivirent à travers le marché.
+Le prince plongea dans le lac glacé. Il remonta avec la couronne et la tendit à la princesse.
+Le magicien ouvrit son chapeau. Une colombe en sortit, puis un lapin, puis un éléphant minuscule.
+La reine fit appeler le tailleur. Il prit ses mesures et promit une robe pour la fête.
+Les corbeaux prirent leur envol. Le ciel devint noir et un grand croassement résonna sur la plaine.
+Le chevalier leva sa visière. Un sourire éclaira son visage et la foule poussa un cri de joie.
+Un étrange brouillard monta de la rivière. Les marchands rangèrent leurs étals et rentrèrent chez eux.
+
+// 3 phrases
+Le dragon sortit de sa grotte au lever du soleil. Il étira ses ailes, flaira l'air et s'éleva dans le ciel. Les montagnes tremblèrent sur son passage.
+Le chevalier chevaucha trois jours vers l'ouest. Il traversa des forêts, franchit des rivières et gravit une colline. Au sommet, il aperçut enfin la tour du sorcier.
+La princesse s'enfuit dans la nuit. Elle courut jusqu'à la lisière du bois, où un cheval blanc l'attendit. Elle sauta en selle et disparut dans l'ombre.
+Le magicien ouvrit son livre et lut une formule. Un tourbillon de lumière jaillit des pages. Quand il se dissipa, un jeune dragon apparut devant lui.
+Les villageois entendirent un grondement sourd. Ils sortirent de leurs maisons et levèrent les yeux. Un immense dragon rouge traversa la vallée.
+Le roi appela son fils dans la salle du trône. Il lui remit une épée et un anneau d'or. Le prince s'inclina et promit de défendre le royaume.
+Le sorcier versa une goutte de potion sur le sol. La terre trembla, une porte s'ouvrit et un escalier apparut. Il descendit sans hésiter.
+Les chevaliers dressèrent leurs tentes dans la plaine. Ils allumèrent des feux, aiguisèrent leurs épées et chantèrent des chansons anciennes. À l'aube, ils levèrent le camp en silence.
+La reine posa la couronne sur la table. Elle regarda longuement ses conseillers, puis elle parla d'une voix ferme. Tous baissèrent la tête et acceptèrent.
+Le petit dragon éternua et mit le feu à la bibliothèque. Les moines accoururent avec des seaux d'eau. Ils éteignirent les flammes et lui pardonnèrent.
+Un étranger entra dans l'auberge et commanda une soupe. Il ouvrit sa besace et en sortit une carte jaunie. Les clients se turent et le regardèrent.
+Le prince traversa la forêt sombre. Les branches griffèrent son manteau et les corbeaux le suivirent. Soudain, une clairière s'ouvrit et une fontaine chanta devant lui.
+La sorcière prépara sa potion de minuit. Elle ajouta trois herbes, une plume et une larme de dragon. Le chaudron cracha une fumée violette et se mit à ronronner.
+Les marchands s'installèrent sur la place. Ils étalèrent leurs tissus, leurs épices et leurs bijoux. En quelques minutes, une foule joyeuse envahit les allées.
+Le chevalier gravit la montagne glacée. Le vent le gifla et la neige l'aveugla. Il continua pourtant, jusqu'à l'entrée de la grotte.
+L'apprenti saisit le balai et prononça le mot magique. Le balai s'anima, remplit les seaux et nettoya le sol. Mais il refusa ensuite de s'arrêter.
+Le roi regarda la carte et sourit. Il fit appeler son meilleur cartographe et lui confia une mission. L'homme partit le soir même vers le sud.
+Les elfes préparèrent un banquet pour leurs invités. Ils posèrent des fruits, du miel et du pain sur de longues tables. Les voyageurs mangèrent à leur faim et dormirent sous les arbres.
+Un éclair frappa la tour du magicien. Les vitres éclatèrent et un nuage violet s'échappa du toit. Le sorcier apparut sur le balcon, les cheveux dressés.
+La princesse déchira la lettre en mille morceaux. Elle les jeta dans la cheminée et regarda le papier brûler. Puis elle ouvrit la fenêtre et respira l'air du soir.
+Le dragon capturé fut conduit dans la cour du château. Il regarda les soldats, bâilla et s'allongea sur le sol. Les petits l'entourèrent et le caressèrent.
+Le cavalier lança son cheval au galop. Il franchit la barrière, traversa le pré et fonça vers le pont. Les gardes s'écartèrent juste à temps.
+Un vieux mendiant frappa à la porte du château. Le roi le fit entrer et lui servit un repas chaud. Le mendiant ôta sa capuche et révéla le visage du prince disparu.
+Les fées dansèrent autour du feu. Leurs ailes brillèrent et leurs rires résonnèrent dans la clairière. Au premier chant du coq, elles s'évanouirent comme des étincelles.
+Le roi ouvrit le coffre secret. Il en tira une couronne rouillée et la posa sur la table. Un silence profond tomba sur la salle.
+Le navire des elfes quitta les rives. Leurs voiles blanches se gonflèrent et la brume les engloutit. On ne les revit jamais.
+La sorcière attrapa le chat et le jeta dans le chaudron. Le chat en ressortit, vert et furieux, et la griffa. Elle poussa un cri et renversa toute la potion.
+Le prince toqua à la porte de la tour. Une voix lointaine répondit et la porte s'ouvrit toute seule. Il monta les marches en comptant chaque pas.
+Le forgeron termina l'épée à minuit. Il la plongea dans l'eau, la sécha et la remit au chevalier. Le héros la tint un instant, puis la leva vers la lune.

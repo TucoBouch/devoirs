@@ -1,0 +1,105 @@
+// Dictées à l'imparfait, lot c : contes, légendes, pirates, détectives, espace, royaumes imaginaires.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== imp
+
+// 1 phrase
+Il était une fois un roi si pauvre qu'il comptait ses pièces chaque soir.
+Le dragon dormait sur un lit d'or et ronflait comme un volcan.
+Dans la forêt enchantée, les arbres murmuraient et les fougères s'ouvraient comme des mains.
+Le chevalier portait une armure bosselée et un casque trop grand pour sa tête.
+Au fond de la grotte, des cristaux brillaient d'une lueur bleue très douce.
+Les pirates chantaient à tue-tête en frappant la table avec leurs gobelets.
+La sorcière habitait une cabane de pain d'épice au milieu des bois.
+À bord du vaisseau, les écrans clignotaient et les alarmes sonnaient sans arrêt.
+Le détective mâchonnait un crayon et regardait la pluie par la fenêtre.
+Les elfes dansaient dans les clairières pendant que la lune montait.
+La princesse s'ennuyait dans sa tour et envoyait des lettres par ses oiseaux.
+Le géant sifflait si fort que les vitres du village vibraient.
+Les chevaux du roi galopaient dans la cour pendant que les pages couraient derrière.
+Le magicien possédait un chapeau qui murmurait des conseils à son oreille.
+Sur la planète rouge, le vent soulevait des tourbillons de poussière orange.
+Un vieux pont de bois enjambait la rivière et grinçait sous chaque pas.
+Les loups rôdaient la nuit autour du village et les chiens aboyaient sans répit.
+Le trésor reposait au fond d'un coffre fermé par trois énormes cadenas.
+Le robot cuisinier préparait des repas parfaits mais refusait de goûter.
+À l'horizon, un nuage noir s'avançait vers le port comme une armée.
+Le fantôme du manoir hantait l'escalier et faisait grincer chaque marche.
+Les gnomes fabriquaient des bijoux avec des étoiles tombées du ciel.
+La reine gardait la clé du royaume dans un médaillon en forme de papillon.
+L'inspectrice mesurait chaque trace de pas avec une règle en cuivre.
+Dans la salle du trône, les torches éclairaient des tapisseries immenses.
+Les voyageurs marchaient depuis des jours et ne rêvaient plus que d'un lit.
+Le capitaine scrutait l'horizon et sentait venir la tempête dans ses vieux os.
+La licorne traversait les brumes de l'aube comme un souvenir blanc.
+
+// 2 phrases
+Le château dominait la vallée depuis des siècles. Ses murailles grises résistaient aux tempêtes et aux sièges.
+Le dragon de la montagne se réveillait tous les cent ans. Il étirait ses ailes et regardait si le monde avait changé.
+La vieille sorcière préparait ses potions à minuit. Elle remuait son chaudron avec une louche en os et riait toute seule.
+Le vaisseau flottait dans l'espace comme un grain de sable. Les astronautes regardaient les étoiles défiler par le hublot.
+Les chevaliers de la table ronde se réunissaient chaque lundi. Ils discutaient des quêtes et se disputaient toujours la dernière chaise.
+Le détective avait un chapeau rapiécé et un imperméable trop long. Les gens se retournaient sur son passage sans oser lui parler.
+La forêt était pleine de bruits étranges. Les branches craquaient, les feuilles chuchotaient et des yeux brillaient dans l'ombre.
+Les pirates cachaient leurs trésors sur une île déserte. Ils dessinaient des cartes incompréhensibles pour tromper leurs ennemis.
+La princesse lisait des livres interdits dans la bibliothèque secrète. Elle apprenait des formules et rêvait de partir à l'aventure.
+Le géant vivait dans une caverne au sommet d'une colline. Il collectionnait les arbres et les rangeait par taille.
+La tempête secouait le navire de toutes parts. Les matelots s'accrochaient aux cordages en priant le ciel.
+Le royaume traversait une époque difficile. Les récoltes pourrissaient et les familles avaient faim.
+Un fantôme habitait le vieux moulin. Il faisait tourner les ailes pendant la nuit sans jamais moudre de farine.
+Le robot nettoyait le sol du laboratoire chaque soir. Il chantait un air triste et ne se trompait jamais de pièce.
+Les elfes veillaient sur la forêt depuis la nuit des temps. Aucun humain ne les apercevait jamais.
+Le chevalier errant dormait à la belle étoile. Son cheval veillait près du feu et dressait l'oreille au moindre bruit.
+La carte indiquait une croix rouge au milieu de l'océan. Personne ne savait ce qu'elle cachait.
+Les habitants de la ville flottante vivaient sur des radeaux. Ils pêchaient, cultivaient des légumes et échangeaient des histoires.
+Le sorcier avait une barbe blanche qui traînait par terre. Il marchait dessus sans y prendre garde et trébuchait régulièrement.
+Les dragons gardaient des trésors qu'ils ne dépensaient jamais. Ils les comptaient chaque soir avant de s'endormir.
+Le roi des mers dirigeait son royaume depuis un palais de corail. Les poissons lui apportaient chaque jour les nouvelles du monde.
+Dans la cité souterraine, les lampes brillaient sans jamais s'éteindre. Les habitants oubliaient depuis longtemps à quoi ressemblait le soleil.
+Le marchand ambulant vendait des objets étranges sur la place. Il prétendait qu'ils possédaient tous un pouvoir magique.
+La reine des neiges habitait un palais de glace. Ses salles scintillaient et le moindre souffle y sonnait comme une cloche.
+Le capitaine du navire fantôme voguait sur les mers de brume. Son équipage pâle ne parlait jamais et ne dormait pas.
+L'apprenti magicien oubliait toujours ses formules. Il agitait sa baguette au hasard et provoquait des catastrophes drôles.
+La nuit tombait sur la prairie. Les cavaliers allumaient leur feu et chantaient de vieilles chansons.
+Les extraterrestres observaient la Terre depuis des années. Ils notaient tout dans un carnet vert et riaient de nos habitudes.
+Le pont-levis grinçait quand les visiteurs arrivaient. Les gardes se mettaient au garde-à-vous et criaient les mots de passe.
+Au pays des fées, les fleurs chantaient à chaque lever du jour. Les papillons dansaient autour de leurs mélodies.
+Le vieux sage racontait des histoires au coin du feu. Les jeunes écoutaient en silence et oubliaient de manger.
+Une roue géante tournait au milieu du royaume. Les habitants la regardaient avec admiration et mystère.
+L'espion avait cent visages et mille voix. Il se déguisait en mendiant, en marchand ou en dame de la cour.
+Les trolls vivaient sous les ponts et réclamaient un péage. Ils acceptaient des fromages, des bonbons ou des chansons.
+Le laboratoire sentait le soufre et la menthe. Des flacons colorés bouillonnaient sur toutes les étagères.
+Le seigneur du château donnait un bal chaque hiver. Les invités arrivaient en carrosse et dansaient jusqu'à l'aube.
+Dans la tour, la princesse tricotait des écharpes pour les oiseaux. Chaque jour, elle en lançait une par la fenêtre.
+Le chevalier noir gardait le pont depuis mille ans. Personne ne passait sans répondre à trois questions difficiles.
+
+// 3 phrases
+Il était une fois un petit dragon qui avait peur du feu. Quand il éternuait, des flammes sortaient de son nez et il s'enfuyait en hurlant. Ses amis riaient, puis le consolaient avec des biscuits.
+Dans le royaume de Brume, il pleuvait toute l'année. Les habitants portaient des capes jaunes et des bottes en caoutchouc. Ils vivaient heureux, car ils ne connaissaient pas le soleil.
+Le pirate Barbe-Rousse possédait un perroquet très bavard. L'oiseau répétait tous les secrets de l'équipage et révélait les cachettes. Les marins avaient bien envie de s'en débarrasser.
+Dans la cité d'Aldar, les maisons flottaient dans les airs. De gros ballons les retenaient au-dessus des nuages. Les habitants descendaient sur la terre une fois par semaine pour acheter du pain.
+Le détective Lenoir avait un assistant très étrange. C'était un perroquet qui savait lire les empreintes. Ensemble, ils résolvaient toutes les énigmes de la ville avant le dîner.
+La princesse Alix détestait les bals. Elle préférait les chevaux, les arcs et les contes de marins. Chaque soir, elle sortait par la fenêtre pour rejoindre les écuries.
+Le sorcier Mirolo possédait un chat qui parlait. L'animal critiquait ses potions et se moquait de ses formules. Mirolo faisait semblant de ne rien entendre et servait du lait.
+Sur l'île des Pirates, un volcan crachait des étincelles. La nuit, on voyait leur lumière à des kilomètres. Les marins évitaient la côte et choisissaient d'autres routes.
+Le robot Zéphyr servait de guide dans le musée. Il connaissait toutes les dates et toutes les anecdotes. Quand une visiteuse sursautait, il s'excusait avec une petite révérence.
+Le chevalier Aubin partait à la quête du Graal. Il portait une cape rapiécée et montait un cheval qui boitait. Pourtant, personne ne doutait de son courage.
+Dans la bibliothèque du château, des livres volaient comme des oiseaux. Ils se posaient sur les étagères quand on les appelait. Ceux qui désobéissaient étaient punis en restant fermés un mois.
+La grotte du dragon sentait la fumée et le miel. Des tapis de mousse couvraient le sol et des chandeliers pendaient aux parois. Le dragon, lui, collectionnait les livres de cuisine.
+Les habitants de l'île d'hiver ne sortaient presque plus. La neige montait jusqu'aux fenêtres et les bateaux restaient bloqués. Ils inventaient des jeux de cartes et des contes interminables.
+L'astronaute Lina flottait à l'extérieur de la station. Elle réparait une antenne avec des gestes très lents. En bas, la Terre tournait en silence, bleue et lumineuse.
+Le roi Albert n'aimait pas qu'on le contredise. Il faisait enfermer les conseillers qui n'étaient pas d'accord. Finalement, il se retrouvait seul, mais très poli avec lui-même.
+Le dragon Frisson habitait une cave humide. Il avait toujours froid et éternuait des étincelles. Les chevaliers le laissaient en paix car il leur prêtait des couvertures.
+À bord du vaisseau Orion, tout le monde portait un casque. L'équipage mangeait des repas en tube et dormait dans des sacs accrochés. Le capitaine chantait faux et ne le savait pas.
+La forêt des Murmures abritait des arbres qui parlaient. Chacun racontait un souvenir différent. Les voyageurs s'asseyaient à leurs pieds et les écoutaient jusqu'au soir.
+Le château de Bellevue dominait la baie depuis le Moyen Âge. Ses fenêtres donnaient sur l'océan et les mouettes nichaient dans ses tourelles. Les touristes l'imaginaient hanté et frissonnaient avec plaisir.
+L'inspecteur Mirabel avait la manie de tout mesurer. Il comptait ses pas, ses bouchées et ses minutes. Sa femme lui disait qu'il pourrait aussi compter ses défauts.
+Le moulin du diable était maudit depuis la nuit des temps. Personne n'osait s'approcher de ses ailes noires. Pourtant, une fillette y jouait chaque jour et le moulin la laissait faire.
+Sur la planète Galba, les journées duraient trois heures. Les habitants dormaient par petites tranches et mangeaient toujours en marchant. Ils ne s'ennuyaient jamais, mais ils étaient très fatigués.
+Le magicien Orphée dirigeait un théâtre de marionnettes. Ses pantins dansaient sans fils et chantaient des airs oubliés. Les spectateurs repartaient avec des sourires et des questions.
+Le roi des voleurs possédait une cape qui rendait invisible. Il l'utilisait seulement le dimanche, par souci d'équité. Les autres jours, il volait à découvert et saluait ses victimes.
+La ville de Cristal brillait sous le soleil de midi. Ses tours renvoyaient des éclairs de lumière sur les montagnes. Les voyageurs la voyaient de loin et pressaient le pas.
+Le vieux navire grinçait dans la houle. Les cordages gémissaient et les mâts tremblaient dans le vent. Les marins n'avaient plus peur, tant ils avaient l'habitude des tempêtes.
+Le sorcier gardait ses livres dans une pièce secrète. Les pages murmuraient entre elles et les couvertures claquaient comme des mâchoires. Seul son chat osait y entrer.
+Dans le monde des rêves, tout était possible. Les rivières coulaient vers le haut et les arbres chantaient des berceuses. Les dormeurs se promenaient en pyjama et ne demandaient rien d'autre.
+L'empereur de Jade régnait sur un empire de montagnes. Chaque aube, un messager apportait un thé fumant à sa fenêtre. Sa devise tenait en trois mots : paix, patience, courage.

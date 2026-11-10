@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Test iPad · Devoirs</title>
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #fffefb; --surface: #ffffff; --ink: #2b2380; --soft: #5b5494; --rule: #cfc3f2; --strong: #8a7fc4;
+  --accent: #2f3d9c; --on: #ffffff; --ok: #1a7f4b; --ko: #c2273f;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14112a; --surface: #1d1a3a; --ink: #ece9ff; --soft: #b5aee0; --rule: #3a3470; --strong: #8d83d6;
+    --accent: #9aa5ff; --on: #14112a; --ok: #74d9a4; --ko: #ff8da0;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; padding: calc(env(safe-area-inset-top) + 1rem) max(1.1rem, env(safe-area-inset-right)) 4rem max(1.1rem, env(safe-area-inset-left));
+  background: var(--bg); color: var(--ink);
+  font: 18px/1.5 ui-rounded, "Avenir Next", system-ui, sans-serif;
+}
+main { max-width: 46rem; margin: 0 auto; display: flex; flex-direction: column; gap: 1.25rem; }
+h1 { margin: 0; font-size: 1.75rem; line-height: 1.2; }
+h2 { margin: 0 0 .25rem; font-size: 1.3rem; line-height: 1.25; }
+p { margin: 0; }
+.soft { color: var(--soft); font-size: .95rem; }
+.card { background: var(--surface); border: 1px solid var(--rule); border-radius: 1rem; padding: 1.1rem 1.25rem; display: flex; flex-direction: column; gap: .9rem; }
+.row { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
+label { font-weight: 700; font-size: .95rem; }
+button, select, input[type=range] { font: inherit; color: inherit; }
+.btn, .chip, select {
+  min-height: 3.25rem; padding: 0 1.1rem; font-weight: 700; background: var(--surface); color: var(--ink);
+  border: 2px solid var(--strong); border-radius: .7rem; touch-action: manipulation;
+}
+.btn--primary { background: var(--accent); border-color: var(--accent); color: var(--on); }
+.btn:active, .chip:active { transform: scale(.985); }
+.chip[aria-pressed=true], .chip[aria-checked=true] { background: color-mix(in oklab, var(--accent) 22%, var(--surface)); border-color: var(--ink); }
+.chip[aria-pressed=true]::before, .chip[aria-checked=true]::before { content: "✓ "; }
+select { max-width: 100%; }
+textarea {
+  width: 100%; min-height: 6.5rem; padding: .8rem 1rem; font: inherit; font-size: 1.15rem; color: inherit; background: var(--bg);
+  border: 2px solid var(--ink); border-radius: .7rem; resize: vertical;
+}
+.status { position: sticky; top: 0; z-index: 3; margin: -.25rem -.25rem 0; padding: .5rem .75rem; background: color-mix(in oklab, var(--accent) 16%, var(--bg)); border: 1px solid var(--rule); border-radius: .7rem; font-size: .95rem; font-variant-numeric: tabular-nums; }
+.log { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: .35rem; font-size: .95rem; }
+.log li { padding: .4rem .7rem; border-radius: .5rem; border: 1px solid var(--rule); }
+.ok { color: var(--ok); font-weight: 700; }
+.ko { color: var(--ko); font-weight: 700; }
+.diff { font-size: 1.1rem; line-height: 2; }
+.diff .bad { color: var(--ko); font-weight: 700; text-decoration: underline wavy; text-underline-offset: .2em; }
+img.preview { max-width: 100%; max-height: 45vh; border-radius: .6rem; border: 1px solid var(--rule); align-self: flex-start; }
+ol, ul.steps { margin: 0; padding-left: 1.3rem; display: flex; flex-direction: column; gap: .3rem; }
+input[type=range] { width: 100%; min-height: 2.75rem; accent-color: var(--accent); }
+.diag { margin: .4rem 0 0; padding: .6rem .8rem; max-height: 14rem; overflow: auto; font: 13px/1.45 ui-monospace, Menlo, monospace; white-space: pre-wrap; word-break: break-all; background: var(--bg); border: 1px solid var(--rule); border-radius: .5rem; }
+code { font: .95em ui-monospace, Menlo, monospace; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Test iPad · Devoirs</h1>
+    <p class="soft">Quatre essais pour savoir si une dictée vocale avec photo est réaliste sur cet iPad. À la fin, copie le rapport et colle-le dans la conversation.</p>
+  </header>
+
+  <p class="status" id="status" aria-live="polite">Prêt.</p>
+
+  <section class="card" aria-labelledby="h-app">
+    <h2 id="h-app">Cet appareil</h2>
+    <p id="device" class="soft"></p>
+  </section>
+
+  <section class="card" aria-labelledby="h-voix">
+    <h2 id="h-voix">1. Voix et lecture</h2>
+    <p class="soft">Choisis une voix française, règle la vitesse, puis lance une lecture. Si tu n’entends rien, vérifie le volume et que l’iPad n’est pas en mode silence.</p>
+    <div class="row">
+      <label for="voice">Voix</label>
+      <select id="voice" aria-describedby="voice-info"></select>
+    </div>
+    <p id="voice-info" class="soft"></p>
+    <div>
+      <label for="rate">Vitesse : <output id="rate-out">0,9</output></label>
+      <input id="rate" type="range" min="0.5" max="1.2" step="0.05" value="0.9">
+    </div>
+    <div class="row">
+      <label for="gap">Pause entre les groupes</label>
+      <select id="gap"><option value="1">1 seconde</option><option value="2" selected>2 secondes</option><option value="3">3 secondes</option></select>
+      <button class="chip" id="punct" type="button" aria-pressed="false">Dire la ponctuation</button>
+    </div>
+    <label for="sample">Texte lu</label>
+    <select id="sample"></select>
+    <p id="sample-text" class="soft"></p>
+    <div class="row">
+      <button class="btn btn--primary" id="play-whole" type="button">Lecture complète</button>
+      <button class="btn btn--primary" id="play-dict" type="button">Lecture en dictée</button>
+      <button class="btn" id="stop" type="button">Arrêter</button>
+    </div>
+    <p class="soft">« Lecture en dictée » lit le texte en entier, puis groupe par groupe avec une pause, puis une dernière fois. Elle enchaîne les lectures sans que tu touches l’écran, comme le ferait l’exercice.</p>
+    <div>
+      <p><b>Comment était la voix ?</b></p>
+      <div class="row" role="radiogroup" aria-label="Qualité de la voix" id="rating">
+        <button class="chip" type="button" role="radio" aria-checked="false" data-rate="très claire">Très claire</button>
+        <button class="chip" type="button" role="radio" aria-checked="false" data-rate="compréhensible">Compréhensible</button>
+        <button class="chip" type="button" role="radio" aria-checked="false" data-rate="difficile à suivre">Difficile à suivre</button>
+        <button class="chip" type="button" role="radio" aria-checked="false" data-rate="aucun son">Aucun son</button>
+      </div>
+    </div>
+    <ul class="log" id="plays" aria-label="Résultats des lectures"></ul>
+  </section>
+
+  <section class="card" aria-labelledby="h-saisie">
+    <h2 id="h-saisie">2. Écrire au clavier</h2>
+    <p class="soft">Tape dans chaque zone : <b>les enfant ecoute la pluie</b> (avec les fautes), puis deux espaces, puis un point. Regarde ce que fait le clavier, et coche ce qui arrive. La barre grise en haut montre la place qui reste visible quand le clavier est ouvert.</p>
+    <div>
+      <label for="ta-a">A · réglages « dictée » (correction et suggestions coupées)</label>
+      <textarea id="ta-a" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" enterkeyhint="done"></textarea>
+      <div class="row" data-group="A">
+        <button class="chip" type="button" aria-pressed="false" data-flag="a-corrige">Un mot a été corrigé tout seul</button>
+        <button class="chip" type="button" aria-pressed="false" data-flag="a-suggest">Des suggestions de mots sont apparues</button>
+        <button class="chip" type="button" aria-pressed="false" data-flag="a-maj">Une majuscule est apparue seule</button>
+        <button class="chip" type="button" aria-pressed="false" data-flag="a-point">Deux espaces ont donné un point</button>
+      </div>
+    </div>
+    <div>
+      <label for="ta-b">B · réglages normaux (pour comparer)</label>
+      <textarea id="ta-b"></textarea>
+      <div class="row" data-group="B">
+        <button class="chip" type="button" aria-pressed="false" data-flag="b-corrige">Un mot a été corrigé tout seul</button>
+        <button class="chip" type="button" aria-pressed="false" data-flag="b-suggest">Des suggestions de mots sont apparues</button>
+        <button class="chip" type="button" aria-pressed="false" data-flag="b-maj">Une majuscule est apparue seule</button>
+        <button class="chip" type="button" aria-pressed="false" data-flag="b-point">Deux espaces ont donné un point</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="card" aria-labelledby="h-photo">
+    <h2 id="h-photo">3. Photo et texte en direct</h2>
+    <p class="soft">Écris à la main, sur une feuille à carreaux, le texte ci-dessous (ou demande à ton fils de le copier de son écriture).</p>
+    <label for="ref">Texte à copier sur la feuille</label>
+    <select id="ref"></select>
+    <p id="ref-text" style="font-size:1.15rem"></p>
+
+    <h3 style="margin:.4rem 0 0;font-size:1.05rem">a) La caméra</h3>
+    <div class="row">
+      <button class="btn btn--primary" id="cam-btn" type="button">Prendre la feuille en photo</button>
+      <button class="btn" id="pick-btn" type="button">Choisir une photo existante</button>
+    </div>
+    <input id="cam" class="sr" type="file" accept="image/*" capture="environment" tabindex="-1" aria-hidden="true">
+    <input id="pick" class="sr" type="file" accept="image/*" tabindex="-1" aria-hidden="true">
+    <p id="photo-info" class="soft"></p>
+    <div id="preview-box"></div>
+    <div class="row">
+      <button class="chip" type="button" aria-pressed="false" data-flag="cam-direct">La caméra s’est ouverte directement</button>
+      <button class="chip" type="button" aria-pressed="false" data-flag="cam-picker">Un choix « photothèque / appareil photo » est apparu</button>
+    </div>
+
+    <h3 style="margin:.6rem 0 0;font-size:1.05rem">b) Le texte en direct de l’iPad</h3>
+    <ol>
+      <li>Touche la zone ci-dessous pour y placer le curseur.</li>
+      <li>Touche-la encore, puis choisis <b>Scanner du texte</b> (ou le bouton appareil photo avec des lignes, au-dessus du clavier).</li>
+      <li>Vise la feuille, puis touche <b>Insérer</b>.</li>
+      <li>Touche <b>Comparer</b>.</li>
+    </ol>
+    <label for="ocr">Texte reconnu (modifiable)</label>
+    <textarea id="ocr" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false"></textarea>
+    <div class="row">
+      <label for="what">Ce qui a été scanné</label>
+      <select id="what">
+        <option>Écriture de mon fils (attachée)</option>
+        <option>Écriture de mon fils (script)</option>
+        <option>Mon écriture</option>
+        <option>Texte imprimé</option>
+      </select>
+      <button class="btn btn--primary" id="compare" type="button">Comparer</button>
+    </div>
+    <p id="ocr-result" class="diff" aria-live="polite"></p>
+    <div class="row">
+      <button class="chip" type="button" aria-pressed="false" data-flag="scan-menu">Le menu « Scanner du texte » existe</button>
+      <button class="chip" type="button" aria-pressed="false" data-flag="scan-fr">Il a lu du français avec ses accents</button>
+    </div>
+  </section>
+
+  <section class="card" aria-labelledby="h-diag">
+    <h2 id="h-diag">5. Saisie de la dictée (diagnostic)</h2>
+    <p class="soft">Tape dans chaque zone, <b>lentement</b> : <b>Hier soir, les enfants ont écouté. Ils ont ri.</b> Après la virgule et après le point, appuie bien sur la <b>barre d’espace</b> avant la lettre suivante. Les petits points <code>·</code> sont des espaces : regarde s’il en apparaît un après la virgule.</p>
+    <div>
+      <label for="d-a">Zone 1 · comme dans l’app (sans langue précisée)</label>
+      <textarea id="d-a" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false"></textarea>
+      <pre class="diag" id="d-a-out" aria-live="off"></pre>
+    </div>
+    <div>
+      <label for="d-b">Zone 2 · avec <code>lang="fr"</code></label>
+      <textarea id="d-b" lang="fr" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false"></textarea>
+      <pre class="diag" id="d-b-out" aria-live="off"></pre>
+    </div>
+  </section>
+
+  <section class="card" aria-labelledby="h-rapport">
+    <h2 id="h-rapport">4. Rapport</h2>
+    <p class="soft">Il se met à jour tout seul. Touche <b>Tout sélectionner</b>, copie, puis colle-le dans la conversation.</p>
+    <textarea id="report" readonly style="min-height:16rem;font:14px/1.45 ui-monospace,Menlo,monospace" aria-label="Rapport"></textarea>
+    <div class="row"><button class="btn btn--primary" id="copy" type="button">Tout sélectionner</button></div>
+  </section>
+</main>
+
+<script>
+'use strict'
+const $ = (s, r = document) => r.querySelector(s)
+const synth = 'speechSynthesis' in window ? window.speechSynthesis : null
+const R = { plays: [], flags: {}, rating: {}, minVisible: null, photo: null, ocr: null }
+
+// ---- Textes ------------------------------------------------------------------------------------
+const SAMPLES = [
+  { name: 'Une phrase', text: 'Autrefois, les villageois allumaient de grands feux sur la colline.' },
+  { name: 'Deux phrases', text: 'Hier soir, les enfants ont écouté une histoire de pirates. Ils n’avaient pas peur du noir.' },
+  { name: 'Trois phrases', text: 'Le vieux phare dominait la baie. Chaque soir, le gardien allumait la lanterne, et les bateaux retrouvaient le chemin du port. Ce soir-là, un orage terrible a éclaté.' },
+  { name: 'Mots difficiles', text: 'Monsieur Dupont a mangé du fenouil, des oignons et un second gâteau au mois d’août.' },
+]
+const fill = (sel, items, value) => { sel.innerHTML = ''; items.forEach((it, i) => sel.add(new Option(it.name, String(i)))); sel.value = value }
+fill($('#sample'), SAMPLES, '1')
+fill($('#ref'), SAMPLES.slice(0, 3), '1')
+const sample = () => SAMPLES[Number($('#sample').value)]
+const reference = () => SAMPLES[Number($('#ref').value)]
+const showTexts = () => { $('#sample-text').textContent = sample().text; $('#ref-text').textContent = reference().text }
+$('#sample').addEventListener('change', () => { showTexts(); touch() })
+$('#ref').addEventListener('change', () => { showTexts(); touch() })
+showTexts()
+
+const setStatus = (t) => { $('#status').dataset.msg = t; paintStatus() }
+let visible = null
+function paintStatus() {
+  const vv = window.visualViewport
+  const w = Math.round(vv ? vv.width : innerWidth), h = Math.round(vv ? vv.height : innerHeight)
+  $('#status').textContent = `${$('#status').dataset.msg || 'Prêt.'}  ·  Zone visible : ${w} × ${h} px` +
+    (R.minVisible ? `  ·  plus petite avec clavier : ${R.minVisible} px` : '')
+  visible = h
+}
+
+// ---- Appareil -----------------------------------------------------------------------------------
+const dev = {
+  navigateur: navigator.userAgent,
+  écran: `${screen.width}×${screen.height}, fenêtre ${innerWidth}×${innerHeight}, ×${devicePixelRatio}`,
+  'contexte sécurisé (https)': isSecureContext ? 'oui' : 'non',
+  'mode application (écran d’accueil)': (navigator.standalone === true || matchMedia('(display-mode: standalone)').matches) ? 'oui' : 'non',
+  'écran tactile': `${navigator.maxTouchPoints} points, pointeur ${matchMedia('(pointer: coarse)').matches ? 'tactile' : 'souris'}`,
+  langue: navigator.language,
+  'synthèse vocale': synth ? 'disponible' : 'ABSENTE',
+}
+$('#device').innerHTML = Object.entries(dev).map(([k, v]) => `<b>${k}</b> : ${v.replace(/</g, '&lt;')}`).join('<br>')
+
+// ---- Voix ---------------------------------------------------------------------------------------
+let voices = []
+let allCount = 0
+function refreshVoices() {
+  if (!synth) { $('#voice-info').textContent = 'Ce navigateur ne propose pas de synthèse vocale.'; return }
+  const all = synth.getVoices()
+  allCount = all.length
+  voices = all.filter((v) => /^fr/i.test(v.lang))
+  const sel = $('#voice')
+  const keep = sel.value
+  sel.innerHTML = ''
+  sel.add(new Option('Voix choisie par l’iPad (français)', ''))
+  voices.forEach((v, i) => sel.add(new Option(`${v.name} · ${v.lang}${v.localService ? '' : ' · en ligne'}${v.default ? ' · par défaut' : ''}`, String(i))))
+  if (keep && sel.querySelector(`option[value="${keep}"]`)) sel.value = keep
+  $('#voice-info').textContent = voices.length
+    ? `${voices.length} voix française(s) sur ${allCount} voix.`
+    : `Aucune voix française sur ${allCount} voix. Réglages > Accessibilité > Contenu énoncé > Voix permet d’en ajouter.`
+  touch()
+}
+if (synth) {
+  synth.addEventListener?.('voiceschanged', refreshVoices)
+  ;[0, 300, 1000, 2500].forEach((t) => setTimeout(refreshVoices, t))
+} else refreshVoices()
+const currentVoice = () => { const v = $('#voice').value; return v === '' ? null : voices[Number(v)] }
+const voiceLabel = () => (currentVoice() ? `${currentVoice().name} (${currentVoice().lang})` : 'voix automatique')
+$('#rate').addEventListener('input', () => { $('#rate-out').textContent = $('#rate').value.replace('.', ',') })
+$('#punct').addEventListener('click', (e) => { e.currentTarget.setAttribute('aria-pressed', String(e.currentTarget.getAttribute('aria-pressed') !== 'true')) })
+
+// ---- Lecture ------------------------------------------------------------------------------------
+let runId = 0
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
+
+// Lit un texte et rend ce qui s'est passé : démarrage, fin, erreur, durée
+function say(text) {
+  return new Promise((resolve) => {
+    const u = new SpeechSynthesisUtterance(text)
+    u.lang = 'fr-FR'
+    const v = currentVoice()
+    if (v) u.voice = v
+    u.rate = Number($('#rate').value)
+    const t0 = performance.now()
+    let started = false
+    let done = false
+    const guard = setTimeout(() => finish(false, 'aucune fin reçue'), 5000 + text.length * 250)
+    function finish(ok, why) {
+      if (done) return
+      done = true
+      clearTimeout(guard)
+      resolve({ ok, why, started, ms: Math.round(performance.now() - t0), chars: text.length })
+    }
+    u.onstart = () => { started = true }
+    u.onend = () => finish(true, 'fin normale')
+    u.onerror = (e) => finish(false, e.error || 'erreur')
+    synth.speak(u)
+  })
+}
+
+const groupsOf = (text) => (text.match(/[^,;.!?]+[,;.!?]?/g) || [text]).map((s) => s.trim()).filter(Boolean)
+const spoken = (g) => ($('#punct').getAttribute('aria-pressed') === 'true'
+  ? g.replace(/,/g, ' virgule').replace(/;/g, ' point-virgule').replace(/\.$/, ' point').replace(/\?$/, ' point d’interrogation').replace(/!$/, ' point d’exclamation') : g)
+
+function stopAll() { runId++; synth?.cancel(); setStatus('Arrêté.') }
+function record(name, steps) {
+  const failed = steps.filter((s) => !s.ok)
+  const play = {
+    name, voice: voiceLabel(), rate: $('#rate').value, steps: steps.length,
+    ok: failed.length === 0, silent: steps.some((s) => !s.started),
+    totalMs: steps.reduce((a, s) => a + s.ms, 0),
+    failures: failed.map((s) => `${s.label ?? 'lecture'} : ${s.why}`),
+  }
+  R.plays.push(play)
+  R.lastPlay = play
+  const li = document.createElement('li')
+  const ratio = steps.reduce((a, s) => a + s.chars, 0) / Math.max(1, play.totalMs / 1000)
+  li.innerHTML = `<span class="${play.ok ? 'ok' : 'ko'}">${play.ok ? '✓' : '✗'}</span> ${name} · ${play.voice} · ${play.steps} lecture(s), ${(play.totalMs / 1000).toFixed(1)} s` +
+    (play.silent ? ' · <span class="ko">démarrage non signalé</span>' : '') +
+    (play.failures.length ? ` · <span class="ko">${play.failures.join(' ; ')}</span>` : '') + ` · ${ratio.toFixed(0)} car./s`
+  $('#plays').prepend(li)
+  setStatus(play.ok ? 'Lecture terminée.' : 'Lecture avec un problème.')
+  touch()
+}
+
+async function playWhole() {
+  if (!synth) return
+  const id = ++runId
+  synth.cancel()
+  setStatus('Lecture en cours…')
+  const r = await say(sample().text)
+  if (id === runId) record(`${sample().name} · lecture complète`, [r])
+}
+async function playDictation() {
+  if (!synth) return
+  const id = ++runId
+  synth.cancel()
+  const d = sample()
+  const groups = groupsOf(d.text)
+  const gap = Number($('#gap').value) * 1000
+  const steps = []
+  const run = async (text, label) => {
+    setStatus(label)
+    const r = await say(text)
+    steps.push({ ...r, label })
+    return r
+  }
+  await run(d.text, 'Lecture entière (1/3)')
+  for (let i = 0; i < groups.length; i++) {
+    if (id !== runId) return
+    await sleep(gap)
+    if (id !== runId) return
+    await run(spoken(groups[i]), `Groupe ${i + 1}/${groups.length} (2/3)`)
+  }
+  if (id !== runId) return
+  await sleep(gap)
+  if (id !== runId) return
+  await run(d.text, 'Relecture (3/3)')
+  if (id === runId) record(`${d.name} · en dictée`, steps)
+}
+$('#play-whole').addEventListener('click', playWhole)
+$('#play-dict').addEventListener('click', playDictation)
+$('#stop').addEventListener('click', stopAll)
+
+// Notes (une seule réponse par groupe), sur la dernière lecture
+$('#rating').addEventListener('click', (e) => {
+  const b = e.target.closest('[data-rate]')
+  if (!b) return
+  document.querySelectorAll('#rating [data-rate]').forEach((x) => x.setAttribute('aria-checked', String(x === b)))
+  R.rating[voiceLabel()] = b.dataset.rate
+  touch()
+})
+$('#voice').addEventListener('change', () => {
+  document.querySelectorAll('#rating [data-rate]').forEach((x) => x.setAttribute('aria-checked', String(R.rating[voiceLabel()] === x.dataset.rate)))
+  touch()
+})
+
+// ---- Cases à cocher -----------------------------------------------------------------------------
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('[data-flag]')
+  if (!b) return
+  const on = b.getAttribute('aria-pressed') !== 'true'
+  b.setAttribute('aria-pressed', String(on))
+  R.flags[b.dataset.flag] = { label: b.textContent.trim(), on }
+  touch()
+})
+
+// ---- Clavier : place visible ----------------------------------------------------------------------
+let typing = false
+document.addEventListener('focusin', (e) => { if (e.target.matches('textarea')) typing = true; paintStatus() })
+document.addEventListener('focusout', () => { typing = false })
+function onViewport() {
+  paintStatus()
+  if (typing && visible) { R.minVisible = Math.min(R.minVisible ?? 1e9, visible); paintStatus(); touch() }
+}
+window.visualViewport?.addEventListener('resize', onViewport)
+window.addEventListener('resize', onViewport)
+paintStatus()
+
+// ---- Photo --------------------------------------------------------------------------------------
+$('#cam-btn').addEventListener('click', () => $('#cam').click())
+$('#pick-btn').addEventListener('click', () => $('#pick').click())
+function onPhoto(e) {
+  const file = e.target.files[0]
+  if (!file) return
+  const img = new Image()
+  img.className = 'preview'
+  img.alt = 'Photo de la feuille'
+  img.onload = () => {
+    R.photo = { type: file.type || 'inconnu', ko: Math.round(file.size / 1024), w: img.naturalWidth, h: img.naturalHeight, source: e.target.id === 'cam' ? 'appareil photo' : 'photothèque' }
+    $('#photo-info').textContent = `Photo reçue : ${R.photo.w} × ${R.photo.h} px, ${R.photo.ko} ko, ${R.photo.type} (${R.photo.source}).`
+    $('#preview-box').replaceChildren(img)
+    touch()
+  }
+  img.onerror = () => { $('#photo-info').textContent = 'La photo n’a pas pu être affichée (format non lu par le navigateur ?).' }
+  img.src = URL.createObjectURL(file)
+}
+$('#cam').addEventListener('change', onPhoto)
+$('#pick').addEventListener('change', onPhoto)
+
+// ---- Comparaison du texte reconnu -----------------------------------------------------------------
+const keyOf = (w, strict) => {
+  const k = w.toLowerCase()
+  return strict ? k : k.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/œ/g, 'oe')
+}
+const tokens = (t, strict) => t.replace(/[’‘`]/g, "'").replace(/[.,;:!?…«»"()—–]/g, ' ').split(/\s+/).filter(Boolean).map((raw) => ({ raw, key: keyOf(raw, strict) }))
+function align(exp, got) {
+  const n = exp.length, m = got.length
+  const d = Array.from({ length: n + 1 }, (_, i) => Array.from({ length: m + 1 }, (_, j) => (i === 0 ? j : j === 0 ? i : 0)))
+  const same = (i, j) => exp[i - 1].key === got[j - 1].key
+  for (let i = 1; i <= n; i++) for (let j = 1; j <= m; j++) d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (same(i, j) ? 0 : 1))
+  const ops = []
+  let i = n, j = m
+  while (i > 0 || j > 0) {
+    if (i > 0 && j > 0 && d[i][j] === d[i - 1][j - 1] + (same(i, j) ? 0 : 1)) { ops.push(same(i, j) ? { ok: exp[i - 1].raw } : { wrong: got[j - 1].raw, right: exp[i - 1].raw }); i--; j-- }
+    else if (i > 0 && d[i][j] === d[i - 1][j] + 1) { ops.push({ missing: exp[i - 1].raw }); i-- }
+    else { ops.push({ extra: got[j - 1].raw }); j-- }
+  }
+  return ops.reverse()
+}
+const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;')
+function compare() {
+  const text = reference().text
+  const given = $('#ocr').value
+  if (!given.trim()) { $('#ocr-result').textContent = 'La zone est vide : scanne ou tape un texte d’abord.'; return }
+  const score = (strict) => {
+    const ops = align(tokens(text, strict), tokens(given, strict))
+    return { ops, faults: ops.filter((o) => !o.ok).length, total: ops.filter((o) => o.ok || o.wrong || o.missing).length }
+  }
+  const tolerant = score(false), strict = score(true)
+  R.ocr = { what: $('#what').value, ref: reference().name, tolerant: `${tolerant.faults} faute(s) sur ${tolerant.total} mots`, strict: `${strict.faults} faute(s) sur ${strict.total} mots` }
+  const html = strict.ops.map((o) => o.ok ? esc(o.ok) : o.wrong ? `<span class="bad">✗ ${esc(o.wrong)} → ${esc(o.right)}</span>` : o.missing ? `<span class="bad">✗ oubli : ${esc(o.missing)}</span>` : `<span class="bad">✗ en trop : ${esc(o.extra)}</span>`).join(' ')
+  $('#ocr-result').innerHTML = `<b>Accents tolérés : ${R.ocr.tolerant}. Accents exigés : ${R.ocr.strict}.</b><br>${html}`
+  touch()
+}
+$('#compare').addEventListener('click', compare)
+
+
+// ---- Diagnostic de la saisie ---------------------------------------------------------------------
+// Montre le contenu exact d'une zone de texte et les événements que le clavier envoie.
+const DIAG = { A: { counts: {}, log: [], value: '' }, B: { counts: {}, log: [], value: '' } }
+const seeChars = (v) => [...v].map((c) => {
+  const n = c.codePointAt(0)
+  if (c === ' ') return '·'
+  if (c === '\n') return '↵'
+  if (c === '\u00a0') return '⍽'
+  return n < 32 || (n > 126 && !/\p{L}/u.test(c)) ? `⟨U+${n.toString(16).toUpperCase()}⟩` : c
+}).join('')
+function paintDiag(key, outId) {
+  const d = DIAG[key]
+  const counts = Object.entries(d.counts).map(([k, v]) => `${k} ${v}`).join(' · ') || 'aucun'
+  $(outId).textContent = `Contenu : ${seeChars(d.value) || '(vide)'}\nÉvénements : ${counts}\n${d.log.slice(-18).join('\n')}`
+}
+function watchField(id, outId, key) {
+  const el = $(id)
+  const add = (type, extra = '') => {
+    const d = DIAG[key]
+    d.counts[type] = (d.counts[type] || 0) + 1
+    d.log.push(`${type}${extra}`)
+    if (d.log.length > 200) d.log.shift()
+    d.value = el.value
+    paintDiag(key, outId)
+    touch()
+  }
+  for (const t of ['compositionstart', 'compositionupdate', 'compositionend']) el.addEventListener(t, (e) => add(t, ` « ${e.data} »`))
+  // les touches elles-mêmes : si la barre d'espace n'apparaît pas ici, le clavier ne l'envoie pas à la page
+  el.addEventListener('keydown', (e) => add('keydown', ` ${e.key === ' ' ? 'ESPACE' : e.key}`))
+  el.addEventListener('beforeinput', (e) => add('beforeinput', ` ${e.inputType} « ${e.data ?? ''} »`))
+  el.addEventListener('input', (e) => add('input', ` ${e.inputType} « ${e.data ?? ''} »${e.isComposing ? ' (composition)' : ''}`))
+  paintDiag(key, outId)
+}
+watchField('#d-a', '#d-a-out', 'A')
+watchField('#d-b', '#d-b-out', 'B')
+
+// ---- Rapport ------------------------------------------------------------------------------------
+let timer
+function touch() { clearTimeout(timer); timer = setTimeout(renderReport, 150) }
+function renderReport() {
+  const L = []
+  L.push(`RAPPORT TEST iPad — ${new Date().toLocaleString('fr-FR')}`, '')
+  L.push('APPAREIL')
+  for (const [k, v] of Object.entries(dev)) L.push(`- ${k} : ${v}`)
+  L.push('', 'VOIX')
+  L.push(`- ${voices.length} voix française(s) sur ${allCount}`)
+  voices.forEach((v) => L.push(`  · ${v.name} (${v.lang})${v.localService ? '' : ' en ligne'}${v.default ? ' par défaut' : ''}`))
+  L.push('', 'LECTURES')
+  if (!R.plays.length) L.push('- aucune lecture lancée')
+  R.plays.forEach((p) => L.push(`- ${p.ok ? 'OK' : 'PROBLÈME'} · ${p.name} · ${p.voice} · vitesse ${p.rate} · ${p.steps} lecture(s) · ${(p.totalMs / 1000).toFixed(1)} s${p.silent ? ' · démarrage non signalé' : ''}${p.failures.length ? ' · ' + p.failures.join(' ; ') : ''}`))
+  L.push('- notes de voix : ' + (Object.keys(R.rating).length ? Object.entries(R.rating).map(([k, v]) => `${k} = ${v}`).join(' ; ') : 'aucune'))
+  L.push('', 'CLAVIER')
+  const flagLines = (prefix) => Object.entries(R.flags).filter(([k]) => k.startsWith(prefix)).map(([, f]) => `  · ${f.label} : ${f.on ? 'OUI' : 'non'}`)
+  L.push('- zone A (réglages dictée) :'); L.push(...(flagLines('a-').length ? flagLines('a-') : ['  · rien coché']))
+  L.push('- zone B (réglages normaux) :'); L.push(...(flagLines('b-').length ? flagLines('b-') : ['  · rien coché']))
+  L.push(`- plus petite zone visible avec le clavier : ${R.minVisible ? R.minVisible + ' px' : 'non mesurée'}`)
+  L.push('', 'SAISIE DE LA DICTÉE (diagnostic)')
+  for (const [key, label] of [['A', 'zone 1 sans langue'], ['B', 'zone 2 lang=fr']]) {
+    const d = DIAG[key]
+    L.push(`- ${label} : ${seeChars(d.value) || '(vide)'}`)
+    L.push(`  événements : ${Object.entries(d.counts).map(([k, v]) => `${k} ${v}`).join(' · ') || 'aucun'}`)
+    if (d.log.length) L.push(...d.log.slice(-60).map((x) => `    ${x}`))
+  }
+  L.push('', 'PHOTO')
+  L.push(R.photo ? `- ${R.photo.w}×${R.photo.h} px, ${R.photo.ko} ko, ${R.photo.type}, via ${R.photo.source}` : '- aucune photo prise')
+  Object.entries(R.flags).filter(([k]) => k.startsWith('cam-')).forEach(([, f]) => L.push(`- ${f.label} : ${f.on ? 'OUI' : 'non'}`))
+  L.push('', 'TEXTE EN DIRECT')
+  Object.entries(R.flags).filter(([k]) => k.startsWith('scan-')).forEach(([, f]) => L.push(`- ${f.label} : ${f.on ? 'OUI' : 'non'}`))
+  L.push(R.ocr ? `- ${R.ocr.what} · texte « ${R.ocr.ref} » · accents tolérés : ${R.ocr.tolerant} · accents exigés : ${R.ocr.strict}` : '- aucune comparaison faite')
+  $('#report').value = L.join('\n')
+}
+$('#copy').addEventListener('click', () => {
+  const t = $('#report')
+  t.focus()
+  t.select()
+  t.setSelectionRange(0, t.value.length)
+  try { document.execCommand('copy') } catch (e) { /* la sélection reste faite : copie manuelle */ }
+  setStatus('Rapport sélectionné : copie-le.')
+})
+renderReport()
+</script>
+</body>
+</html>

@@ -6,13 +6,16 @@ import { EXERCISES } from './lib/history.js'
 import Icon from './components/Icon.vue'
 import VerbsSetup from './views/VerbsSetup.vue'
 import AccordsSetup from './views/AccordsSetup.vue'
+import DicteeSetup from './views/DicteeSetup.vue'
+import DicteeView from './views/DicteeView.vue'
+import DicteeResult from './views/DicteeResult.vue'
 import QuizView from './views/QuizView.vue'
 import ResultView from './views/ResultView.vue'
 import HistoryView from './views/HistoryView.vue'
 import SettingsView from './views/SettingsView.vue'
 
 const views = {
-  verbes: VerbsSetup, accords: AccordsSetup, quiz: QuizView, resultat: ResultView, revue: ResultView,
+  verbes: VerbsSetup, accords: AccordsSetup, dictees: DicteeSetup, quiz: QuizView, resultat: ResultView, revue: ResultView,
   historique: HistoryView, reglages: SettingsView,
 }
 const section = computed(() => {
@@ -22,7 +25,15 @@ const section = computed(() => {
   // pendant un quiz ou sur son résultat, le menu garde l'exercice en cours en évidence
   if (n === 'quiz') return exerciseOf(state.quiz)
   if (n === 'resultat') return exerciseOf(state.history.find((h) => h.id === state.route.id))
-  return n === 'accords' ? 'accords' : 'verbes'
+  return ['accords', 'dictees'].includes(n) ? n : 'verbes'
+})
+// Une dictée a son propre écran, pendant le quiz comme pour sa correction
+const entryOf = () => state.history.find((h) => h.id === state.route.id)
+const current = computed(() => {
+  const n = state.route.name
+  if (n === 'quiz' && exerciseOf(state.quiz) === 'dictees') return DicteeView
+  if ((n === 'resultat' || n === 'revue') && exerciseOf(entryOf()) === 'dictees') return DicteeResult
+  return views[n]
 })
 const exercises = EXERCISES
 const tools = [
@@ -58,7 +69,7 @@ const inQuiz = computed(() => state.route.name === 'quiz')
       </nav>
     </aside>
     <main class="main" id="main">
-      <component :is="views[state.route.name]" :key="state.route.name + (state.route.id ?? '')" />
+      <component :is="current" :key="state.route.name + (state.route.id ?? '')" />
     </main>
   </div>
 </template>

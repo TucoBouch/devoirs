@@ -1,0 +1,105 @@
+// Dictées au passé simple, lot b : navires, pirates, explorateurs, naufrages, expéditions.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== ps
+
+// 1 phrase
+Le capitaine leva l'ancre et le navire s'éloigna lentement du port.
+La vigie poussa un cri et tendit le bras vers l'horizon.
+Les pirates abordèrent le navire marchand et s'emparèrent de la cargaison.
+Je pris la longue-vue et scrutai la ligne d'horizon.
+Une vague gigantesque balaya le pont et emporta deux barils.
+Nous jetâmes l'ancre dans une baie déserte et descendîmes à terre en barque.
+Le mousse grimpa dans la hune et repéra les voiles ennemies.
+L'explorateur déplia la carte et suivit du doigt la piste jusqu'au fleuve.
+Les matelots hissèrent la grand-voile et le vent la gonfla aussitôt.
+Le pirate borgne éclata de rire et frappa la table de sa main de bois.
+Nous plantâmes notre tente au bord de la rivière et allumâmes un feu.
+Les marins ramèrent toute la nuit et atteignirent l'île à l'aube.
+Le perroquet se percha sur l'épaule du capitaine et poussa un cri strident.
+L'équipage chanta un vieux chant de marins et la nuit parut moins longue.
+Je plongeai dans l'eau claire et touchai le fond du bout des doigts.
+L'explorateur gravit la dune et découvrit un océan de sable doré.
+La tempête éclata sans prévenir et le ciel devint noir comme de l'encre.
+Les naufragés construisirent un radeau avec des planches et des cordes.
+Le cuisinier de bord jeta le poisson dans la marmite et goûta le bouillon.
+Une baleine surgit près du bateau et arrosa tout le pont.
+Le chef de l'expédition rassembla ses hommes et distribua les rations.
+Les pêcheurs rentrèrent au port avec des filets pleins de sardines.
+Le pilote vira à droite et évita les rochers de justesse.
+Nous aperçûmes une lumière au loin et ramâmes vers elle de toutes nos forces.
+Le vieux marin déroula sa carte et désigna la croix rouge du doigt.
+Le chat du navire sauta sur la table et renversa la tasse du capitaine.
+Les voyageurs franchirent le col et entrèrent dans une vallée inconnue.
+Les mouettes se turent et un silence étrange tomba sur la baie.
+
+// 2 phrases
+Le navire entra dans la rade au crépuscule. Les marins jetèrent l'ancre et descendirent à terre.
+Le capitaine ouvrit le coffre. Il en sortit une carte jaunie et la tendit au timonier.
+La tempête s'abattit sur le bateau. Les vagues passèrent par-dessus le pont et brisèrent le mât.
+L'explorateur remonta le fleuve en pirogue. Il aperçut des perroquets, des singes et un crocodile endormi.
+Les pirates enterrèrent le trésor sous un palmier. Ils dessinèrent une carte et se séparèrent.
+Je me réveillai au milieu de la nuit. Un bruit sourd monta de la cale et je pris ma lampe.
+Le mousse hissa le drapeau noir. Les marins l'acclamèrent et crièrent des chants de victoire.
+L'ancre toucha le fond avec un grondement de chaîne. Le bateau se stabilisa et les marins respirèrent.
+Nous marchâmes toute la journée dans le désert. Au crépuscule, nous aperçûmes un palmier et une source.
+Le capitaine donna un ordre bref. Les rameurs plongèrent leurs avirons et la barque bondit.
+Les naufragés allumèrent un feu sur la plage. Un bateau les remarqua et vint les chercher avant l'aube.
+Le pilote fit tourner la barre. Le navire pivota lentement et prit le large.
+Les pirates tendirent des cordes d'un navire à l'autre. Ils sautèrent à bord et saisirent la cargaison.
+L'astronome sortit sa lunette. Il observa la planète rouge et nota ses mouvements dans son carnet.
+Les explorateurs plantèrent leur drapeau au sommet du volcan. Ils regardèrent le cratère et firent des photos.
+Le navire jeta l'ancre devant une île inconnue. Les marins mirent une barque à l'eau et ramèrent vers le rivage.
+Un cri retentit dans la nuit. Les matelots se précipitèrent sur le pont et virent une voile approcher.
+Je descendis dans la cale et trouvai un tonneau suspect. Je le roulai jusqu'à l'échelle et appelai l'équipage.
+Les pêcheurs levèrent leurs filets. Ils découvrirent un poisson doré et le rejetèrent à la mer.
+Le capitaine fit sonner la cloche. L'équipage se rassembla sur le pont et écouta ses instructions.
+Les aventuriers poussèrent la porte du temple. Un souffle d'air froid les enveloppa et ils frissonnèrent.
+Les pirates partagèrent le butin sous la lune. Chacun reçut sa part et trinqua avec ses voisins.
+L'équipage sauta dans les chaloupes. Les rameurs se mirent à l'ouvrage et fuirent le navire en flammes.
+La mer se calma peu à peu. Les marins desserrèrent les cordages et chantèrent pour célébrer la fin de l'orage.
+Le chef des explorateurs étendit la carte sur le sol. Il montra le chemin et fixa le départ pour l'aube.
+Nous entrâmes dans la jungle en file indienne. Un singe nous jeta une noix de coco et s'enfuit.
+Le commandant ordonna le branle-bas. Les marins coururent à leurs postes et chargèrent les canons.
+Le naufragé écrivit un message. Il le glissa dans une bouteille et la jeta à la mer.
+Le capitaine ôta son chapeau devant la tombe. Les marins firent de même et restèrent longtemps silencieux.
+L'équipage jeta les filets. Une énorme prise remplit le pont d'argent et de nageoires.
+Un serpent surgit d'un arbre. L'explorateur recula d'un pas et brandit son bâton.
+Les marins déroulèrent la voile. Elle se gonfla comme un ventre de géant et le bateau fila sur l'eau.
+Les pirates levèrent leurs verres. Ils burent à la santé du capitaine et chantèrent jusqu'à l'aube.
+Nous plantâmes nos tentes sur une île déserte. Le lendemain, un bateau nous recueillit et nous ramena au port.
+L'astronaute ouvrit le sas. Il sortit dans le vide et flotta lentement vers l'antenne.
+Le cuisinier de l'expédition prépara un ragoût. Les explorateurs s'assirent autour du feu et mangèrent en silence.
+Une mouette se posa sur le bastingage. Elle observa les marins, vola un morceau de pain et s'envola.
+Le chef de la tribu leva la main. Les tambours se turent et tout le village écouta.
+
+// 3 phrases
+Le navire quitta le port à l'aube. Les voiles se gonflèrent et les quais s'éloignèrent. Bientôt, il n'y eut plus que la mer et le ciel.
+Les pirates abordèrent le galion espagnol. Ils sautèrent sur le pont, brandirent leurs sabres et firent taire l'équipage. En une heure, la cargaison changea de mains.
+Je longeai le couloir sur la pointe des pieds. Une porte s'entrouvrit devant moi et j'y jetai un coup d'œil. Je vis une carte dépliée et un coffre grand ouvert.
+Le capitaine monta sur la dunette. Il observa le ciel, humecta son doigt et leva la main. Il décida alors de virer de bord avant la tempête.
+Les explorateurs avancèrent dans la jungle. Ils écartèrent les lianes, traversèrent un marais et escaladèrent une falaise. Au sommet, ils découvrirent une cité de pierre cachée sous les arbres.
+Le mousse reçut un seau d'eau sur la tête. Il toussa, s'ébroua et éclata de rire. Le capitaine lui donna une tape amicale et lui tendit une serviette.
+Une tempête terrible se leva durant la nuit. Les vagues déferlèrent sur le pont et les mâts craquèrent. À l'aube, le navire s'échoua sur le sable, à l'entrée d'une baie.
+Les naufragés marchèrent le long de la plage. Ils ramassèrent des coquillages, du bois et des noix de coco. Au crépuscule, ils allumèrent un feu avec deux silex.
+Le chef pirate déroula la carte sur la table. Il désigna une île et un rocher en forme de crâne. Tous les marins se penchèrent et retinrent leur souffle.
+L'explorateur monta dans la montgolfière. Il largua les amarres et s'éleva lentement au-dessus des collines. Le vent le poussa vers le nord et la nuit tomba.
+Nous franchîmes la barrière de corail au lever du jour. L'eau devint turquoise et des poissons de toutes les couleurs nous entourèrent. Nous restâmes immobiles, bouche bée, à contempler ce monde.
+Le mousse découvrit un coffre dans la cale. Il le traîna jusqu'à la cabine du capitaine et frappa à la porte. Le capitaine l'ouvrit, pâlit et referma aussitôt.
+La baleine émergea près du bateau. Elle souffla un jet d'écume et replongea dans un grand clapotis. Les passagers applaudirent et se mirent à chanter.
+Les chercheurs d'or remontèrent la rivière. Ils tamisèrent le sable, trouvèrent trois pépites et plantèrent leur tente. La nuit, un loup hurla et ils sursautèrent.
+L'équipage aperçut un navire fantôme. Il glissa sans équipage, toutes voiles dehors, et ne projeta aucune ombre. Le capitaine donna l'ordre de virer de bord.
+Les explorateurs atteignirent le pôle Sud. Ils plantèrent leur drapeau dans la glace et se serrèrent la main. Le vent hurla et effaça le drapeau quelques minutes plus tard.
+Dans le brouillard, la vigie signala un iceberg. Le capitaine donna l'ordre de ralentir. Le navire frôla la glace dans un frottement sourd.
+Les marins attachèrent le canon au pont. Ils chargèrent la poudre et mirent le feu à la mèche. Le coup partit avec un fracas qui fit trembler la mer.
+L'équipage déchargea la cargaison sur le quai. Les dockers la rangèrent dans des entrepôts et les marins reçurent leur paye. Ils fêtèrent leur retour dans une taverne du port.
+Le capitaine Barbe-Noire grimpa sur la dunette. Il leva son sabre et poussa un cri de guerre. L'équipage hurla et se rua à l'abordage.
+Je traversai la rivière sur un tronc d'arbre. Mon pied glissa et je tombai dans l'eau glacée. Je ressortis trempé, riant et claquant des dents.
+Les pêcheurs de perles plongèrent à l'aube. Ils retinrent leur souffle et fouillèrent le fond sablonneux. L'un d'eux remonta avec une huître grosse comme une assiette.
+Le commandant ordonna la mise à l'eau des chaloupes. Les passagers descendirent par l'échelle de corde et les marins ramèrent vers la côte. Le navire sombra quelques heures plus tard.
+L'explorateur ouvrit son journal de bord. Il y nota la date, la météo et la direction du vent. Puis il referma le livre et s'endormit sous les étoiles.
+Les marins apprivoisèrent un singe sur l'île. Ils le nommèrent Mousse et l'emmenèrent à bord. Le singe grimpa dans la mâture et fit rire tout l'équipage.
+Le capitaine fit tendre les voiles. Le vent s'engouffra dans la toile et le navire bondit. Les passagers crièrent de joie et s'accrochèrent au bastingage.
+Les pirates enterrèrent leur butin sur la plage. Ils comptèrent douze pas depuis un rocher et plantèrent un bâton. Puis ils effacèrent leurs traces avec une branche.
+Le jeune pilote prit les commandes du petit avion. Il tira sur le manche et l'appareil s'éleva dans les nuages. Au-dessous, la ville rapetissa jusqu'à devenir une miette.
+Le phare s'alluma au crépuscule. Les marins reconnurent son éclat et se dirigèrent vers lui. Ils entrèrent dans le port au milieu de la nuit.

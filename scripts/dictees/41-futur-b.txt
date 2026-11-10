@@ -1,0 +1,105 @@
+// Dictées au futur, lot b : prédictions, sciences, espace, environnement, métiers de demain.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== fut
+
+// 1 phrase
+Dans cinquante ans, les voitures voleront peut-être au-dessus des villes.
+Un jour, l'homme marchera sur Mars et plantera un drapeau sur sa poussière rouge.
+Demain, la pluie tombera sur toute la côte atlantique.
+Quand je serai pilote, je survolerai les glaciers et les déserts.
+Les robots nettoieront nos maisons et prépareront nos repas avant la fin du siècle.
+Dans quelques années, les arbres de notre rue atteindront le troisième étage.
+Le prochain printemps, nos pommiers fleuriront plus tôt que d'habitude.
+Les astronautes passeront un an dans la station et reviendront avec des milliers de photos.
+La semaine prochaine, un nouveau satellite quittera la Terre et rejoindra son orbite.
+Quand elle sera grande, ma sœur construira des ponts au-dessus des fleuves.
+Un jour, nous rendrons l'eau de mer potable pour arroser les déserts.
+Les glaciers fondront lentement et le niveau des océans montera.
+Demain, le télescope de l'observatoire photographiera une galaxie lointaine.
+Dans cent ans, les enfants visiteront un musée consacré à nos téléphones.
+Un énorme navire traversera le canal et fera trembler les quais.
+La ville plantera mille arbres et leurs feuilles rafraîchiront les rues.
+Mon père rénovera la maison avec des matériaux qui ne polluent pas.
+Dans dix ans, je serai peut-être médecin dans un village de montagne.
+Nos arrière-petits-enfants se souviendront de nous grâce à ces photos.
+Le prochain été, les panneaux solaires fourniront toute l'énergie du quartier.
+Un vaisseau spatial atterrira sur la Lune et déposera des instruments de mesure.
+Les musiciens joueront dans la rue et le public chantera sans le savoir.
+Nous réparerons les vieux vélos et les prêterons à tous ceux qui en auront besoin.
+Demain, une équipe de scientifiques descendra dans la grotte et mesurera la température de l'eau.
+Plus tard, mon frère dirigera un orchestre et jouera dans les plus belles salles.
+Les arbres reprendront leurs couleurs dès que la pluie reviendra.
+Le chantier durera dix mois, puis l'école rouvrira ses portes.
+Un jour, un garçon du quartier gagnera une médaille aux jeux olympiques.
+
+// 2 phrases
+Dans quatre-vingts ans, les villes seront couvertes de jardins. Les toits porteront des potagers et des ruches.
+Cette nuit, une pluie d'étoiles filantes traversera le ciel. Nous l'observerons depuis le toit en mangeant des biscuits.
+Quand je serai astronaute, je regarderai la Terre depuis la station spatiale. Je saluerai mes parents par la fenêtre.
+Le chantier du nouveau pont commencera lundi. Les voitures devront passer par la route de la forêt.
+La semaine prochaine, un scientifique viendra à l'école. Il nous montrera des insectes rares et répondra à nos questions.
+Dans dix ans, tout le monde parlera avec des montres intelligentes. Les téléphones seront des objets de musée.
+Le prochain hiver sera très froid. Les rivières gèleront et les élèves patineront dessus.
+Les ingénieurs construiront un tunnel sous la montagne. Les camions traverseront les Alpes en moins de dix minutes.
+Demain, nous planterons des chênes dans la forêt voisine. Ils grandiront lentement et abriteront des hiboux.
+Un jour, j'ouvrirai une librairie dans une petite ville. Les clients viendront chercher des conseils et repartiront avec trois livres.
+Le vent tournera dans la soirée. Les nuages s'éloigneront et le soleil reviendra jeudi.
+Les robots serviront un jour dans les hôpitaux. Ils porteront les repas et feront rire les malades.
+Dans deux ans, notre école aura une piscine. Les élèves apprendront à nager dès le plus jeune âge.
+Un nouveau train rapide reliera bientôt les deux capitales. Il fera le trajet en deux heures et ne polluera pas.
+Les voyageurs de l'espace découvriront des planètes inconnues. Ils les baptiseront avec les noms de leurs enfants.
+Dans quelques jours, le glacier craquera et déversera des blocs de glace. Les guides interdiront l'accès à la vallée.
+Demain, un cargo transportera des containers de fruits. Il traversera l'océan en trois semaines.
+Ma cousine deviendra un jour architecte. Elle dessinera des maisons qui flottent sur l'eau.
+Le soleil se lèvera à six heures dix. Nous serons déjà sur la plage avec nos appareils photo.
+Quand les abeilles reviendront, les fleurs s'ouvriront. Le verger sentira bon la vanille et le miel.
+Un jour, les voitures électriques rouleront partout. Les villes deviendront plus silencieuses et l'air plus pur.
+Dans trois mois, la sonde atteindra Jupiter. Elle photographiera ses anneaux et enverra des images spectaculaires.
+La classe fabriquera des nichoirs avec du bois de récupération. Les mésanges les adopteront dès le printemps.
+L'an prochain, nous recyclerons tout le papier de l'école. Les poubelles bleues se rempliront en une semaine.
+Quand j'aurai économisé assez d'argent, j'achèterai un télescope. Je regarderai la lune et les anneaux de Saturne.
+Les marins reviendront de leur longue campagne. Leurs familles les attendront sur le quai avec des fleurs.
+Dans quelques années, ce désert sera une forêt. Les arbres plantés aujourd'hui cacheront le soleil.
+Les scientifiques mesureront la fonte des glaces chaque été. Ils publieront les résultats dans une revue spécialisée.
+Demain, les astronomes observeront une éclipse. Nous porterons des lunettes spéciales et compterons les secondes.
+Le prochain siècle verra naître de nouvelles langues. Les jeunes inventeront des mots que personne ne comprendra.
+Tu deviendras peut-être inventeur. Tu fabriqueras des machines qui rendront service et feront sourire.
+Dans une heure, le médecin passera nous voir. Il écoutera le cœur de grand-père et prescrira du repos.
+Les ouvriers termineront l'immeuble avant l'automne. Les premiers habitants arriveront en octobre.
+Un jour, nous retrouverons la carte du trésor. Nous creuserons au pied du vieux chêne et trouverons un coffre.
+Le prochain siècle apportera des découvertes que nous n'imaginons pas. Des jeunes comme vous les expliqueront à leurs petits-enfants.
+Cet été, les flamants roses reviendront dans la lagune. Les touristes les photographieront de loin et les admireront longtemps.
+Dans la nuit, la tempête arrivera sur la côte. Les bateaux resteront au port et les maisons fermeront leurs volets.
+Mes parents achèteront une maison avec un grand jardin. Nous y planterons des arbres fruitiers et un potager.
+
+// 3 phrases
+Dans cent ans, la Terre sera peut-être très différente. Les villes seront couvertes de plantes et les rivières resteront propres. Les petits-enfants nous remercieront de nos efforts d'aujourd'hui.
+Un jour, des humains habiteront sur la Lune. Ils vivront dans des bulles de verre et cultiveront des légumes sous des lampes. Les premiers bébés lunaires apprendront à marcher en rebondissant.
+Demain, une équipe de plongeurs explorera l'épave. Elle descendra à soixante mètres et filmera chaque recoin. Les images feront le tour du monde dès le soir.
+Quand je serai grande, je dirigerai un laboratoire. Mes collègues et moi chercherons un remède contre une maladie rare. Un jour, nous le trouverons.
+La semaine prochaine, une équipe de cinéma tournera dans notre rue. Les voisins joueront les figurants et serviront de décors. Nous verrons notre quartier au cinéma dans un an.
+L'été prochain, la mairie organisera un festival de musique. Des groupes de toute la région viendront jouer sur la place. Les habitants danseront et le quartier chantera pendant trois nuits.
+Dans cinq ans, je saurai jouer du piano. J'interpréterai mes morceaux préférés devant ma famille. Mon grand-père pleurera de joie et applaudira longtemps.
+Un nouveau parc ouvrira bientôt près de l'école. Il comptera des toboggans, des jeux d'eau et un coin potager. Les élèves viendront y passer toute leur récréation.
+Les chercheurs partiront en expédition au pôle Nord. Ils mesureront l'épaisseur de la glace et observeront les ours blancs. À leur retour, ils raconteront leurs aventures dans les écoles.
+Demain, il y aura une grande marée. Les pêcheurs de coques sortiront dès l'aube et marcheront sur des kilomètres de sable. Ils rentreront avec des paniers lourds et le sourire aux lèvres.
+Quand l'hiver arrivera, nous rentrerons les plantes dans la serre. Nous allumerons un petit poêle pour les protéger du gel. Au printemps, elles repartiront de plus belle.
+Un jour, notre rue changera de nom. Les voisins se réuniront pour voter et choisiront un nom de fleur. Le facteur s'habituera vite à la nouvelle plaque.
+Mon frère réalisera son rêve en devenant pilote de ligne. Il survolera des déserts, des océans et des montagnes. Chaque soir, il nous enverra une photo depuis une ville nouvelle.
+Le week-end prochain, nous construirons une cabane dans la forêt. Nous couperons des branches, tresserons des feuilles et fabriquerons un toit. Quand elle sera finie, nous y dormirons une nuit.
+Le musée ouvrira une nouvelle salle consacrée aux dinosaures. Les visiteurs verront des squelettes géants et toucheront des empreintes de pas. Un guide leur racontera la vie de ces animaux étranges.
+À la fin de l'année, nous organiserons un spectacle. Les classes joueront des pièces, chanteront des chansons et danseront. Les parents applaudiront debout et pleureront un peu.
+Dans dix ans, nous fêterons les retrouvailles de la classe. Nous nous retrouverons au même endroit, dans la même cour. Nous rirons de nos souvenirs et de nos cartables d'autrefois.
+Les ouvriers viendront réparer la fontaine du village. Ils remplaceront les tuyaux et nettoieront les pierres. L'eau coulera de nouveau dès la fin de la semaine.
+Dimanche prochain, nous ferons une longue randonnée. Nous partirons à l'aube et nous marcherons toute la journée. Au sommet, nous boirons du chocolat chaud et nous regarderons la vallée.
+Demain, mon voisin partira en voyage autour du monde. Il emportera un sac, un appareil photo et un carnet. Il nous écrira des cartes postales de chaque pays.
+L'année prochaine, notre ville aura un nouveau cinéma. Il projettera des films pour enfants le mercredi. Les places coûteront deux euros et les bonbons seront gratuits.
+Lorsque la neige tombera, nous ferons un bonhomme. Il aura un chapeau, une carotte et deux boutons. Le lendemain, il fondra et nous recommencerons.
+Demain, nous irons au zoo pour voir la naissance d'un éléphanteau. Les gardiens installeront une caméra dans l'enclos. Toute la classe suivra l'événement sur un écran.
+Nous planterons des fleurs sur la tombe du vieux chat. Chaque printemps, elles repousseront et nous penserons à lui. Le jardin gardera son souvenir.
+Un jour, je visiterai le Japon. Je mangerai des nouilles dans un petit restaurant et je dormirai dans un temple. Je rapporterai un éventail pour ma grand-mère.
+Dès que le gel partira, les jardiniers sortiront leurs outils. Ils bêcheront, sèmeront et arroseront jusqu'à la nuit. Le parc se couvrira de couleurs en quelques semaines.
+Demain, la fanfare défilera dans la rue principale. Les tambours battront la mesure et les cuivres brilleront. Les spectateurs agiteront des drapeaux et suivront le cortège.
+Dans quelques mois, nous saurons nager comme des poissons. Notre professeur nous apprendra la brasse et le crawl. À la fin de l'année, nous passerons un examen avec une médaille à la clé.
+Cet automne, un cirque s'installera près du lac. Les acrobates répéteront dans la prairie et les clowns amuseront les passants. La ville entière viendra voir le spectacle de gala.

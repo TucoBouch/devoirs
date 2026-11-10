@@ -1,0 +1,105 @@
+// Dictées à l'imparfait, lot a : souvenirs d'enfance, grands-parents, la vie d'autrefois.
+// Textes originaux. Format : voir scripts/build-dictees.mjs
+
+== imp
+
+// 1 phrase
+Quand j'étais petit, je passais mes étés chez ma grand-mère, au bord d'une rivière tranquille.
+À cette époque, les rues étaient pavées et les lampadaires fonctionnaient encore au gaz.
+Chaque soir, mon père racontait une histoire inventée en lissant sa moustache.
+Autrefois, le facteur faisait sa tournée à pied et connaissait chaque famille par son prénom.
+Pendant mon enfance, nous mangions des crêpes tous les dimanches soir.
+La neige tombait si dru que nous ne voyions plus le bout de la rue.
+Les cloches de l'église sonnaient à midi et les agriculteurs rentraient déjeuner.
+Ma grand-mère portait toujours un tablier à fleurs et fredonnait des chansons anciennes.
+À la récréation, nous jouions aux billes et nous échangions des images de footballeurs.
+Nos voisins élevaient des lapins dans un petit enclos derrière leur maison.
+Il y avait un vieux chêne au fond du jardin, et nous y accrochions une balançoire.
+Mon frère adorait les trains et collectionnait les horaires comme d'autres les timbres.
+Le marché du jeudi sentait le café, le poisson frais et les fleurs coupées.
+Quand il pleuvait, nous construisions des cabanes avec les chaises et les couvertures du salon.
+À l'école, nous écrivions à la plume et le maître vérifiait chaque ligne avec sévérité.
+Les hirondelles nichaient sous le toit de l'étable et parlaient toute la journée.
+Mon grand-père réparait les chaussures du quartier dans sa petite boutique sombre.
+Les soirs d'été, la famille dînait dehors et les voisins s'invitaient pour le dessert.
+Je rêvais de devenir explorateur et dessinais des cartes sur le dos de mes cahiers.
+Le vent soufflait sur la plage et dispersait les parasols dans toutes les directions.
+Ma sœur détestait les épinards et les cachait dans la poche de son tablier.
+Chaque hiver, le lac gelait et les patineurs venaient de toute la région.
+La vieille locomotive crachait de la fumée noire et sifflait à chaque tournant.
+Nous dormions tous dans la même chambre et nous chuchotions jusque tard dans la nuit.
+Le boulanger sifflait en pétrissant la pâte et distribuait des brioches aux petits sages.
+Au bout du quai, un vieux marin vendait du poisson fumé et racontait ses tempêtes.
+Mes cousins arrivaient en été avec des sacs de jouets et des cerfs-volants.
+À ce moment-là, nous ne savions pas que nous vivions des années heureuses.
+
+// 2 phrases
+Il faisait nuit noire et le vent sifflait dans les arbres. Un hibou criait au loin et tout le monde se taisait.
+Chaque dimanche, nous allions chez mes grands-parents. Mamie préparait un gigot et Papi jouait de l'harmonica.
+Le château semblait dormir sous la neige. Ses tours se reflétaient dans l'étang gelé.
+Quand j'étais en CE1, je portais toujours le même pull rouge. Mes camarades me surnommaient la tomate.
+Le soir, ma mère lisait des contes dans le canapé. Mon frère s'endormait toujours avant la fin.
+Les boutiques fermaient à dix-neuf heures. Les rues se vidaient peu à peu et les lampadaires s'allumaient.
+Notre chien dormait dans la cuisine, près du poêle. Dès qu'on ouvrait le frigo, il se réveillait et se mettait à geindre.
+En ce temps-là, le train mettait cinq heures pour aller à la mer. Nous jouions aux cartes et regardions défiler les champs.
+La maison de ma grand-mère sentait la cire et le café. Un grand buffet occupait tout un mur de la salle à manger.
+Mon père partait au travail à l'aube. Il fermait la porte doucement pour ne pas nous réveiller.
+Les vacanciers remplissaient la plage dès dix heures. Les marchands de glaces criaient leurs parfums du matin au soir.
+Autrefois, les lavandières lavaient le linge à la rivière. Elles chantaient en battant les draps contre les pierres.
+Il y avait un puits au milieu de la cour. Les voisins y tiraient de l'eau fraîche en saluant tout le monde.
+Ma petite sœur avait peur des orages. Elle se glissait dans mon lit et me serrait la main très fort.
+Les vendanges duraient dix jours chaque automne. Toute la famille cueillait le raisin et chantait en remplissant les paniers.
+Le grenier sentait la poussière et le vieux bois. Des malles couvertes de toiles d'araignée dormaient sous les fenêtres.
+À la ferme, le coq réveillait tout le monde à cinq heures. Les vaches meuglaient et le fermier ouvrait les portes de l'étable.
+Nous vivions dans un petit appartement au quatrième étage. Le soir, nous regardions les lumières de la ville depuis le balcon.
+Le forgeron travaillait devant sa forge en chantant. Les étincelles dansaient autour de lui comme des lucioles.
+Les instituteurs portaient des blouses grises. Ils écrivaient à la craie sur de grands tableaux noirs.
+Quand nous étions fatigués, nous nous allongions dans l'herbe. Nous regardions les nuages et leur donnions des noms.
+Les pêcheurs partaient avant l'aube. Leurs épouses guettaient le retour des bateaux depuis la jetée.
+Papi collectionnait les vieilles montres. Il les posait sur un coussin de velours et les remontait chaque dimanche.
+Le cirque s'installait chaque printemps au bout de la ville. Les affiches colorées couvraient tous les murs de la rue principale.
+À l'époque, les gamins jouaient dehors jusqu'à la tombée de la nuit. Leurs mères les appelaient par la fenêtre.
+Le voisin du dessous jouait du trombone tous les soirs. Nous n'osions jamais nous plaindre.
+Dans mon quartier, il y avait un cinéma de poche. On y projetait des films muets accompagnés au piano.
+Les étoiles brillaient si fort cette nuit-là. Nous restions allongés sur le toit et comptions les comètes.
+Mon oncle conduisait un camion de livraison. Il nous emmenait parfois dans la cabine et nous laissait actionner le klaxon.
+Le fleuve débordait souvent au printemps. Les habitants rangeaient leurs meubles à l'étage et attendaient le retour du beau temps.
+Les mineurs descendaient chaque jour à la même heure. Leurs familles les attendaient en regardant tourner la grande roue.
+Ma grand-mère cousait des habits pour toutes mes poupées. Elle choisissait les tissus les plus colorés du marché.
+Mon voisin possédait un perroquet qui parlait trois langues. Il imitait la sonnerie du téléphone et faisait courir toute la maison.
+Le dimanche, nous allions au bord de l'eau. Papa pêchait des gardons et maman lisait au soleil.
+Les sorcières du conte maudissaient tous les voyageurs. Elles jetaient des sorts à la moindre occasion.
+L'école avait un grand marronnier dans la cour. À l'automne, nous ramassions les marrons pour les offrir à la maîtresse.
+Ma tante tenait une librairie dans une rue étroite. Les clients se glissaient entre les piles de livres sans jamais se plaindre.
+En hiver, la cheminée ronflait du matin au soir. Nous nous installions autour avec des couvertures et du chocolat chaud.
+
+// 3 phrases
+Quand j'étais petite, j'habitais une maison au bord de la mer. Chaque jour, le bruit des vagues me réveillait avant tout le monde. J'ouvrais mes volets et je regardais les bateaux sortir du port.
+Il y a longtemps, un vieux phare se dressait au bout de la jetée. Un gardien montait l'escalier chaque soir et allumait la lampe. Les bateaux le saluaient en faisant sonner leur corne.
+Chaque été, nous allions camper près d'un lac. Papa montait la tente et maman préparait le repas. Mon frère et moi courions déjà vers l'eau.
+Le jardin de ma grand-mère était un petit paradis. On y trouvait des roses, des fraises et une vieille balançoire. Nous y passions des heures sans jamais nous ennuyer.
+L'hiver, le village disparaissait sous la neige. Les gamins glissaient sur des planches en criant de joie. Les mamans les attendaient avec du lait chaud et des tartines.
+Autrefois, le marché se tenait sur la grande place. Les marchands criaient les prix et plaisantaient avec les clients. Des chiens se faufilaient entre les étals en espérant un os.
+Mon grand-père était horloger. Il passait ses journées penché sur des rouages minuscules. Quand il me laissait regarder, je retenais mon souffle.
+À l'école, la maîtresse nous lisait un chapitre chaque après-midi. Nous fermions les yeux et nous imaginions la scène. À la fin, tout le monde réclamait la suite.
+Les soirs d'orage, nous allumions des bougies dans la cuisine. Papa racontait des histoires de naufragés et de fantômes. Ma petite sœur se cachait sous la table en riant.
+Dans ma rue, il y avait un vieux cordonnier. Il clouait des talons en sifflant et nous offrait des bonbons. Nous poussions sa porte avec un petit tintement de sonnette.
+Notre voisine possédait un chat noir très étrange. Il s'asseyait sur son balcon et regardait passer les gens. Les gens disaient qu'il comprenait toutes les langues.
+Je rêvais d'avoir un chien, mais mes parents refusaient. Ils prétextaient que notre appartement était trop petit. Alors j'adoptais tous les chiens du quartier en secret.
+À la fin de l'été, nous cueillions des mûres derrière la ferme. Nos doigts devenaient violets et nos bouches aussi. Maman fabriquait ensuite des pots de confiture qui duraient tout l'hiver.
+Chaque samedi, mon oncle nous emmenait au cinéma. Nous choisissions des places au premier rang et mangions du maïs soufflé. À la sortie, nous rejouions les meilleures scènes sur le trottoir.
+Le facteur de mon enfance s'appelait monsieur Dupré. Il portait une grosse sacoche et une casquette bleue. Il savait tout sur tout le monde et le gardait pour lui.
+Les marchands de glaces arrivaient en juillet avec leurs camionnettes. Leur musique résonnait dans toute la rue. Les gamins couraient vers eux avec leurs pièces dans le poing.
+Il neigeait sur la montagne depuis trois jours. Les routes étaient bloquées et les habitants vivaient de leurs provisions. Le soir, ils se réunissaient dans la salle commune pour jouer aux cartes.
+Le vieux théâtre de la ville sentait le velours et la poussière. Les fauteuils rouges grinçaient à chaque mouvement. Avant le spectacle, un lustre immense s'éteignait dans un doux frémissement.
+Ma tante habitait une péniche amarrée près d'un pont. Chaque soir, elle allumait des lanternes sur le pont. Les passants s'arrêtaient pour admirer cette maison flottante.
+Quand j'avais six ans, je croyais aux fées. Je laissais de petits cadeaux au pied d'un arbre. Le lendemain, je découvrais une pièce, un caillou ou une plume.
+Les bateaux de pêche rentraient à la tombée du jour. Les mouettes les suivaient en poussant des cris. Sur le quai, des familles guettaient chaque visage.
+Mon frère possédait un vieux vélo rouge. Il le bichonnait tous les dimanches et le nettoyait avec un chiffon doux. Personne d'autre n'avait le droit d'y toucher.
+Il y avait un tilleul devant la maison. Au printemps, il se couvrait de fleurs et les abeilles bourdonnaient toute la journée. Ma mère en cueillait pour faire une tisane.
+Les lundis, Mamie faisait la lessive à la main. Elle étendait les draps dans le jardin et les regardait claquer au vent. Le soir, ils sentaient l'herbe et le soleil.
+L'ancien phare servait de refuge aux pêcheurs. Ils s'y abritaient lors des tempêtes et partageaient leurs réserves. Un vieux livre de bord racontait les naufrages de la région.
+Chaque année, le dernier jour d'école, la classe organisait un spectacle. Les élèves chantaient, dansaient et récitaient des poèmes. Les parents applaudissaient debout dans la cour.
+Les étés de mon enfance duraient une éternité. Nous jouions à la guerre des seaux, au volley et aux cartes. Le soir, nous rentrions la peau salée, affamés et heureux.
+Dans la forêt, une cabane de bûcherons abritait les promeneurs surpris par la pluie. Un poêle rouillé y réchauffait les mains. On y laissait toujours du bois pour les suivants.
+Papa fabriquait des cerfs-volants avec du papier journal. Il les décorait de longues queues colorées. Nous courions sur la colline pour les voir monter dans le vent.

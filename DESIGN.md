@@ -216,6 +216,9 @@ Soft but not bubbly: controls 0.7rem, cards 1rem, the brand label 0.4rem, pills 
 - Ruling, double margin and cursive prompt. The empty slot is a 3px dotted ink-soft line. Right: solid green underline, the answer written in, tick in the margin. Wrong: pupil answer struck with a 0.09em red line, red rewrite tilted -2deg, red cross in the margin. The feedback bar echoes this (tinted green or red with a 2px border and a circled glyph).
 - **Score note:** red cursive 3.5rem, rotated -3deg, hand-drawn ring around the score, double red underline under the message.
 
+### The dictation pad
+- A ruled sheet the pupil writes on: the same Seyès ruling and red double margin, but the squares are drawn on the text area itself so they scroll with the text. Cursive text sits on the ruling (2.5rem lines, 2.25rem on short landscape screens, three lines tall there so the whole screen fits above the iPad keyboard). Above it, one bar for the exercise and one for listening (primary action, repeat, replay all, voice speed). The corrected dictation reuses the red-pen words of the corrected copy, plus a dotted underline for an accent forgotten but tolerated.
+
 ### Progress strip
 - Round marks 1.6rem: done in green with a tick, wrong in red with a cross, todo faded, current filled with the cover colour with a double halo. Beyond twenty questions the marks become bars, wrong ones taller. History gauge: rounded track in rule colour with cover fill, always beside a numeric score.
 

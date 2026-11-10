@@ -1,0 +1,30 @@
+// Dictées au présent : descriptions, habitudes, scènes décrites. Une dictée par ligne, de 1 à 3 phrases.
+// Textes originaux, dans l'esprit des romans pour enfants et adolescents. Format : voir scripts/build-dictees.mjs
+
+== pres
+
+// 1 phrase
+Le vieux phare domine la baie depuis des siècles.
+Chaque matin, Léa prend le car devant la boulangerie.
+Les mouettes tournent autour du bateau et poussent des cris aigus.
+Dans la forêt, les arbres cachent un sentier que personne ne connaît.
+Mon grand frère répare des vélos dans le garage de notre voisin.
+La neige couvre les toits du village et rend les rues silencieuses.
+
+// 2 phrases
+Tom range ses affaires dans son sac. Il n'oublie jamais sa trousse ni son carnet.
+Dans la cuisine, Mamie prépare une tarte aux pommes. L'odeur sucrée envahit toute la maison.
+Les élèves entrent dans la classe et s'assoient en silence. La maîtresse écrit la date au tableau.
+Une brume épaisse recouvre la vallée. On devine à peine les contours des montagnes.
+Inès cherche une clé dans le tiroir du bureau. Elle trouve à la place une vieille photographie.
+Les chevaux galopent dans le pré. Leur crinière brille sous le soleil du matin.
+Le facteur sonne à la porte de la ferme. Il apporte une lettre venue de très loin.
+Au bord du lac, les pêcheurs lancent leurs lignes. Ils attendent patiemment que les poissons mordent.
+
+// 3 phrases
+Le marché s'installe sur la place dès l'aube. Les marchands étalent leurs fruits et leurs légumes. Les clients arrivent avec de grands paniers.
+La nuit tombe doucement sur le camp. Les enfants allument un feu et chantent des chansons. Les étoiles apparaissent une à une dans le ciel.
+Dans la bibliothèque, tout le monde chuchote. Samir feuillette un livre d'aventures. Il découvre une carte cachée entre deux pages.
+Le train quitte la gare en sifflant. Les voyageurs regardent défiler les champs et les villages. Léa pose sa tête contre la vitre et rêve.
+Chaque soir, le gardien monte tout en haut de la tour. Il allume la grande lanterne. Les bateaux retrouvent alors leur chemin dans l'obscurité.
+Maya construit un petit robot dans l'atelier de son père. Elle visse les pièces avec soin. Soudain, la machine bouge et lui fait un clin d'œil.
