@@ -1,10 +1,11 @@
 <script setup>
 import { computed } from 'vue'
-import { state, startQuiz, abandonQuiz, nav, reworkVerbs } from '../stores/state.js'
+import { state, startQuiz, reworkVerbs } from '../stores/state.js'
 import { TENSES } from '../lib/conjugation.js'
 import { ANSWER_TYPES, QUESTION_TYPES, COUNTS, VERB_SETS, inVerbSet } from '../lib/quiz.js'
 import Icon from '../components/Icon.vue'
 import Segmented from '../components/Segmented.vue'
+import ResumeCard from '../components/ResumeCard.vue'
 
 const tenseOrder = TENSES.map((t) => t.id)
 const answerOrder = ANSWER_TYPES.map((t) => t.id)
@@ -51,18 +52,7 @@ const summary = computed(() => {
       <p class="lede">Choisis ce que tu veux réviser, puis lance le quiz.</p>
     </header>
 
-    <section v-if="state.quiz" class="card resume" aria-label="Quiz en cours">
-      <div>
-        <h2 class="card-title">Un quiz est en cours</h2>
-        <p class="muted">Question {{ state.quiz.index + 1 }} sur {{ state.quiz.items.length }}</p>
-      </div>
-      <div class="row">
-        <button type="button" class="btn btn--primary" @click="nav.go({ name: 'quiz' })">
-          <Icon name="play" :size="20" />Reprendre
-        </button>
-        <button type="button" class="btn btn--quiet" @click="abandonQuiz">Abandonner</button>
-      </div>
-    </section>
+    <ResumeCard />
 
     <div class="setup-grid">
       <div class="setup-col">

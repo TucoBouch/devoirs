@@ -1,15 +1,34 @@
 <script setup>
 import { computed } from 'vue'
-import { state, startQuiz, nav } from '../stores/state.js'
+import { state, startQuiz, startAccords, nav } from '../stores/state.js'
 import { tenseLabel } from '../lib/conjugation.js'
-import { mistakeView, promptParts, scoreMessage, configSummary } from '../lib/quiz.js'
+import { mistakeView, promptParts, scoreMessage, exerciseOf } from '../lib/quiz.js'
+import { accordMistake } from '../lib/accords.js'
+import { entrySummary } from '../lib/history.js'
 import Icon from '../components/Icon.vue'
 import ProgressStrip from '../components/ProgressStrip.vue'
 
 const entry = computed(() => state.history.find((h) => h.id === state.route.id))
 const fresh = computed(() => state.route.name === 'resultat')
-const views = computed(() => (entry.value?.mistakes ?? []).map(mistakeView).filter(Boolean))
-const wrongVerbs = computed(() => [...new Set((entry.value?.mistakes ?? []).map((m) => m.v))])
+const isAccord = computed(() => exerciseOf(entry.value) === 'accords')
+
+// Forme complète de l'élève (barrée) et forme juste (réécrite en rouge), même pour une terminaison
+const fix = (v) => {
+  const ending = v.at === 'qcm_end' || v.at === 'text_end'
+  if (ending) return { given: v.given ? v.stem + v.given : '', right: v.stem + v.end }
+  return { given: v.given, right: v.a }
+}
+const verbLine = (v) => {
+  const { lead, tail } = promptParts(v)
+  return { key: v.id, lead, tail, ...fix(v), pills: [v.v, tenseLabel(v.t)] }
+}
+// Une ligne par erreur : début de la phrase, ce que l'élève a écrit, la bonne réponse, fin de la phrase
+const lines = computed(() => {
+  const list = entry.value?.mistakes ?? []
+  if (isAccord.value) return list.map(accordMistake)
+  return list.map(mistakeView).filter(Boolean).map(verbLine)
+})
+const hasMistakes = computed(() => (entry.value?.mistakes.length ?? 0) > 0)
 // une marque par question, dans l'ordre où elles ont été posées
 const marks = computed(() => {
   if (!entry.value) return []
@@ -23,19 +42,18 @@ const date = computed(() =>
 const percent = computed(() => Math.round((entry.value.score / entry.value.total) * 100))
 
 // Les erreurs d'avant le renouvellement des phrases n'ont pas gardé leur énoncé
-const lost = computed(() => (entry.value?.mistakes.length ?? 0) - views.value.length)
+const lost = computed(() => (entry.value?.mistakes.length ?? 0) - lines.value.length)
 
 function replay(rework = false) {
+  const config = JSON.parse(JSON.stringify(entry.value.config))
+  if (isAccord.value) {
+    Object.assign(state.accords, config, { rework })
+    startAccords()
+    return
+  }
   // un ancien quiz n'a pas de choix de verbes : tous les verbes
-  Object.assign(state.config, { verbSet: 'all' }, JSON.parse(JSON.stringify(entry.value.config)), { rework })
+  Object.assign(state.config, { verbSet: 'all' }, config, { rework })
   startQuiz()
-}
-const parts = (v) => promptParts(v)
-// Forme complète de l'élève (barrée) et forme juste (réécrite en rouge), même pour une terminaison
-const fix = (v) => {
-  const ending = v.at === 'qcm_end' || v.at === 'text_end'
-  if (ending) return { given: v.given ? v.stem + v.given : '', right: v.stem + v.end }
-  return { given: v.given, right: v.a }
 }
 </script>
 
@@ -45,7 +63,7 @@ const fix = (v) => {
       <div class="page-head">
         <h1>{{ fresh ? 'Quiz terminé' : `Quiz du ${date}` }}</h1>
         <p class="muted">
-          {{ percent }} % de réussite · {{ configSummary(entry.config) }}
+          {{ percent }} % de réussite · {{ entrySummary(entry) }}
           <template v-if="entry.accents"> · {{ entry.accents }} accent{{ entry.accents > 1 ? 's' : '' }} à surveiller</template>
         </p>
       </div>
@@ -64,14 +82,14 @@ const fix = (v) => {
       <ProgressStrip :total="entry.total" :results="marks" />
     </section>
 
-    <section v-if="entry.mistakes.length" class="group" aria-label="Erreurs">
+    <section v-if="hasMistakes" class="group" aria-label="Erreurs">
       <h2 class="group-title">À revoir</h2>
       <ul class="mistakes sheet">
-        <li v-for="v in views" :key="v.id" class="mistake">
+        <li v-for="v in lines" :key="v.key" class="mistake">
           <p class="mistake-line">
-            <span>{{ parts(v).lead }}</span><span class="slot is-filled is-ko"><s v-if="fix(v).given" class="given">{{ fix(v).given }}</s><span class="slot-text">{{ fix(v).right }}</span></span><span>{{ parts(v).tail }}</span>
+            <span>{{ v.lead }}</span><span class="slot is-filled is-ko"><s v-if="v.given" class="given">{{ v.given }}</s><span class="slot-text">{{ v.right }}</span></span><span>{{ v.tail }}</span>
           </p>
-          <p class="mistake-meta"><span class="pill">{{ v.v }}</span><span class="pill">{{ tenseLabel(v.t) }}</span></p>
+          <p class="mistake-meta"><span v-for="p in v.pills" :key="p" class="pill">{{ p }}</span></p>
         </li>
       </ul>
       <p v-if="lost" class="muted">
@@ -84,13 +102,13 @@ const fix = (v) => {
     </section>
 
     <footer class="actions">
-      <button v-if="fresh && wrongVerbs.length" type="button" class="btn btn--primary btn--lg" @click="replay(true)">
+      <button v-if="fresh && hasMistakes" type="button" class="btn btn--primary btn--lg" @click="replay(true)">
         <Icon name="target" />Retravailler mes erreurs
       </button>
-      <button type="button" class="btn btn--lg" :class="fresh && wrongVerbs.length ? '' : 'btn--primary'" @click="replay(false)">
+      <button type="button" class="btn btn--lg" :class="fresh && hasMistakes ? '' : 'btn--primary'" @click="replay(false)">
         <Icon name="redo" />{{ fresh ? 'Rejouer' : 'Rejouer ce quiz' }}
       </button>
-      <button type="button" class="btn btn--quiet btn--lg" @click="nav.go({ name: fresh ? 'verbes' : 'historique' })">
+      <button type="button" class="btn btn--quiet btn--lg" @click="nav.go({ name: fresh ? exerciseOf(entry) : 'historique' })">
         {{ fresh ? 'Retour' : 'Retour à l’historique' }}
       </button>
     </footer>

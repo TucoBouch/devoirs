@@ -16,6 +16,8 @@ export const QUESTION_TYPES = [
   { id: 'sentence', label: 'Phrase à compléter', hint: 'Une phrase avec accord à respecter' },
 ]
 export const COUNTS = [10, 20, 30, 40, 50, 100]
+// Le quiz ou l'entrée d'historique appartient à un exercice ; sans mention, c'est la révision des verbes
+export const exerciseOf = (x) => x?.ex ?? 'verbes'
 export const REWORK_QUIZZES = 3
 export const HISTORY_SIZE = 10
 
@@ -44,7 +46,8 @@ const PERSON_LABEL = ['je', 'tu', 'il / elle', 'nous', 'vous', 'ils / elles']
 // Verbes (avec leur temps) fautifs dans les derniers quiz
 export function troubleSpots(history) {
   const seen = new Map()
-  for (const entry of history.slice(0, REWORK_QUIZZES)) {
+  const recent = history.filter((h) => exerciseOf(h) === 'verbes').slice(0, REWORK_QUIZZES)
+  for (const entry of recent) {
     for (const m of entry.mistakes ?? []) seen.set(`${m.v}|${m.t}`, { v: m.v, t: m.t })
   }
   return [...seen.values()]

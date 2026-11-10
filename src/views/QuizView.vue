@@ -2,7 +2,8 @@
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { state, submitAnswer, nextQuestion } from '../stores/state.js'
 import { tenseLabel } from '../lib/conjugation.js'
-import { isTyped, promptParts, genderTag, expectedFor, explain, praise } from '../lib/quiz.js'
+import { isTyped, promptParts, genderTag, expectedFor, explain, praise, exerciseOf } from '../lib/quiz.js'
+import { accordParts, accordTitle, accordTag, accordHelp, explainAccord } from '../lib/accords.js'
 import { useCoarsePointer } from '../lib/touch.js'
 import Icon from '../components/Icon.vue'
 import ProgressStrip from '../components/ProgressStrip.vue'
@@ -14,9 +15,24 @@ const quiz = computed(() => state.quiz)
 const item = computed(() => quiz.value?.items[quiz.value.index])
 const result = computed(() => quiz.value?.results[quiz.value.index])
 const feedback = computed(() => quiz.value?.phase === 'feedback')
-const parts = computed(() => (item.value ? promptParts(item.value) : null))
+// Deux exercices partagent cet écran : les verbes et le féminin / pluriel
+const isAccord = computed(() => exerciseOf(quiz.value) === 'accords')
+const parts = computed(() => (item.value ? (isAccord.value ? accordParts(item.value) : promptParts(item.value)) : null))
 const typed = computed(() => (item.value ? isTyped(item.value.at) : false))
-const tag = computed(() => (item.value ? genderTag(item.value) : null))
+const title = computed(() => (item.value ? (isAccord.value ? accordTitle(item.value) : tenseLabel(item.value.t)) : ''))
+const tag = computed(() => {
+  if (!item.value) return null
+  return isAccord.value ? accordTag(item.value) : genderTag(item.value)
+})
+const infinitive = computed(() => (item.value ? (isAccord.value ? item.value.w : item.value.v) : ''))
+const help = computed(() => {
+  const it = item.value
+  if (!it) return ''
+  if (isAccord.value) return accordHelp(it)
+  return it.at === 'qcm_form' ? 'Choisis le bon verbe.'
+    : it.at === 'qcm_end' ? 'Choisis la bonne terminaison.'
+    : it.at === 'text_end' ? 'Écris la terminaison.' : 'Écris le verbe conjugué.'
+})
 const expected = computed(() => (item.value ? expectedFor(item.value) : ''))
 const isLast = computed(() => quiz.value && quiz.value.index + 1 === quiz.value.items.length)
 const longLine = computed(() => {
@@ -127,7 +143,10 @@ const detail = computed(() => {
   if (r.verdict === 'wrong') return `La bonne réponse : « ${it.qt === 'pronoun' ? `${parts.value.lead}${it.a}` : expected.value} ».`
   return null
 })
-const why = computed(() => (feedback.value && item.value ? explain(item.value) : null))
+const why = computed(() => {
+  if (!feedback.value || !item.value) return null
+  return isAccord.value ? explainAccord(item.value) : explain(item.value)
+})
 </script>
 
 <template>
@@ -142,27 +161,23 @@ const why = computed(() => (feedback.value && item.value ? explain(item.value) :
 
     <div class="sheet" :class="feedback && (result.correct ? 'sheet--ok' : 'sheet--ko')">
       <p class="sheet-title">
-        <span>{{ tenseLabel(item.t) }}</span><span v-if="tag" class="sheet-tag"> ({{ tag }})</span>
+        <span>{{ title }}</span><span v-if="tag" class="sheet-tag"> ({{ tag }})</span>
       </p>
       <div class="sheet-row">
         <span class="sheet-mark" aria-hidden="true">
           <Icon v-if="feedback" :name="result.correct ? 'check' : 'x'" :size="40" />
         </span>
-        <p class="prompt-line" :class="{ 'prompt-line--sentence': item.qt === 'sentence', 'prompt-line--long': longLine }">
+        <p class="prompt-line" :class="{ 'prompt-line--sentence': isAccord || item.qt === 'sentence', 'prompt-line--long': longLine }">
           <span class="lead">{{ parts.lead }}</span><span v-if="parts.stem" class="stem">{{ parts.stem }}</span><span
             class="slot" :class="{ 'is-filled': feedback, 'is-ok': feedback && result.correct, 'is-ko': feedback && !result.correct }"
           >
             <s v-if="feedback && !result.correct && result.given && typed" class="given">{{ result.given }}</s>
             <span class="slot-text">{{ feedback ? expected : typed ? draft : '' }}</span><span v-if="appKeys" class="caret" aria-hidden="true" />
-          </span><span class="inf">({{ item.v }})</span><span v-if="parts.tail" class="tail">{{ parts.tail }}</span>
+          </span><span class="inf">({{ infinitive }})</span><span v-if="parts.tail" class="tail">{{ parts.tail }}</span>
         </p>
       </div>
     </div>
-    <p class="prompt-help">
-      {{ item.at === 'qcm_form' ? 'Choisis le bon verbe.'
-        : item.at === 'qcm_end' ? 'Choisis la bonne terminaison.'
-        : item.at === 'text_end' ? 'Écris la terminaison.' : 'Écris le verbe conjugué.' }}
-    </p>
+    <p class="prompt-help">{{ help }}</p>
     <p v-if="appKeys" class="sr-only" aria-live="polite">Ta réponse : {{ draft || 'vide' }}</p>
 
     <div v-if="!(coarse && typed)" class="answer">

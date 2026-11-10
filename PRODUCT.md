@@ -16,7 +16,7 @@ Primary: a French CM2 pupil (about 10 to 11 years old) revising school lessons a
 
 ## Product Purpose
 
-"Devoirs" is a revision companion for primary-school lessons. The first and only exercise for now is conjugation: a configurable quiz on French verbs. The list of exercises sits in a side menu so other subjects can be added later. Success is a child who can start a useful revision session alone, understands each correction on the spot, and sees his score and weak verbs improve.
+"Devoirs" is a revision companion for primary-school lessons. Two exercises so far: conjugation (a configurable quiz on French verbs) and vocabulary spelling (the feminine and the plural of nouns and adjectives). The list of exercises sits in a side menu so other subjects can be added later. Success is a child who can start a useful revision session alone, understands each correction on the spot, and sees his score and weak verbs improve.
 
 ## Positioning
 
@@ -33,7 +33,7 @@ A quiz that remembers what the child got wrong: verbs missed in the last three q
 
 - App name: "Devoirs"; the page title mentions it. UI language is French.
 - Light and dark themes. Settings screen. Accent colour chosen from 8 predefined swatches.
-- Left side menu listing exercises. Current exercise: "Révision des verbes" (conjugation quiz).
+- Left side menu listing exercises: "Révision des verbes" (conjugation quiz) and "Féminin et pluriel" (vocabulary quiz).
 - Quiz parameters, several can be active at once:
   - Tenses: présent, passé composé, imparfait, futur, passé simple.
   - Answer types: multiple choice of the full verb form; pick the ending among choices; type the ending; type the full verb form.
@@ -47,13 +47,21 @@ A quiz that remembers what the child got wrong: verbs missed in the last three q
 - A bank of 1600 hand-written sentences (original, inspired by children's fiction for 9 to 12 year olds), covering all pronouns of the verbs. The 11 irregular verbs have 50 sentences each. Quizzes draw randomly from it. Each recorded mistake keeps its full sentence, so the bank can be rewritten without breaking the history.
 - Immediate correction after each answer: right or wrong, the correct form shown, a remark when an accent is missing.
 
+### Exercise: Féminin et pluriel
+
+- Each question is a sentence with a gap and the starting word in brackets, for example « Sa ___ (voisin) lui a souri. » → voisine, or « Les ___ (cheval) galopaient. » → chevaux. The gender or number must be readable in the sentence. Plural adjectives are given in the gender of the sentence (« jolie » for a feminine noun), so the question is only about the plural.
+- Parameters: feminine and/or plural; nouns and/or adjectives; multiple choice (the right form among 4) and/or typed (the whole word); 10 to 100 questions. Typed answers use the same app keyboard as the verbs, with œ added (sœur, vœux).
+- A bank of 700 hand-written sentences (original, in the spirit of novels for teenagers, readable by a CM2 pupil): 361 feminine and 339 plural, nouns and adjectives. Each pair of words follows a named rule (+ e, consonne doublée, -er → -ère, -eur → -euse, -teur → -trice, -x → -se, -f → -ve, -c → -che / -que, -esse, autre mot, irrégulier; + s, pas de -s, -al → -aux, -al → -als, -ail → -aux, + x, -ou → -oux, -ou → -ous, exceptions, couleurs invariables). The correction states the rule.
+- "Retravailler mes erreurs" adds words that follow the rules missed in the last 3 quizzes of this exercise. The history shows the rules to rework, next to the verbs to rework.
+- History: the last 10 quizzes of each exercise, each labelled with its exercise.
+
 ## Brand Commitments
 
 Name "Devoirs". Voice: sober and encouraging, short positive messages, no points, no gamified tricks, no mascot.
 
 ## Evidence on Hand
 
-No existing assets, copy or data. The 1600-question bank and the verb conjugations are authored for this project and must be checked for French grammar.
+No existing assets, copy or data. The 1600-question verb bank, the verb conjugations and the 700-sentence feminine and plural bank are authored for this project and must be checked for French grammar.
 
 ## Product Principles
 

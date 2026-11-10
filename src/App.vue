@@ -1,24 +1,30 @@
 <script setup>
 import { computed } from 'vue'
 import { state, nav } from './stores/state.js'
+import { exerciseOf } from './lib/quiz.js'
+import { EXERCISES } from './lib/history.js'
 import Icon from './components/Icon.vue'
 import VerbsSetup from './views/VerbsSetup.vue'
+import AccordsSetup from './views/AccordsSetup.vue'
 import QuizView from './views/QuizView.vue'
 import ResultView from './views/ResultView.vue'
 import HistoryView from './views/HistoryView.vue'
 import SettingsView from './views/SettingsView.vue'
 
 const views = {
-  verbes: VerbsSetup, quiz: QuizView, resultat: ResultView, revue: ResultView,
+  verbes: VerbsSetup, accords: AccordsSetup, quiz: QuizView, resultat: ResultView, revue: ResultView,
   historique: HistoryView, reglages: SettingsView,
 }
 const section = computed(() => {
   const n = state.route.name
   if (n === 'historique' || n === 'revue') return 'historique'
   if (n === 'reglages') return 'reglages'
-  return 'verbes'
+  // pendant un quiz ou sur son résultat, le menu garde l'exercice en cours en évidence
+  if (n === 'quiz') return exerciseOf(state.quiz)
+  if (n === 'resultat') return exerciseOf(state.history.find((h) => h.id === state.route.id))
+  return n === 'accords' ? 'accords' : 'verbes'
 })
-const exercises = [{ id: 'verbes', label: 'Révision des verbes', icon: 'pen' }]
+const exercises = EXERCISES
 const tools = [
   { id: 'historique', label: 'Historique', icon: 'clock' },
   { id: 'reglages', label: 'Réglages', icon: 'gear' },

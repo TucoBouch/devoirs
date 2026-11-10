@@ -1,0 +1,216 @@
+// Pluriel des noms : le mot au singulier dans (), à écrire au pluriel. Le pluriel se lit dans la phrase (les, des, ces, deux…).
+// Phrases originales, dans l'esprit des romans pour adolescents : collège, aventures, enquêtes, légendes.
+// Format : voir scripts/build-accords.mjs
+
+== p nom
+
+// ---- On ajoute un -s
+Les {ami>amis} de Léa l'attendaient devant le portail du collège.
+Tom a rangé ses {livre>livres} par ordre de taille.
+Les {chat>chats} du voisin dormaient sur le toit de la serre.
+Mes {stylo>stylos} ont tous disparu dans le même tiroir.
+Des {maison>maisons} penchées bordaient la ruelle du vieux port.
+Ses {voyage>voyages} l'ont menée jusqu'au bout du monde.
+Des {étoile>étoiles} filantes traversaient le ciel au-dessus du camp.
+Ils se sont promis de garder leurs {secret>secrets} pour toujours.
+Trois {dragon>dragons} survolaient la vallée à la tombée du jour.
+Des {lac>lacs} glacés s'étendaient à perte de vue.
+Les {fleur>fleurs} du jardin s'ouvraient une à une au soleil.
+Ces {rêve>rêves} étranges revenaient chaque nuit.
+Nos {cahier>cahiers} sont restés sous la pluie : tout est ruiné.
+Les {sac>sacs} des élèves encombraient le couloir.
+Leurs {ordinateur>ordinateurs} se sont éteints en même temps.
+Les {carte>cartes} du trésor étaient dispersées sur la table.
+Des {nuage>nuages} noirs s'amassaient au-dessus de la plaine.
+Quelques {pirate>pirates} dormaient encore dans la cale du navire.
+Les {tour>tours} du château se dressaient dans la brume.
+Les {montagne>montagnes} étaient couvertes de neige depuis octobre.
+Les {sentier>sentiers} de la forêt se croisaient dans le noir.
+Ces {robot>robots} savent faire la cuisine, mais pas la vaisselle.
+Mes {dessin>dessins} sont accrochés au mur de ma chambre.
+Des {message>messages} codés circulaient entre les élèves.
+Les {plan>plans} du pirate étaient cachés dans une bouteille.
+Les {mur>murs} de la cave suintaient d'humidité.
+Plusieurs {chemin>chemins} s'ouvraient devant nous.
+Les {élève>élèves} de la classe ont applaudi le nouveau.
+Ses {oreille>oreilles} rougissaient dès qu'on lui parlait.
+Des {doigt>doigts} glacés se sont posés sur mon épaule.
+Ses {jambe>jambes} tremblaient après la course.
+Des {papillon>papillons} dansaient autour de la lanterne.
+Des {poisson>poissons} argentés filaient sous le pont.
+Les {voisin>voisins} ont tous entendu le bruit cette nuit-là.
+// -ail qui prend un simple -s
+Léa a raconté tous les {détail>détails} de son aventure.
+Les {chandail>chandails} tricotés par Mamie sentaient la lavande.
+Des {épouvantail>épouvantails} gardaient le champ de maïs.
+Les {portail>portails} de la ville se fermaient à la tombée de la nuit.
+Des {éventail>éventails} colorés s'agitaient dans la salle surchauffée.
+Les {gouvernail>gouvernails} des deux barques étaient cassés.
+Les {rail>rails} brillaient sous la lune, droits comme des fils d'argent.
+
+// ---- Un mot en -s, -x ou -z ne change pas
+Les {souris} se cachaient derrière les sacs de farine.
+Des {pays} lointains défilaient sur la carte accrochée au mur.
+Plusieurs {fois}, elle a failli abandonner.
+Les {bois} de la région cachaient des sentiers secrets.
+Les {repas} de la cantine étaient servis à midi pile.
+Des {tapis} volants traversaient le ciel dans le livre de Zoé.
+Les {corps} des athlètes fumaient dans le froid.
+Les {nez} rouges des enfants dépassaient des écharpes.
+Des {voix} basses s'élevaient derrière la porte.
+Les {prix} du concours étaient exposés sur une table.
+Des {croix} blanches marquaient le chemin à travers les dunes.
+Les {noix} tombaient du grand arbre à chaque coup de vent.
+Les {choix} de Léa ont toujours surpris ses parents.
+Des {gaz} toxiques s'échappaient de la machine détraquée.
+Les {dos} courbés des marcheurs se découpaient sur la crête.
+Les {bras} chargés de paquets, ils ont franchi la porte.
+Les {héros} de ses livres lui tenaient compagnie la nuit.
+Les {cours} de l'après-midi sont toujours les plus longs.
+Ces {discours} interminables nous ont endormis.
+Deux {concours} de dessin ont lieu au collège cette année.
+Les {puits} du désert étaient presque à sec.
+Des {colis} étranges s'entassaient dans le bureau de poste.
+Des {radis} roses et des carottes poussaient dans le potager.
+Les {pois} de senteur grimpaient le long du grillage.
+Ces {mois} d'hiver étaient les plus durs de l'année.
+Ses {succès} n'ont jamais changé son caractère.
+Ces {autobus} jaunes ramassent les élèves devant l'école.
+Des {cactus} géants se dressaient dans le désert.
+Des {virus} informatiques ont paralysé le réseau.
+Des {tournevis} de toutes tailles débordaient de la caisse à outils.
+Ses deux {fils} sont devenus marins.
+
+// ---- -al devient -aux
+Les {cheval>chevaux} galopaient dans le pré, crinière au vent.
+Les {journal>journaux} du matin annonçaient une tempête.
+Des {animal>animaux} étranges vivaient au fond de la forêt.
+Des {canal>canaux} étroits traversaient la vieille ville.
+Les {hôpital>hôpitaux} de la région étaient pleins.
+Des {métal>métaux} précieux brillaient dans la mine abandonnée.
+Les {signal>signaux} lumineux clignotaient dans la nuit.
+Les {général>généraux} ont salué le drapeau.
+Les {amiral>amiraux} ont discuté du plan de bataille sur le pont.
+Les {minéral>minéraux} de sa collection brillaient sous la lampe.
+Les {végétal>végétaux} poussent plus vite dans la serre.
+Les {rival>rivaux} se sont serré la main avant le match.
+Les {mal>maux} de tête de Hugo ont disparu après la sieste.
+Les {bocal>bocaux} de confiture s'alignaient sur l'étagère.
+Les {local>locaux} du club étaient fermés à clé.
+Les {cristal>cristaux} de glace tintaient dans les branches.
+Les {tribunal>tribunaux} de la ville ouvrent à huit heures.
+Les {animal>animaux} du zoo ont été évacués avant l'orage.
+Les {cheval>chevaux} de la ferme broutaient près du ruisseau.
+Les {journal>journaux} déchirés volaient dans la rue.
+Les {hôpital>hôpitaux} de la ville manquaient de lits.
+Les {signal>signaux} de fumée montaient au-dessus de la colline.
+
+// ---- Exception : quelques mots en -al prennent un -s
+Des {bal>bals} masqués animaient l'hiver dans la vieille ville.
+Les {carnaval>carnavals} de la région sont réputés pour leurs chars.
+Des {festival>festivals} de musique ont lieu chaque été.
+Les {chacal>chacals} rôdaient autour du campement.
+Deux {récital>récitals} ont été donnés à la salle des fêtes.
+Les gâteaux de Mamie sont de vrais {régal>régals} pour nous.
+Les {narval>narvals} nagent sous la banquise.
+Plusieurs {bal>bals} ont eu lieu pendant la semaine du village.
+
+// ---- Sept mots en -ail font -aux
+Des {corail>coraux} rouges et roses tapissaient le fond de la baie.
+Les {émail>émaux} des vieilles assiettes étaient craquelés.
+Des {soupirail>soupiraux} laissaient filtrer un peu de lumière dans la cave.
+Les {travail>travaux} de la rue ont bloqué le car scolaire.
+Les {travail>travaux} des élèves étaient exposés dans le couloir.
+Les {vitrail>vitraux} de la chapelle projetaient des taches de couleur.
+Des {vitrail>vitraux} brisés jonchaient le sol de l'église.
+Les deux {vantail>vantaux} de la porte grinçaient dans le vent.
+
+// ---- -eau, -au, -eu prennent un -x
+Les {bateau>bateaux} des pêcheurs rentraient au port avant la nuit.
+Des {château>châteaux} en ruine dominaient la vallée.
+Les {gâteau>gâteaux} de Mamie disparaissent en cinq minutes.
+Les {cadeau>cadeaux} étaient empilés sous le sapin.
+Des {chapeau>chapeaux} pointus pendaient au porte-manteau de la sorcière.
+Les {couteau>couteaux} du cuisinier brillaient sur le mur.
+Des {oiseau>oiseaux} multicolores chantaient dans la serre.
+Les {ruisseau>ruisseaux} gonflés par la fonte des neiges dévalaient la pente.
+Les {tableau>tableaux} du musée représentaient tous des dragons.
+Les {manteau>manteaux} mouillés séchaient devant la cheminée.
+Les {rideau>rideaux} bougeaient alors que les fenêtres étaient fermées.
+Les {drapeau>drapeaux} claquaient au vent sur la place.
+Des {roseau>roseaux} bordaient l'étang, hauts comme des hommes.
+Les {marteau>marteaux} des forgerons résonnaient dans la vallée.
+Des {morceau>morceaux} de verre brillaient sur le chemin.
+Les {bureau>bureaux} de la classe étaient disposés en cercle.
+Les {troupeau>troupeaux} descendaient de l'alpage à la fin de l'été.
+Les {panneau>panneaux} indiquaient trois directions différentes.
+Des {anneau>anneaux} d'or brillaient dans le coffre.
+Les {carreau>carreaux} de la cuisine étaient froids sous mes pieds nus.
+Les {cerveau>cerveaux} de la bande avaient préparé le plan.
+Des {chameau>chameaux} avançaient lentement entre les dunes.
+Les {pinceau>pinceaux} trempaient dans des pots de peinture bleue.
+Des {radeau>radeaux} de fortune descendaient le fleuve.
+Les {traîneau>traîneaux} glissaient sur la neige tassée.
+Des {agneau>agneaux} tout blancs gambadaient dans le pré.
+Des {poteau>poteaux} de bois marquaient la frontière.
+Des {plateau>plateaux} arides s'étendaient jusqu'à l'horizon.
+Les {niveau>niveaux} de l'eau montaient d'heure en heure.
+Les {tuyau>tuyaux} de la chaufferie claquaient toute la nuit.
+Des {noyau>noyaux} de cerises traînaient sur la table.
+Des {joyau>joyaux} brillaient dans la couronne.
+Les {préau>préaux} des écoles se remplissaient quand la pluie tombait.
+Les {cheveu>cheveux} de Zoé flottaient dans le vent.
+Les {feu>feux} du camp s'éteignaient un à un.
+Les {jeu>jeux} de société remplissaient l'étagère.
+Des {lieu>lieux} secrets se cachaient derrière la colline.
+Mes deux {neveu>neveux} adorent les histoires de pirates.
+Ses {vœu>vœux} se sont tous réalisés cette année-là.
+Les {enjeu>enjeux} du match étaient énormes.
+Les {essieu>essieux} du chariot ont cédé dans la côte.
+Les {adieu>adieux} ont été longs sur le quai de la gare.
+Des {pieu>pieux} pointus entouraient le camp.
+
+// ---- Exception : pneu, bleu, landau, émeu prennent un -s
+Les {pneu>pneus} du vélo de Tom étaient à plat.
+Les {pneu>pneus} neufs crissaient sur le gravier.
+Elle avait des {bleu>bleus} sur les genoux après sa chute.
+Des {landau>landaus} anciens étaient exposés au musée.
+Des {émeu>émeus} couraient dans l'enclos du zoo.
+
+// ---- Sept mots en -ou prennent un -x
+Les {bijou>bijoux} de la reine brillaient dans le coffre.
+Des {bijou>bijoux} étaient cachés dans le double fond.
+Des {caillou>cailloux} blancs marquaient le chemin du retour.
+Max a lancé des {caillou>cailloux} dans l'eau.
+Ma grand-mère cultive des {chou>choux} dans son potager.
+Les {chou>choux} à la crème ont disparu avant le dessert.
+Nous avions de la boue jusqu'aux {genou>genoux}.
+Elle s'est écorché les {genou>genoux} en tombant du vélo.
+Les {hibou>hiboux} ont poussé un cri dans la nuit.
+Des {hibou>hiboux} guettaient depuis les branches du chêne.
+Les {joujou>joujoux} des enfants jonchaient le tapis.
+Ses vieux {joujou>joujoux} dormaient dans un carton au grenier.
+Des {pou>poux} se baladaient dans la fourrure du chien.
+L'infirmière a cherché des {pou>poux} dans nos cheveux.
+
+// ---- Les autres mots en -ou prennent un -s
+Les {trou>trous} de la clôture laissaient passer le chien.
+Des {clou>clous} rouillés traînaient dans l'atelier.
+Ils n'avaient pas deux {sou>sous} en poche.
+Les {verrou>verrous} de la porte ont sauté un par un.
+Les girafes tendaient leurs longs {cou>cous} par-dessus la barrière.
+Les {écrou>écrous} étaient éparpillés sur le sol du garage.
+Des {kangourou>kangourous} bondissaient dans la plaine australienne.
+Ces {voyou>voyous} ont cassé les carreaux de la cabane.
+Les {filou>filous} se sont enfuis avec le butin.
+Les {fou>fous} du roi faisaient des cabrioles dans la salle du trône.
+
+// ---- Pluriels irréguliers
+Ses {œil>yeux} brillaient de colère.
+Les chats ont des {œil>yeux} qui luisent dans le noir.
+Les enfants ouvraient de grands {œil>yeux} devant le feu d'artifice.
+Dans la légende, les dieux habitaient les {ciel>cieux}.
+Les héros priaient les {ciel>cieux} pour que la pluie revienne.
+Les {aïeul>aïeux} de Zoé habitaient un hameau perdu dans les Alpes.
+Mesdames et {monsieur>messieurs}, le spectacle va commencer !
+Les {bonhomme>bonshommes} de neige fondaient au premier soleil.

@@ -759,7 +759,7 @@ h1 {
   gap: 0.4rem;
 }
 .appkb-row--accents {
-  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-columns: repeat(13, minmax(0, 1fr));
 }
 .kkey {
   grid-column: span 2;
@@ -858,6 +858,12 @@ h1 {
   }
   .quiz .sheet {
     --ln: 2.75rem;
+  }
+  .quiz .choices {
+    gap: 0.75rem;
+  }
+  .quiz .choice {
+    min-height: 4rem;
   }
 }
 @media (max-height: 720px) and (min-width: 701px) {
@@ -1298,6 +1304,15 @@ h1 {
   }
   .rail-tools .nav-item span {
     display: none;
+  }
+  /* deux exercices : ils se partagent la largeur et le libellé passe à la ligne au besoin */
+  .rail-nav:not(.rail-tools) .nav-item {
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 0 0.6rem;
+    white-space: normal;
+    line-height: 1.15;
+    text-align: left;
   }
   .sheet {
     --mw: 3rem;

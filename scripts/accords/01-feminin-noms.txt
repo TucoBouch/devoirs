@@ -1,0 +1,180 @@
+// Féminin des noms : un mot au masculin dans (), à écrire au féminin. Le genre se lit juste avant le trou (une, la, ma, sa, cette…).
+// Phrases originales, dans l'esprit des romans pour adolescents : collège, aventures, enquêtes, légendes.
+// Format : voir scripts/build-accords.mjs
+
+== f nom
+
+// ---- On ajoute un -e
+Léa a invité sa {cousin>cousine} Inès à passer les vacances au bord du lac.
+Ma meilleure {ami>amie} m'a prêté son carnet de dessins pour la journée.
+La nouvelle {voisin>voisine} a déposé un gâteau devant toutes les portes de l'immeuble.
+Une {inconnu>inconnue} m'a glissé un mot dans la main avant de disparaître dans la foule.
+La {candidat>candidate} la plus jeune a levé la main avant tous les autres.
+Maya est la {gagnant>gagnante} du grand tournoi d'échecs du collège.
+Au dernier tour, la {concurrent>concurrente} de Zoé a trébuché sur la ligne d'arrivée.
+La seule {survivant>survivante} du naufrage racontait son histoire à voix basse.
+Chez le boulanger, une {apprenti>apprentie} pétrissait la pâte depuis l'aube.
+La {participant>participante} numéro sept a oublié son dossard dans le vestiaire.
+Une {passant>passante} a ramassé le sac que Nora avait laissé tomber.
+La {marchand>marchande} de bonbons nous a offert une poignée de réglisses.
+Chaque soir, la {commerçant>commerçante} du coin baissait son rideau de fer à vingt heures.
+Une vieille {habitant>habitante} du village nous a indiqué le chemin du moulin.
+La {client>cliente} de la librairie cherchait un roman d'aventures pour son neveu.
+Ma grande sœur est {étudiant>étudiante} en médecine à Lyon.
+La {fiancé>fiancée} du capitaine attendait sur le quai, un mouchoir à la main.
+Cette {invité>invitée} d'honneur est arrivée en retard, mais avec un grand sourire.
+La {blessé>blessée} a été transportée à l'infirmerie du camp.
+La petite {orphelin>orpheline} avait grandi dans un phare au bout du monde.
+Une {employé>employée} de la gare m'a rendu mon sac oublié dans le train.
+La {député>députée} est venue visiter notre classe, en écharpe tricolore.
+La {marié>mariée} a lancé son bouquet par-dessus son épaule.
+Cette {adolescent>adolescente} ne quittait jamais son carnet de croquis.
+Une {assistant>assistante} du musée nous a guidés dans les salles obscures.
+Une {parent>parente} éloignée de ma mère m'a légué un coffre mystérieux.
+Une {avocat>avocate} est venue défendre le petit dragon accusé d'avoir brûlé la forêt.
+Ma {cousin>cousine} Éva a gagné le concours de photographie du département.
+Tom ne savait pas si cette {ami>amie} d'enfance se souvenait encore de lui.
+La {renard>renarde} guettait les poules derrière le grillage.
+La {lapin>lapine} a creusé un terrier sous les racines du vieux chêne.
+La {dauphin>dauphine} a bondi hors de l'eau pour attraper le poisson.
+Une {ours>ourse} et ses deux petits traversaient la rivière à gué.
+
+// ---- Le mot ne change pas
+La nouvelle {élève>élève} s'est assise au premier rang, le cartable serré contre elle.
+Une {camarade>camarade} de classe m'a passé ses notes de maths.
+Cette {artiste>artiste} peint des fresques géantes sur les murs de la ville.
+La {concierge>concierge} de l'immeuble connaissait tous nos secrets.
+Une {touriste>touriste} perdue cherchait la sortie du labyrinthe de haies.
+La {journaliste>journaliste} a posé trois questions à la gagnante du match.
+La {pianiste>pianiste} a salué la salle avant de poser ses doigts sur le clavier.
+Une {cycliste>cycliste} a doublé tout le peloton dans la dernière côte.
+Zoé a promis à la {dentiste>dentiste} de se brosser les dents trois fois par jour.
+Une {guide>guide} nous a menés sur le glacier, un piolet à la main.
+La {pilote>pilote} a annoncé un petit retard à cause du brouillard.
+La {juge>juge} a frappé trois coups avec son marteau en bois.
+Une {complice>complice} attendait Max au coin de la rue, moteur allumé.
+La {propriétaire>propriétaire} de la ferme nous a ouvert la grange.
+La {secrétaire>secrétaire} du collège a tamponné mon carnet de correspondance.
+Sa {partenaire>partenaire} de danse avait un foulard rouge dans les cheveux.
+Une {athlète>athlète} fatiguée s'est arrêtée au bord de la piste.
+La {témoin>témoin} a juré qu'elle n'avait rien vu cette nuit-là.
+Cette {astronaute>astronaute} a passé six mois en orbite autour de la Terre.
+Une {enfant>enfant} aux cheveux ébouriffés dormait sur la banquette du train.
+La {libraire>libraire} m'a conseillé un roman de fantasy.
+
+// ---- On double la consonne : lion → lionne
+La {lion>lionne} surveillait ses petits depuis le sommet du rocher.
+La {chat>chatte} de Léa ronronnait sur le rebord de la fenêtre.
+La {chien>chienne} a poussé un aboiement joyeux quand Tom est rentré.
+La {patron>patronne} de l'auberge nous a servi une soupe fumante.
+La {champion>championne} de ski rangeait ses médailles dans une boîte à chaussures.
+Cette {musicien>musicienne} joue du violon dans le métro chaque samedi.
+La {gardien>gardienne} du phare a rallumé la lampe avant la tempête.
+La {magicien>magicienne} a fait disparaître le chapeau du directeur.
+Une {lycéen>lycéenne} est venue nous parler de son orientation.
+La {paysan>paysanne} a rentré le foin avant que l'orage n'éclate.
+Une {espion>espionne} se cachait derrière le rideau du théâtre.
+La {cadet>cadette} de la famille héritait toujours des pulls de ses sœurs.
+La {baron>baronne} a invité tout le village au bal de printemps.
+Une {citoyen>citoyenne} courageuse a prévenu la police.
+La {technicien>technicienne} a réparé le télescope en dix minutes.
+La {mécanicien>mécanicienne} a glissé sous le camion avec sa lampe frontale.
+La {pharmacien>pharmacienne} m'a tendu un sirop au goût de fraise.
+Une {historien>historienne} a retrouvé le journal du capitaine dans les archives.
+
+// ---- -er devient -ère, -ier devient -ière
+La {boulanger>boulangère} pétrit sa pâte avant l'aube.
+La {fermier>fermière} a rentré ses vaches avant l'orage.
+Cette {infirmier>infirmière} de l'école a posé un pansement sur mon genou.
+La {cuisinier>cuisinière} du bateau préparait un ragoût de poisson.
+La {jardinier>jardinière} a taillé les rosiers du château.
+Une {ouvrier>ouvrière} est montée sur l'échafaudage, casque sur la tête.
+La {bijoutier>bijoutière} a enfermé le diamant dans son coffre.
+La {sorcier>sorcière} du village jetait des herbes dans son chaudron.
+Une {cavalier>cavalière} a surgi du bois, au galop.
+Chaque matin, la petite {écolier>écolière} courait pour attraper le car.
+La {prisonnier>prisonnière} a glissé un message sous la porte.
+La {pâtissier>pâtissière} a orné le gâteau de trois bougies bleues.
+Une {romancier>romancière} est venue présenter son livre au collège.
+La {policier>policière} a relevé les empreintes sur la fenêtre.
+La {boucher>bouchère} a enveloppé le jambon dans du papier blanc.
+La {berger>bergère} a rassemblé ses moutons avant la nuit.
+Une {passager>passagère} a perdu son billet dans le train de nuit.
+Une {étranger>étrangère} s'est arrêtée devant la boutique de bonbons.
+Une {aventurier>aventurière} est arrivée avec une carte déchirée.
+
+// ---- -eur devient -euse
+La {chanteur>chanteuse} du groupe a perdu sa voix la veille du concert.
+Une {danseur>danseuse} tournoyait au centre de la place.
+La {nageur>nageuse} a plongé sans hésiter dans le lac glacé.
+La {coiffeur>coiffeuse} a coupé trois mèches de ma frange.
+La {vendeur>vendeuse} m'a proposé des baskets deux fois trop grandes.
+Une {voleur>voleuse} s'est glissée par la fenêtre du musée.
+La {joueur>joueuse} numéro dix a marqué le but de la victoire.
+La {skieur>skieuse} a dévalé la piste noire sans une seule chute.
+La {coureur>coureuse} a franchi la ligne avec dix secondes d'avance.
+Zoé jure que cette {menteur>menteuse} lui a volé son carnet secret.
+La {chasseur>chasseuse} de fantômes a rangé ses pièges dans le grenier.
+La {pêcheur>pêcheuse} a remonté un filet plein de sardines.
+La {serveur>serveuse} a posé trois chocolats chauds sur notre table.
+Cette {rêveur>rêveuse} regardait les nuages au lieu d'écouter la leçon.
+La {farceur>farceuse} de la classe a caché une grenouille dans mon sac.
+Une {tricheur>tricheuse} a été disqualifiée du jeu de piste.
+La {livreur>livreuse} a sonné deux fois, un grand carton dans les bras.
+La {bricoleur>bricoleuse} de la famille a monté la cabane en un après-midi.
+
+// ---- -teur devient -trice
+Cette {acteur>actrice} a oublié sa réplique, mais personne ne l'a remarqué.
+Une {spectateur>spectatrice} s'est levée pour applaudir.
+Léa est une grande {lecteur>lectrice} : elle dévore trois romans par semaine.
+La {conducteur>conductrice} du bus a klaxonné pour saluer les enfants.
+La {directeur>directrice} du collège a annoncé un voyage à toute la classe.
+Cette {instituteur>institutrice} nous a demandé de ranger nos cahiers.
+Cette {explorateur>exploratrice} a découvert une grotte pleine de cristaux bleus.
+Cette {inventeur>inventrice} de la machine à rêves a ouvert son atelier.
+Une {aviateur>aviatrice} a posé son petit avion rouge sur le sable de la plage.
+La {dessinateur>dessinatrice} a croqué le portrait du chevalier en trois traits.
+Une {animateur>animatrice} du camp nous a proposé une chasse au trésor.
+Cette {inspecteur>inspectrice} a résolu l'énigme avant le dîner.
+
+// ---- Le féminin se termine par -esse
+La {prince>princesse} a refusé de porter la couronne de ses ancêtres.
+La {comte>comtesse} a ouvert les portes du château pour le grand bal.
+La {duc>duchesse} a envoyé un message cacheté de cire rouge.
+Notre vieille {âne>ânesse} refuse de traverser le pont.
+La {tigre>tigresse} a bondi sur la branche sans un bruit.
+Une {ogre>ogresse} dormait, la bouche ouverte, au fond de la caverne.
+La {maître>maîtresse} nous a appris à chanter la Marseillaise.
+Une {hôte>hôtesse} de l'air nous a souhaité un bon vol.
+La {poète>poétesse} a lu ses vers à la lueur d'une bougie.
+La {prêtre>prêtresse} gardait le feu sacré du temple.
+Une {traître>traîtresse} se cachait parmi les gardes de la reine.
+
+// ---- Le féminin est un autre mot
+Sa {père>mère} lui a lu une histoire de pirates avant de dormir.
+Sa {frère>sœur} jumelle est arrivée au collège avec une heure de retard.
+Ma {oncle>tante} Rose élève des abeilles dans les Cévennes.
+Léa a appelé sa {papa>maman} dès la fin de la répétition.
+Une {garçon>fille} aux cheveux roux a sauté par-dessus le muret.
+Ma {parrain>marraine} m'a offert un télescope pour mes dix ans.
+La {coq>poule} picorait entre les pavés de la cour.
+La {cerf>biche} s'est arrêtée au bord de la clairière, les oreilles dressées.
+La {canard>cane} a conduit ses petits jusqu'à la mare.
+La {taureau>vache} meuglait devant la barrière du pré.
+La {bouc>chèvre} a mangé la nappe du pique-nique.
+La {mouton>brebis} égarée bêlait au pied de la falaise.
+Une {sanglier>laie} traversait la route avec ses marcassins.
+La {cheval>jument} noire a franchi la barrière d'un seul bond.
+
+// ---- Le féminin est irrégulier
+La {roi>reine} a posé la couronne sur le coussin de velours.
+Cette {héros>héroïne} traverse le désert avec une boussole cassée.
+Sa {neveu>nièce} lui a offert un dessin de dragon pour son anniversaire.
+Elle a rejoint sa {compagnon>compagne} de cordée au sommet de la crête.
+Inès a retrouvé sa {copain>copine} Zoé devant le portail du collège.
+Une {empereur>impératrice} a régné quarante ans sur ce pays de montagnes.
+Dans la légende, une {dieu>déesse} avait caché le soleil dans une grotte.
+La {dindon>dinde} a couru après Tom autour du poulailler.
+La {loup>louve} a guidé sa meute à travers la neige.
+Sa {jumeau>jumelle} portait exactement le même pull rouge.
+Une {enchanteur>enchanteresse} vivait au fond de la forêt de Brocéliande.

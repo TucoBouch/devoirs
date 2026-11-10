@@ -1,0 +1,171 @@
+// Pluriel des adjectifs : l'adjectif au singulier dans (), à accorder avec le nom pluriel de la phrase.
+// Le mot de départ est écrit au genre de la phrase (« jolie » pour un nom féminin).
+// Phrases originales, dans l'esprit des romans pour adolescents : collège, aventures, enquêtes, légendes.
+// Format : voir scripts/build-accords.mjs
+
+== p adj
+
+// ---- On ajoute un -s
+Les {grand>grands} arbres de la forêt cachaient le ciel.
+Ses {petit>petits} frères ont tout renversé dans la cuisine.
+Les {jolie>jolies} maisons du village étaient décorées de lanternes.
+Des bottes {noire>noires} séchaient devant le feu de camp.
+Des yeux {vert>verts}, brillants comme des émeraudes, nous observaient.
+Elle portait des gants {rouge>rouges} et un bonnet jaune.
+Des murs {jaune>jaunes} entouraient la petite cour de l'école.
+Les hommes {fort>forts} soulevaient les caisses sans effort.
+Les nuits d'hiver sont {longue>longues} au pied de la montagne.
+Des sacs {lourd>lourds} pesaient sur les épaules des randonneurs.
+Des pas {léger>légers} résonnaient dans le couloir désert.
+Ses mains {froide>froides} tremblaient sur la rampe.
+Les crêpes encore {chaude>chaudes} fumaient sur la table.
+Les vagues étaient {calme>calmes} ce matin-là.
+Les enfants, {triste>tristes}, ont regardé partir le bateau.
+Les randonneurs {fatigué>fatigués} se sont arrêtés au bord du lac.
+Les spectateurs {étonné>étonnés} ont applaudi le magicien.
+Les élèves, {content>contents}, ont couru dans la cour.
+Des clés {perdue>perdues} depuis des années ont été retrouvées dans le puits.
+Des étoiles {brillante>brillantes} piquaient le ciel noir.
+Des machines {puissante>puissantes} soulevaient les blocs de pierre.
+Des histoires {amusante>amusantes} circulaient dans la cour.
+Les élèves {intelligent>intelligents} ont résolu l'énigme en cinq minutes.
+Des rivières {rapide>rapides} descendaient de la montagne.
+Les nouveaux, {timide>timides}, sont restés dans un coin.
+Des forêts {sombre>sombres} bordaient la route.
+Des vagues {immense>immenses} s'abattaient sur la digue.
+Les marins étaient {prêt>prêts} à lever l'ancre.
+Ses deux amies sont {prête>prêtes} à partir.
+Des maisons {neuve>neuves} remplaçaient les cabanes du quartier.
+Des chemins {étroit>étroits} serpentaient entre les rochers.
+Les rues étaient {déserte>désertes} après minuit.
+Les cheveux {long>longs} de la sirène flottaient dans l'eau.
+Des bruits {étrange>étranges} montaient de la cave.
+Des feuilles {morte>mortes} tourbillonnaient sur le chemin.
+Les portes {ouverte>ouvertes} laissaient entrer le vent.
+Des lettres {ancienne>anciennes} dormaient au fond du coffre.
+Des cris {aigu>aigus} ont retenti dans la nuit.
+Les chevaliers {fidèle>fidèles} ont protégé le château jusqu'au bout.
+Des histoires {vraie>vraies} circulaient dans le village.
+Les fenêtres {large>larges} laissaient entrer la lumière.
+Ces enfants sont {poli>polis} avec tout le monde.
+Les dragons, {fier>fiers}, ont survolé la vallée.
+Des sentiers {escarpé>escarpés} grimpaient jusqu'au refuge.
+Des voix {faible>faibles} appelaient dans le brouillard.
+Heureusement, nos vêtements étaient encore {sec>secs}.
+Les lignes {droite>droites} se croisaient au centre de la carte.
+Des ombres {longue>longues} s'étiraient sur la place.
+Des idées {nouvelle>nouvelles} jaillissaient à chaque réunion du club.
+Les chats, {prudent>prudents}, ont évité la rivière.
+Des gestes {lent>lents} guidaient le vieux sorcier.
+Les jeunes sorciers, {inquiet>inquiets}, ont fouillé la bibliothèque.
+Des filles {sportive>sportives} s'entraînaient dans le gymnase.
+Des garçons {actif>actifs} organisaient la fête.
+Des promesses {sincère>sincères} ne sont pas toujours tenues.
+Des questions {difficile>difficiles} bloquaient toute la classe.
+Des exercices {facile>faciles} nous attendaient au début de la page.
+Des mots {inconnu>inconnus} sont apparus sur le parchemin.
+Des routes {glissante>glissantes} ont ralenti le car.
+
+// ---- Un adjectif en -s ou -x ne change pas
+Les enfants, {heureux}, ont couru vers la plage.
+Les chatons {curieux} ont exploré toute la maison.
+Les frères de Max sont {jaloux} de sa nouvelle console.
+Des mots {doux} ont suffi à calmer le cheval.
+Ses chats {gros} et paresseux dormaient sur le canapé.
+Des nuages {gris} filaient au-dessus des toits.
+Des brouillards {épais} cachaient la route de la côte.
+Des rêves {mauvais} troublaient ses nuits depuis l'orage.
+Des fromages {français} étaient exposés au marché.
+Des biscuits {anglais} remplissaient la boîte en fer.
+Les murs {gris} de la prison suintaient d'humidité.
+Des poissons {frais} brillaient sur l'étal.
+Des nuages {bas} rasaient le sommet des collines.
+Les repas {gras} de la fête nous ont endormis.
+Des cheveux {roux} flamboyaient sous le soleil.
+Des papiers {faux} circulaient entre les trafiquants.
+Les {vieux} arbres du verger craquaient dans la tempête.
+Les soldats {courageux} ont tenu la porte jusqu'à l'aube.
+Des enfants {peureux} se serraient les uns contre les autres.
+Les candidats, {nerveux}, attendaient devant la porte.
+Des objets {précieux} dormaient dans le coffre-fort.
+Des couloirs {silencieux} menaient aux salles secrètes.
+Des chemins {dangereux} traversaient la montagne.
+Des tableaux {mystérieux} ornaient les murs du manoir.
+Les voisins, {furieux}, ont frappé à notre porte.
+Des cris {affreux} sortaient de la cave.
+Des gâteaux {délicieux} refroidissaient sur le rebord de la fenêtre.
+Des paysages {merveilleux} défilaient derrière la vitre du train.
+Les prisonniers {malheureux} ont chanté toute la nuit.
+Des invités {nombreux} ont rempli la grande salle.
+Des élèves {sérieux} révisaient dans le silence de la bibliothèque.
+
+// ---- -al devient -aux
+Les gardes {royal>royaux} entouraient le carrosse.
+Ses amis {loyal>loyaux} ne l'ont jamais abandonné.
+Des contes {original>originaux} ont gagné le concours d'écriture.
+Des effets {spécial>spéciaux} ont rendu le film inoubliable.
+Les personnages {principal>principaux} de ce roman sont deux enfants.
+Des gestes {amical>amicaux} ont fini par fondre la glace.
+Des vents {brutal>brutaux} secouaient la tente.
+Les ordres {général>généraux} étaient affichés dans la cour.
+Des repas {familial>familiaux} réunissaient tout le monde le dimanche.
+Les héros {national>nationaux} ont été fêtés dans les rues.
+Des instruments {musical>musicaux} de toutes sortes remplissaient la salle.
+Les marchés {local>locaux} regorgeaient de fruits.
+Les réseaux {social>sociaux} sont interdits pendant les cours.
+Les résultats {total>totaux} ont été affichés ce soir.
+Des exposés {oral>oraux} ont lieu chaque vendredi.
+Des murs {vertical>verticaux} bordaient le canyon.
+Les jeux {mondial>mondiaux} réunissent des athlètes de tous les pays.
+Des soins {médical>médicaux} ont été apportés aux blessés.
+Des plans {génial>géniaux} naissent parfois dans la tête de Max.
+Des chevaux {normal>normaux} ne sauteraient jamais cette barrière.
+Les héros {principal>principaux} ont survécu à tous les dangers.
+Des liens {amical>amicaux} se sont noués pendant le camp.
+Des propos {brutal>brutaux} ont fait pleurer la petite.
+Les usages {local>locaux} sont respectés par les touristes.
+Les chevaliers {loyal>loyaux} ont juré fidélité au roi.
+Les temples {royal>royaux} dominaient la ville.
+Des services {médical>médicaux} accompagnaient l'expédition.
+Des endroits {idéal>idéaux} pour cacher un trésor.
+Des problèmes {général>généraux} sont apparus dès le début du voyage.
+Les festivals {national>nationaux} attiraient des milliers de visiteurs.
+
+// ---- Exception : fatal, naval, natal, banal prennent un -s
+Des combats {naval>navals} ont eu lieu près de l'île.
+Les deux amis ont revu leurs pays {natal>natals}.
+Des mots {banal>banals} ont suffi à briser la tension.
+Des choix {fatal>fatals} ont mis fin à l'expédition.
+
+// ---- beau, nouveau, jumeau prennent un -x
+Ses {beau>beaux} cheveux roux tombaient sur ses épaules.
+Les {beau>beaux} jours reviendront au printemps.
+Des chevaux {beau>beaux} comme des statues tournaient dans le manège.
+Mes {nouveau>nouveaux} voisins ont apporté un gâteau.
+Les {nouveau>nouveaux} élèves se sont présentés devant la classe.
+Des jeux {nouveau>nouveaux} apparaissaient chaque semaine dans la vitrine.
+Mes cousins {jumeau>jumeaux} se ressemblent comme deux gouttes d'eau.
+Les frères {jumeau>jumeaux} portaient des bonnets identiques.
+Les bébés {jumeau>jumeaux} dormaient dans le même berceau.
+
+// ---- Exception : bleu prend un -s
+Des yeux {bleu>bleus} comme la mer nous regardaient sous le chapeau.
+Ses cheveux {bleu>bleus} étonnaient tout le collège.
+
+// ---- -ou prend un -s
+Les chevaliers {fou>fous} de rage ont chargé le château.
+Des rires {fou>fous} résonnaient dans le dortoir.
+Des biscuits {mou>mous} traînaient au fond de la boîte.
+Des oreillers {mou>mous} s'empilaient sur le lit.
+Les contours {flou>flous} de la photo ne permettaient pas de reconnaître le voleur.
+Des souvenirs {flou>flous} remontaient à la surface.
+
+// ---- Les noms de couleur ne s'accordent pas
+Des chaussures {marron} attendaient devant la porte.
+Elle avait des yeux {marron} et un sourire de chat.
+Des feuilles {marron} couvraient l'allée du parc.
+Des citrouilles {orange} s'alignaient devant la ferme.
+Les maillots {orange} des coureurs brillaient au soleil.
+Des écharpes {orange} flottaient au bout des perches.
+Des yeux {noisette} brillaient sous la capuche.
+Des cheveux {noisette} dépassaient de son bonnet.

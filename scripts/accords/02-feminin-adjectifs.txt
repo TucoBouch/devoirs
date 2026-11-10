@@ -1,0 +1,231 @@
+// Féminin des adjectifs : le mot au masculin dans (), à accorder avec le nom féminin de la phrase.
+// Phrases originales, dans l'esprit des romans pour adolescents : collège, aventures, enquêtes, légendes.
+// Format : voir scripts/build-accords.mjs
+
+== f adj
+
+// ---- On ajoute un -e
+Une {petit>petite} lumière tremblait au fond du couloir.
+La {grand>grande} salle du château était vide et glacée.
+Elle portait une {joli>jolie} robe verte, brodée de minuscules étoiles.
+Cette porte est trop {lourd>lourde} pour qu'une seule personne l'ouvre.
+Sa sœur, {blond>blonde} comme les blés, riait aux éclats.
+Clara est petite et {brun>brune} : on la repère de loin sous son bonnet rouge.
+La nuit {noir>noire} tombait sur le port endormi.
+La prairie était {vert>verte} et mouillée de rosée.
+La brume {gris>grise} enveloppait les falaises.
+La neige était si {lourd>lourde} que les branches pliaient.
+La rivière était {froid>froide}, mais Maya a plongé quand même.
+La soupe, encore {chaud>chaude}, fumait dans les assiettes.
+Sa réponse, toujours {poli>polie}, nous a désarmés.
+Elle avait noué une écharpe {bleu>bleue} autour de son cou.
+La salle était {plein>pleine} à craquer le soir du spectacle.
+Cette histoire est {vrai>vraie} : je l'ai vécue.
+Après son exposé, elle était {content>contente} de s'asseoir.
+Cette sorcière est {méchant>méchante}, mais elle adore les chats.
+Une blague {amusant>amusante} circulait dans la cour.
+La nouvelle élève est {intelligent>intelligente} et très discrète.
+La lune {brillant>brillante} éclairait le sentier.
+La vague {puissant>puissante} a emporté nos serviettes.
+Une idée {important>importante} venait de lui traverser l'esprit.
+Ma tante est {charmant>charmante}, mais elle parle trop fort.
+La randonneuse, {épuisé>épuisée}, s'est écroulée sur son sac à dos.
+La petite {fatigué>fatiguée} s'est endormie dans la voiture.
+La gardienne, {étonné>étonnée} par le bruit, a ouvert la porte.
+Une clé {perdu>perdue} depuis longtemps dormait dans le tiroir.
+La pomme n'était pas encore {mûr>mûre}.
+Cette eau est si {pur>pure} qu'on voit le fond du lac.
+Quand le jour s'est levé, elle était {prêt>prête} à partir.
+La gagnante, {ému>émue}, a serré la coupe contre elle.
+La corde {tendu>tendue} entre les deux arbres servait de pont.
+La mer était {mauvais>mauvaise} ce soir-là, et personne n'osait sortir.
+Une chanson {français>française} passait à la radio du garage.
+Léa a ramené une recette {anglais>anglaise} de son voyage scolaire.
+Une lanterne {japonais>japonaise} se balançait au-dessus de la porte.
+Cette histoire {original>originale} a gagné le concours d'écriture.
+La famille {royal>royale} s'est avancée sur le balcon.
+Sa chienne, {loyal>loyale} jusqu'au bout, l'attendait devant la porte.
+La force {brutal>brutale} de la vague a renversé le bateau.
+La raison {principal>principale} de ce retard, c'était la neige.
+Une journée {normal>normale} commence à sept heures : réveil, douche, collège.
+La fête {national>nationale} a lieu le quatorze juillet.
+Une ambiance {familial>familiale} régnait dans la cuisine.
+La {meilleur>meilleure} équipe a gagné la coupe.
+
+// ---- Le mot ne change pas
+La {jeune>jeune} fille tenait une lanterne à bout de bras.
+Une écharpe {rouge>rouge} flottait au vent.
+Elle était si {timide>timide} qu'elle rougissait dès qu'on la regardait.
+Une mer {calme>calme} s'étendait jusqu'à l'horizon.
+Elle semblait {triste>triste}, mais elle a ri quand Tom a trébuché.
+La question était {facile>facile}, pourtant Léa a hésité.
+La mission était {difficile>difficile}, mais l'équipe n'a pas abandonné.
+Cette carte est {utile>utile} : elle indique la sortie du labyrinthe.
+Elle a toujours été {sage>sage}, même quand ses frères faisaient les fous.
+La famille était {pauvre>pauvre}, mais la maison respirait la joie.
+Une histoire {drôle>drôle} a fait rire toute la table.
+Une vue {magnifique>magnifique} s'offrait à nous depuis le sommet.
+La règle est {simple>simple} : personne ne parle après minuit.
+La forêt {sombre>sombre} semblait respirer autour de nous.
+Elle est {agile>agile} comme un chat et grimpe aux arbres sans effort.
+Sa main {habile>habile} a réparé la montre en quelques minutes.
+Une lune {pâle>pâle} flottait au-dessus des toits.
+Elle est enfin {libre>libre} de rentrer chez elle.
+Une corde {solide>solide} nous a sauvés de la chute.
+Cette plante {étrange>étrange} s'ouvre uniquement la nuit.
+La voisine, toujours {aimable>aimable}, nous a gardé du gâteau.
+Une chanteuse {célèbre>célèbre} a signé des autographes à la sortie.
+
+// ---- On double la consonne : bon → bonne
+Cette soupe est vraiment {bon>bonne}, merci Mamie !
+Une {mignon>mignonne} petite chouette dormait dans le creux de l'arbre.
+La {gros>grosse} pierre bloquait l'entrée de la grotte.
+La voix {bas>basse} du chevalier a fait trembler les murs.
+Une soupe trop {gras>grasse} ne plaisait pas à Hugo.
+Une brume {épais>épaisse} cachait le sommet de la montagne.
+La reine, {cruel>cruelle} et orgueilleuse, régnait sur le royaume.
+La menace était {réel>réelle} : le pont allait s'effondrer.
+La lumière {naturel>naturelle} suffisait pour dessiner dans la serre.
+La visite {officiel>officielle} du maire a duré dix minutes.
+Devant le trésor, elle est restée {muet>muette} de surprise.
+Nous avons traversé une {coquet>coquette} petite ville au bord de la rivière.
+Une écharpe {violet>violette} dépassait de son sac.
+La réponse était {net>nette} : non, on ne passe pas.
+Elle serait bien {sot>sotte} de refuser une offre pareille.
+Une {ancien>ancienne} horloge sonnait midi dans le hall.
+La cuisine {italien>italienne} est la préférée de Léa.
+La {gentil>gentille} libraire m'a gardé le dernier tome.
+Une note {nul>nulle} ne l'a pas découragée.
+Une robe {pareil>pareille} à la tienne était accrochée dans la vitrine.
+Une chanson {parisien>parisienne} s'échappait du café.
+La carte {européen>européenne} était accrochée au-dessus du bureau.
+Cette plante {mortel>mortelle} pousse au bord du marais.
+Une nuit {éternel>éternelle} semblait peser sur le royaume.
+Une découverte {exceptionnel>exceptionnelle} a été faite dans la grotte.
+La fête {traditionnel>traditionnelle} du village a lieu en août.
+Elle était {las>lasse} de cette longue route.
+
+// ---- -er devient -ère, -ier devient -ière
+Une brise {léger>légère} faisait danser les rideaux.
+Ma {cher>chère} Léa, je t'écris depuis le sommet !
+La {premier>première} marche de l'escalier craquait.
+La {dernier>dernière} page du carnet était déchirée.
+Une langue {étranger>étrangère} résonnait dans le couloir.
+Elle est {fier>fière} de son dessin, accroché au mur de la classe.
+La classe {entier>entière} a retenu son souffle.
+Une visite {régulier>régulière} chez le dentiste évite les caries.
+Cette voix {familier>familière} m'a fait sursauter dans le noir.
+Une odeur {particulier>particulière} flottait dans la cave.
+Une rencontre {singulier>singulière} a changé le cours de son voyage.
+Une réplique {grossier>grossière} lui a valu une heure de colle.
+Une promesse {mensonger>mensongère} ne nous trompera pas deux fois.
+La {dernier>dernière} fois, elle avait promis de revenir.
+
+// ---- Quelques mots en -et : -et devient -ète
+Une liste {complet>complète} des ingrédients était collée sur le frigo.
+Sa collection de timbres est enfin {complet>complète}.
+Elle gardait une porte {secret>secrète} derrière la bibliothèque.
+Une passerelle {secret>secrète} reliait les deux tours.
+Elle est restée {discret>discrète} sur sa découverte.
+Elle semblait {inquiet>inquiète} depuis l'arrivée du facteur.
+La mère de Tom, {inquiet>inquiète}, a guetté la fenêtre jusqu'à minuit.
+Une preuve {concret>concrète} nous manquait pour accuser le jardinier.
+
+// ---- -x devient -se
+Elle était {heureux>heureuse} de retrouver ses amis après les vacances.
+Une jeune fille {courageux>courageuse} a traversé le pont de corde.
+La petite souris, {curieux>curieuse}, a passé le nez dans le trou.
+Une mélodie {joyeux>joyeuse} s'échappait de la fenêtre.
+La falaise est {dangereux>dangereuse} quand il pleut.
+La reine, {généreux>généreuse}, a offert un festin à tout le village.
+La petite louve, {malheureux>malheureuse}, a hurlé à la lune.
+Elle était si {nerveux>nerveuse} qu'elle a renversé son verre.
+La nuit {silencieux>silencieuse} enveloppait la ferme.
+Une silhouette {mystérieux>mystérieuse} observait la maison depuis la haie.
+Cette pierre {précieux>précieuse} brille comme une étoile.
+Elle est {jaloux>jalouse} du succès de sa cousine.
+La directrice, {furieux>furieuse}, a convoqué toute la classe dans la cour.
+Une odeur {affreux>affreuse} sortait du sac de sport oublié.
+La tarte était {délicieux>délicieuse} : Hugo en a repris trois parts.
+Une journée {merveilleux>merveilleuse} nous attendait au bord de la mer.
+Une jeune sorcière {ambitieux>ambitieuse} rêvait de diriger l'école.
+La princesse {orgueilleux>orgueilleuse} refusait de s'excuser.
+La chatte, {paresseux>paresseuse}, dormait sur la pile de devoirs.
+Une petite fille {peureux>peureuse} se cachait derrière sa mère.
+La petite sœur de Max est {capricieux>capricieuse} : elle change d'avis sans cesse.
+Une fée {malicieux>malicieuse} a changé mes chaussures en citrouilles.
+La route {boueux>boueuse} était impraticable après l'orage.
+La nuit {orageux>orageuse} faisait trembler les vitres.
+Elle est {sérieux>sérieuse} dans ses révisions : un carnet, un surligneur, un plan.
+
+// ---- -f devient -ve
+La voisine, très {actif>active}, organise des jeux pour tous les enfants.
+Une couleur {vif>vive} éclairait le mur gris.
+Elle porte une veste {neuf>neuve} pour la rentrée.
+Maya est une fille {sportif>sportive} : elle court tous les matins.
+Une élève {créatif>créative} a décoré tout le couloir de dessins.
+La jeune fille, {attentif>attentive}, notait chaque mot du guide.
+Elle n'est pas {naïf>naïve} : elle a vite compris la ruse.
+La petite bête {craintif>craintive} s'est réfugiée sous le lit.
+Une fillette {inventif>inventive} a fabriqué un parachute avec un drap.
+Assise au bord du lac, elle semblait {pensif>pensive}.
+Une réponse {agressif>agressive} a mis fin à la conversation.
+Une pensée {positif>positive} lui a redonné du courage.
+Une arrivée {tardif>tardive} a déclenché les chuchotements.
+Une ombre {fugitif>fugitive} a traversé la cour.
+Une visite {instructif>instructive} nous a appris l'histoire du château.
+Une réaction {impulsif>impulsive} lui a valu des ennuis.
+
+// ---- -c devient -che ou -que
+Une colombe {blanc>blanche} a atterri sur le toit.
+La neige {blanc>blanche} recouvrait toute la vallée.
+La voile {blanc>blanche} se gonflait dans le vent.
+Sa réponse {franc>franche} a surpris tout le monde.
+La bibliothèque {public>publique} ferme à dix-huit heures.
+Une place {public>publique} entourait la fontaine.
+Une école {public>publique} se trouve au bout de la rue.
+Une chanson {turc>turque} jouait dans le café.
+La mythologie {grec>grecque} raconte l'histoire du Minotaure.
+Une salade {grec>grecque} nous attendait à la cantine.
+Une explication {franc>franche} a mis fin à la dispute.
+
+// ---- -eur devient -euse
+Une voix {moqueur>moqueuse} s'est élevée du fond de la classe.
+La petite {rieur>rieuse} a éclaté de rire pendant la leçon.
+Une lumière {trompeur>trompeuse} nous a guidés vers le marais.
+Elle est {rêveur>rêveuse} : elle oublie toujours son cartable.
+La nouvelle élève est {travailleur>travailleuse} et ne se plaint jamais.
+La petite, {boudeur>boudeuse}, a croisé les bras devant son assiette.
+Sa sœur est {râleur>râleuse} dès qu'on parle de ranger sa chambre.
+Une voix {flatteur>flatteuse} lui a murmuré de quitter l'école.
+La sirène {charmeur>charmeuse} a attiré le marin vers les rochers.
+Sa réponse {trompeur>trompeuse} nous a fait perdre une heure.
+Une araignée {travailleur>travailleuse} tissait sa toile dans l'angle de la fenêtre.
+Une voix {rieur>rieuse} résonnait dans la cage d'escalier.
+
+// ---- -teur devient -trice
+Une main {protecteur>protectrice} s'est posée sur son épaule.
+Une imagination {créateur>créatrice} comme la sienne n'a pas de limite.
+Une voix {séducteur>séductrice} a ensorcelé les marins.
+Une lettre {accusateur>accusatrice} a été glissée sous la porte du directeur.
+Une lueur {révélateur>révélatrice} a éclairé la fresque cachée.
+Une remarque {provocateur>provocatrice} a mis le feu aux poudres.
+La chienne {observateur>observatrice} suivait chaque geste du voleur.
+Une fée {protecteur>protectrice} veillait sur le village.
+
+// ---- Le féminin est irrégulier
+Une voix {doux>douce} lui a chanté une berceuse.
+La renarde {roux>rousse} a disparu entre les fougères.
+Une rumeur {faux>fausse} s'est répandue dans le collège.
+Une {vieux>vieille} maison au toit de travers se dressait en haut de la colline.
+La {beau>belle} princesse a pris la fuite par la porte des cuisines.
+Une {nouveau>nouvelle} élève est arrivée au milieu de l'année.
+Une {fou>folle} idée lui a traversé l'esprit : escalader le mur.
+Une pâte {mou>molle} comme du chewing-gum collait à ses doigts.
+Sa sœur {jumeau>jumelle} portait un bonnet bleu.
+Une {long>longue} file d'attente serpentait devant le cinéma.
+Une {bref>brève} lueur a traversé la nuit.
+La brise {frais>fraîche} du matin nous a réveillés.
+La peinture n'était pas encore {sec>sèche}.
+La chanson {favori>favorite} de Zoé passait à la radio.
+Une {fou>folle} course a commencé dans les couloirs.

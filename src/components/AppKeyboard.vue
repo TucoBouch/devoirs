@@ -8,7 +8,7 @@ import Icon from './Icon.vue'
 defineProps({ canSubmit: { type: Boolean, default: false } })
 const emit = defineEmits(['key', 'back', 'submit'])
 
-const ACCENTS = ['é', 'è', 'ê', 'ë', 'à', 'â', 'ù', 'û', 'î', 'ï', 'ô', 'ç']
+const ACCENTS = ['é', 'è', 'ê', 'ë', 'à', 'â', 'ù', 'û', 'î', 'ï', 'ô', 'ç', 'œ']
 const ROW_1 = [...'azertyuiop']
 const ROW_2 = [...'qsdfghjklm']
 const ROW_3 = [...'wxcvbn', '\'']

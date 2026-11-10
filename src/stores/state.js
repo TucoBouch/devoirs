@@ -3,8 +3,12 @@ import { reactive, watch } from 'vue'
 import { load, save, clear } from '../lib/storage.js'
 import { createNav } from '../lib/nav.js'
 import {
-  buildQuiz, evaluate, defaultConfig, troubleVerbs, HISTORY_SIZE, COUNTS, ANSWER_TYPES, QUESTION_TYPES, VERB_SETS,
+  buildQuiz, evaluate, defaultConfig, troubleVerbs, exerciseOf, COUNTS, ANSWER_TYPES, QUESTION_TYPES, VERB_SETS,
 } from '../lib/quiz.js'
+import {
+  buildAccords, defaultAccords, troubleRules, SKILLS, NATURES, ACCORD_ANSWERS,
+} from '../lib/accords.js'
+import { capHistory } from '../lib/history.js'
 import { TENSES } from '../lib/conjugation.js'
 
 // Huit couvre-cahiers. `color` reprend la teinte claire de styles/tokens.css : elle sert aux pastilles de choix.
@@ -35,6 +39,21 @@ const sanitizeConfig = (c) => {
   }
 }
 
+const sanitizeAccords = (c) => {
+  const base = defaultAccords()
+  const keep = (list, valid, fallback) => {
+    const out = Array.isArray(list) ? list.filter((x) => valid.includes(x)) : []
+    return out.length ? out : fallback
+  }
+  return {
+    skills: keep(c?.skills, SKILLS.map((x) => x.id), base.skills),
+    natures: keep(c?.natures, NATURES.map((x) => x.id), base.natures),
+    answerTypes: keep(c?.answerTypes, ACCORD_ANSWERS.map((x) => x.id), base.answerTypes),
+    count: COUNTS.includes(c?.count) ? c.count : base.count,
+    rework: !!c?.rework,
+  }
+}
+
 const savedSettings = load('settings', {})
 export const state = reactive({
   settings: {
@@ -44,6 +63,7 @@ export const state = reactive({
   },
   history: load('history', []),
   config: sanitizeConfig(load('config', null)),
+  accords: sanitizeAccords(load('accords', null)),
   route: load('route', { name: 'verbes' }),
   quiz: load('quiz', null),
 })
@@ -56,7 +76,7 @@ function validate(route) {
     const found = state.history.some((h) => h.id === r.id)
     return found ? { name: r.name, id: r.id } : { name: r.name === 'revue' ? 'historique' : 'verbes' }
   }
-  return ['verbes', 'historique', 'reglages'].includes(r.name) ? { name: r.name } : { name: 'verbes' }
+  return ['verbes', 'accords', 'historique', 'reglages'].includes(r.name) ? { name: r.name } : { name: 'verbes' }
 }
 
 export const nav = createNav(state, validate)
@@ -67,11 +87,12 @@ const persistAll = () => {
   save('settings', state.settings)
   save('history', state.history)
   save('config', state.config)
+  save('accords', state.accords)
   save('route', state.route)
   if (state.quiz) save('quiz', state.quiz)
   else clear('quiz')
 }
-watch(() => [state.settings, state.history, state.config, state.route, state.quiz], () => {
+watch(() => [state.settings, state.history, state.config, state.accords, state.route, state.quiz], () => {
   clearTimeout(timer)
   timer = setTimeout(persistAll, 120)
 }, { deep: true })
@@ -95,6 +116,7 @@ dark.addEventListener?.('change', applyAppearance)
 
 // ---- Quiz -----------------------------------------------------------------------------------
 export const reworkVerbs = () => troubleVerbs(state.history)
+export const reworkRules = () => troubleRules(state.history)
 
 // overrides : réglages valables pour ce quiz seulement (ex. tous les verbes pour retravailler des erreurs)
 export function startQuiz(overrides = {}) {
@@ -102,7 +124,25 @@ export function startQuiz(overrides = {}) {
   const config = { ...JSON.parse(JSON.stringify(state.config)), ...overrides }
   const items = buildQuiz(config, state.history)
   state.quiz = {
+    ex: 'verbes',
     items,
+    index: 0,
+    results: [],
+    phase: 'ask',
+    draft: '',
+    config,
+    startedAt: Date.now(),
+  }
+  nav.go({ name: 'quiz' })
+}
+
+// Féminin et pluriel : mêmes règles, mêmes réglages valables pour un seul quiz
+export function startAccords(overrides = {}) {
+  if (!reworkRules().length) state.accords.rework = false
+  const config = { ...JSON.parse(JSON.stringify(state.accords)), ...overrides }
+  state.quiz = {
+    ex: 'accords',
+    items: buildAccords(config, state.history),
     index: 0,
     results: [],
     phase: 'ask',
@@ -138,20 +178,25 @@ export function nextQuestion() {
 
 function finishQuiz() {
   const q = state.quiz
+  const ex = exerciseOf(q)
   const mistakes = []
   let accents = 0
   q.items.forEach((item, i) => {
     const r = q.results[i]
     if (!r.correct) {
-      mistakes.push({
-        id: item.id, v: item.v, t: item.t, p: item.p, g: item.g, a: item.a, pre: item.pre, post: item.post,
-        qt: item.qt, at: item.at, given: r.given,
-      })
+      // chaque erreur garde sa phrase : la banque peut être renouvelée sans casser l'historique
+      mistakes.push(ex === 'accords'
+        ? { id: item.id, k: item.k, n: item.n, w: item.w, a: item.a, r: item.r, pre: item.pre, post: item.post, at: item.at, given: r.given }
+        : {
+          id: item.id, v: item.v, t: item.t, p: item.p, g: item.g, a: item.a, pre: item.pre, post: item.post,
+          qt: item.qt, at: item.at, given: r.given,
+        })
     }
     else if (r.verdict === 'accent') accents += 1
   })
   const entry = {
     id: Date.now(),
+    ex,
     date: new Date().toISOString(),
     config: q.config,
     total: q.items.length,
@@ -160,7 +205,7 @@ function finishQuiz() {
     marks: q.results.map((r) => (r.correct ? '1' : '0')).join(''),
     mistakes,
   }
-  state.history = [entry, ...state.history].slice(0, HISTORY_SIZE)
+  state.history = capHistory([entry, ...state.history])
   state.quiz = null
   nav.go({ name: 'resultat', id: entry.id }, { replace: true })
 }
@@ -172,10 +217,11 @@ export function abandonQuiz() {
 export function clearHistory() {
   state.history = []
   state.config.rework = false
+  state.accords.rework = false
 }
 
 export function resetEverything() {
-  ;['settings', 'history', 'config', 'route', 'quiz'].forEach(clear)
+  ;['settings', 'history', 'config', 'accords', 'route', 'quiz'].forEach(clear)
   location.hash = ''
   location.reload()
 }
